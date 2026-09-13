@@ -178,7 +178,7 @@ def _fem_adjs(text: str, noun: str) -> str:
 
 
 def fix_eyelids(ru: str, ua: str) -> str:
-    if not re.search(r"століт|сторіч|\bвік", ua, re.I) or not EYE_RU.search(ru):
+    if not re.search(r"століт|сторіч|" + LB + r"ві[кц]", ua, re.I) or not EYE_RU.search(ru):
         return ua
     ru_s = re.split(r"(?<=[.;!?])\s+", ru)
     ua_s = re.split(r"(?<=[.;!?])\s+", ua)
@@ -186,7 +186,7 @@ def fix_eyelids(ru: str, ua: str) -> str:
     out = []
     for i, us in enumerate(ua_s):
         ctx = ru_s[i] if aligned and EYE_RU.search(ru_s[i]) else ru
-        if not EYE_RU.search(ctx) or CENTURY_CTX.search(ctx) or not re.search(r"століт|сторіч|" + LB + "вік", us, re.I):
+        if not EYE_RU.search(ctx) or CENTURY_CTX.search(ctx) or not re.search(r"століт|сторіч|" + LB + r"ві[кц]", us, re.I):
             out.append(us)
             continue
         t = us
@@ -207,7 +207,8 @@ def fix_eyelids(ru: str, ua: str) -> str:
             k[0] += 1
             return _case(m.group(1), f)
         t = re.sub(LB + r"([Сс])толіття" + RB, sub_sto, t)
-        if not re.search(r"років|роки|похил|дитяч|стареч|молод|середн\w* вік|у віці|з віком|вік\w* пацієнт|старост", t, re.I):
+        # «вік» як age визначаємо за російським реченням (там повіка й возраст — різні слова)
+        if not re.search(r"возраст|\bлет\b|\bгод[аы]?\b|пожил|старч|старик|детск|молод|юнош|старост|подростк", ctx, re.I):
             t = re.sub(LB + r"([Вв])іком" + RB, lambda m: _case(m.group(1), "повікою"), t)
             t = re.sub(LB + r"([Вв])іками" + RB, lambda m: _case(m.group(1), "повіками"), t)
             t = re.sub(LB + r"([Вв])іках" + RB, lambda m: _case(m.group(1), "повіках"), t)
