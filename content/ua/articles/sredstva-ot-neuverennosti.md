@@ -11,7 +11,7 @@ remedy_blocks: 6
 
 ## Для вирішення цієї проблеми застосовують такі препарати
 
-**1. Ceratо (Ceratostigma willmottiana) - Цератостигма, Свинчатка 2. Sclerantes (Scleranthus aunuus) - Грястиця або Дивала 3. Gentian (Gentiana amarella) - Тирлич 4. Garse (Ulex turopaeus) – Утісник 5. Hornbeam (Carpinus betulus) – Граб 6. Wild Oat (Bromus racemosus) – Вівсюг або стоколос китицевий**
+**1. Cerato (Ceratostigma willmottiana) - Цератостигма, Свинчатка 2. Sclerantes (Scleranthus aunuus) - Грястиця або Дивала 3. Gentian (Gentiana amarella) - Тирлич 4. Garse (Ulex turopaeus) – Утісник 5. Hornbeam (Carpinus betulus) – Граб 6. Wild Oat (Bromus racemosus) – Вівсюг або стоколос китицевий**
 
 ### Cerato (Ceratostigma willmottiana) - Цератостигма, Свинчатка
 

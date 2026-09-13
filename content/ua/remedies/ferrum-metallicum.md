@@ -235,7 +235,7 @@ Ferrum – Марс алхіміків – є одним із найважлив
 
 Сильна пульсація судин всього тіла.
 
-Пульс Ferrum наповнений, м'який та пружний (при Асоnitum - повний і скаче).
+Пульс Ferrum наповнений, м'який та пружний (при Aconitum - повний і скаче).
 
 Ferrum супроводжується надмірною дратівливістю як психіки, так і тканин.
 
@@ -423,6 +423,6 @@ Ferrum супроводжується надмірною дратівливіс�
 
 Teste ставит його на чолі групи, що складається з Plumbum, Phosphorus, Carbo animalis, Pulsatilla, Zincum, Secale, Magnesium muriaticum, China, Baryta carbonica. **Антидотами для Ferrum є**: Arsenicum album, China, Hepar sulphur, Ipecacuanha, Pulsatilla.
 
-**Ferrum є антидотом для**: Arsenicum album, China, Iodum, Mercurius, Hydrocynicum асidum, а також для чаю та алкогольних напоїв. **Ferrum є додатковим препаратом для**: Alumina, China. **Сумісний з**: Aconitum, Arnica, Belladonna, China, Conium, Lyesinum, Mercurius, Phosphorus, Veratrum album.
+**Ferrum є антидотом для**: Arsenicum album, China, Iodum, Mercurius, Hydrocynicum acidum, а також для чаю та алкогольних напоїв. **Ferrum є додатковим препаратом для**: Alumina, China. **Сумісний з**: Aconitum, Arnica, Belladonna, China, Conium, Lyesinum, Mercurius, Phosphorus, Veratrum album.
 
 **Несумісний** з чаєм та пивом.

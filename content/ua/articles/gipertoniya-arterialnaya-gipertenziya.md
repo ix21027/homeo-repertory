@@ -8,7 +8,7 @@ origin: https://homeopat-sam.com/-/a65
 remedy_blocks: 68
 ---
 
-Найчастіше для лікування даної патології використовують такі гомеопатичні препарати: **Acidum aceticum Aconitum Adrenalinum Amylenum nitrosum Apis Argentum nitricum Arnica Arsenicum album Aurum Aurum carbonicum Aurum iodatum Barita carbonica Barita iodata Barita muriatica Belladonna Cactus Calcarea carbonica Carbo vegetabilis Causticum China Cimicifuga Cocculus Coffea Conium Crocus Crotalus Cuprum Digitalis Ferrum sulfuricum Gelsemium Glonoinum Gratiola Hepar sulfur Hyoscуamus Hypericum Ignatia Iodum Kali carbonicum Kali phosphoricum Lachesis Lycopus Lycopodium Mercurius Moschus Naja Nux juglans Nux moschata Nux vomica Opium Petroleum Phosphorus Platina Plumbum Pulsatilla Sanguinaria Secale Sepia Silicea Spartum Spigelia Staphysagria Strontium carbonicum Sulfur Sumbulus moschatum Thuja Veratrum viride**
+Найчастіше для лікування даної патології використовують такі гомеопатичні препарати: **Acidum aceticum Aconitum Adrenalinum Amylenum nitrosum Apis Argentum nitricum Arnica Arsenicum album Aurum Aurum carbonicum Aurum iodatum Barita carbonica Barita iodata Barita muriatica Belladonna Cactus Calcarea carbonica Carbo vegetabilis Causticum China Cimicifuga Cocculus Coffea Conium Crocus Crotalus Cuprum Digitalis Ferrum sulfuricum Gelsemium Glonoinum Gratiola Hepar sulfur Hyoscyamus Hypericum Ignatia Iodum Kali carbonicum Kali phosphoricum Lachesis Lycopus Lycopodium Mercurius Moschus Naja Nux juglans Nux moschata Nux vomica Opium Petroleum Phosphorus Platina Plumbum Pulsatilla Sanguinaria Secale Sepia Silicea Spartum Spigelia Staphysagria Strontium carbonicum Sulfur Sumbulus moschatum Thuja Veratrum viride**
 
 ### Viscum
 

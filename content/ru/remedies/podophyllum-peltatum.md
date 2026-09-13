@@ -378,7 +378,7 @@ Podophyllum часто бывает показан при беременност
 
 ## Взаимосвязи
 
-**Антидотами для Podophyllum являются**: Lacticum асidum, Nux vomica, Colocyntis, Leptandra.
+**Антидотами для Podophyllum являются**: Lacticum acidum, Nux vomica, Colocyntis, Leptandra.
 
 **Podophyllum является антидотом для** Mercurius.
 
@@ -386,7 +386,7 @@ Podophyllum часто бывает показан при беременност
 
 **Несовместим:** с солью, которая усиливает его действие.
 
-**Следует сравнить:** При утреннем поносе — Sulphur, Drosera, Bryonia, Natrium sulphuricum, Rumex сrispus.
+**Следует сравнить:** При утреннем поносе — Sulphur, Drosera, Bryonia, Natrium sulphuricum, Rumex crispus.
 
 Понос горячей желтоватой, зеленой зловонной жидкостью — Chamomilla (Chamomilla — ухудшение вечером; Podophyllum — утром, стул изливается потоком).
 
@@ -402,11 +402,11 @@ Podophyllum часто бывает показан при беременност
 
 Ощущение потуг в подчревной области и в области ануса, ослабевает в положении лежа — Sepia.
 
-Пролапс прямой кишки — Belladonna, Aesculus hippocastanum, Nitricum асidum, Ruta (особенно у детей — Chininum sulphuricum, Podophyllum).
+Пролапс прямой кишки — Belladonna, Aesculus hippocastanum, Nitricum acidum, Ruta (особенно у детей — Chininum sulphuricum, Podophyllum).
 
 Дуоденит — Berberis, China, Hydrastis, Lyesinum, Mercurius, Ricinus communis. Понос сразу после еды — Aloe, Arsenicum album, China, Lyesinum, Staphysagria. Ухудшение после еды или питья – Digitalis.
 
-Головная боль вследствие перевозбуждения – Epiphegus verginiana. Нечеткость зрения предшествует головной боли – Кali bichromicum. Желание сжать десны — Phytolacca.
+Головная боль вследствие перевозбуждения – Epiphegus verginiana. Нечеткость зрения предшествует головной боли – Kali bichromicum. Желание сжать десны — Phytolacca.
 
 Ощущение, будто язык обожжен — Sanguinaria.
 

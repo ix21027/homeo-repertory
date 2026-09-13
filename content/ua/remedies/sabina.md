@@ -326,7 +326,7 @@ Sabina є одним із засобів, які діють на п'яти.
 
 **Слід порівняти:** Погіршення від музики – Ambra grisea, Thuja, Sepia.
 
-Кровотечі у міжменструальний період - Hamamelis, Ambra grisea. Кондиломи – Thuja, Nitricum асidum.
+Кровотечі у міжменструальний період - Hamamelis, Ambra grisea. Кондиломи – Thuja, Nitricum acidum.
 
 Кровотечі посилюються за найменшого руху — Secale.
 
@@ -344,10 +344,10 @@ Sabina є одним із засобів, які діють на п'яти.
 
 Погіршення під час туману – Hyperycum.
 
-Погіршення вночі у ліжку - Sulphur, Mercurius, Pulsatilla, Chamomilla (зубний біль), Вrуonia (ревматизм).
+Погіршення вночі у ліжку - Sulphur, Mercurius, Pulsatilla, Chamomilla (зубний біль), Bryonia (ревматизм).
 
-Фімоз - Cannabis indica, Mercurius, Sulphur, Nitricum асidum, Sepia, Thuja, Rhus. Тимпаніт - Terebinthina.
+Фімоз - Cannabis indica, Mercurius, Sulphur, Nitricum acidum, Sepia, Thuja, Rhus. Тимпаніт - Terebinthina.
 
 Ревматичний біль слабшає від холодних аплікацій – Ledum.
 
-Менструації лише у положенні лежачи (тільки вночі - Bovista, Magnesia сarbonica). _Джон Генрі Кларк. «Словник Практичної Materia Medica в 6-ти томах»_ _(Видання «Гомеопатична медицина». Москва. 2001 р.)._
+Менструації лише у положенні лежачи (тільки вночі - Bovista, Magnesia carbonica). _Джон Генрі Кларк. «Словник Практичної Materia Medica в 6-ти томах»_ _(Видання «Гомеопатична медицина». Москва. 2001 р.)._

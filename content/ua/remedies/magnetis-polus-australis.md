@@ -191,4 +191,4 @@ sections: Характеристика; Психіка; Тип; Клініка; 
 
 **Антидотами** для Magnetis polus austrails є: Magnetis polus arcticus, Ignatia, Zincum.
 
-**Слід порівняти**: Magnetis poliambo, Galvanismus, Electricitas. При смердючому кашлі - Capsicum; при припливах крові до голови –Asterias rubens; при врослому нігті - Graphithes, Silicea, Nitricum асidum, Thuja. Також див. взаємини Magnetis poliambo.
+**Слід порівняти**: Magnetis poliambo, Galvanismus, Electricitas. При смердючому кашлі - Capsicum; при припливах крові до голови –Asterias rubens; при врослому нігті - Graphithes, Silicea, Nitricum acidum, Thuja. Також див. взаємини Magnetis poliambo.

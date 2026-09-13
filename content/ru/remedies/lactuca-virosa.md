@@ -348,4 +348,4 @@ Lactuca virosa вызывает значительные поражения в �
 
 **Антидотами** для Lactuca являются: растительные кислоты и кофе. (В испытаниях Lactucarium, этиловый эфир и Hock были более эффективными, чем кофе).
 
-**Следует сравнить:** сонливость и запор — Opium, Nux moschata; левитация — Sti.pul., Phosphoricum асidum, Lac caninum, Asarum, Thuja и др.; не переносит тесной одежды вокруг шеи — Lachesis; гонорея — Thuja; моча пахнет фиалками — Terebinthinae; сжимающее ощущение в левой груди — Borax (для Borax характерно ощущение пустоты); зябкость — Heloderma; боль в ступнях, будто бы наступил на камень — Вrоmium; кардиальные симптомы — Кali carbonicum и К. iodatum; кашель — Drosera.
+**Следует сравнить:** сонливость и запор — Opium, Nux moschata; левитация — Sti.pul., Phosphoricum acidum, Lac caninum, Asarum, Thuja и др.; не переносит тесной одежды вокруг шеи — Lachesis; гонорея — Thuja; моча пахнет фиалками — Terebinthinae; сжимающее ощущение в левой груди — Borax (для Borax характерно ощущение пустоты); зябкость — Heloderma; боль в ступнях, будто бы наступил на камень — Bromium; кардиальные симптомы — Kali carbonicum и К. iodatum; кашель — Drosera.

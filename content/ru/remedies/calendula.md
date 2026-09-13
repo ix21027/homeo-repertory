@@ -173,17 +173,17 @@ sections: Характеристика; Психика; Тип; Клиника; 
 
 ## Взаимосвязи
 
-Календула содержит большое количество азота и фосфорной кислоты. **Антидотом для Calendula** является Аrnica.
+Календула содержит большое количество азота и фосфорной кислоты. **Антидотом для Calendula** является Arnica.
 
-**Несовместимый препарат** — Саmphora.
+**Несовместимый препарат** — Camphora.
 
 **Комплементарный препарат** – Hepar sulphur.
 
-**Совместимые средства:** Аrnica, Arsenicum album, Bryonia, Nitricum acidum, Phosphorus, Rhus toxicodendron.
+**Совместимые средства:** Arnica, Arsenicum album, Bryonia, Nitricum acidum, Phosphorus, Rhus toxicodendron.
 
 **Calendula хорошо действует после** Arsenicum album.
 
-**После Calendula хорошо действуют**: Аrnica, Hepar sulphur.
+**После Calendula хорошо действуют**: Arnica, Hepar sulphur.
 
 **Следует сравнить:** Am., Arsenicum albu, Bryonia, Calcarea sulphurica, Carbo animalis, Carbo vegetabilis, Hamamelis, Hepar sulphur, Hypericum, Ledum, Nitricum acidum, Phosphorus, Rhus toxicodendron, Ruta, Salicylicum acidum, Sulhuricum acidum, Symphytum.
 

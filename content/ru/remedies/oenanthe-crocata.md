@@ -202,4 +202,4 @@ Oenanthe crocata — одно из наиболее ядовитых расте�
 
 **Следует сравнить**: Phellandrium, Cicuta virosa, Conium.
 
-Эпилепсия: Bufo rana; Приапизм: Picricum асidum.
+Эпилепсия: Bufo rana; Приапизм: Picricum acidum.

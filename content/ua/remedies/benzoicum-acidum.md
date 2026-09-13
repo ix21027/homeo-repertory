@@ -277,7 +277,7 @@ sections: Характеристика; Психіка; Тропність; Кл
 
 ## Взаємозв’язки
 
-**Слід порівняти:** Copaiva, Ferrum, Zincum, Nitricum асidum (кінський запах сечі); Tropaeolum majus.
+**Слід порівняти:** Copaiva, Ferrum, Zincum, Nitricum acidum (кінський запах сечі); Tropaeolum majus.
 
 При подагрі Benzoicum acidum добре слідує після Colchicum.
 

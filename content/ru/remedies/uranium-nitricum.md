@@ -173,8 +173,8 @@ sections: Характеристика; Психика; Тропность; Кл
 
 ## Взаимосвязи
 
-Близость химических свойств; гастродуоденальные поражения — Chromium и Кali bichromicum.
+Близость химических свойств; гастродуоденальные поражения — Chromium и Kali bichromicum.
 
-Диабет – Phosphoricum acidum, Syzygium, Thyroidinum, Lac defloratum, Lacticum асidum.
+Диабет – Phosphoricum acidum, Syzygium, Thyroidinum, Lac defloratum, Lacticum acidum.
 
 Тошнота сразу после еды – Arsenicum album, Cina, Lyesinum, Silicea. _Джон Генри Кларк. «Словарь Практической Materia Medica в 6-ти томах»_ _(Изд-во «Гомеопатическая медицина». Москва. 2001 г.)._

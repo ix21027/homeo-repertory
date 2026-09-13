@@ -185,7 +185,7 @@ Baryta carbonica излечивает различные виды опухоле
 
 Острая боль в височно-нижнечелюстном суставе при закрывании рта. Сухая и шершавая кожа на лице с герпетическими высыпаниями.
 
-Напряжение в коже лица, словно она стянута высохшим яичным белком; словно паутина (Вaryta acetica) налипла на лице, висках и голове.
+Напряжение в коже лица, словно она стянута высохшим яичным белком; словно паутина (Baryta acetica) налипла на лице, висках и голове.
 
 ## Глаза
 
@@ -481,8 +481,8 @@ Baryta carbonica излечивает различные виды опухоле
 
 ## Взаимосвязи
 
-**Следует сравнить**: Alumina, Antimonium tartaricum (отек легких); Belladonna, Calcarea сarbonica (золотуха, насморк и др.); Calcarea iodata (увеличенные миндалины); Causticum (паралич); Chamomilla, China, Conium (пожилые пациенты); Dulcamara (простуды); Fluoricum асidum (пожилые пациенты); Iodum (поражение лимфоузлов); Lachesis, Lyesinum (поражение миндалин); Magnesium сarbonicum, Mercurius (простуды, поражение лимфоузлов, понос); Natrum сarbonicum, Phosphorus, Pulsatilla, Sepia (стригущий лишай); Silicea (поражение лимфоузлов, зловонный пот стоп, но для Baryta carbonica, в отличие от Silicea, не характерна потливость головы, также для Silicea типично упрямство, а для Baryta carbonica - снижение умственных способностей); Sulphur, Tellurium.
+**Следует сравнить**: Alumina, Antimonium tartaricum (отек легких); Belladonna, Calcarea carbonica (золотуха, насморк и др.); Calcarea iodata (увеличенные миндалины); Causticum (паралич); Chamomilla, China, Conium (пожилые пациенты); Dulcamara (простуды); Fluoricum acidum (пожилые пациенты); Iodum (поражение лимфоузлов); Lachesis, Lyesinum (поражение миндалин); Magnesium carbonicum, Mercurius (простуды, поражение лимфоузлов, понос); Natrum carbonicum, Phosphorus, Pulsatilla, Sepia (стригущий лишай); Silicea (поражение лимфоузлов, зловонный пот стоп, но для Baryta carbonica, в отличие от Silicea, не характерна потливость головы, также для Silicea типично упрямство, а для Baryta carbonica - снижение умственных способностей); Sulphur, Tellurium.
 
 **Антидотами для Baryta carbonica являются**: Antimonium tartaricum, Belladonna, Camphora, Dulcamara, Mercurius, Zincum.
 
-**Хорошо назначать после** Scilla, Arsenicum album; до и после Sulphur. **Несовместимый препарат**: Calcarea сarbonica.
+**Хорошо назначать после** Scilla, Arsenicum album; до и после Sulphur. **Несовместимый препарат**: Calcarea carbonica.

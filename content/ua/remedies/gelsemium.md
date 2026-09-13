@@ -145,7 +145,7 @@ Gelsemium підходить дітям та молодим людям; людя
 
 Жар відчувається переважно на обличчі та голові.
 
-Тифозна лихоманка, коли звані нервові симптоми переважають. При лихоманці з висипом та інших типах лихоманки тривожність менша, ніж у Асоnitum, менш сильне і не таке раптове погіршення, як у Belladonna млява лихоманка.
+Тифозна лихоманка, коли звані нервові симптоми переважають. При лихоманці з висипом та інших типах лихоманки тривожність менша, ніж у Aconitum, менш сильне і не таке раптове погіршення, як у Belladonna млява лихоманка.
 
 Рясне потовиділення зменшує біль.
 
@@ -561,7 +561,7 @@ Foy вказує, що одного разу ідеальним антидото
 
 **Є антагоністом для:** Atropinum, Opium.
 
-**Сумісний з**: Варtisia (при тифі та грипі); Ipecacuanha (при малярії). **Слід порівняти**: Caulophyllum, Cocculus, Conium, Oleum animale, Belladonna, Caustticum, Curare, Phosphorus, Veratrum, Borax, Bryonia, Gelsemium, Hypericum.
+**Сумісний з**: Baptisia (при тифі та грипі); Ipecacuanha (при малярії). **Слід порівняти**: Caulophyllum, Cocculus, Conium, Oleum animale, Belladonna, Caustticum, Curare, Phosphorus, Veratrum, Borax, Bryonia, Gelsemium, Hypericum.
 
 ## Рекомендації
 

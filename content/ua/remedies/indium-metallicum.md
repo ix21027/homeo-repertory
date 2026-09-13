@@ -213,6 +213,6 @@ Indium, який отримав свою назву через синю ліні
 
 ## Взаємозв’язки
 
-**Слід порівняти:** Belladonna (головний біль, менструації); Asparagus officinalis (сеча); Sanguinaria (головний біль; ревматизм); Phosphorus, Natrium сarbonicum, Sulphur і Zincum (непритомність об 11 годині ранку.); Selenium та Titan (чоловічі статеві органи); Brucea, Lachesis, Nux moschatus, Opium, Strontium (головний біль із сонливістю. Для Indium характерні і нудота, і сонливість).
+**Слід порівняти:** Belladonna (головний біль, менструації); Asparagus officinalis (сеча); Sanguinaria (головний біль; ревматизм); Phosphorus, Natrium carbonicum, Sulphur і Zincum (непритомність об 11 годині ранку.); Selenium та Titan (чоловічі статеві органи); Brucea, Lachesis, Nux moschatus, Opium, Strontium (головний біль із сонливістю. Для Indium характерні і нудота, і сонливість).
 
-Симптоми з боку горла слабшають від їжі та пиття – Indium. Indium нагадує Benzoicum асidum, Cistus, Lachesis.
+Симптоми з боку горла слабшають від їжі та пиття – Indium. Indium нагадує Benzoicum acidum, Cistus, Lachesis.

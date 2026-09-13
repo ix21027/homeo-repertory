@@ -221,4 +221,4 @@ Lippspringe является холодным серным, солевым ис�
 
 **Следует сравнить**: Calcarea sulphurica, Natrium sulphuricum, Magnesium muriaticum. Беспокойство – Rhus toxicodendron, Zincum, Causticum.
 
-Улучшение после мочеиспускания – Eugenia jambosa, Lithium сarbonicum. Ухудшение после полового акта - Кali саrbonica.
+Улучшение после мочеиспускания – Eugenia jambosa, Lithium carbonicum. Ухудшение после полового акта - Kali carbonica.

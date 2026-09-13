@@ -279,6 +279,6 @@ Yingling многократно использовал «полное отсут
 
 ## Взаимосвязи
 
-**Следует сравнить**: Myosotis, Heliotropium, Symphytum (ботаническое родство). Смещение матки - Heliotropium, Helonias, Lilium tigrinum, Sepia, Natrum muriaticum и др. Расстройство зрения - Lilium tigrinum (астигматизм), Picricum асidum (миопия), Natrum sulphuricum (миопия).
+**Следует сравнить**: Myosotis, Heliotropium, Symphytum (ботаническое родство). Смещение матки - Heliotropium, Helonias, Lilium tigrinum, Sepia, Natrum muriaticum и др. Расстройство зрения - Lilium tigrinum (астигматизм), Picricum acidum (миопия), Natrum sulphuricum (миопия).
 
 Головная боль, связанная с напряжением зрения, - Gelsemium (Gelsemium больше поражает правый глаз; Onosmodium virginianum - левый), Lilium tigrinum, Spigelia, Ruta, Baptisia.

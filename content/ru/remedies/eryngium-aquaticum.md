@@ -175,4 +175,4 @@ Eryngium действует на слизистые оболочки, вызыв
 
 **Следует сравнить с другими зонтичными**: Aethususa (невозможно собраться с мыслями), Conium как средством при выделении простатической жидкости по малейшему поводу.
 
-**А также при**: поллюциях Gelsemium, Phosphorus; заболевании мочевых путей и уретры Cannabis sativa, Cantharis, Dioscorea, Ocimum canum; запорах и заболеваниях прямой кишки Nitricum асidum; гриппе: Gelsemium, Sticta.
+**А также при**: поллюциях Gelsemium, Phosphorus; заболевании мочевых путей и уретры Cannabis sativa, Cantharis, Dioscorea, Ocimum canum; запорах и заболеваниях прямой кишки Nitricum acidum; гриппе: Gelsemium, Sticta.

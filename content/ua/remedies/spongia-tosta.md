@@ -469,11 +469,11 @@ Nash наводить таке показання для Spongia при ураж
 
 **Антидотом для Spongia tosta служит** Camphora.
 
-**Spongia tosta добре діє після**: Асоnitum, Hepar sulphur. **Після Spongia tosta добре діють**: Bromium, Carbo vegetabilis, Hepar sulphur (Протикоррупозні порошки Boenninghausen складаються з Асоnitum, Hepar sulphur, Spongia і призначаються саме в такому порядку. У Spongia - дихання сухе; у Hepar sulphur - хрипно; Hepar sulphur – після).
+**Spongia tosta добре діє після**: Aconitum, Hepar sulphur. **Після Spongia tosta добре діють**: Bromium, Carbo vegetabilis, Hepar sulphur (Протикоррупозні порошки Boenninghausen складаються з Aconitum, Hepar sulphur, Spongia і призначаються саме в такому порядку. У Spongia - дихання сухе; у Hepar sulphur - хрипно; Hepar sulphur – після).
 
 **Слід порівняти**: загалом — Chloralum, Bromium, Iodum (Iodum більше підходить темноволосим, ​​Spongia — світловолосим суб'єктам), Thyroidinum, Badiaga.
 
-Ларингіт - Sambucus (у Sambucus спазми виникають часто); Lachesis (чутливість до дотику; у Lachesis стан погіршується внаслідок гіперестезії; у Spongia – внаслідок запалення суглобів). Кашель із полегшенням від їжі - Аnacardium.
+Ларингіт - Sambucus (у Sambucus спазми виникають часто); Lachesis (чутливість до дотику; у Lachesis стан погіршується внаслідок гіперестезії; у Spongia – внаслідок запалення суглобів). Кашель із полегшенням від їжі - Anacardium.
 
 Сухість язика - Nux moschata (у Spongia сухість поширюється вниз; у Nux moschata цього немає).
 
@@ -485,6 +485,6 @@ Nash наводить таке показання для Spongia при ураж
 
 Гіркота у горлі (у Ruta нудота у горлі).
 
-Відчуття вивиху скронево-нижньощелепного суглоба - Rhus toxicodendron. Погіршення при думці про свої симптоми - Охalicum асidum, Piper methusticum. Схильність до туберкульозу - Bacillinum, Tuberculinum.
+Відчуття вивиху скронево-нижньощелепного суглоба - Rhus toxicodendron. Погіршення при думці про свої симптоми - Oxalicum acidum, Piper methusticum. Схильність до туберкульозу - Bacillinum, Tuberculinum.
 
 Втрата голосу – Alumina, Drosera.

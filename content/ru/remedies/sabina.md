@@ -325,7 +325,7 @@ Sabina является одним из средств, которые дейс�
 
 **Следует сравнить:** Ухудшение от музыки – Ambra grisea, Thuja, Sepia.
 
-Кровотечения в межменструальный период — Hamamelis, Ambra grisea. Кондиломы — Thuja, Nitricum асidum.
+Кровотечения в межменструальный период — Hamamelis, Ambra grisea. Кондиломы — Thuja, Nitricum acidum.
 
 Кровотечения усиливаются при малейшем движении — Secale.
 
@@ -343,10 +343,10 @@ Sabina является одним из средств, которые дейс�
 
 Ухудшение во время тумана — Hyperycum.
 
-Ухудшение ночью в постели — Sulphur, Mercurius, Pulsatilla, Chamomilla (зубная боль), Вrуonia (ревматизм).
+Ухудшение ночью в постели — Sulphur, Mercurius, Pulsatilla, Chamomilla (зубная боль), Bryonia (ревматизм).
 
-Фимоз – Саnnabis indica, Mercurius, Sulphur, Nitricum асidum, Sepia, Thuja, Rhus. Тимпанит — Terebinthina.
+Фимоз – Cannabis indica, Mercurius, Sulphur, Nitricum acidum, Sepia, Thuja, Rhus. Тимпанит — Terebinthina.
 
 Ревматическая боль ослабевает от холодных аппликаций — Ledum.
 
-Менструации только в положении лежа (только ночью — Bovista, Magnesia сarbonica). _Джон Генри Кларк. «Словарь Практической Materia Medica в 6-ти томах»_ _(Изд-во «Гомеопатическая медицина». Москва. 2001 г.)._
+Менструации только в положении лежа (только ночью — Bovista, Magnesia carbonica). _Джон Генри Кларк. «Словарь Практической Materia Medica в 6-ти томах»_ _(Изд-во «Гомеопатическая медицина». Москва. 2001 г.)._

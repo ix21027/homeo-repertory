@@ -291,11 +291,11 @@ Tellurium зустрічається в чистому вигляді, а так
 
 Група дерматомікозів - Sepia, Calcarea carbonica.
 
-Гострики – Теucrum marum verum.
+Гострики – Teucrum marum verum.
 
 Біль раптово виникає і зникає – Belladonna, Lyesinum.
 
-Гірше від сміху – Рhosphorus.
+Гірше від сміху – Phosphorus.
 
 Гірше від напруження під час дефекації – Indium.
 

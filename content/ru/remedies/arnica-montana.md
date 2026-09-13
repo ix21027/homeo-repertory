@@ -482,7 +482,7 @@ Teste помещает Arnica в свою первую группу, вмест�
 
 **Дополнительное средство**: Paeonia.
 
-**Действие подобно**: Paeonia, Ammonium carbonicum, Croton (плеск в животе), Arsenicum album, Baptisia (тифоидное состояние, при этом пациент Baptisia «чувствует себя больным», а пациент Arnica «чувствует себя здоровым» и злится, когда ему говорят, что он болен), Belladonna, Bryonia, Chamomilla, Euphrasia, Calendula, Hepar sulphur, Hypericum, Hamamelis, Ipecacuanha, Ledum, Mercurius, Pulsatilla, Ranunculus sceleratus, Rhododendron, Ruta, Staphysagria, Silicea, Symphytum, Sulphur, Sulphuricum acidum, Veratrum album. **Arnica хорошо следует после**: Асоnitum, Ipecacuanha, Veratrum album, Apis. **После Arnica хорошо следуют**: Асоnitum, Arsenicum album, Bryonia, Ipecacuanha, Rhus toxicodendron.
+**Действие подобно**: Paeonia, Ammonium carbonicum, Croton (плеск в животе), Arsenicum album, Baptisia (тифоидное состояние, при этом пациент Baptisia «чувствует себя больным», а пациент Arnica «чувствует себя здоровым» и злится, когда ему говорят, что он болен), Belladonna, Bryonia, Chamomilla, Euphrasia, Calendula, Hepar sulphur, Hypericum, Hamamelis, Ipecacuanha, Ledum, Mercurius, Pulsatilla, Ranunculus sceleratus, Rhododendron, Ruta, Staphysagria, Silicea, Symphytum, Sulphur, Sulphuricum acidum, Veratrum album. **Arnica хорошо следует после**: Aconitum, Ipecacuanha, Veratrum album, Apis. **После Arnica хорошо следуют**: Aconitum, Arsenicum album, Bryonia, Ipecacuanha, Rhus toxicodendron.
 
 **Действию Arnica способствует Arsenicum album** (дизентерия и варикозное расширение вен).
 
@@ -490,7 +490,7 @@ Teste помещает Arnica в свою первую группу, вмест�
 
 **Arnica является антидотом для**: Ammonium carbonicum, China, Cicuta, Ignatia, Ipecacuanha, Senega.
 
-**Антидотами для Arnica являются**: Camph., Ipecacuanha (для весомых доз); Coffee (головная боль); Асоnitum, Arsenicum album, China, Ignatia, Ipecacuanha (для потенцированного лекарства).
+**Антидотами для Arnica являются**: Camph., Ipecacuanha (для весомых доз); Coffee (головная боль); Aconitum, Arsenicum album, China, Ignatia, Ipecacuanha (для потенцированного лекарства).
 
 Вино усиливает нежелательное действие Arnica.
 

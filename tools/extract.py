@@ -26,6 +26,9 @@ import sys
 import zipfile
 from html.parser import HTMLParser
 
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from fix_homoglyphs import fix_homoglyphs  # noqa: E402  (сусідній модуль tools/)
+
 # ----------------------------------------------------------------------------
 # 1. Канонічні розділи Materia Medica
 # ----------------------------------------------------------------------------
@@ -790,17 +793,25 @@ def fm_escape(v: str) -> str:
 
 
 def write_md(path, fm: dict, body: str):
+    """Пише .md; увесь текст проходить fix_homoglyphs (див. tools/fix_homoglyphs.py).
+
+    В архіві латинські назви подекуди набрані впереміш із кирилицею («Вryonia», «Hyoscуamus»,
+    «асidum»). Для пошуку й перехресних посилань це інший рядок, ніж «Bryonia», тож назва
+    випадає з індексу. fold_latin чистив лише заголовки препаратів; тут те саме правило
+    накладається на ВЕСЬ текст, який іде у файл, — інакше після кожного extract довелось би
+    ганяти tools/fix_homoglyphs.py руками. Слаги — чиста латиниця, заміна їх не зачіпає.
+    """
     with open(path, "w", encoding="utf-8") as f:
         f.write("---\n")
         for k, v in fm.items():
             if v is None or v == "" or v == []:
                 continue
             if isinstance(v, list):
-                f.write(f"{k}: {'; '.join(fm_escape(x) for x in v)}\n")
+                f.write(f"{k}: {'; '.join(fix_homoglyphs(fm_escape(x)) for x in v)}\n")
             else:
-                f.write(f"{k}: {fm_escape(v)}\n")
+                f.write(f"{k}: {fix_homoglyphs(fm_escape(v))}\n")
         f.write("---\n\n")
-        f.write(body.rstrip() + "\n")
+        f.write(fix_homoglyphs(body.rstrip()) + "\n")
 
 
 def main():

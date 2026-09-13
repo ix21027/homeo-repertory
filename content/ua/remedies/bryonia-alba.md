@@ -697,6 +697,6 @@ Spina bifida.
 
 **Слід порівняти з**: іншими гарбузовими (для них характерна відрижка із незміненим присмаком їжі).
 
-**Bryonia alba добре слідує після**: Асоnitum, Nux vomica, Opium, Rhus. **Після Bryonia alba добре слідують**: Alumina, Arsenicum album, Kali сarbonicum, Nux, Phosphorus, Pulsatilla, Rhus, Sulphur.
+**Bryonia alba добре слідує після**: Aconitum, Nux vomica, Opium, Rhus. **Після Bryonia alba добре слідують**: Alumina, Arsenicum album, Kali carbonicum, Nux, Phosphorus, Pulsatilla, Rhus, Sulphur.
 
-**Компліментарні препарати**: Alumina, Rhus., Alumina – це «хронічна» Bryonia alba; Kali сarbonicum і Natrum muriaticum складаються з Bryonia alba у подібних, але менш виражених взаєминах.
+**Компліментарні препарати**: Alumina, Rhus., Alumina – це «хронічна» Bryonia alba; Kali carbonicum і Natrum muriaticum складаються з Bryonia alba у подібних, але менш виражених взаєминах.

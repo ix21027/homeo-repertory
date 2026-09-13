@@ -138,4 +138,4 @@ sections: Характеристика; Психика; Клиника; Общи
 
 ## Взаимосвязи
 
-**Следует сравнить**: Artemisia vulgaris, Abrotanum, Cicuta, Hyoscyamus, Belladonna, Stramonium. Резкий запах мочи — Benzoicum асidum, Nitricum асidum.
+**Следует сравнить**: Artemisia vulgaris, Abrotanum, Cicuta, Hyoscyamus, Belladonna, Stramonium. Резкий запах мочи — Benzoicum acidum, Nitricum acidum.

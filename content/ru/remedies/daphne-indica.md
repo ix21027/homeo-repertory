@@ -269,6 +269,6 @@ Daphne indica была испытана G. Bute.
 
 ## Взаимосвязи
 
-**Антидотами для Daphne служат**: Bryonia, Digitalis., Rhus, Sepia, Zincum. **Daphne является антидотом для**: Chromicum асidum, Mercurius.
+**Антидотами для Daphne служат**: Bryonia, Digitalis., Rhus, Sepia, Zincum. **Daphne является антидотом для**: Chromicum acidum, Mercurius.
 
-**Следует сравнить:** Thuja (эффективна при подавленной гонорее); Benzoicum асidum (зловонная моча); Pulsatilla, China, Taxus (летучие боли); Veratrum аlbum (молниеносные боли); Baptisia (конечности кажутся разбросанными по кровати); Arsenicum album (тело кажется разделенным по линии талии).
+**Следует сравнить:** Thuja (эффективна при подавленной гонорее); Benzoicum acidum (зловонная моча); Pulsatilla, China, Taxus (летучие боли); Veratrum album (молниеносные боли); Baptisia (конечности кажутся разбросанными по кровати); Arsenicum album (тело кажется разделенным по линии талии).

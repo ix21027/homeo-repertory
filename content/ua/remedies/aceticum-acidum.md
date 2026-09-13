@@ -193,11 +193,11 @@ Aceticum acidum відповідає септичним та гектичним 
 
 ## Взаємозв’язки
 
-Слід порівняти: Apis, Arsenicum album (але для Aceticum асeticum характерні в основному шлункові симптоми), Carbolicum acidum, Lac defloratum, Lacticum acidum, Uranium nitricum.
+Слід порівняти: Apis, Arsenicum album (але для Aceticum aceticum характерні в основному шлункові симптоми), Carbolicum acidum, Lac defloratum, Lacticum acidum, Uranium nitricum.
 
 При отруєнні великими дозами оцтової кислоти найкращими антидотами є розчин магнезії або вапняна вода.
 
-**Антидотами** для потенційованих ліків будуть: при тяжкому, болісному відчутті - Tabacum та Асоnitum; при шлункових, легеневих та гарячкових симптомах - Natrium muriaticum, а потім Sepia.
+**Антидотами** для потенційованих ліків будуть: при тяжкому, болісному відчутті - Tabacum та Aconitum; при шлункових, легеневих та гарячкових симптомах - Natrium muriaticum, а потім Sepia.
 
 **Засіб служит антидотом** для анестетиків, Asarum, Coffea, Euphorbium, Ignatia, Opium, Plumbum (коліка), Sepia, Stramonium, Tabacum. _Нейтралізує наслідки отруєння ковбасною отрутою._
 

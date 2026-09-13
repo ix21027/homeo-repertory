@@ -215,7 +215,7 @@ Nitricum acidum очень эффективен при снижении слух
 
 Частые простуды. Легко возникающие приступы удушья.
 
-При чахотке Nitricum acidum хорошо действует после гомеопатического Kali сarbonicum. В случаях чахотки, требующих назначения Nitricum acidum, стенки грудной клетки крайне болезненны при прикосновении; характерны неожиданные приливы крови к грудной клетке; гектическая лихорадка; частые профузные кровотечения, алой кровью; острые проколы в правой половине груди, отдающие в лопатку. Легочный туберкулез (после Kali carbonicum). Одышка и головокружение у детей.
+При чахотке Nitricum acidum хорошо действует после гомеопатического Kali carbonicum. В случаях чахотки, требующих назначения Nitricum acidum, стенки грудной клетки крайне болезненны при прикосновении; характерны неожиданные приливы крови к грудной клетке; гектическая лихорадка; частые профузные кровотечения, алой кровью; острые проколы в правой половине груди, отдающие в лопатку. Легочный туберкулез (после Kali carbonicum). Одышка и головокружение у детей.
 
 Сильная одышка, из-за которой пациент не может говорить.
 
@@ -541,15 +541,15 @@ Nitricum acidum показана при тифе в случаях преобл�
 
 **Антидотами для Nitricum acidum являются**: Calcarea carbonica, Hepar sulphur, Mercurius, Mezereum, Sulphur.
 
-**Nitricum acidum служит антидотом для**: Calcarea carbonica, Digitalis, Mercurius. **Nitricum acidum хорошо действует перед**: Calcarea carbonica, Pulsatilla, Sulphur (коллапс при дизентерии); Кreosotum (дифтеритическая дизентерия); Secale (гангрена слизистых оболочек); Sulphur (золотушная офтальмия).
+**Nitricum acidum служит антидотом для**: Calcarea carbonica, Digitalis, Mercurius. **Nitricum acidum хорошо действует перед**: Calcarea carbonica, Pulsatilla, Sulphur (коллапс при дизентерии); Kreosotum (дифтеритическая дизентерия); Secale (гангрена слизистых оболочек); Sulphur (золотушная офтальмия).
 
-**Nitricum acidum хорошо действует после**: Calcarea carbonica, Natrium carbonicum, Pulsatilla, Sulphur, Thuja (сикоз); Carbo animalis (бубон); Кali саrbonicum (чахотка и т. п.); Аurum (передозировка ртути); Mezereum (вторичный сифилис); Hepar sulphur (поражение горла и т. д.).
+**Nitricum acidum хорошо действует после**: Calcarea carbonica, Natrium carbonicum, Pulsatilla, Sulphur, Thuja (сикоз); Carbo animalis (бубон); Kali carbonicum (чахотка и т. п.); Aurum (передозировка ртути); Mezereum (вторичный сифилис); Hepar sulphur (поражение горла и т. д.).
 
 **Дополняющие препараты:** Caladium, Arsenicum album.
 
 **Одинаковый симптом**: Arsenicum album (смертельный страх холеры). **Несовместимый препарат**: Lachesis.
 
-**Следует сравнить**: Medorrhinum, Syphylinum, Psorinum, Мuriaticum acidum, Mercurius (Mercurius подходит светловолосым людям, Nitricum acidum-темноволосым).
+**Следует сравнить**: Medorrhinum, Syphylinum, Psorinum, Muriaticum acidum, Mercurius (Mercurius подходит светловолосым людям, Nitricum acidum-темноволосым).
 
 Темноволосые пациенты: Iodum.
 
@@ -557,15 +557,15 @@ Nitricum acidum показана при тифе в случаях преобл�
 
 Травма позвоночника: Arnica, Rhus toxicodendron, Hypericum, Calcarea carbonica. Колотые раны: Ledum.
 
-Ухудшение при пробуждении: Lachesis, Natrium muriaticum, Sulphur. Ухудшение от ношения шапки: Carbo vegetabilis, Calcarea phosphorica, Natrium сarbonicum.
+Ухудшение при пробуждении: Lachesis, Natrium muriaticum, Sulphur. Ухудшение от ношения шапки: Carbo vegetabilis, Calcarea phosphorica, Natrium carbonicum.
 
-Тянущиеся нитями бели: Кali bichromicum.
+Тянущиеся нитями бели: Kali bichromicum.
 
-Боль внезапно возникает и так же внезапно исчезает: Lyesinum, Belladonna. Тяжелая реакция на боль: Асоnitum, Chamomilla, Hepar sulphur.
+Боль внезапно возникает и так же внезапно исчезает: Lyesinum, Belladonna. Тяжелая реакция на боль: Aconitum, Chamomilla, Hepar sulphur.
 
 Гиперчувствительность: Hepar sulphur.
 
-Легко возникающие приступы удушья: Кali саrbonicum.
+Легко возникающие приступы удушья: Kali carbonicum.
 
 Ухудшение и от холодного, и от горячего: Mercurius.
 
@@ -575,7 +575,7 @@ Nitricum acidum показана при тифе в случаях преобл�
 
 Фимоз: Cannabis sativa, Mercurius, Sulphur, Thuja.
 
-Резкий запах мочи: Benzoicum асidum.
+Резкий запах мочи: Benzoicum acidum.
 
 Россыпь коричневатых мелких пятен на коже у темноволосых людей: Petroleum.
 
@@ -583,12 +583,12 @@ Nitricum acidum показана при тифе в случаях преобл�
 
 Болезненность и раздражение ануса: Mercurius, Sulphur, Chamomilla, Arsenicum album, Pulsatilla, Syphylinum, China.
 
-Тенезмы: Mercurius, Nux vomica (y Mercurius они возникают до, во время и после дефекаций; для Nux vomica характерно полное облегчение после опорожнения кишечника; у Мuriaticum асidum имеются раздражение, режущая боль, продолжающаяся несколько часов после дефекации).
+Тенезмы: Mercurius, Nux vomica (y Mercurius они возникают до, во время и после дефекаций; для Nux vomica характерно полное облегчение после опорожнения кишечника; у Muriaticum acidum имеются раздражение, режущая боль, продолжающаяся несколько часов после дефекации).
 
-Язвы на роговице с угрозой ее перфорации: Silicea, Calcarea carbonica (Nitricum асidum хорошо следует после Calcarea carbonica).
+Язвы на роговице с угрозой ее перфорации: Silicea, Calcarea carbonica (Nitricum acidum хорошо следует после Calcarea carbonica).
 
 Кондиломы, увеличение миндалин (сифилитическое или сикотическое), трещины, баланорея, зеленоватые бели: Thuja (у Nitricum acidum более выражена ноющая боль в костях, особенно в тех костях, которые не прикрыты мышцами, например в большеберцовой кости).
 
-Склонность браниться: Аnacardium.
+Склонность браниться: Anacardium.
 
 Ощущения сжатия ануса: Lachesis.

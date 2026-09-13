@@ -375,7 +375,7 @@ Drosera лікує радикуліт з наступною клінічною �
 
 **Додатковий препарат**: Nux vomica.
 
-**Drosera сумісна** з Calcarea сarbonica, Pulsatilla, Veratrum album, Gnaphites. **Слід порівняти**: Belladonna, Coralium, Cuprum, Hyoacyamus, Ipecacuanha, Sambucus, Mephitis, Opium, Coccus cacti.
+**Drosera сумісна** з Calcarea carbonica, Pulsatilla, Veratrum album, Gnaphites. **Слід порівняти**: Belladonna, Coralium, Cuprum, Hyoacyamus, Ipecacuanha, Sambucus, Mephitis, Opium, Coccus cacti.
 
 При неможливості відкашляти харкотиння: Causticum, Sepia, Arnica, Kali carbonicum.
 

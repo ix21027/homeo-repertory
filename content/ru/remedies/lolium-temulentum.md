@@ -150,4 +150,4 @@ sections: Характеристика; Психика; Клиника; Общи
 
 ## Взаимосвязи
 
-**Следует сравнить:** Anantherum muricatum, Secale, Lathyrus sativus (паралич; ухудшение во влажное время года), Орium (сон).
+**Следует сравнить:** Anantherum muricatum, Secale, Lathyrus sativus (паралич; ухудшение во влажное время года), Opium (сон).

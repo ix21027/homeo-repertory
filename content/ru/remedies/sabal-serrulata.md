@@ -281,8 +281,8 @@ Mullins подтверждает эффективность Sabal при про�
 
 Предстательная железа и глаза - Solidago.
 
-Ухудшение после полового акта - Кali саrbonicum.
+Ухудшение после полового акта - Kali carbonicum.
 
-Блуждающая боль – Кali bichromicum (корни Sabal очень богаты солями калия). Женщины, которые слишком много работают - Magnesia сarbonica.
+Блуждающая боль – Kali bichromicum (корни Sabal очень богаты солями калия). Женщины, которые слишком много работают - Magnesia carbonica.
 
 Hale относит Sabal к «первичным афродизиакам» - Phosphorus, Turnera aphrodisiaca, к «анафродизиакам» он относит Conium, Salicinum, Agnus, Nuphar luteum, Arsenicum album, Picricum acidum, Caladium, Camphora, Iodum.

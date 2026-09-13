@@ -860,6 +860,6 @@ Cooper сообщил об излечении случая хроническо�
 
 **Антидоты**: для отравления материальными дозами — растительные кислоты, желчь, зеленый чай, Coffea., Hyoscyamus; для последствий применения потенцированного препарата — Camphora, Coffea, Hepar sulphur, Hyoscyamus, Opium, Pulsatilla, Sabadilla (слюнотечение), Vinum.
 
-**Belladonna является антидотом** для: Асоnitum, Arum triphyllum, Atropinum, China, Cuprum, Pertussinum, Hyoscyamus, Jaborandi, Mercurius, Opium, Platina, Plumbum, скипидара; при отравлении сосисками.
+**Belladonna является антидотом** для: Aconitum, Arum triphyllum, Atropinum, China, Cuprum, Pertussinum, Hyoscyamus, Jaborandi, Mercurius, Opium, Platina, Plumbum, скипидара; при отравлении сосисками.
 
 **Belladonna хорошо следует после**: Arsenicum album, Chamomilla, Hepar sulphur, Mercurius, Phosphorus, Nitricum acidum, Cuprum. **После Belladonna хорошо следуют**: China, Chamomilla, Conium, Dulcamara, Hepar sulphur, Hyoscyamus, Lack., Rhus, Senega, Stramonium, Valeriana, Veratrum album.

@@ -11,7 +11,7 @@ origin: https://homeopat-sam.com/-/a456
 sections: Характеристика; Психіка; Тип; Клініка; Загальні симптоми; Шкіра; Сон; Гарячка; Голова; Обличчя; Очі; Вуха; Дихальна система; Грудна клітка; Горло; Ніс; Рот; Зуби; Шлунок; Живіт; Анус і пряма кишка; Чоловічі; Спина; Кінцівки; Інфекції; Етіологія; Взаємозв’язки
 ---
 
-**Limulus cycloрs** (Лімулюс циклопс) - королівський краб - Limulus polyphemus, Polyphemus occidentalis, King-crab, Horse-foot - відноситься до виду Merostomata, або Poecilopoda of the Crustacea.
+**Limulus cyclops** (Лімулюс циклопс) - королівський краб - Limulus polyphemus, Polyphemus occidentalis, King-crab, Horse-foot - відноситься до виду Merostomata, або Poecilopoda of the Crustacea.
 
 Препарат готують із тритурації висушеної крові.
 

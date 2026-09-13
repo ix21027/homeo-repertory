@@ -13,7 +13,7 @@ sections: Психіка; Тип; Клініка; Загальні симпто�
 
 **Cadmium sulphuricum** (Кадміум сульфурикум) - сульфід кадмію - CdS. У природі кадмій перебуває у тісному взаємозв'язку з цинком, який, до речі, дуже схожий із ним по дії; відмінність їх у тому, що кадмій діє потужніше. Cadmium sulphuricum дуже глибоко впливає на шлунок, про що свідчать пекучі та ріжучі болі; сильні позиви до блювання; хворий давиться, що викликає відходження в'язкого слизу; інтенсивна нудота та блювання. Все це дозволяє з неймовірним успіхом застосовувати препарат за жовтої лихоманки. Дуже характерним є чорне забарвлення блювотних мас. Найменший дотик до губ викликає блювоту. Липкий присмак; їжа здається солоною.
 
-Cadmium є «гібридом» Вryonia і Arsenicum album; йому характерне бажання залишатися у спокої, як в Вryonua, поруч із виснаженням і дратівливістю шлунка, як в Arsenicum album (Kent).
+Cadmium є «гібридом» Bryonia і Arsenicum album; йому характерне бажання залишатися у спокої, як в Bryonua, поруч із виснаженням і дратівливістю шлунка, як в Arsenicum album (Kent).
 
 Cadmium - мерзлякуватий препарат. Характерною його рисою є крижана холодність, навіть у безпосередній близькості від вогню.
 
@@ -247,8 +247,8 @@ Cadmium sulphuricum дуже глибоко впливає на шлунок, п
 
 ## Взаємозв’язки
 
-**Слід порівняти:** Кali chloricum (стиск у грудях та серцебиття); Arsenicum album (слабкість, нудота, блювання та печіння); Arsenicum album, Lachesis (чорне блювання, наслідки алкоголізму); Asarum, Bryonia, Croton tiglium, Cuprum, Nux vomica, Podophyllum, Antimonium tartaricum (нудота та позиви до блювання); Ipecacuanha, Tabacum (смертельна нудота); Aethusa, Arsenicum album, Bryonia, Ipecacuanha, Veratrum (зелена, драглиста блювота); Aloe, Cubeba, Helleborus, Kali bichromicum, Podophyllum, Rhus toxicodendron (студенистий кал); Sepia (зелений кал); Carbo animalis, Carbo vegetabilis, Opium, Grindelia, Lachesis (припинення дихання при засинанні).
+**Слід порівняти:** Kali chloricum (стиск у грудях та серцебиття); Arsenicum album (слабкість, нудота, блювання та печіння); Arsenicum album, Lachesis (чорне блювання, наслідки алкоголізму); Asarum, Bryonia, Croton tiglium, Cuprum, Nux vomica, Podophyllum, Antimonium tartaricum (нудота та позиви до блювання); Ipecacuanha, Tabacum (смертельна нудота); Aethusa, Arsenicum album, Bryonia, Ipecacuanha, Veratrum (зелена, драглиста блювота); Aloe, Cubeba, Helleborus, Kali bichromicum, Podophyllum, Rhus toxicodendron (студенистий кал); Sepia (зелений кал); Carbo animalis, Carbo vegetabilis, Opium, Grindelia, Lachesis (припинення дихання при засинанні).
 
-**Після Cadmium sulphuricum добре слідують:** Belladonna (обертання головою з відкритими очима при проносі у немовлят); Carbo vegetabilis, Lobelia inflata (при жовтій лихоманці); Nitricum асidum, Aletris (нудота при вагітності).
+**Після Cadmium sulphuricum добре слідують:** Belladonna (обертання головою з відкритими очима при проносі у немовлят); Carbo vegetabilis, Lobelia inflata (при жовтій лихоманці); Nitricum acidum, Aletris (нудота при вагітності).
 
 Cadmium sulphuricum добре слідує за: Ipecacuanha, Arsenicum album, Belladonna.

@@ -343,4 +343,4 @@ Hutchinson спостерігав безліч випадків при яких 
 
 **Kali chloricum є антидотом** для Mercurius.
 
-**Слід порівняти**: особливо з Кali muriaticum, Causticum (лицьовий параліч), Кali bichromicum (фолікулярний фарингіт), Zincum, Cadmium sulphuricum та Cactus (астма з сильним стиском у грудях); Graphites, Kali nitricum та Natrium muriaticum (відчуття холоду в ділянці серця).
+**Слід порівняти**: особливо з Kali muriaticum, Causticum (лицьовий параліч), Kali bichromicum (фолікулярний фарингіт), Zincum, Cadmium sulphuricum та Cactus (астма з сильним стиском у грудях); Graphites, Kali nitricum та Natrium muriaticum (відчуття холоду в ділянці серця).

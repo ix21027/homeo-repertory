@@ -238,9 +238,9 @@ He может размышлять и не способен сконцентри
 
 ## Взаимосвязи
 
-**Следует сравнить**: Lathyrus sativus, Astragalus menziesii, Physostigma, Laburnum, другие бобовые. Усиление симптомов при мысли о них — Охalicum асidum (облегчение при мысли о них — Camphora).
+**Следует сравнить**: Lathyrus sativus, Astragalus menziesii, Physostigma, Laburnum, другие бобовые. Усиление симптомов при мысли о них — Oxalicum acidum (облегчение при мысли о них — Camphora).
 
-Боли в семенных канатиках и яичках — Охalicum асidum.
+Боли в семенных канатиках и яичках — Oxalicum acidum.
 
 Боли, распространяющиеся справа налево — Lyesinum.
 

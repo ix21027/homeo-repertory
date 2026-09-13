@@ -8,7 +8,7 @@ origin: https://homeopat-sam.com/-/a62
 remedy_blocks: 32
 ---
 
-Для лікування ларингіту найчастіше застосовують такі гомеопатичні препарати: **Aconite Aesculus Alumina Ammonium causticum Apis Argentum metallicum Argentum nitricum Arsenicum album Arum tryphyllum Belladonna Bryonia Calcarea iodata Cantharis Causticum Hepar sulfur Hyoscуamus Iodum Kali carbonicum Lac caninum Lachesis Mercurius corrosivus Mercurius iodatus Mercurius photoiodatus Phosphorus Phytolacca Pulsatilla Rumex**
+Для лікування ларингіту найчастіше застосовують такі гомеопатичні препарати: **Aconite Aesculus Alumina Ammonium causticum Apis Argentum metallicum Argentum nitricum Arsenicum album Arum tryphyllum Belladonna Bryonia Calcarea iodata Cantharis Causticum Hepar sulfur Hyoscyamus Iodum Kali carbonicum Lac caninum Lachesis Mercurius corrosivus Mercurius iodatus Mercurius photoiodatus Phosphorus Phytolacca Pulsatilla Rumex**
 
 ### Senega Silicea Spongia Sulfur
 

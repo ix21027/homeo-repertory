@@ -436,10 +436,10 @@ Kalmia — это название семейства. вересковых, п�
 
 ## Взаимосвязи
 
-**Антидотами для Kalmia являются**: Асоnitum, Belladonna.
+**Антидотами для Kalmia являются**: Aconitum, Belladonna.
 
 **Kalmia является антидотом** для Tabacum.
 
 **Хорошо следует за**: Nux vomica, Thyroidinum, Spigelia.
 
-**Следует сравнить**: Tabacum, Pulsatilla, Ledum, Rhododendron, Abrotanum, Arbutus, Aesculus, Urtica urens, Actea racemosa, Cedron, Асоnitum, Arsenicum album, Digitalis, Gelsemium, Benzoicum асidum, Calcarea carbonica, Dioscorea, Kali bichromicum, Lithium сarbonicum, Lyesinum, Spigelia, Cactus, Aloe. Ledum, Rhododendron и Uva ursi являются близкими родственниками.
+**Следует сравнить**: Tabacum, Pulsatilla, Ledum, Rhododendron, Abrotanum, Arbutus, Aesculus, Urtica urens, Actea racemosa, Cedron, Aconitum, Arsenicum album, Digitalis, Gelsemium, Benzoicum acidum, Calcarea carbonica, Dioscorea, Kali bichromicum, Lithium carbonicum, Lyesinum, Spigelia, Cactus, Aloe. Ledum, Rhododendron и Uva ursi являются близкими родственниками.

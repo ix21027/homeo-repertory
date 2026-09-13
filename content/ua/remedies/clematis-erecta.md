@@ -309,7 +309,7 @@ Clematis erecta, як і інші лютикові, має пряму подра
 
 ## Взаємозв’язки
 
-**Антидотом для Clematis erecta служать**: Вryonia (зубний біль, сечові симптоми), Camphora.
+**Антидотом для Clematis erecta служать**: Bryonia (зубний біль, сечові симптоми), Camphora.
 
 **Clematis erecta служит антидотом** для Mercurius.
 
@@ -317,4 +317,4 @@ Clematis erecta, як і інші лютикові, має пряму подра
 
 **Слід порівняти**: Arsenicum album (шкіра; у Clematis erecta більше виражена почервоніння, характерне погіршення від миття; чергування сухих і мокнучих кірок); Pulsatilla (гонорейний орхіт, хвороблива чутливість та кам'яниста щільність яєчок); Belladonna, Bryonia, Caalcarea carbonica, Cantharis, Conium, Causticum, Dulcamara (сифілітичні виразки); Graphites, Mercurius (ірит, чутливість до холоду); Petroleum (імпетиго на задній частині шиї та на потилиці); Sarsaparilla (сифілітичні виразки).
 
-При "відразі до миття" Clematis erecta слід диференціювати з Antimnium сrudum, Hepar sulphur, Phosphorus, Sepia, Spigelia, Sulphur. Погіршення при закиданні голови характерне також для Cinnabar. Для Cobaltum характерним є погіршення при нахилі голови вперед.
+При "відразі до миття" Clematis erecta слід диференціювати з Antimnium crudum, Hepar sulphur, Phosphorus, Sepia, Spigelia, Sulphur. Погіршення при закиданні голови характерне також для Cinnabar. Для Cobaltum характерним є погіршення при нахилі голови вперед.

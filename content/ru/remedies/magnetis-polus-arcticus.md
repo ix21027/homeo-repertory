@@ -210,4 +210,4 @@ sections: Характеристика; Психика; Клиника; Общи
 
 **Антидотом** для Magnetis polus arcticus служат: Magnetis polus australis, Ignatia, Zincum.
 
-**Следует сравнить:** При ощущении, словно вытягивают зубы, — Ipecacuanha; когда трудно поднимать руки – Ваrium carbonicum, Conium, Cuprum; при покраснении одной щеки – Сhamomilla.
+**Следует сравнить:** При ощущении, словно вытягивают зубы, — Ipecacuanha; когда трудно поднимать руки – Barium carbonicum, Conium, Cuprum; при покраснении одной щеки – Chamomilla.

@@ -215,7 +215,7 @@ Nitricum acidum дуже ефективний при зниженні слуху
 
 Часті застуди. Напади задухи, що легко виникають.
 
-При сухоті Nitricum acidum добре діє після гомеопатичного Kali сarbonicum. У випадках сухот, що вимагають призначення Nitricum acidum, стінки грудної клітки вкрай болючі при дотику; характерні несподівані припливи крові до грудної клітки; гектична лихоманка; часті профузні кровотечі, червоною кров'ю; гострі проколи у правій половині грудей, що віддають у лопатку. Легеневий туберкульоз (після Kali carbonicum). Задишка та запаморочення у дітей.
+При сухоті Nitricum acidum добре діє після гомеопатичного Kali carbonicum. У випадках сухот, що вимагають призначення Nitricum acidum, стінки грудної клітки вкрай болючі при дотику; характерні несподівані припливи крові до грудної клітки; гектична лихоманка; часті профузні кровотечі, червоною кров'ю; гострі проколи у правій половині грудей, що віддають у лопатку. Легеневий туберкульоз (після Kali carbonicum). Задишка та запаморочення у дітей.
 
 Сильна задишка, через яку пацієнт не може казати.
 
@@ -543,7 +543,7 @@ Nitricum acidum показана при тифі у випадках перев�
 
 **Nitricum acidum служить антидотом для**: Calcarea carbonica, Digitalis, Mercurius. **Nitricum acidum добре діє перед**: Calcarea carbonica, Pulsatilla, Sulphur (колапс при дизентерії); Kreosotum (дифтеритична дизентерія); Secale (гангрена слизових оболонок); Sulphur (золотушна офтальмія).
 
-**Nitricum acidum добре діє після**: Calcarea carbonica, Natrium carbonicum, Pulsatilla, Sulphur, Thuja (сікоз); Carbo animalis (бубон); Kali саrbonicum (сухоти і т. п.); Аurum (передозування ртуті); Mezereum (вторинний сифіліс); Hepar sulphur (ураження горла тощо).
+**Nitricum acidum добре діє після**: Calcarea carbonica, Natrium carbonicum, Pulsatilla, Sulphur, Thuja (сікоз); Carbo animalis (бубон); Kali carbonicum (сухоти і т. п.); Aurum (передозування ртуті); Mezereum (вторинний сифіліс); Hepar sulphur (ураження горла тощо).
 
 **Доповнюючі препарати:** Caladium, Arsenicum album.
 
@@ -557,15 +557,15 @@ Nitricum acidum показана при тифі у випадках перев�
 
 Травма хребта: Arnica, Rhus toxicodendron, Hypericum, Calcarea carbonica. Колоті рани: Ledum.
 
-Погіршення під час пробудження: Lachesis, Natrium muriaticum, Sulphur. Погіршення від носіння шапки: Carbo vegetabilis, Calcarea phosphorica, Natrium сarbonicum.
+Погіршення під час пробудження: Lachesis, Natrium muriaticum, Sulphur. Погіршення від носіння шапки: Carbo vegetabilis, Calcarea phosphorica, Natrium carbonicum.
 
 Тягучі нитками білі: Kali bichromicum.
 
-Біль раптово виникає і також раптово зникає: Lyesinum, Belladonna. Тяжка реакція на біль: Асоnitum, Chamomilla, Hepar sulphur.
+Біль раптово виникає і також раптово зникає: Lyesinum, Belladonna. Тяжка реакція на біль: Aconitum, Chamomilla, Hepar sulphur.
 
 Гіперчутливість: Hepar sulphur.
 
-Напади задухи, що легко виникають: Kali саrbonicum.
+Напади задухи, що легко виникають: Kali carbonicum.
 
 Погіршення і від холодного, і гарячого: Mercurius.
 
@@ -575,7 +575,7 @@ Nitricum acidum показана при тифі у випадках перев�
 
 Фімоз: Cannabis sativa, Mercurius, Sulphur, Thuja.
 
-Різкий запах сечі Benzoicum асidum.
+Різкий запах сечі Benzoicum acidum.
 
 Розсип коричневих дрібних плям на шкірі у темноволосих людей: Petroleum.
 
@@ -583,12 +583,12 @@ Nitricum acidum показана при тифі у випадках перев�
 
 Болючість та роздратування ануса: Mercurius, Sulphur, Chamomilla, Arsenicum album, Pulsatilla, Syphylinum, China.
 
-Тенезми: Mercurius, Nux vomica (y Mercurius вони виникають до, під час і після дефекацій; для Nux vomica характерне повне полегшення після спорожнення кишечника; у Muriaticum асidum є подразнення, ріжучий біль, що триває кілька годин після дефекації).
+Тенезми: Mercurius, Nux vomica (y Mercurius вони виникають до, під час і після дефекацій; для Nux vomica характерне повне полегшення після спорожнення кишечника; у Muriaticum acidum є подразнення, ріжучий біль, що триває кілька годин після дефекації).
 
-Виразки на рогівці із загрозою її перфорації: Silicea, Calcarea carbonica (Nitricum асidum добре слідує після Calcarea carbonica).
+Виразки на рогівці із загрозою її перфорації: Silicea, Calcarea carbonica (Nitricum acidum добре слідує після Calcarea carbonica).
 
 Кондиломи, збільшення мигдаликів (сифілітичне або сикотичне), тріщини, баланорея, зелені білі: Thuja (у Nitricum acidum більш виражена ниючий біль у кістках, особливо в тих кістках, які не прикриті м'язами, наприклад у великогомілкової кістки).
 
-Схильність сваритися: Аnacardium.
+Схильність сваритися: Anacardium.
 
 Відчуття стиснення ануса: Lachesis.

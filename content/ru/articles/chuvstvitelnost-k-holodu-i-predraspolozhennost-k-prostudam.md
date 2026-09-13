@@ -7,7 +7,7 @@ origin: https://homeopat-sam.com/-/a462
 remedy_blocks: 19
 ---
 
-Наиболее часто при данной проблеме назначают следующие гомеопатические препараты: **Аlumen Anacardium Aurum metallicum Bryonia Calcarea carbonica Calendula Camphora Dulcamara Hepar sulfur Kali bichromicum Magnesium muriaticum Magnetis polus ausralis Natrium carbonicum Nux vomica Natrium muriaticum Rumex Silicea Sulphur Tuberculinum**
+Наиболее часто при данной проблеме назначают следующие гомеопатические препараты: **Alumen Anacardium Aurum metallicum Bryonia Calcarea carbonica Calendula Camphora Dulcamara Hepar sulfur Kali bichromicum Magnesium muriaticum Magnetis polus ausralis Natrium carbonicum Nux vomica Natrium muriaticum Rumex Silicea Sulphur Tuberculinum**
 
 ### Alumen (Алюмен)
 

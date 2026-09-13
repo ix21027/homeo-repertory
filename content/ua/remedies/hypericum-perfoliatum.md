@@ -339,4 +339,4 @@ _Hypericum буває корисним:_ - При депресії, яка мо�
 
 **Hypericum є антидотом** при дії гіпнозу (Sulphur).
 
-**Слід порівняти**: Асоnitum, Chamomilla, Coffea (підвищена чутливість); Arnica, Calendula, Ledum, Ruta, Conium, Bellis, Staphysagria, Alliumсера (рани); Lachesis (укуси); Nux (тетанус); Gelsemium, Lathyrus (спастичний параліч).
+**Слід порівняти**: Aconitum, Chamomilla, Coffea (підвищена чутливість); Arnica, Calendula, Ledum, Ruta, Conium, Bellis, Staphysagria, Alliumcepa (рани); Lachesis (укуси); Nux (тетанус); Gelsemium, Lathyrus (спастичний параліч).

@@ -249,6 +249,6 @@ Lycopus не нарушает работу желудка, но действуе
 
 ## Взаимосвязи
 
-**Следует сравнить**: Lamium (ботан.; геморроидальные узлы); Осimum canum (ботан.); Iberis amara, Kalmia, Spigelia, Crataegus, Cactus, Digitalis, Нуdrocyanicum acidum, Laurocerasus, Prunus spinosa (сердце); Sanguinaria.
+**Следует сравнить**: Lamium (ботан.; геморроидальные узлы); Ocimum canum (ботан.); Iberis amara, Kalmia, Spigelia, Crataegus, Cactus, Digitalis, Hydrocyanicum acidum, Laurocerasus, Prunus spinosa (сердце); Sanguinaria.
 
 _Джон Генри Кларк. «Словарь Практической Materia Medica в 6-ти томах»_ _(Изд-во «Гомеопатическая медицина». Москва. 2001 г.)._

@@ -213,6 +213,6 @@ sections: Характеристика; Психіка; Тип; Тропніст
 
 ## Взаємозв’язки
 
-**Слід порівняти**: Aralia raсemosa, Hedera helix, Coca.
+**Слід порівняти**: Aralia racemosa, Hedera helix, Coca.
 
-Органи дихання уражаються так само, як при дії Aralia raсemosa. При «сонливості з головним болем»: Brucea antidysenterica, Heracleum spondylum, Gelsemium, Natrium sulphuricum, Nux moschata та Sulphur. При сухих губах: Вrуonia.
+Органи дихання уражаються так само, як при дії Aralia racemosa. При «сонливості з головним болем»: Brucea antidysenterica, Heracleum spondylum, Gelsemium, Natrium sulphuricum, Nux moschata та Sulphur. При сухих губах: Bryonia.

@@ -12,7 +12,7 @@ sections: Психика; Тип; Клиника; Общие симптомы; �
 
 **Cadmium sulphuricum** (Кадмиум сульфурикум) — сульфид кадмия — CdS. В природе кадмий находится в тесной взаимосвязи с цинком, который, кстати, очень схож с ним по действию; отличие их в том, что кадмий действует более мощно. Cadmium sulphuricum очень глубоко влияет на желудок, о чем свидетельствуют жгучие и режущие боли; сильные позывы к рвоте; больной давится, что вызывает отхождение вязкой слизи; интенсивная тошнота и рвота. Все это позволяет с невероятным успехом применять препарат при желтой лихорадке. Очень характерной является черная окраска рвотных масс. Малейшее прикосновение к губам вызывает рвоту. Липкий привкус; еда кажется соленой.
 
-Cadmium представляет собой «гибрид» Вryonia и Arsenicum album; для него характерно желание оставаться в покое, как у Вryonua, наряду с истощением и раздражимостью желудка, как у Arsenicum album (Kent).
+Cadmium представляет собой «гибрид» Bryonia и Arsenicum album; для него характерно желание оставаться в покое, как у Bryonua, наряду с истощением и раздражимостью желудка, как у Arsenicum album (Kent).
 
 Cadmium — зябкий препарат. Характерной его чертой является ледяная холодность, даже в непосредственной близости от огня.
 
@@ -246,8 +246,8 @@ Cadmium sulphuricum очень глубоко влияет на желудок, 
 
 ## Взаимосвязи
 
-**Следует сравнить:** Кali chloricum (сжатие в груди и сердцебиение); Arsenicum album (слабость, тошнота, рвота и жжение); Arsenicum album, Lachesis (черная рвота, последствия алкоголизма); Asarum, Bryonia, Croton tiglium, Cuprum, Nux vomica, Podophyllum, Antimonium tartaricum (тошнота и позывы к рвоте); Ipecacuanha, Tabacum (смертельная тошнота); Aethusa, Arsenicum album, Bryonia, Ipecacuanha, Veratrum (зеленоватая, студенистая рвота); Aloe, Cubeba, Helleborus, Кali bichromicum, Podophyllum, Rhus toxicodendron (студенистый стул); Sepia (зеленый стул); Carbo animalis, Carbo vegetabilis, Opium, Grindelia, Lachesis (приостановка дыхания при засыпании).
+**Следует сравнить:** Kali chloricum (сжатие в груди и сердцебиение); Arsenicum album (слабость, тошнота, рвота и жжение); Arsenicum album, Lachesis (черная рвота, последствия алкоголизма); Asarum, Bryonia, Croton tiglium, Cuprum, Nux vomica, Podophyllum, Antimonium tartaricum (тошнота и позывы к рвоте); Ipecacuanha, Tabacum (смертельная тошнота); Aethusa, Arsenicum album, Bryonia, Ipecacuanha, Veratrum (зеленоватая, студенистая рвота); Aloe, Cubeba, Helleborus, Kali bichromicum, Podophyllum, Rhus toxicodendron (студенистый стул); Sepia (зеленый стул); Carbo animalis, Carbo vegetabilis, Opium, Grindelia, Lachesis (приостановка дыхания при засыпании).
 
-**После Cadmium sulphuricum хорошо следуют:** Belladonna (вращение головой с открытыми глазами при поносе у младенцев); Carbo vegetabilis, Lobelia inflata (при желтой лихорадке); Nitricum асidum, Aletris (тошнота при беременности).
+**После Cadmium sulphuricum хорошо следуют:** Belladonna (вращение головой с открытыми глазами при поносе у младенцев); Carbo vegetabilis, Lobelia inflata (при желтой лихорадке); Nitricum acidum, Aletris (тошнота при беременности).
 
 Cadmium sulphuricum хорошо следует за: Ipecacuanha, Arsenicum album, Belladonna.

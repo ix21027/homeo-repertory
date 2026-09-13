@@ -379,4 +379,4 @@ Cantharis «виганяє міхурову замет, мертвий плід,
 
 **Слід порівняти**: Doryphora, Coccus cacti, Coccionella, Apis, Belladonna, Bryonia, Cannabis sativa (більше виражене печіння і щипання; у Cantharis - більш виражені тенезми); Petroselinum (раптові позиви); Capsicum, Pulsatilla (затримка плаценти); Arsenicum album (затримка сечі після пологів); Thuja (ерекції; при цьому у Cantharis виникає затримка сечовипускання, а у Thuja - ні); Mercurius (сперма з домішкою крові); Sarsaparilla (сеча палить як вогнем, містить уривки тканин і кров); Arum, Rhus, Ranunculus sceleratus.
 
-Teste поміщає Cantharis разом із Senega та Phosphoricum асidum у групу Conium.
+Teste поміщає Cantharis разом із Senega та Phosphoricum acidum у групу Conium.

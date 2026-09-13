@@ -278,7 +278,7 @@ Polygonum оказывал благоприятное действие при п
 
 Головная боль, от которой пациент просыпается — Lachesis.
 
-Блуждающая боль — Pulsatilla, Кali bichromicum.
+Блуждающая боль — Pulsatilla, Kali bichromicum.
 
 Ухудшение от холода и влажности — Dulcamara, Mercurius, Rhus toxicodendron. Улучшение при откидывании головы назад — Senega.
 

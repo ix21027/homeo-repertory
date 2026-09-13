@@ -814,6 +814,6 @@ Veratrum album подходит: **1**. Людям крайних возраст
 
 **Veratrum album служит антидотом для**: Arsenicum album, China, Cuprum (колики), Opium, Tabacum; устраняет последствия избыточного приема опиума и табака.
 
-**Veratrum album хорошо действует после**: Arsenicum album, China, Cuprum, Ipecacuanha, Camphora, Ammonium сarbonicum, Carbo vegetabilis, Bovist, Lyesinum и Nux vomica.
+**Veratrum album хорошо действует после**: Arsenicum album, China, Cuprum, Ipecacuanha, Camphora, Ammonium carbonicum, Carbo vegetabilis, Bovist, Lyesinum и Nux vomica.
 
 **После Veratrum album хорошо действуют**: Pulsatilla, Aconitum, Belladonna, Chamomilla, Rhus, Sepia, Sulphur.

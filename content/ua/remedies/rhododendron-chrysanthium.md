@@ -377,7 +377,7 @@ Rhododendron має виражену дію на чоловічі статеві
 
 Погіршення у вологу погоду, при зміні погоди, у спокої; покращення від руху - Rhus toxicodendron (Rhus сильніше вражає окістя, ніж Rhododendron; Rhododendron - поліпшення, коли починає рухатися, Rhus - погіршення).
 
-Найгірше під час грози - Natrium сarbonicum, Phosphorus, Psorinum, Silicea. Гірше від вина – Zincum.
+Найгірше під час грози - Natrium carbonicum, Phosphorus, Psorinum, Silicea. Гірше від вина – Zincum.
 
 Жар у серці - Crocus, Lachnanthes, Opium.
 
@@ -399,4 +399,4 @@ Rhododendron має виражену дію на чоловічі статеві
 
 Сп'яніння - Quercus.
 
-Звук відгукується у вухах -Causticum, Phosphorus, Phosphoricum асidum, Sarsaparilla.
+Звук відгукується у вухах -Causticum, Phosphorus, Phosphoricum acidum, Sarsaparilla.

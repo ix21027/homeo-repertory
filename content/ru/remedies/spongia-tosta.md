@@ -468,11 +468,11 @@ Nash приводит такое показание для Spongia при пор
 
 **Антидотом для Spongia tosta служит** Camphora.
 
-**Spongia tosta хорошо действует после**: Асоnitum, Hepar sulphur. **После Spongia tosta хорошо действуют**: Bromium, Carbo vegetabilis, Hepar sulphur (Противокрупозные порошки Boenninghausen состоят из Асоnitum, Hepar sulphur, Spongia и назначаются именно в таком порядке. У Spongia — дыхание сухое; у Hepar sulphur — хрипящее; состояние Spongia ухудшается до полуночи, у Hepar sulphur – после).
+**Spongia tosta хорошо действует после**: Aconitum, Hepar sulphur. **После Spongia tosta хорошо действуют**: Bromium, Carbo vegetabilis, Hepar sulphur (Противокрупозные порошки Boenninghausen состоят из Aconitum, Hepar sulphur, Spongia и назначаются именно в таком порядке. У Spongia — дыхание сухое; у Hepar sulphur — хрипящее; состояние Spongia ухудшается до полуночи, у Hepar sulphur – после).
 
 **Следует сравнить**: в целом — Chloralum, Bromium, Iodum (Iodum больше подходит темноволосым, Spongia — светловолосым субъектам), Thyroidinum, Badiaga.
 
-Ларингит — Sambucus (у Sambucus спазмы возникают часто); Lachesis (чувствительность к прикосновению; у Lachesis состояние ухудшается вследствие гиперестезии; у Spongia — вследствие воспаления суставов). Кашель с облегчением от еды — Аnacardium.
+Ларингит — Sambucus (у Sambucus спазмы возникают часто); Lachesis (чувствительность к прикосновению; у Lachesis состояние ухудшается вследствие гиперестезии; у Spongia — вследствие воспаления суставов). Кашель с облегчением от еды — Anacardium.
 
 Сухость языка — Nux moschata (у Spongia сухость распространяется вниз; у Nux moschata этого нет).
 
@@ -484,6 +484,6 @@ Nash приводит такое показание для Spongia при пор
 
 Горечь в горле (у Ruta тошнота в горле).
 
-Ощущение вывиха височно-нижнечелюстного сустава — Rhus toxicodendron. Ухудшение при мысли о своих симптомах — Охalicum асidum, Piper methusticum. Предрасположенность к туберкулезу — Васcilinum, Tuberculinum.
+Ощущение вывиха височно-нижнечелюстного сустава — Rhus toxicodendron. Ухудшение при мысли о своих симптомах — Oxalicum acidum, Piper methusticum. Предрасположенность к туберкулезу — Baccilinum, Tuberculinum.
 
 Потеря голоса — Alumina, Drosera.

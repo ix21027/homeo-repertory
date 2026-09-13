@@ -233,7 +233,7 @@ sections: Характеристика; Психика; Клиника; Общи
 
 ## Взаимосвязи
 
-**Следует сравнить:** Spongia, Senega (кашель возникает в результате чиханья, а не наоборот, как у Badiaga); Grindelia robusta (при засыпании останавливается дыхание); Spongia (кашель с сильным чиханьем); Kali сarbonicum (кусочки мокроты вылетают изо рта); Calcarea sulphurica (уплотнение); Carbo animalis (уплотнение, бубоны); Cistus canadensis (золотуха); Clematis, Hepar sulphur, Iodum, Kali iodatum, Lachesis, Mercurius, Mercurius iodatus, Nitricum acidum, Silicea, Sulphur.
+**Следует сравнить:** Spongia, Senega (кашель возникает в результате чиханья, а не наоборот, как у Badiaga); Grindelia robusta (при засыпании останавливается дыхание); Spongia (кашель с сильным чиханьем); Kali carbonicum (кусочки мокроты вылетают изо рта); Calcarea sulphurica (уплотнение); Carbo animalis (уплотнение, бубоны); Cistus canadensis (золотуха); Clematis, Hepar sulphur, Iodum, Kali iodatum, Lachesis, Mercurius, Mercurius iodatus, Nitricum acidum, Silicea, Sulphur.
 
 **После Badiaga хорошо действует** Lachesis.
 

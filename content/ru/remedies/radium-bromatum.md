@@ -353,6 +353,6 @@ Dieffenbach успешно использовал и Rhus venenata и Rhus toxic
 
 Склерит - Actea racemosa.
 
-Чередование поноса и запора - Antimonium сrudum.
+Чередование поноса и запора - Antimonium crudum.
 
 У Radium bromatum имеется ощущение тепла, распространяющегося вниз по пищеводу. Ухудшение от бритья - Carbo animalis.

@@ -245,6 +245,6 @@ Hering згадує, що плоскоклітинний рак праворуч
 
 **Антидотами для Euphrasia служать**: Camphora, Pulsatilla.
 
-**Сумісні препарати**: Paeonia, Calcarea сarbonica, Conium, Nux vomica, Phosphorus, Pulsatilla, Rhus, Sulphur.
+**Сумісні препарати**: Paeonia, Calcarea carbonica, Conium, Nux vomica, Phosphorus, Pulsatilla, Rhus, Sulphur.
 
 **Слід порівняти:** Aethusa, Allium сера (сльози пом'якшують, а в Euphrasia роз'їдають), Apis, Argentum nitricum, Arsenicum album, Hepar sulphur, Kali bichromicum, Kali iodatum, Mercurius, Mercurius corrosivus, Pulsatilla, Gratiola, Digitalis, Tabacum.

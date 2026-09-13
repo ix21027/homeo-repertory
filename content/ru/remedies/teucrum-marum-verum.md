@@ -242,27 +242,27 @@ Guernsey: «Полипы с заложенностью носа с той сто
 
 ## Взаимосвязи
 
-**Антидотом Teucrium m. v. является** Саmphora.
+**Антидотом Teucrium m. v. является** Camphora.
 
 **Совместим с**: Pulsatilla, Silicea.
 
-**Следует сравнить** с: ботаническими родственниками и Теuсrum scorodonia. Ощущение внезапной слабости после еды – Arsenicum album, Cina, Lyesinum, Silicea, Staphysagria.
+**Следует сравнить** с: ботаническими родственниками и Teucrum scorodonia. Ощущение внезапной слабости после еды – Arsenicum album, Cina, Lyesinum, Silicea, Staphysagria.
 
 Икота - Ignatia (Ignatia - хуже от еды, курения, сильных эмоций; Teucrium - после кормления грудью, у детей).
 
-Болтливость - Lachesis, Нуоscyamus.
+Болтливость - Lachesis, Hyoscyamus.
 
-Пение - Belladonna, Crocus, Нуоscyamua, Spongia, Stramonium.
+Пение - Belladonna, Crocus, Hyoscyamua, Spongia, Stramonium.
 
 Гельминты - Scirrhinum, Cina, Spigelia.
 
-Туберкулез - Васillinum.
+Туберкулез - Bacillinum.
 
 Полипы, ухудшение в сырую погоду – Lemna minor.
 
 Повышенная нервная возбудимость – Nux vomica, Vol.
 
-Ринит – Кali bochromicum.
+Ринит – Kali bochromicum.
 
 Носовые полипы - Phosphorus, Sanguinaria, Silicea.
 

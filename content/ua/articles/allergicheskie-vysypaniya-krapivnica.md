@@ -10,7 +10,7 @@ remedy_blocks: 30
 
 Найчастіше для лікування цієї патології використовують такі гомеопатичні препарати:
 
-**Aconitum Anacardium Antimonium crudum Apis Arsenicum album Belladonna Bovista Calcarea carbonica Calcаrea phosphoricum Causticum Copaiva Dulcamara Formica rufa Formicicum acidum Fragaria Hepar sulfur Kali bromatum Lycopodium Mezereum Natrium muriaticum Phosphorus Pulsatilla Prymula Ranunculus bulbosus Rhus toxicodendron Sepia Silicea Sulfur Terebinthina Urtica urens**
+**Aconitum Anacardium Antimonium crudum Apis Arsenicum album Belladonna Bovista Calcarea carbonica Calcarea phosphoricum Causticum Copaiva Dulcamara Formica rufa Formicicum acidum Fragaria Hepar sulfur Kali bromatum Lycopodium Mezereum Natrium muriaticum Phosphorus Pulsatilla Prymula Ranunculus bulbosus Rhus toxicodendron Sepia Silicea Sulfur Terebinthina Urtica urens**
 
 ### Aconitum (Аконітум)
 

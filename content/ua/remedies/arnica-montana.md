@@ -483,7 +483,7 @@ Teste поміщає Arnica у свою першу групу, разом з Led
 
 **Додатковий засіб**: Paeonia.
 
-**Дія подібна**: Paeonia, Ammonium carbonicum, Croton (плескіт у животі), Arsenicum album, Baptisia (тифоїдний стан, при цьому пацієнт Baptisia «почувається хворим», а пацієнт Arnica «почувається здоровим» і злиться, коли йому кажуть, що він хворий), Belladonna, Bryonia, Chamomilla, Euphrasia, Calendula, Hepar sulphur, Hypericum, Hamamelis, Ipecacuanha, Ledum, Mercurius, Pulsatilla, Ranunculus sceleratus, Rhododendron, Ruta, Staphysagria, Silicea, Symphytum, Sulphur, Sulphuricum acidum, Veratrum album. **Arnica добре слідує після**: Асоnitum, Ipecacuanha, Veratrum album, Apis. **Після Arnica добре слідують**: Асоnitum, Arsenicum album, Bryonia, Ipecacuanha, Rhus toxicodendron.
+**Дія подібна**: Paeonia, Ammonium carbonicum, Croton (плескіт у животі), Arsenicum album, Baptisia (тифоїдний стан, при цьому пацієнт Baptisia «почувається хворим», а пацієнт Arnica «почувається здоровим» і злиться, коли йому кажуть, що він хворий), Belladonna, Bryonia, Chamomilla, Euphrasia, Calendula, Hepar sulphur, Hypericum, Hamamelis, Ipecacuanha, Ledum, Mercurius, Pulsatilla, Ranunculus sceleratus, Rhododendron, Ruta, Staphysagria, Silicea, Symphytum, Sulphur, Sulphuricum acidum, Veratrum album. **Arnica добре слідує після**: Aconitum, Ipecacuanha, Veratrum album, Apis. **Після Arnica добре слідують**: Aconitum, Arsenicum album, Bryonia, Ipecacuanha, Rhus toxicodendron.
 
 **Дію Arnica сприяє Arsenicum album** (дизентерія та варикозне розширення вен).
 

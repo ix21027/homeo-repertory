@@ -291,11 +291,11 @@ Tellurium встречается в чистом виде, а также в ко
 
 Группа дерматомикозов - Sepia, Calcarea carbonica.
 
-Острицы – Теucrum marum verum.
+Острицы – Teucrum marum verum.
 
 Боль внезапно возникает и исчезает - Belladonna, Lyesinum.
 
-Хуже от смеха - Рhosphorus.
+Хуже от смеха - Phosphorus.
 
 Хуже от натуживания во время дефекации - Indium.
 

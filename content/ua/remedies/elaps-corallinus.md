@@ -276,4 +276,4 @@ Flaps відрізняється від інших зміїних отрут ч�
 
 ## Взаємозв’язки
 
-**Антидотами для Elaps** є: випромінювання тепла, алкоголь, Arsenicum album. **Слід порівняти**: Arsenicum album, Carbo vegetabilis, Crotalus, Lachesis, Muriaticum асidum, Nitricum асidum, Rhus toxicodendron, Duboisia (червона пляма перед очима), Dulcamara (дія холоду, волога погода).
+**Антидотами для Elaps** є: випромінювання тепла, алкоголь, Arsenicum album. **Слід порівняти**: Arsenicum album, Carbo vegetabilis, Crotalus, Lachesis, Muriaticum acidum, Nitricum acidum, Rhus toxicodendron, Duboisia (червона пляма перед очима), Dulcamara (дія холоду, волога погода).

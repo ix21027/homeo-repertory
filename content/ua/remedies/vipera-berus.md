@@ -196,4 +196,4 @@ Swan називав Vipera ліками від усіх видів носови�
 
 **Слід порівняти**: Кровотеча рідкою кров'ю – Sanguisuga.
 
-Погіршення вільного звисання кінцівки – Calcarea carbonica, Ammonium сarbonicum, Thuja.
+Погіршення вільного звисання кінцівки – Calcarea carbonica, Ammonium carbonicum, Thuja.

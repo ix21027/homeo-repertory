@@ -163,4 +163,4 @@ Nash відзначає «внутрішнє» тремтіння, що поєд
 
 ## Взаємозв’язки
 
-**Слід порівняти:** Gelsemium при дисменореї (Caulophyllum діє подібно до Gelsemium і добре слідує за цими ліками); Pulsatilla при хворобливих пологових переймах, хоча психічна картина у цих ліків прямо протилежна; Actea racemosa, Belladonna при переміжному і нападоподібному болю; Calcarea carbonica (білі у маленьких дівчаток); Lilium tigrinum, Lachesis, Sulphur, Ustilago та Viburnum оpulus при болі в лівому яєчнику та під лівою молочною залозою; Magnesia muriatica при маткових спазмах; Вryonia при ревматизмі; Secale, Sepia, Gossypium.
+**Слід порівняти:** Gelsemium при дисменореї (Caulophyllum діє подібно до Gelsemium і добре слідує за цими ліками); Pulsatilla при хворобливих пологових переймах, хоча психічна картина у цих ліків прямо протилежна; Actea racemosa, Belladonna при переміжному і нападоподібному болю; Calcarea carbonica (білі у маленьких дівчаток); Lilium tigrinum, Lachesis, Sulphur, Ustilago та Viburnum opulus при болі в лівому яєчнику та під лівою молочною залозою; Magnesia muriatica при маткових спазмах; Bryonia при ревматизмі; Secale, Sepia, Gossypium.

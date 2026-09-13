@@ -8,7 +8,7 @@ origin: https://homeopat-sam.com/-/a445
 remedy_blocks: 13
 ---
 
-Найчастіше при цій проблемі призначають такі гомеопатичні препарати: **Baryta carbonica Cicuta Graphites Hepar sulfur Kali sulfuricum Мercurius corrosives Mercurius solubilis Petroleum Rhus toxicodendron Senega Staphysagria Sulfur Vinca minor**
+Найчастіше при цій проблемі призначають такі гомеопатичні препарати: **Baryta carbonica Cicuta Graphites Hepar sulfur Kali sulfuricum Mercurius corrosives Mercurius solubilis Petroleum Rhus toxicodendron Senega Staphysagria Sulfur Vinca minor**
 
 ### Baryta carbonica (Барита карбоніка)
 

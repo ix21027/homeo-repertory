@@ -251,6 +251,6 @@ sections: Характеристика; Психіка; Тип; Клініка; 
 
 **Caladium є антидотом** для Mercurius.
 
-**Сумісний з** Асоnitum, Cantharis, Pulsatilla, Sepia.
+**Сумісний з** Aconitum, Cantharis, Pulsatilla, Sepia.
 
-**Компліментарний** Nitricum асidum.
+**Компліментарний** Nitricum acidum.

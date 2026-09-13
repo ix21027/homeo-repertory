@@ -228,7 +228,7 @@ sections: Характеристика; Психіка; Тропність; Кл
 
 ## Взаємозв’язки
 
-**Слід порівняти**: Cicuta, Oenanthe crocata, Antimonium crudum та Calcarea сarbonica (блювання від молока); Arsenicum album, Asarum, Cuprum, Ipecacuanha, Opium.
+**Слід порівняти**: Cicuta, Oenanthe crocata, Antimonium crudum та Calcarea carbonica (блювання від молока); Arsenicum album, Asarum, Cuprum, Ipecacuanha, Opium.
 
 **Є антидотом для** Opium.
 

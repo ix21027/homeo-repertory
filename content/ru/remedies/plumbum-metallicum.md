@@ -477,13 +477,13 @@ Plumbum (Сатурн алхимиков) испытывали Hartlaub, Trinks,
 
 ## Взаимосвязи
 
-**Антидотами являются**: одним из лучших противоядий при хронических отравлениях свинцом является разведенная Sulphuric acidum, которую пьют как лимонад; считается, что алкоголь оказывает профилактическое действие; а также Alumen, Alumina, Arsenicum album, Antimonium crudum, Belladonna, Cocculus, Hepar sulphur, Kreosotum, Nux vomica, Opium, Petroleum, Platinum, Piperazinum, Zincum (Teste, который относит Plumbum к группе Mercurius и Arsenivcum album, утверждает, что, исходя из его опыта, лучшим антидотом является Aethusa суnnapium; он упоминает также Нуоscyamus, Stramonium и Electricitas).
+**Антидотами являются**: одним из лучших противоядий при хронических отравлениях свинцом является разведенная Sulphuric acidum, которую пьют как лимонад; считается, что алкоголь оказывает профилактическое действие; а также Alumen, Alumina, Arsenicum album, Antimonium crudum, Belladonna, Cocculus, Hepar sulphur, Kreosotum, Nux vomica, Opium, Petroleum, Platinum, Piperazinum, Zincum (Teste, который относит Plumbum к группе Mercurius и Arsenivcum album, утверждает, что, исходя из его опыта, лучшим антидотом является Aethusa cynnapium; он упоминает также Hyoscyamus, Stramonium и Electricitas).
 
 **Plumbum является антидотом**: при нарушениях, вызванных длительным злоупотреблением уксусом.
 
 **Совместим с**: Arsenicum album, Belladonna, Lyesinum, Mercurius, Phosphorus, Pulsatilla, Silicea, Sulphur.
 
-**Следует сравнить**: Запор, вялость кишечника, фекалии в виде плотных, мелких шариков - Орium (Для Plumbum характерен также спазм ануса.)
+**Следует сравнить**: Запор, вялость кишечника, фекалии в виде плотных, мелких шариков - Opium (Для Plumbum характерен также спазм ануса.)
 
 Буйный делирий, пациент дерется и кусается - Belladonna (У Plumbum дрожание головы и кистей, желтая слизь на зубах, чередование колик и делирия.) Чередование головной боли с симптомами со стороны живота – Podophyllum. Размягчение мозга - Zincum (Для Plumbum характерно чередование колик с болями в атрофированных конечностях), Vanadium.
 
@@ -495,8 +495,8 @@ Plumbum (Сатурн алхимиков) испытывали Hartlaub, Trinks,
 
 Комок в горле - Ignatia, Lachesis, Lyesinum.
 
-Последствия поражения позвоночника - Phosphorus, Picricum асidum, Zincum. Слабая память, неспособность найти нужное слово -Аnасardium, Lac сaninum. Жирное, блестящее лицо – Natrium muriaticum, Sanicula.
+Последствия поражения позвоночника - Phosphorus, Picricum acidum, Zincum. Слабая память, неспособность найти нужное слово -Anacardium, Lac caninum. Жирное, блестящее лицо – Natrium muriaticum, Sanicula.
 
 Желание потянуться – Amylenum nitrosum.
 
-Обонятельные иллюзии - Аnaсardium.
+Обонятельные иллюзии - Anacardium.

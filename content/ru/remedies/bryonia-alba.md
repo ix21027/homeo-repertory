@@ -691,12 +691,12 @@ Spina bifida.
 
 ## Взаимосвязи
 
-**Антидотами Bryonia alba являются**: Aeon., Alumina, Camphora, Chamomilla, Chelidonium, Clematis, Ignatia, Мuriaticum acidum, Nux vomica, Pulsatilla, Rhus, Senega.
+**Антидотами Bryonia alba являются**: Aeon., Alumina, Camphora, Chamomilla, Chelidonium, Clematis, Ignatia, Muriaticum acidum, Nux vomica, Pulsatilla, Rhus, Senega.
 
 **Bryonia alba является антидотом для**: Alumina, Chlorum, China, Mercurius, Rhus.
 
 **Следует сравнить с**: другими тыквенными (для них характерна отрыжка с неизмененным привкусом пищи).
 
-**Bryonia alba хорошо следует после**: Асоnitum, Nux vomica, Opium, Rhus. **После Bryonia alba хорошо следуют**: Alumina, Arsenicum album, Kali сarbonicum, Nux, Phosphorus, Pulsatilla, Rhus, Sulphur.
+**Bryonia alba хорошо следует после**: Aconitum, Nux vomica, Opium, Rhus. **После Bryonia alba хорошо следуют**: Alumina, Arsenicum album, Kali carbonicum, Nux, Phosphorus, Pulsatilla, Rhus, Sulphur.
 
-**Комплиментарные препараты**: Alumina, Rhus., Alumina - это «хроническая» Bryonia alba; Kali сarbonicum и Natrum muriaticum состоят с Bryonia alba в сходных, но менее выраженных взаимоотношениях.
+**Комплиментарные препараты**: Alumina, Rhus., Alumina - это «хроническая» Bryonia alba; Kali carbonicum и Natrum muriaticum состоят с Bryonia alba в сходных, но менее выраженных взаимоотношениях.

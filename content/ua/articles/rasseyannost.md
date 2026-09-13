@@ -8,7 +8,7 @@ origin: https://homeopat-sam.com/-/a387
 remedy_blocks: 49
 ---
 
-Найчастіше при цій проблемі призначають наступні гомеопатичні препарати: **Agnus castus Alumina Ammonium carbonicum Anacardium Angustura vera Argentum nitricum Arnica Aurum Baptisia Baryta carbonica Calcium silicatum Cannabis indica Carlsbad aqua Causticum Cenchris Centaurea tagana Chamomilla Chelidonium Colchicum Conium Crocus sativus Cuprum aceticum Daphne indica Duboisiа Elaps Graphites Helleborus Kali bromatum Kreosotum Lac caninum Lachesis Lycopodium Magnesium carbonicum Manganum carbonicum Mercurius Natrium muriaticum Nux moschata Oleander Phosphorus Physalis Platinum Pulsatilla Sepia Silicea Spongia Sulphuricum acidum Verbascum Yucca**
+Найчастіше при цій проблемі призначають наступні гомеопатичні препарати: **Agnus castus Alumina Ammonium carbonicum Anacardium Angustura vera Argentum nitricum Arnica Aurum Baptisia Baryta carbonica Calcium silicatum Cannabis indica Carlsbad aqua Causticum Cenchris Centaurea tagana Chamomilla Chelidonium Colchicum Conium Crocus sativus Cuprum aceticum Daphne indica Duboisia Elaps Graphites Helleborus Kali bromatum Kreosotum Lac caninum Lachesis Lycopodium Magnesium carbonicum Manganum carbonicum Mercurius Natrium muriaticum Nux moschata Oleander Phosphorus Physalis Platinum Pulsatilla Sepia Silicea Spongia Sulphuricum acidum Verbascum Yucca**
 
 ### Agnus castus (Агнус кастус)
 

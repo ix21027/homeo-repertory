@@ -229,6 +229,6 @@ Croserio випробував цей препарат, вживаючи неро
 
 Колючий біль - Kali carbonicum.
 
-Відчуття залізного засуву грудях – Haematoxylum campechianum, Arsenicum album, Oxalicum асidum.
+Відчуття залізного засуву грудях – Haematoxylum campechianum, Arsenicum album, Oxalicum acidum.
 
-Погіршення від статевого акту - Kali саrbonicum, Kali bichromicum, Staphysagria. Нюхові галюцинації - Аnacardium.
+Погіршення від статевого акту - Kali carbonicum, Kali bichromicum, Staphysagria. Нюхові галюцинації - Anacardium.

@@ -419,11 +419,11 @@ Terebinthinae хорошо действует во многих случаях �
 
 Конгестия крови к почкам, темная моча — Colchicum.
 
-Крапивница после употребления в пищу крабов — Apis, Urtica urens. Блестящий язык — Кali bichromicum, Lachesis, Pyrogenium.
+Крапивница после употребления в пищу крабов — Apis, Urtica urens. Блестящий язык — Kali bichromicum, Lachesis, Pyrogenium.
 
 Гематурия — Pulsatilla.
 
-Жжение в кончике языка – Миriaticum acidum.
+Жжение в кончике языка – Mиriaticum acidum.
 
 Жжение в анусе и прямой кишке, обмороки и слабость после дефекации – Arsenicum album.
 
@@ -437,7 +437,7 @@ Terebinthinae хорошо действует во многих случаях �
 
 Простуда у детей – Filix mas.
 
-Втянутый пупок — Рlumbum.
+Втянутый пупок — Plumbum.
 
 Тупая боль в почках — Santalum.
 

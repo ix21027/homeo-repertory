@@ -360,7 +360,7 @@ Skinner вылечил множество втянутых и уплощенны
 
 Является антидотом для: Mercurius, Belladonna, Camphora, Carbo vegetabilis, Dulcamara, Electricitas, Hepar sulphur, Hyoscyamus (потеря голоса), Lachesis, Lyesinum, Opium, Mezereum, Nitricum acidum, Sepia, Silicea, Sulphur. **Совместима с**: Allium cерa, Hepar sulphur, Phosphorus, Rhus, Sepia, Sulphur. **Является дополнительной для**: Mercurius, Sepia.
 
-**Следует сравнить**: При сикозе, бородавках — Thuja, Nitricum асidum.
+**Следует сравнить**: При сикозе, бородавках — Thuja, Nitricum acidum.
 
 Герпес – Natrium muriaticum, Petroleum.
 
@@ -368,7 +368,7 @@ Skinner вылечил множество втянутых и уплощенны
 
 Истощение — Abrotanum, Iodum, Sanicula.
 
-Сухая дряблая кожа — Baryta сarbonica, Opium.
+Сухая дряблая кожа — Baryta carbonica, Opium.
 
 Боль при окончании мочеиспускания — Berberis, Equisetum, Medorrhinum, Thuja. Пациент не ощущает отхождения мочи (не знает об этом) — Causticum. Песок на пеленках; ребенок кричит перед и во время мочеиспускания — Borax, Lyesinum.
 
@@ -380,7 +380,7 @@ Skinner вылечил множество втянутых и уплощенны
 
 Кровянистые выделения — Ledum, Mercurius.
 
-Хуже при подъеме и спуске с лестницы, лучше при ходьбе по ровной поверхности — Cannabis sativa (Borax хуже при спуске с лестницы). Обмороки во время дефекации или связанные с ней — Арis, Nux moschata, Pulsatilla, Spigelia, Veratrum (при скудном стуле — Croton tiglium, Dulcamara, Охalicum асidum, Petroleum, Sulphur).
+Хуже при подъеме и спуске с лестницы, лучше при ходьбе по ровной поверхности — Cannabis sativa (Borax хуже при спуске с лестницы). Обмороки во время дефекации или связанные с ней — Арis, Nux moschata, Pulsatilla, Spigelia, Veratrum (при скудном стуле — Croton tiglium, Dulcamara, Oxalicum acidum, Petroleum, Sulphur).
 
 Отек семенных канатиков от неудовлетворенного полового возбуждения – Magnesia muriatica.
 

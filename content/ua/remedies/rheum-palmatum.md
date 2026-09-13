@@ -317,23 +317,23 @@ Milne пропонує досить повний огляд методів йо�
 
 **Антидотами для Rheum є**: Camphora, Chamomilla, Colocyntis, Mercurius, Nux vomica, Pulsatilla.
 
-**Rheum є антидотом для** Cantharis, Magnepia сarbonica.
+**Rheum є антидотом для** Cantharis, Magnepia carbonica.
 
 «Його можна призначати після зловживання магнезією, якщо кислий кал» (Н. С. Alien).
 
-**Rheum є додатковим**: після Magnepia сarbonica, коли молоко не підходить і від дитини виходить кислий запах.
+**Rheum є додатковим**: після Magnepia carbonica, коли молоко не підходить і від дитини виходить кислий запах.
 
 **Сумісний з** Ipecacuanha.
 
 За Rheum добре слідують: Belladonna, Pulsatilla, Rhus toxicodendron, Sulphur. **Слід порівняти**: з ботанічними родичами, Polygonum hydropiperoides, Rumex, Lapathum acutum.
 
-З вмістом препарату в якості складових частин: Chrysophanicum асidum, Calcarea oxalica, Silicea.
+З вмістом препарату в якості складових частин: Chrysophanicum acidum, Calcarea oxalica, Silicea.
 
 Смердюче дихання - Quercus.
 
 Погіршення після сну - Lachesis, Natrium muriaticum, Sulphur.
 
-Кислий кал – Hepar sulphur, Magnesia сarbonica, Calcarea carbonica (Для Rheum характерне посмикування м'язів обличчя та пальців рук уві сні, під час сну закидає руки за голову).
+Кислий кал – Hepar sulphur, Magnesia carbonica, Calcarea carbonica (Для Rheum характерне посмикування м'язів обличчя та пальців рук уві сні, під час сну закидає руки за голову).
 
 Дивні пози – Plumbum.
 
@@ -345,7 +345,7 @@ Milne пропонує досить повний огляд методів йо�
 
 Утруднене прорізування зубів - Kreosotum, Chamomilla.
 
-Кислий запах тіла – Hepar sulphur, Magnesia сarbonica (Magnesia сarbonica діє глибше, ніж Rheum).
+Кислий запах тіла – Hepar sulphur, Magnesia carbonica (Magnesia carbonica діє глибше, ніж Rheum).
 
 Діти плачуть і кидаються всю ніч - Psorinum.
 

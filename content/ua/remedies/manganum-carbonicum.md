@@ -336,6 +336,6 @@ Hahnemann ввів у гомеопатію марганець, провівши 
 
 **Слід порівняти**: Ammonium muriaticum (ревматичний біль у п'ятах); Mercurius (параліч, зазвичай спочатку уражаються верхні кінцівки); Cina, Nux vomica, Mephitis та Platinum (кашель, що посилюється від читання чи письма); Aloe (тріск у вухах); Сірrum (псоріаз); Lyesinum (погіршення від холодної їжі); Kali iodatum (вузли в шкірі: у Kali iodatum вони рожеві, з нестерпним болем; у Manganum вузли синюваті, з глибинним ниючим болем); Asa foetida (пухлини склепіння ротової порожнини; для Manganum характерно більш поверхневе залучення кісток; для Asa foetida характерна наявність декількох пухлин, безбарвних, з більш глибоким залученням кісток); Conium (поширення паралічу знизу нагору); Argentum nitricum (ларингітний кашель, туберкульоз); Dulcamara, Mercurius тощо (погіршення у сиру погоду).
 
-Також слід порівняти: Кali permanganatum, Manganum muriaticum, Manganum aceticum, Manganum oxydatum, Manganum sulphuricum.
+Також слід порівняти: Kali permanganatum, Manganum muriaticum, Manganum aceticum, Manganum oxydatum, Manganum sulphuricum.
 
 _Джон Генрі Кларк. «Словник Практичної Materia Medica в 6-ти томах»_ _(Видання «Гомеопатична медицина». Москва. 2001 р.)._

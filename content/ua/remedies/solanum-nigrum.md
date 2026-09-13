@@ -329,7 +329,7 @@ Hale стверджує, що в ряді країн лікарі з велик�
 
 Головний біль о 10 годині ранку – Natrium muriaticum.
 
-Відчуття скалки - Nitricum асidum, Hepar sulphur.
+Відчуття скалки - Nitricum acidum, Hepar sulphur.
 
 Відчуття, наче язик ошпарений, - Sanguinaria.
 

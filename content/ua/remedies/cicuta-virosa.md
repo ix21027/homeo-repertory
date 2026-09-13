@@ -339,4 +339,4 @@ Teste поміщає Cicuta virosa до групи Sulphur.
 
 **Слід порівняти**: Cicuta virosa схожа на Bovista та Aethusa.
 
-Conium, Aethusa, Hypericum (струс спинного мозку); Hyoscyamus (посмикування); Helleborus, Hydrocyanicum асidum (тіло кидає назад; спазми у шиї); Nux vomica і Strychninum (тетанус, але в Nux немає ні повної прострації та сильного стиснення дихання, характерних для Cicuta virosa, ні втрати свідомості; Nux – менш епілептиформний і більш дратівливий засіб).
+Conium, Aethusa, Hypericum (струс спинного мозку); Hyoscyamus (посмикування); Helleborus, Hydrocyanicum acidum (тіло кидає назад; спазми у шиї); Nux vomica і Strychninum (тетанус, але в Nux немає ні повної прострації та сильного стиснення дихання, характерних для Cicuta virosa, ні втрати свідомості; Nux – менш епілептиформний і більш дратівливий засіб).

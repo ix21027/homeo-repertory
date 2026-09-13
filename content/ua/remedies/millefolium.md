@@ -268,4 +268,4 @@ Millefolium виліковує варикозне розширення вен у
 
 **Несумісність**: кава (викликає переповнення голови кров'ю).
 
-**Слід порівняти**: Erechthites (носові кровотечі та кровохаркання); Senecio aureus (гематурія); Hamamelis та Ipecacuanha (кровотечі); Platina (у Millefolium кровотеча яскраво-червоною кров'ю зі згустками; у Platina - темною, зі згустками); Bryonia, Ustilago та Hamamelis (блювота кров'ю); Асоnitum (профузна кровотеча яскраво-червоною кров'ю: у Асоnitum - з тривогою; у Millefolium - без тривоги); а також всі складноцвіті - Arnica, Bellis, Calendula та ін.
+**Слід порівняти**: Erechthites (носові кровотечі та кровохаркання); Senecio aureus (гематурія); Hamamelis та Ipecacuanha (кровотечі); Platina (у Millefolium кровотеча яскраво-червоною кров'ю зі згустками; у Platina - темною, зі згустками); Bryonia, Ustilago та Hamamelis (блювота кров'ю); Aconitum (профузна кровотеча яскраво-червоною кров'ю: у Aconitum - з тривогою; у Millefolium - без тривоги); а також всі складноцвіті - Arnica, Bellis, Calendula та ін.

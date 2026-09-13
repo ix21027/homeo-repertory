@@ -494,7 +494,7 @@ Phosphoricum acidum подходит: 1) Людям с исходно сильн
 
 Слишком быстрый рост – Calcarea carbonica (Calcarea carbonica быстро растет, но полный; Phosphoricum acidum быстро растет, но высокий).
 
-Головная боль у школьников – Natrium muriaticum, Calcarea phosphorica. Тиф и тифоидная лихорадка — Rhus toxicodendron (у обоих носовые кровотечения при начале тифа, Rhus их уменьшает, a Phosphoricum acidum нет: Phosphoricum acidum следует за Rhus; у обоих улучшение от движений); Phosphoricum acidum — более сильная сухость языка, более сильное возбуждение чувств, непереносимость шумов и запахов; если есть понос, то он с прожилками крови и выглядит как мясные помои). Nitri spiritus dulcis (сенсорная апатия); Arnica (более сильный ступор); Орium (хрип; лицо интенсивно-красное, почти коричневато-красное; Phosphoricum acidum — щеки и глаза ввалившиеся, маска Гиппократа).
+Головная боль у школьников – Natrium muriaticum, Calcarea phosphorica. Тиф и тифоидная лихорадка — Rhus toxicodendron (у обоих носовые кровотечения при начале тифа, Rhus их уменьшает, a Phosphoricum acidum нет: Phosphoricum acidum следует за Rhus; у обоих улучшение от движений); Phosphoricum acidum — более сильная сухость языка, более сильное возбуждение чувств, непереносимость шумов и запахов; если есть понос, то он с прожилками крови и выглядит как мясные помои). Nitri spiritus dulcis (сенсорная апатия); Arnica (более сильный ступор); Opium (хрип; лицо интенсивно-красное, почти коричневато-красное; Phosphoricum acidum — щеки и глаза ввалившиеся, маска Гиппократа).
 
 Тоска по дому — Capsicum (у Capsicum щеки красные).
 
@@ -502,7 +502,7 @@ Phosphoricum acidum подходит: 1) Людям с исходно сильн
 
 Потеря семенной жидкости — China (China — острая; Phosphoricum acidum — хроническая).
 
-Туберкулез — Phosphorus (Phosphoricum acidum действует лучше, чем Phosphorus при кашле, возникающем из-за ощущения щекотания в области мечевидного хряща, ухудшение вечером и ночью в положении лежа; слабость, вызывающая одышку; ухудшение, когда поток воздуха обдувает грудь). Диабет — Lacticum асidum.
+Туберкулез — Phosphorus (Phosphoricum acidum действует лучше, чем Phosphorus при кашле, возникающем из-за ощущения щекотания в области мечевидного хряща, ухудшение вечером и ночью в положении лежа; слабость, вызывающая одышку; ухудшение, когда поток воздуха обдувает грудь). Диабет — Lacticum acidum.
 
 Боли у детей, которые растут слишком быстро, — Guaiacum.
 
@@ -516,9 +516,9 @@ Phosphoricum acidum подходит: 1) Людям с исходно сильн
 
 Тошнота при виде пищи: особенно во время беременности – Eupatorium perfoliatum; при виде пищи — Colchicum, Lyesinum, Moschus, Phosphoricum acidum, Sabadilla, Spigelia, от запаха пищи — Colchicum, Eupatorium perfoliatum.
 
-Беспокойство по поводу здоровья и жизни — Calcarea carbonica, Phosphorus. Апатия — Кali саrbonicum (Phosphoricum acidum — бесчувственность; Кali саrbonicum — от истощения — послеродовой психоз, послеродовой сепсис). Цереброспинальное истощение от перегрузки — Picricum асidum.
+Беспокойство по поводу здоровья и жизни — Calcarea carbonica, Phosphorus. Апатия — Kali carbonicum (Phosphoricum acidum — бесчувственность; Kali carbonicum — от истощения — послеродовой психоз, послеродовой сепсис). Цереброспинальное истощение от перегрузки — Picricum acidum.
 
-Апатия и равнодушие – Мuriaticum асidum — неразговорчивость и равнодушие; Sulphur — безразличный; Helleborus niger — трудно поднять).
+Апатия и равнодушие – Muriaticum acidum — неразговорчивость и равнодушие; Sulphur — безразличный; Helleborus niger — трудно поднять).
 
 Мягкая, со всем соглашается — Pulsatilla.
 

@@ -413,19 +413,19 @@ Syphylinum вылечивает разнообразную головную бо
 
 ## Взаимосвязи
 
-**Следует сравнить**: При заболеваниях костей и сифилитических поражениях - Аurum, Asa foetida, Кali iodatum, Mercurius, Nitricum асidum.
+**Следует сравнить**: При заболеваниях костей и сифилитических поражениях - Aurum, Asa foetida, Kali iodatum, Mercurius, Nitricum acidum.
 
-Хуже ночью - Аurum, Mercurius, Sulphur (Medorrhinum хуже ранним утром). Хуже на морском побережье, лучше при удалении от моря (Medorrhinum наоборот). Хуже на морском побережье, отвращение к утешению – Natrium muriaticum. Дисменорея - Medorrhinum.
+Хуже ночью - Aurum, Mercurius, Sulphur (Medorrhinum хуже ранним утром). Хуже на морском побережье, лучше при удалении от моря (Medorrhinum наоборот). Хуже на морском побережье, отвращение к утешению – Natrium muriaticum. Дисменорея - Medorrhinum.
 
-Боль в глубине мозга - Васillinum.
+Боль в глубине мозга - Bacillinum.
 
 Боль медленно нарастает и медленно уменьшается - Stannum.
 
-Зловонный насморк со зловонными корками - Sepia, Psorinum, Кali bichromicum. Последовательное возникновение абсцессов (Anthracinum - последовательное возникновение фурункулов).
+Зловонный насморк со зловонными корками - Sepia, Psorinum, Kali bichromicum. Последовательное возникновение абсцессов (Anthracinum - последовательное возникновение фурункулов).
 
-Сифилитический стоматит - Lachesis, Lac сaninum, Mercurius.
+Сифилитический стоматит - Lachesis, Lac caninum, Mercurius.
 
-Узлы - Кali iodatum, Кali bichromicum, Manganum, Mercurius.
+Узлы - Kali iodatum, Kali bichromicum, Manganum, Mercurius.
 
 Истощение - Abrotanum, Iodum.
 
@@ -433,13 +433,13 @@ Syphylinum вылечивает разнообразную головную бо
 
 Птоз - Causticum, Graphites.
 
-Наследственная склонность к алкоголизму - Asarum, Psorinum, Tuberculinum, Sulphur, Sulphuricum асidum.
+Наследственная склонность к алкоголизму - Asarum, Psorinum, Tuberculinum, Sulphur, Sulphuricum acidum.
 
 Запор с болью, словно при родах - Lac defloratum, Tuberculinum. Трещины в анусе - Thuja.
 
 Ревматическая боль в плече, усиливается, когда поднимает руки вверх через стороны – Rhus toxicodendron, Sanguinaria (правое плечо), Pertussinum (левое), Urtica urens.
 
-Болезненное прорезывание зубов; хуже ночью (Medorrhinum - ранним утром). Наследственный сифилис, прорезывание зубов - Кreosotum.
+Болезненное прорезывание зубов; хуже ночью (Medorrhinum - ранним утром). Наследственный сифилис, прорезывание зубов - Kreosotum.
 
 Головокружение усиливается при взгляде вверх (Sulphur - взгляде вниз). Ощущение, будто зубы сместились (Tuberculinum - как будто стиснуты). Действие грозы - Phosphorus.
 

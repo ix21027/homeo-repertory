@@ -299,7 +299,7 @@ Bovista помогает при последствиях вдыхания дым
 
 ## Взаимосвязи
 
-**Следует сравнить**: Calcarea carbonica, Rhus toxicodendron, Sepia, Phosphorus, Pulsatilla, Staphysagria, Sulphur, Veratrum album, Belladonna, Bryonia alba, Carbo vegetabilis, Causticum, Kali carbonicum, Lyesinum, Mercurius, Natrium muriaticum, Silicea, Spigelia, Strontium, Valeriana, Pulsatilla, Secale, Ustilago. Stramonium (смех перемежается со слезами); Arsenicum album, Lyesinum, Sulphur (дурнота сразу после еды); Bufo (ощущение, будто сердце плавает в воде); Zincum (хуже от вина); Colocynthis (колики облегчаются от сгибания вдвое); Ammonium сarbonicum (отравление дымом от сжигания угля); Stramonium (заикание); Ambra grisea (межменструальные кровотечения); Bovista помогает, когда Rhus toxicodendron кажется показанным, но не дает эффекта.
+**Следует сравнить**: Calcarea carbonica, Rhus toxicodendron, Sepia, Phosphorus, Pulsatilla, Staphysagria, Sulphur, Veratrum album, Belladonna, Bryonia alba, Carbo vegetabilis, Causticum, Kali carbonicum, Lyesinum, Mercurius, Natrium muriaticum, Silicea, Spigelia, Strontium, Valeriana, Pulsatilla, Secale, Ustilago. Stramonium (смех перемежается со слезами); Arsenicum album, Lyesinum, Sulphur (дурнота сразу после еды); Bufo (ощущение, будто сердце плавает в воде); Zincum (хуже от вина); Colocynthis (колики облегчаются от сгибания вдвое); Ammonium carbonicum (отравление дымом от сжигания угля); Stramonium (заикание); Ambra grisea (межменструальные кровотечения); Bovista помогает, когда Rhus toxicodendron кажется показанным, но не дает эффекта.
 
 **Антидотом для Bovista является** Camphora.
 

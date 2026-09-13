@@ -205,4 +205,4 @@ sections: Характеристика; Психика; Клиника; Общи
 
 ## Взаимосвязи
 
-В некоторых случаях передозировки антидотом послужил Kali iodatum. Все остальные антидоты указаны при описании Arsenicum album, на который Kali arsenicosum очень похож и с которым его необходимо дифференцировать. **Следует сравнить:** Levico aqua, Natrium arsenicosum и другие соединения Arsenicum album, China (периодичность); Cicuta (остановившийся взгляд); Rumex и Juglans regia. (ухудшение при раздевании); Iodum, Kali bichromicum, Mercurius сorrosivus.
+В некоторых случаях передозировки антидотом послужил Kali iodatum. Все остальные антидоты указаны при описании Arsenicum album, на который Kali arsenicosum очень похож и с которым его необходимо дифференцировать. **Следует сравнить:** Levico aqua, Natrium arsenicosum и другие соединения Arsenicum album, China (периодичность); Cicuta (остановившийся взгляд); Rumex и Juglans regia. (ухудшение при раздевании); Iodum, Kali bichromicum, Mercurius corrosivus.

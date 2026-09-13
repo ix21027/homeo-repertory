@@ -533,14 +533,14 @@ Petroleum має характерний кашель, який нерідко з
 
 ## Етіологія
 
-Роздратування. Поїздки в екіпажі чи кораблі. Глухота через застосування Nitricum асidum. Капуста. Пригнічення висипів. Розтягування.
+Роздратування. Поїздки в екіпажі чи кораблі. Глухота через застосування Nitricum acidum. Капуста. Пригнічення висипів. Розтягування.
 
 ## Взаємозв’язки
 
-**Антидотами для Petroleum є**: Cocculus, Nux vomica, Phosphorus. **Petroleum є антидотом**: при отруєнні свинцем (одне з кращих протиотрут), для Nitricum асidum.
+**Антидотами для Petroleum є**: Cocculus, Nux vomica, Phosphorus. **Petroleum є антидотом**: при отруєнні свинцем (одне з кращих протиотрут), для Nitricum acidum.
 
 **Ефективний**: перед. Sepia.
 
-**Сумісний**: Bryonia, Calcarea carbonica, Lyesinum, Nitricum асidum, Nux vomica, Pulsatilla, Sepia, Silicea, Sulphur.
+**Сумісний**: Bryonia, Calcarea carbonica, Lyesinum, Nitricum acidum, Nux vomica, Pulsatilla, Sepia, Silicea, Sulphur.
 
 **Слід порівняти з**: Graphites, Naphthalinum, Paraffinum, Kreasotum та іншими вуглеводнями.

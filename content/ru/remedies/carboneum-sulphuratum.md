@@ -350,4 +350,4 @@ Carboneum sulphuratum объединяет многие свойства сво�
 
 ## Взаимосвязи
 
-**Следует сравнить:** Caustшсum, China и Natrium salicylicum (болезнь Меньера); Carbo vegetabilis (метеоризм); Sulphur (болезненная чувствительность живота); Benzinum dinitricum (расстройства зрения); Аnасardium (слышит голоса); Cannabis indica (ощущение, что череп открывается и закрывается); Kali bichromicum, Siicea, Sulphur (ощущение волоса в горле).
+**Следует сравнить:** Caustшcum, China и Natrium salicylicum (болезнь Меньера); Carbo vegetabilis (метеоризм); Sulphur (болезненная чувствительность живота); Benzinum dinitricum (расстройства зрения); Anacardium (слышит голоса); Cannabis indica (ощущение, что череп открывается и закрывается); Kali bichromicum, Siicea, Sulphur (ощущение волоса в горле).

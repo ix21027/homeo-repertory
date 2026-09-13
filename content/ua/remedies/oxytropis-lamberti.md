@@ -239,9 +239,9 @@ Gentry провів випробування з настоянкою з ціло
 
 ## Взаємозв’язки
 
-**Слід порівняти**: Lathyrus sativus, Astragalus menziesii, Physostigma, Laburnum, інші бобові. Посилення симптомів при думці про них - Охalicum асidum (полегшення при думці про них - Camphora).
+**Слід порівняти**: Lathyrus sativus, Astragalus menziesii, Physostigma, Laburnum, інші бобові. Посилення симптомів при думці про них - Oxalicum acidum (полегшення при думці про них - Camphora).
 
-Болі в насіннєвих канатиках та яєчках - Охalicum асidum.
+Болі в насіннєвих канатиках та яєчках - Oxalicum acidum.
 
 Болі, що поширюються праворуч наліво - Lyesinum.
 

@@ -176,7 +176,7 @@ sections: Характеристика; Психіка; Тип; Клініка; 
 
 Календула містить велику кількість азоту та фосфорної кислоти. **Антидотом для Calendula** є Arnica.
 
-**Несумісний препарат** - Саmphora.
+**Несумісний препарат** - Camphora.
 
 **Комплементарний препарат** – Hepar sulphur.
 
@@ -184,7 +184,7 @@ sections: Характеристика; Психіка; Тип; Клініка; 
 
 **Calendula добре діє після** Arsenicum album.
 
-**Після Calendula добре діють**: Аrnica, Hepar sulphur.
+**Після Calendula добре діють**: Arnica, Hepar sulphur.
 
 **Слід порівняти:** Am., Arsenicum albu, Bryonia, Calcarea sulphurica, Carbo animalis, Carbo vegetabilis, Hamamelis, Hepar sulphur, Hypericum, Ledum, Nitricum acidum, Phosphorus, Rhus toxicodendron, Ruta, Salicylicum acidum, Sulhuricum acidum, Symphytum.
 

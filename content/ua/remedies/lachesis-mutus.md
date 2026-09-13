@@ -969,13 +969,13 @@ Lachesis є одним із кращих засобів при апендици�
 
 **Антидотами для отрути змії є**: зовнішнє тепло, прийом алкоголю всередину, сіль після укусу.
 
-Антидоти для потенційованого Lachesis - Alumina, Belladonna, Cocculus, Coffea, Hepar sulphur, Mercurius, Nitricum acidum, Nux vomica, Phosphoricum асidum, при видимих спастичних тенезмах прямої кишки - Sepia. На думку Teste, головним антидотом є Cedron.
+Антидоти для потенційованого Lachesis - Alumina, Belladonna, Cocculus, Coffea, Hepar sulphur, Mercurius, Nitricum acidum, Nux vomica, Phosphoricum acidum, при видимих спастичних тенезмах прямої кишки - Sepia. На думку Teste, головним антидотом є Cedron.
 
 **Lachesis є антидотом для:** Bufo rana, Crotalus, Rhus.
 
 **Сумісний з**: Aconitum, Arsenicum album, Belladonna, Bromium, Carbo vegetabilis, Hepar sulphur, Hyoscyamus, Kali bichromicum, Lac caninum, Lyesinum, Mercurius, Nitricum acidum, Nux vomica, Oleander, Phosphorus, Pulsatilla, Sulphur (пневмонія), Tarentula.
 
-**Несумісний з** Aceticum acidum. (Ammonium сarbonicum).
+**Несумісний з** Aceticum acidum. (Ammonium carbonicum).
 
 **Є додатковим**: Hepar sulphur, Lyesinum, Nitricum acidum. (Lyesinum є головним засобом, що доповнює Lachesis, і в той же час його протилежністю за багатьма параметрами [поширення справа наліво, праворуч зверху - наліво, праворуч зверху - наліво вниз; покращення від теплих напоїв]); Iodum та Kali iodatum, які є додатковими для Lyesinum, ймовірно, є додатковими та для Lachesis.
 

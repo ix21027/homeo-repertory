@@ -515,7 +515,7 @@ Wildes, посилаючись на відомих авторів старої �
 
 **Сумісні препарати**: Sulphur (особливо якщо пронос піднімає з ліжка вранці).
 
-**Слід порівняти**: Picricum acidum (нездатність йти прямо; пріапізм); Camphora і Secale (колапс, шкіра холодна, проте пацієнт скидає одяг); Veratrum album (колапс із холодним потом); Syphylinum (час погіршення - від заходу сонця до сходу); Ambra, Anacardium, Calcarea carbonica, Conium, Cuprum, Rheum, Stramonium; Lac сaninum (полегшення, коли спирається спиною на щось).
+**Слід порівняти**: Picricum acidum (нездатність йти прямо; пріапізм); Camphora і Secale (колапс, шкіра холодна, проте пацієнт скидає одяг); Veratrum album (колапс із холодним потом); Syphylinum (час погіршення - від заходу сонця до сходу); Ambra, Anacardium, Calcarea carbonica, Conium, Cuprum, Rheum, Stramonium; Lac caninum (полегшення, коли спирається спиною на щось).
 
 ## Рекомендації
 

@@ -275,4 +275,4 @@ Hering, який у 1850 р. проводив перше випробуванн�
 
 **Антидотом для Palladium є**: Glonoinum та Belladonna (головний біль). **Додатковим препаратом є** Platinum.
 
-**Слід порівняти**: Iridium metallicum, Osmium, Platinum (близькі родичі); правий яєчник - Apis, Graphites, Podophyllum, Platinum; лівий яєчник - Argentum metallicum (відчуття, ніби лівий яєчник став ненормально великим), Lachesis (погіршення від натискання), Lilium tigrinum, Actea racemosa (біль у спині, немов від втоми), істерія, інтравертований стан розуму - Tarentula; відчуття крихти у горлі – Hepar sulphur; біль у селезінці - Сеаnothus americanus (Palladium при менструації).
+**Слід порівняти**: Iridium metallicum, Osmium, Platinum (близькі родичі); правий яєчник - Apis, Graphites, Podophyllum, Platinum; лівий яєчник - Argentum metallicum (відчуття, ніби лівий яєчник став ненормально великим), Lachesis (погіршення від натискання), Lilium tigrinum, Actea racemosa (біль у спині, немов від втоми), істерія, інтравертований стан розуму - Tarentula; відчуття крихти у горлі – Hepar sulphur; біль у селезінці - Ceanothus americanus (Palladium при менструації).

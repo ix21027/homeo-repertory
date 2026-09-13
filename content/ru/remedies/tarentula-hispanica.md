@@ -517,9 +517,9 @@ Tarentula является хорошим средством при неврал
 
 **Tarentula является антидотом**: для Lachesis. (Hering).
 
-**Частичным антидотом для:** Pulsatilla, Magnesium сarbonicum, Moschus, Cuprum, Chelidonium, Gelsemium, Bovista, Carbo vegetabilis.
+**Частичным антидотом для:** Pulsatilla, Magnesium carbonicum, Moschus, Cuprum, Chelidonium, Gelsemium, Bovista, Carbo vegetabilis.
 
-**Следует сравнить**: При раздражении периферических нервов, которое уменьшается от физических упражнений и растираний, - Кali bromatum, Chorea, Mygale, Actea racemosa, Agaricus, Stramonium.
+**Следует сравнить**: При раздражении периферических нервов, которое уменьшается от физических упражнений и растираний, - Kali bromatum, Chorea, Mygale, Actea racemosa, Agaricus, Stramonium.
 
 Желание прыгать - Stramonium, Crocus, Natrium muriaticum, Sticta, Asarum, Agaricus, Hyoscyamus, Cicuta.
 
@@ -527,11 +527,11 @@ Tarentula является хорошим средством при неврал
 
 Будто по затылку ударили молотком - Naja.
 
-Глубокая головная боль - Васcilinum.
+Глубокая головная боль - Baccilinum.
 
 Сильнейшая веселость - Coffea.
 
-Несчастная любовь - Phosphoricum асidum.
+Несчастная любовь - Phosphoricum acidum.
 
 Болезнь Меньера, малярия - Chininum sulphuricum.
 
@@ -543,7 +543,7 @@ Tarentula является хорошим средством при неврал
 
 Кровь в семени - Mercurius, Ledum.
 
-Стенокардия - Latrodectus mactans, ухудшение после полового акта - Кali саrbonicum, Staphysagria.
+Стенокардия - Latrodectus mactans, ухудшение после полового акта - Kali carbonicum, Staphysagria.
 
 Ощущение, будто под кожей кто-то ползает - Coca.
 
@@ -551,4 +551,4 @@ Tarentula является хорошим средством при неврал
 
 Ощущение, будто сердце сжимается, как при испуге или плохих новостях - Gelsemium.
 
-Септицемия - Руrogenium.
+Септицемия - Pyrogenium.

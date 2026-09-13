@@ -346,6 +346,6 @@ sections: Характеристика; Психика; Тип; Тропност
 
 ## Взаимосвязи
 
-**Следует сравнить**: Coca (усталость); Coffea (зубная боль); Sepia (отвращение к собственной семье); Oxalycum асidum (понос, ухудшение от кофе); Rhus toxicodendron и Ruta (кокцигодиния); Silicea (свищ, онихия, заболевания костей, кокцигодиния); Bromium, Iodum, Spongia и Kali сarbonicum (базедова болезнь); Staphysagria (зубы).
+**Следует сравнить**: Coca (усталость); Coffea (зубная боль); Sepia (отвращение к собственной семье); Oxalycum acidum (понос, ухудшение от кофе); Rhus toxicodendron и Ruta (кокцигодиния); Silicea (свищ, онихия, заболевания костей, кокцигодиния); Bromium, Iodum, Spongia и Kali carbonicum (базедова болезнь); Staphysagria (зубы).
 
-**За Fluoricum acidum хорошо следуют**: Sulphur, Nitricum асidum.
+**За Fluoricum acidum хорошо следуют**: Sulphur, Nitricum acidum.

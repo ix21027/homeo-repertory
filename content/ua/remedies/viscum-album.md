@@ -216,7 +216,7 @@ sections: Характеристика; Психіка; Клініка; Зага
 
 **Антидотами для Viscum album є** Camphora, China.
 
-**Viscum album добре діє після** Асоnitum (ревматизм).
+**Viscum album добре діє після** Aconitum (ревматизм).
 
 **Слід порівняти**: Епілепсія - Belladonna, Stramonium, Plumbum.
 
@@ -226,4 +226,4 @@ sections: Характеристика; Психіка; Клініка; Зага
 
 Стимуляція скорочень матки - Secale.
 
-Ревматизм - Асоnitum, Bryonia, Pulsatilla, Rhus toxicodendron.
+Ревматизм - Aconitum, Bryonia, Pulsatilla, Rhus toxicodendron.

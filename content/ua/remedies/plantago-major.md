@@ -250,7 +250,7 @@ Plantago є антидотом для Mercurius (зубний біль).
 
 **Слід порівняти**: при невралгії - Chamomilla, Mercurius, Spigelia, Kalmia, Colocynthis. Нестерпний біль – Aconitum, Chamomilla, Hepar sulphur.
 
-Рани, забиті місця, смердюче дихання і гази - Аrnica.
+Рани, забиті місця, смердюче дихання і гази - Arnica.
 
 Рани – Calendula.
 

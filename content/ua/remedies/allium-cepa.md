@@ -250,6 +250,6 @@ Allium сірка – переважно лівосторонні ліки.
 
 _Смажена кава усуває запах цибулі з рота_.- **NB!**
 
-**Після Allium сірка добре слідують**: Calcarea сarbonica та Silicea у поліпах. **Несумісні**: Allium sativum, Aloe, Scilla.
+**Після Allium сірка добре слідують**: Calcarea carbonica та Silicea у поліпах. **Несумісні**: Allium sativum, Aloe, Scilla.
 
-**Доповнюють дію Allium сірка:** Phoshorus, Pulsatilla, Sarsaparilla, Thuja. **Порівняйте також**: Асоnitum, Chlorum, Ipecacuanha, Lachesis (перехід симптомів зліва направо).
+**Доповнюють дію Allium сірка:** Phoshorus, Pulsatilla, Sarsaparilla, Thuja. **Порівняйте також**: Aconitum, Chlorum, Ipecacuanha, Lachesis (перехід симптомів зліва направо).

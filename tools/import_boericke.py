@@ -415,12 +415,34 @@ def section_of(label):
     return None
 
 
+MOD_KEY = re.compile(r"(?i)(?<![A-Za-z])(worse|better|aggravation|amelioration|agg|amel)\b[\s,.;:—-]*")
+# Шматок без ключового слова судимо за першим словом: «Relief from motion» — це «краще».
+MOD_LEAD_B = re.compile(r"(?i)^(?:relief|reliev\w*|better|amelior\w*|amel|improv\w*|easier|eased)\b")
+MOD_LEAD_W = re.compile(r"(?i)^(?:aggravat\w*|agg|worse|worsen\w*|aggr\w*)\b")
+# Ключове слово — мітка відра лише на початку речення або частини після цих знаків.
+MOD_BOUND = ".;:!?,—–-"
+
+
 def split_modalities(text):
-    """«Worse, motion; better, rest» → ([гірші фрази], [кращі фрази]); порядок довільний."""
-    worse, better = [], []
+    """«Worse, motion; better, rest» → ([гірші фрази], [кращі фрази], [без мітки]).
+
+    Ключове слово вважаємо міткою відра лише на початку тексту або після [.;:!?,—–-]. Інакше
+    «All conditions made worse by thinking about self» (oxalicum-acidum) різалось надвоє просто
+    тому, що всередині фрази трапилось слово «worse», і в друк ішло «…Все состояния ухудшаются;
+    от мыслей о себе» — два уривки замість одного речення.
+
+    Шматок ПЕРЕД першим ключовим словом мітки не має. Раніше він мовчки падав у «гірше», через
+    що «Modalities.--Relief from motion.» (pyrogenium) виходило під міткою «Хуже», яка
+    суперечить тілу. Тепер такий шматок класифікуємо за першим словом, а якщо не вдалось —
+    віддаємо третім списком, щоб надрукувати БЕЗ мітки: краще без мітки, ніж під протилежною.
+    """
+    worse, better, plain = [], [], []
     cur = None
     pos, chunks = 0, []
-    for m in re.finditer(r"(?i)(?<![A-Za-z])(worse|better|aggravation|amelioration|agg|amel)\b[\s,.;:—-]*", text):
+    for m in MOD_KEY.finditer(text):
+        head = text[:m.start()].rstrip()
+        if head and head[-1] not in MOD_BOUND:   # «made worse by …» — частина фрази, не мітка
+            continue
         if m.start() > pos:
             chunks.append((cur, text[pos:m.start()]))
         cur = "w" if m.group(1).lower() in ("worse", "aggravation", "agg") else "b"
@@ -430,8 +452,10 @@ def split_modalities(text):
         chunk = chunk.strip(" ,.;:-—")
         if not chunk:
             continue
-        (worse if d == "w" else better if d == "b" else worse).append(chunk)
-    return worse, better
+        if d is None:
+            d = "b" if MOD_LEAD_B.match(chunk) else "w" if MOD_LEAD_W.match(chunk) else None
+        (worse if d == "w" else better if d == "b" else plain).append(chunk)
+    return worse, better, plain
 
 
 def split_relations(text):
@@ -446,8 +470,28 @@ def split_relations(text):
         out.append((None, text[:known[0][0]].strip()))
     for i, (s, e, lab) in enumerate(known):
         end = known[i + 1][0] if i + 1 < len(known) else len(text)
-        out.append((lab, text[e:end].strip()))
+        lab, tail = trim_rel_label(lab)
+        body = text[e:end].strip()
+        out.append((lab, (tail + ". " + body).strip() if tail else body))
     return [(l, b) for l, b in out if b]
+
+
+def trim_rel_label(lab):
+    """«Compare Agave» → ('Compare', 'Agave'): назва препарату не має зникати в підписі.
+
+    Підпис ловиться регуляркою «[A-Z] + слова», тож у «Relationship.--Compare Agave. The
+    intoxication…» (anhalonium-lewinii) під підпис пішло «Compare Agave», а друкувалось із
+    нього лише «Сравнить:» — засіб Agave зникав з обох мов. Хвіст із великої літери — це
+    назва, її повертаємо в тіло; хвіст із малої («Compare also», «Compare its constituents»)
+    лишаємо в підписі: там губиться тільки службове слово.
+    """
+    for r, _ in REL_LABEL:
+        m = r.match(lab)
+        if not m:
+            continue
+        tail = lab[m.end():].strip()
+        return (lab[:m.end()].strip(), tail) if tail[:1].isupper() else (lab, "")
+    return lab, ""
 
 
 def rel_label(lab, lang):
@@ -702,11 +746,11 @@ def llm_report(segments, limit=40):
 # 7. Складання документа: сторінка Boericke → розділи з абзацами (англійською)
 # ---------------------------------------------------------------------------
 def build_doc(page, abbrev_names):
-    """→ {'latin','common','intro':[...], 'sections': {розділ: [абзац]}, 'mods': (w,b), 'rels': [(lab, body)]}"""
+    """→ {'latin','common','intro':[...], 'sections': {розділ: [абзац]}, 'mods': (w,b,p), 'rels': [(lab, body)]}"""
     secs = {}
     unknown = []
     cur = "Характеристика"
-    mods_w, mods_b, rels = [], [], []
+    mods_w, mods_b, mods_p, rels = [], [], [], []
     for label, text in page["paras"]:
         text = expand_abbrev(text, abbrev_names)
         if label is None:
@@ -730,9 +774,10 @@ def build_doc(page, abbrev_names):
             continue
         cur = sec
         if sec == "Модальности":
-            w, b = split_modalities(text)
+            w, b, p = split_modalities(text)
             mods_w += w
             mods_b += b
+            mods_p += p
             secs.setdefault(sec, [])
         elif sec == "Взаимосвязи":
             rels += split_relations(text)
@@ -740,7 +785,7 @@ def build_doc(page, abbrev_names):
         else:
             secs.setdefault(sec, []).append(text)
     return {"latin": page["latin"], "common": page["common"], "sections": secs,
-            "mods": (mods_w, mods_b), "rels": rels, "unknown": unknown}
+            "mods": (mods_w, mods_b, mods_p), "rels": rels, "unknown": unknown}
 
 
 ABBREV_RE = None
@@ -770,7 +815,9 @@ def doc_items(doc):
         items.append((SEC_TITLE, doc["common"]))
     for sec in SEC_ORDER:
         if sec == "Модальности":
-            items += [(sec, p) for p in doc["mods"][0] + doc["mods"][1]]
+            # третій список — шматки без мітки: вони друкуються звичайним абзацом, але так само
+            # перекладаються, тож у дамп сегментів мають потрапити нарівні з «гірше»/«краще»
+            items += [(sec, p) for p in doc["mods"][2] + doc["mods"][0] + doc["mods"][1]]
             continue
         if sec == "Взаимосвязи":
             items += [(sec, b) for lab, b in doc["rels"] if lab is None]
@@ -791,12 +838,16 @@ def render(doc, lang, ext_names_all, origin):
     titles, body = [], []
     for sec in SEC_ORDER:
         if sec == "Модальности":
-            w, b = doc["mods"]
-            if not (w or b):
+            w, b, plain = doc["mods"]
+            if not (w or b or plain):
                 continue
             titles.append(sec_name(sec))
             body.append("## " + sec_name(sec))
             lbl = {"ru": ("Хуже", "Лучше"), "ua": ("Гірше", "Краще")}[lang]
+            # нерозпізнані шматки — до міток: parseModalities у tools/modalities.mjs успадковує
+            # напрямок від попереднього абзацу, тож після «Хуже» вони дістали б чужий напрямок
+            for p in plain:
+                body.append(tr(p, lang))
             if w:
                 body.append("**• " + lbl[0] + ".** " + "; ".join(tr(x, lang).rstrip(".") for x in w) + ".")
             if b:

@@ -433,6 +433,6 @@ Spigelia допомагає при ревматизмі, як і при ускл
 
 ## Взаємозв’язки
 
-**Антидотами для Spigelia anthelmia є**: Camphora, Cocullus, Pulsatilla. **Spigelia anthelmia служить антидотом для** Mercurius, Colchicum (серцеві симптоми). **Сумісні препарати**: Асоnitum (ендокардит); Arsenicum album, Digitalis, Kali саrbonicum, Zincum (серцеві симптоми), Arnica (карбункул). **Слід порівняти**: Ботанічна спорідненість: Nux vomica, Ignatia, Curare.
+**Антидотами для Spigelia anthelmia є**: Camphora, Cocullus, Pulsatilla. **Spigelia anthelmia служить антидотом для** Mercurius, Colchicum (серцеві симптоми). **Сумісні препарати**: Aconitum (ендокардит); Arsenicum album, Digitalis, Kali carbonicum, Zincum (серцеві симптоми), Arnica (карбункул). **Слід порівняти**: Ботанічна спорідненість: Nux vomica, Ignatia, Curare.
 
 Teste вважає Spigelia "хронічним аналогом" Arnica.

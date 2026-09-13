@@ -260,11 +260,11 @@ Phellandrium является ценным средством от кашля. G
 
 **Следует сравнить**: Симптомы со стороны груди — Conium, Phytolacca, Bryonia, Oleum animale (Oleum animale — колющая и стреляющая боль распространяется изнутри наружу; Phellandrium — снаружи внутрь).
 
-Боль при кормлении грудью — Croton tiglium (боль в молочных железах при кормлении отдает в спину), Bovista (ощущение пустоты); колющая боль — Кali саrbonicum.
+Боль при кормлении грудью — Croton tiglium (боль в молочных железах при кормлении отдает в спину), Bovista (ощущение пустоты); колющая боль — Kali carbonicum.
 
 Головная боль, распространяющаяся на глаза, — Onosmodium.
 
-Боль в правой половине груди — Zincum (правая верхушка – Calcarea carbonica, Arsenicum album; справа посередине — Sepia; справа у основания — Chelidonium, Lachnanthes, Кali саrbonicum, Sepia; левая верхушка — Arsenicum album, слева у основания — Охalicum асidum, Sulphur).
+Боль в правой половине груди — Zincum (правая верхушка – Calcarea carbonica, Arsenicum album; справа посередине — Sepia; справа у основания — Chelidonium, Lachnanthes, Kali carbonicum, Sepia; левая верхушка — Arsenicum album, слева у основания — Oxalicum acidum, Sulphur).
 
 Последняя стадия туберкулеза, чрезвычайно зловонная мокрота — Silicea. Зловонное дыхание с кашлем — Capsicum.
 

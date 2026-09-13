@@ -149,7 +149,7 @@ Quercus – корисний засіб при застарілих малярі
 
 _Quercus є антидотом при симптомах алкогольної інтоксикації_. **Слід порівняти**: при запамороченні - Cocculus, Gelsemium, Natrum muriaticum, Natrum salicylicum, Digitalis; при захворюваннях селезінки - Ceanothus, Scilla, Cedron, Urtica urens, Rubia tinctorum, Thuja; при алкоголізмі Nux vomica, Arsenicum album, China.
 
-**Порівняти** (В. Беріке): Lachesis, Helianthus annuus (збільшення та болючість селезінки), Сеаnothus, Natrum muriaticum.
+**Порівняти** (В. Беріке): Lachesis, Helianthus annuus (збільшення та болючість селезінки), Ceanothus, Natrum muriaticum.
 
 ## Рекомендації
 

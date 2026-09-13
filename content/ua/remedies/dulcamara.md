@@ -405,12 +405,12 @@ sections: Характеристика; Психіка; Клініка; Зага
 
 **Дулькамара є антидотом для**: Сірrum та Mercurius.
 
-**Для неї є антидотами**: Campora., Cuprum, Ipecacuanha, Kali сarbonicum, Mercurius.
+**Для неї є антидотами**: Campora., Cuprum, Ipecacuanha, Kali carbonicum, Mercurius.
 
-**Добре слідує за:** Bryonia, Calcarea сarbonica, Lyesinum, Rhus toxicodendron, Sepia, Verarum album.
+**Добре слідує за:** Bryonia, Calcarea carbonica, Lyesinum, Rhus toxicodendron, Sepia, Verarum album.
 
 **Несумісна з**: Belladonna, Lachesis.
 
-**Доповнює**: Baryta сarbonica.
+**Доповнює**: Baryta carbonica.
 
 **Слід порівняти**: Aconitum, Arsenicum album, Chamomilla, Helleborus, Nitricum acidum, Pulsatilla, Staphysagria, Sulphur.

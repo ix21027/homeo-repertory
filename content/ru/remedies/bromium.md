@@ -246,10 +246,10 @@ sections: Характеристика; Психика; Тип; Клиника; 
 
 ## Взаимосвязи
 
-**Следует сравнить**: Iodum (но для Iodum характерно улучшение утром; темные волосы и глаза); Chlorum, Lachesis., Spongia, Fluoricum асidum, Hepar sulphur, Apis, Argentum nitricum, China, Conium, Coffea, Cina, Cuprum, Lyesinum, Mercurius, Phosphorus, Rhus (гипертрофия сердца, также Spongia, Arnica - в результате перенапряжения); Sepia, Sulphur Antimonium tartaricum, Pulsatilla (блондины, страх привидений и призраков; этот страх также у Асоnitum, Arsenicum album, Carbo vegetabilis, Phosphorus, Sulphur).
+**Следует сравнить**: Iodum (но для Iodum характерно улучшение утром; темные волосы и глаза); Chlorum, Lachesis., Spongia, Fluoricum acidum, Hepar sulphur, Apis, Argentum nitricum, China, Conium, Coffea, Cina, Cuprum, Lyesinum, Mercurius, Phosphorus, Rhus (гипертрофия сердца, также Spongia, Arnica - в результате перенапряжения); Sepia, Sulphur Antimonium tartaricum, Pulsatilla (блондины, страх привидений и призраков; этот страх также у Aconitum, Arsenicum album, Carbo vegetabilis, Phosphorus, Sulphur).
 
-**Антидотом для Bromium являются:** Camphora, Ammonium сarbonicum, Magnesia сarbonica, Opium.
+**Антидотом для Bromium являются:** Camphora, Ammonium carbonicum, Magnesia carbonica, Opium.
 
 **Bromium хорошо следует после**: Iodum, Phosphorus, Spongia.
 
-**Дополняющие**: Argentum nitricum (обычно после Bromium); Kali сarbonicum (эмфизема).
+**Дополняющие**: Argentum nitricum (обычно после Bromium); Kali carbonicum (эмфизема).

@@ -132,4 +132,4 @@ sections: Характеристика; Клиника; Общие симпто�
 
 ## Взаимосвязи
 
-**Следует сравнить:** все сложноцветные — Arnica, Calendula, Cina и др.; Вrуonia (ревматизм); Fraxinus americana, Lilium tigrinum и Sepia (пролапс матки); Calcarea phosphorica (фосфатурия); Vinca minor, Viola tricolor (кожа).
+**Следует сравнить:** все сложноцветные — Arnica, Calendula, Cina и др.; Bryonia (ревматизм); Fraxinus americana, Lilium tigrinum и Sepia (пролапс матки); Calcarea phosphorica (фосфатурия); Vinca minor, Viola tricolor (кожа).

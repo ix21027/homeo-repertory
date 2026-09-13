@@ -133,4 +133,4 @@ sections: Характеристика; Клініка; Загальні сим�
 
 ## Взаємозв’язки
 
-**Слід порівняти:** всі складноцвіті - Arnica, Calendula, Cina та ін; Вrуonia (ревматизм); Fraxinus americana, Lilium tigrinum та Sepia (пролапс матки); Calcarea phosphorica (фосфатурія); Vinca minor, Viola tricolor (шкіра).
+**Слід порівняти:** всі складноцвіті - Arnica, Calendula, Cina та ін; Bryonia (ревматизм); Fraxinus americana, Lilium tigrinum та Sepia (пролапс матки); Calcarea phosphorica (фосфатурія); Vinca minor, Viola tricolor (шкіра).

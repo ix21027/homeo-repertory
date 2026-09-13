@@ -273,4 +273,4 @@ sections: Характеристика; Психика; Тип; Клиника; 
 
 ## Взаимосвязи
 
-**Следует сравнить:** Natrium sulphuricum (чувствительность к холоду); Carbo animalis (пот оставляет желтые пятна); Сера (слезотечение); Nux vomica (хуже после еды); Pulsatilla, Carbo vegetabilis (лучше на свежем воздухе); Belladonna, Glonoinum (головная боль); Аnacardium, Apis, Nux moschata, Phosphoricum асidum (рассеянность); Aloe (треск в голове).
+**Следует сравнить:** Natrium sulphuricum (чувствительность к холоду); Carbo animalis (пот оставляет желтые пятна); Сера (слезотечение); Nux vomica (хуже после еды); Pulsatilla, Carbo vegetabilis (лучше на свежем воздухе); Belladonna, Glonoinum (головная боль); Anacardium, Apis, Nux moschata, Phosphoricum acidum (рассеянность); Aloe (треск в голове).

@@ -289,4 +289,4 @@ sections: Характеристика; Психіка; Клініка; Зага
 
 ## Взаємозв’язки
 
-**Слід порівняти**: Magnesium сarbonicum, Magnesium muriaticum. При діабеті – Natrium sulphuricum; при тузі, плаксивості, поганих передчуттях та тривозі – Actea racemosa, Pulsatilla; при болю, що жалить, у зів між актами ковтання - Ignatia; при відрижці – Hepar sulphur; при боязкості, побоюваннях, поганих передчуттях – Lyesinum.
+**Слід порівняти**: Magnesium carbonicum, Magnesium muriaticum. При діабеті – Natrium sulphuricum; при тузі, плаксивості, поганих передчуттях та тривозі – Actea racemosa, Pulsatilla; при болю, що жалить, у зів між актами ковтання - Ignatia; при відрижці – Hepar sulphur; при боязкості, побоюваннях, поганих передчуттях – Lyesinum.

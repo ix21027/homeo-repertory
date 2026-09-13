@@ -242,17 +242,17 @@ Guernsey: «Поліпи із закладеністю носа з того бо
 
 ## Взаємозв’язки
 
-**Антидотом Teucrium m. v. є** Саmphora.
+**Антидотом Teucrium m. v. є** Camphora.
 
 **Сумісний з**: Pulsatilla, Silicea.
 
-**Слід порівняти** з: ботанічними родичами та Теuсrum scorodonia. Відчуття раптової слабкості після їжі - Arsenicum album, Cina, Lyesinum, Silicea, Staphysagria.
+**Слід порівняти** з: ботанічними родичами та Teucrum scorodonia. Відчуття раптової слабкості після їжі - Arsenicum album, Cina, Lyesinum, Silicea, Staphysagria.
 
 Гикавка – Ignatia (Ignatia – гірше від їжі, куріння, сильних емоцій; Teucrium – після годування груддю, у дітей).
 
-Балакучість - Lachesis, Нуоscyamus.
+Балакучість - Lachesis, Hyoscyamus.
 
-Спів – Belladonna, Crocus, Нуоscyamua, Spongia, Stramonium.
+Спів – Belladonna, Crocus, Hyoscyamua, Spongia, Stramonium.
 
 Гельмінти – Scirrhinum, Cina, Spigelia.
 

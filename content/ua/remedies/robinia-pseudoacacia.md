@@ -198,7 +198,7 @@ sections: Характеристика; Психіка; Тропність; Кл
 
 Відчуття вивиху нижньої щелепи – Rhus toxicodendron.
 
-Зміна сторін - Lac сaninum (Robinia - справа наліво).
+Зміна сторін - Lac caninum (Robinia - справа наліво).
 
 Серце – Phaseolus nanus.
 

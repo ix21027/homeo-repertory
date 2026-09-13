@@ -10,7 +10,7 @@ remedy_blocks: 88
 
 Найчастіше для лікування цієї патології використовують такі препарати:
 
-**Aconitum Allium cepa Anacardium Antimonium crudum Antimonium tartaricum Apis Argentum nitricum Arnica Arsenicum album Аurum metallicum Aurum iodatum Baryta carbonica Belladonna Benzoicum acidum Bryonia Calcarea carbonica Calcarea phosphoricum Camphora Capsicum Carbo vegetabilis Causticum Cedron Chamomilla China Chininum sulfuricumChionantes virginica Cimicifuga Cocculus Coffea Colocyntis Cuprum Cyclamen Dulcamara Eupatorium perfoliatum Ferrum aceticum Ferrum metallicum Gelsemium Glonoinum Helleborus Hyoscуamus Hypericum Ignatia Ipecacuanha Iris Kali bichromicum Kali iodatum Kali phosphoricum Lachesis Lachnanthes Lithium carbonicum Luesinum Lycopodium Magnesia carbonica Magnesia muriatica Melilotus Menyanthes Mercurius Mezereum Naja Natrium carbonicum Natrium muriaticum Natrium sulfuricum Nux moschata Nux vomica Onosmodium Opium Palladium Petroleum Phosphoricum acidum Phosphorus Physostigma Phytolacca Picricum acidum Podophyllum Psorinum Pulsatilla Rhus toxicodendron Ruta Sanguinaria Sepia Silicea Spigelia Staphysagria Strontium carbonicum Sulfur Sulfuricum acidum Thuja Tuberculinum Valeriana**
+**Aconitum Allium cepa Anacardium Antimonium crudum Antimonium tartaricum Apis Argentum nitricum Arnica Arsenicum album Aurum metallicum Aurum iodatum Baryta carbonica Belladonna Benzoicum acidum Bryonia Calcarea carbonica Calcarea phosphoricum Camphora Capsicum Carbo vegetabilis Causticum Cedron Chamomilla China Chininum sulfuricumChionantes virginica Cimicifuga Cocculus Coffea Colocyntis Cuprum Cyclamen Dulcamara Eupatorium perfoliatum Ferrum aceticum Ferrum metallicum Gelsemium Glonoinum Helleborus Hyoscyamus Hypericum Ignatia Ipecacuanha Iris Kali bichromicum Kali iodatum Kali phosphoricum Lachesis Lachnanthes Lithium carbonicum Luesinum Lycopodium Magnesia carbonica Magnesia muriatica Melilotus Menyanthes Mercurius Mezereum Naja Natrium carbonicum Natrium muriaticum Natrium sulfuricum Nux moschata Nux vomica Onosmodium Opium Palladium Petroleum Phosphoricum acidum Phosphorus Physostigma Phytolacca Picricum acidum Podophyllum Psorinum Pulsatilla Rhus toxicodendron Ruta Sanguinaria Sepia Silicea Spigelia Staphysagria Strontium carbonicum Sulfur Sulfuricum acidum Thuja Tuberculinum Valeriana**
 
 ### Aconitum (Аконітум)
 
@@ -1002,7 +1002,7 @@ _Роуз_: Головний біль вранці, після розладу ш
 
 ### Opium (Опіум)
 
-Наслідки образи, приниження, сорому та переляку, а також великої радості (як Соffea). Особливо підходить людям, які схильні до зловживання алкоголем.
+Наслідки образи, приниження, сорому та переляку, а також великої радості (як Coffea). Особливо підходить людям, які схильні до зловживання алкоголем.
 
 Характерні приплив до голови, почервоніння обличчя, гарячий піт, пульсуючі скроневі артерії. Здавлюючий біль у скронях часто поєднується з запамороченням.
 

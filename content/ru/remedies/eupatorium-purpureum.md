@@ -259,6 +259,6 @@ Hale упоминает о лечении импотенции у мужчин, 
 
 **Следует сравнить**: Аросуnum (отеки); Apis, Cannabis sativa, Cantharis, Copaiva, Ferrum, Hydrastis, Mitchella repens, Senecio, Vespa (почечные симптомы).
 
-Capsicum, Phosphoricum асidum при тоске по дому.
+Capsicum, Phosphoricum acidum при тоске по дому.
 
 Eupatorium perfoliatum, Colchicum (тошнота от запаха пищи).

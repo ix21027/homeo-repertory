@@ -267,4 +267,4 @@ Millefolium излечивает варикозное расширение ве�
 
 **Несовместимость**: кофе (вызывает переполнение головы кровью).
 
-**Следует сравнить**: Erechthites (носовые кровотечения и кровохарканье); Senecio aureus (гематурия); Hamamelis и Ipecacuanha (кровотечения); Platina (у Millefolium кровотечение ярко-алой кровью со сгустками; у Platina — темной, со сгустками); Bryonia, Ustilago и Hamamelis (рвота кровью); Асоnitum (профузное кровотечение ярко-алой кровью: у Асоnitum — с тревогой; у Millefolium — без тревоги); а также все сложноцветные — Arnica, Bellis, Calendula и др.
+**Следует сравнить**: Erechthites (носовые кровотечения и кровохарканье); Senecio aureus (гематурия); Hamamelis и Ipecacuanha (кровотечения); Platina (у Millefolium кровотечение ярко-алой кровью со сгустками; у Platina — темной, со сгустками); Bryonia, Ustilago и Hamamelis (рвота кровью); Aconitum (профузное кровотечение ярко-алой кровью: у Aconitum — с тревогой; у Millefolium — без тревоги); а также все сложноцветные — Arnica, Bellis, Calendula и др.

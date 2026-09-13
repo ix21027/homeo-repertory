@@ -356,13 +356,13 @@ Cocculus indicus гомеопатичний стан гіперчутливос�
 
 **Cocculus indicus несумісний з** Causticum, кава.
 
-**Cocculus indicus добре слідує** Асоnitum (ендокардит з сильним страхом); Chamomilla, Nux vomica, Ignatia.
+**Cocculus indicus добре слідує** Aconitum (ендокардит з сильним страхом); Chamomilla, Nux vomica, Ignatia.
 
 **Слід порівняти**: Aconitum, Actea racemosa, Antonium crudum (біль у шлунку), Agaricus (сонливість), Antimonium tartaricus, Arsenicum album, Belladonna, Calcarea carbonica, Carbo vegetabilis (паротит), Chamomilla, Coffea, Cuprum, Ignatia (головний біль), Ipecacuanha, Iodum, Lachesis, Mercurius, Moschus, Nux moschata (сонливість), Oleandrer, Petroleum, Pulsatilla (головний біль), Rhus toxicodendron, Sabina, Scutellaria, Silicea, Stramonium, Tabacum, Veratrum album.
 
-Також Nux vomica, Nitricum асidum (гіперчутливість до шуму); Asarum, Cannabis indica, Calcarea carbonica, Gelsemium, Sticta, Silicea, Thuja (запаморочення); Lac deflopatum (менструальний головний біль); Aconitum, Arsenicum album, Bromium, Carbo vegetabilis, Lyesinum, Phosphorus, Pulsatilla, Sulphur, Zincum (страх привидів).
+Також Nux vomica, Nitricum acidum (гіперчутливість до шуму); Asarum, Cannabis indica, Calcarea carbonica, Gelsemium, Sticta, Silicea, Thuja (запаморочення); Lac deflopatum (менструальний головний біль); Aconitum, Arsenicum album, Bromium, Carbo vegetabilis, Lyesinum, Phosphorus, Pulsatilla, Sulphur, Zincum (страх привидів).
 
-Крім того, слід порівняти: при пупковій грижі - Nux vomica (без позивів - Bryonia, Natrium muriaticum, Veratrum album); при погіршенні в уклінній позі - Magnasia сarbonica, Sepia; при постійному відчутті нудоти Ipecacuanha, Kali сarbonicum, Sulphur, Ignatia, Aceticum асidum; при спазмах у матці, дисменореї, темних менструальних виділеннях - Ignatia (Cocculus відрізняє вираженість відчуття слабкості та ломоти в попереку, немов вона паралізована; з тремтінням на початку ходьби); при слабкості розмови – Veratrum album, Sulphur, Calcarea carbonica; при функціональних паралічах внаслідок емоційної перенапруги – Ignatia, Phosphorus, Natrium muriaticum, Collinsonia; при болях у потилиці - Gelsemium, Juglans сinerea; при слабкості у м'язах шиї – Antimonium tartaricum; при полегшенні від закидання голови назад - Senega (гірше від закидання голови назад - Clematis, Cinnabaris).
+Крім того, слід порівняти: при пупковій грижі - Nux vomica (без позивів - Bryonia, Natrium muriaticum, Veratrum album); при погіршенні в уклінній позі - Magnasia carbonica, Sepia; при постійному відчутті нудоти Ipecacuanha, Kali carbonicum, Sulphur, Ignatia, Aceticum acidum; при спазмах у матці, дисменореї, темних менструальних виділеннях - Ignatia (Cocculus відрізняє вираженість відчуття слабкості та ломоти в попереку, немов вона паралізована; з тремтінням на початку ходьби); при слабкості розмови – Veratrum album, Sulphur, Calcarea carbonica; при функціональних паралічах внаслідок емоційної перенапруги – Ignatia, Phosphorus, Natrium muriaticum, Collinsonia; при болях у потилиці - Gelsemium, Juglans cinerea; при слабкості у м'язах шиї – Antimonium tartaricum; при полегшенні від закидання голови назад - Senega (гірше від закидання голови назад - Clematis, Cinnabaris).
 
 Відчуття паралічу та наслідки перевтоми, характерні для Cocculus indicus, необхідно порівняти із симптомами Picric acidum.
 

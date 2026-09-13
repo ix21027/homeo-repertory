@@ -122,4 +122,4 @@ W. A. Dewey («Med. Cent.», VIII. 17) описал замечательный �
 
 ## Взаимосвязи
 
-**Следует сравнить:** Secale (паралич; цианоз; облегчение, когда раскрывается); Phaseolus, Gelsemium, Nux vomica, Curare, Picricum асidum (паралич; эрекции); Dulcamara (ухудшение во влажную погоду); Lyesinum (улучшение при раскрывании); Nux vomica (подходит мужчинам); Rhus toxicodendron (параплегия после промокания); Manganum и Conium (паралич, распространяющийся снизу вверх).
+**Следует сравнить:** Secale (паралич; цианоз; облегчение, когда раскрывается); Phaseolus, Gelsemium, Nux vomica, Curare, Picricum acidum (паралич; эрекции); Dulcamara (ухудшение во влажную погоду); Lyesinum (улучшение при раскрывании); Nux vomica (подходит мужчинам); Rhus toxicodendron (параплегия после промокания); Manganum и Conium (паралич, распространяющийся снизу вверх).

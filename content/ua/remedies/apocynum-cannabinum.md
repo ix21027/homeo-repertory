@@ -219,4 +219,4 @@ Hale вважає нирки місцем особливої ​​дії цьо
 
 ## Взаємозв’язки
 
-**Слід порівняти:** Аросynum androsaemifolium, Alstonia constricta, Strophanthus, Aceticum асidum, Apis (набряки без спраги), Arsenicum album, Belladonna, Bryonia, China, Colchicum, Digitalis (набряки, повільний пульс), Elaterium, Helleborus (гідроцефалія, асцит); Aloe, Gambogia і Trombidium muscae domesticate (пронос), Kali carbonicum, Lyesinum, Mercurius, Mercurius sulphuricum, логанієві - Nux vomica, Ignatia та Curare; Spigelia, Scilla, Sulphur, Veratrum.
+**Слід порівняти:** Аросynum androsaemifolium, Alstonia constricta, Strophanthus, Aceticum acidum, Apis (набряки без спраги), Arsenicum album, Belladonna, Bryonia, China, Colchicum, Digitalis (набряки, повільний пульс), Elaterium, Helleborus (гідроцефалія, асцит); Aloe, Gambogia і Trombidium muscae domesticate (пронос), Kali carbonicum, Lyesinum, Mercurius, Mercurius sulphuricum, логанієві - Nux vomica, Ignatia та Curare; Spigelia, Scilla, Sulphur, Veratrum.

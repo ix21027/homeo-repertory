@@ -249,6 +249,6 @@ Allium сера — преимущественно левостороннее л
 
 _Жареный кофе устраняет запах лука изо рта_. — **NB!**
 
-**После Allium сера хорошо следуют**: Calcarea сarbonica и Silicea при полипах. **Несовместимы**: Allium sativum, Aloe, Scilla.
+**После Allium сера хорошо следуют**: Calcarea carbonica и Silicea при полипах. **Несовместимы**: Allium sativum, Aloe, Scilla.
 
-**Дополняют действие Allium сера:** Phoshorus, Pulsatilla, Sarsaparilla, Thuja. **Сравните также**: Асоnitum, Chlorum, Ipecacuanha, Lachesis (переход симптомов слева направо).
+**Дополняют действие Allium сера:** Phoshorus, Pulsatilla, Sarsaparilla, Thuja. **Сравните также**: Aconitum, Chlorum, Ipecacuanha, Lachesis (переход симптомов слева направо).

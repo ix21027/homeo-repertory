@@ -341,7 +341,7 @@ Valeriana усуває збуджений стан кровообігу.
 
 Гіперчутливість – Nux vomica.
 
-Страх темряви - Stramonium, Strontium, Ammonium muriaticum, Arsenicum album, Baryta сarbonica, Calcarea carbonica, Carbo animalis, Carbo vegetabilis, Causticum, Lyesinum, Phosphorus, Pulsatilla, Rhus toxicodendron.
+Страх темряви - Stramonium, Strontium, Ammonium muriaticum, Arsenicum album, Baryta carbonica, Calcarea carbonica, Carbo animalis, Carbo vegetabilis, Causticum, Lyesinum, Phosphorus, Pulsatilla, Rhus toxicodendron.
 
 Стан "як уві сні" - Ambra, Anacardium, Calcarea carbonica, Conium, Cuprum, Medorrhinum, Rheum, Veratrum.
 

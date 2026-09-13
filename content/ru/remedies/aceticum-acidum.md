@@ -193,11 +193,11 @@ Aceticum acidum соответствует септическим и гекти�
 
 ## Взаимосвязи
 
-**Следует сравнить:** Apis, Arsenicum album (но для Aceticum асeticum характерны в основном желудочные симптомы), Carbolicum acidum, Lac defloratum, Lacticum acidum, Uranium nitricum.
+**Следует сравнить:** Apis, Arsenicum album (но для Aceticum aceticum характерны в основном желудочные симптомы), Carbolicum acidum, Lac defloratum, Lacticum acidum, Uranium nitricum.
 
 При отравлении большими дозами уксусной кислоты лучшими антидотами являются раствор магнезии или известковая вода.
 
-**Антидотами** для потенцированного лекарства будут: при тягостном, мучительном ощущении - Tabacum и Асоnitum; при желудочных, легочных и лихорадочных симптомах - Natrium muriaticum, а затем Sepia.
+**Антидотами** для потенцированного лекарства будут: при тягостном, мучительном ощущении - Tabacum и Aconitum; при желудочных, легочных и лихорадочных симптомах - Natrium muriaticum, а затем Sepia.
 
 **Средство служит антидотом** для анестетиков, Asarum, Coffea, Euphorbium, Ignatia, Opium, Plumbum (колика), Sepia, Stramonium, Tabacum. _Нейтрализует последствия отравления колбасным ядом._
 

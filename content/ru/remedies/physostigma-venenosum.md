@@ -370,7 +370,7 @@ sections: Характеристика; Психика; Тип; Клиника; 
 
 ## Взаимосвязи
 
-**Антидотами для Physostigma являются**: кофе; горчичники; Аrnica.
+**Антидотами для Physostigma являются**: кофе; горчичники; Arnica.
 
 **Следует сравнить**: При параличе – Lathyrus sativus, Oxytropis lamberti, Strychninum, Cineraria maritima, Conium, Gelsemium.
 
@@ -378,9 +378,9 @@ sections: Характеристика; Психика; Тип; Клиника; 
 
 Глаза — Onosmodium, Lilium tigrinum, Ruta, Jaborandi, Belladonna. Головная боль с сонливостью — Brucea, Ginseng, Heracleum spondylum. Раздражение спинного мозга, ощущение голода, онемение, ригидность мышц спины, ощущение колебания в мозге — Actea racemosa.
 
-Головная боль усиливается от музыки — Phosphorus, Phosphoricum асidum (Physostigma от органа).
+Головная боль усиливается от музыки — Phosphorus, Phosphoricum acidum (Physostigma от органа).
 
-Левитация — Phosphorus, Phosphoricum асidum.
+Левитация — Phosphorus, Phosphoricum acidum.
 
 Головная боль с неспособностью приостановить поток мыслей (Phosphorus с усилением умственных способностей) — Ignatia, Asa foetida.
 

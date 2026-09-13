@@ -278,13 +278,13 @@ Sticta pulmonaria — одно из тех средств, в патогенез
 
 ## Взаимосвязи
 
-**Следует сравнить:** Катаральные симптомы и кашель — Drosera, Nux vomica, Rumex сrispus, Sambucus, Mephitis.
+**Следует сравнить:** Катаральные симптомы и кашель — Drosera, Nux vomica, Rumex crispus, Sambucus, Mephitis.
 
 Ревматизм – Actaea racemosa, Stellaria.
 
 Поражение нервной системы — Asarum, Tarentula.
 
-Астматические симптомы у больных туберкулезом в сочетании с раскалывающей головной болью — Rumex сrispus, Mephitis.
+Астматические симптомы у больных туберкулезом в сочетании с раскалывающей головной болью — Rumex crispus, Mephitis.
 
 Ощущение парения – Calcarea carbonica.
 

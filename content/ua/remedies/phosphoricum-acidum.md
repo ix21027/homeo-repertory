@@ -503,7 +503,7 @@ Phosphoricum acidum підходить: 1) Людям із початково с
 
 Втрата насіннєвої рідини - China (China - гостра; Phosphoricum acidum - хронічна).
 
-Туберкульоз - Phosphorus (Phosphoricum acidum діє краще, ніж Phosphorus при кашлі, що виникає через відчуття лоскотання в ділянці мечоподібного хряща, погіршення ввечері і вночі в положенні лежачи; слабкість, що викликає задишку; погіршення, коли потік повітря обдуває груди. Діабет - Lacticum асidum.
+Туберкульоз - Phosphorus (Phosphoricum acidum діє краще, ніж Phosphorus при кашлі, що виникає через відчуття лоскотання в ділянці мечоподібного хряща, погіршення ввечері і вночі в положенні лежачи; слабкість, що викликає задишку; погіршення, коли потік повітря обдуває груди. Діабет - Lacticum acidum.
 
 Болі у дітей, які ростуть дуже швидко, - Guaiacum.
 
@@ -517,9 +517,9 @@ Phosphoricum acidum підходить: 1) Людям із початково с
 
 Нудота у вигляді їжі: особливо під час вагітності – Eupatorium perfoliatum; побачивши їжі - Colchicum, Lyesinum, Moschus, Phosphoricum acidum, Sabadilla, Spigelia, від запаху їжі - Colchicum, Eupatorium perfoliatum.
 
-Занепокоєння з приводу здоров'я та життя – Calcarea carbonica, Phosphorus. Апатія - Kali саrbonicum (Phosphoricum acidum - байдужість; Kali саrbonicum - від виснаження - післяпологовий психоз, післяпологовий сепсис). Цереброспінальне виснаження від навантаження – Picricum асidum.
+Занепокоєння з приводу здоров'я та життя – Calcarea carbonica, Phosphorus. Апатія - Kali carbonicum (Phosphoricum acidum - байдужість; Kali carbonicum - від виснаження - післяпологовий психоз, післяпологовий сепсис). Цереброспінальне виснаження від навантаження – Picricum acidum.
 
-Апатія та байдужість – Мuriaticum асidum – небалакучість та байдужість; Sulphur - байдужий; Helleborus niger – важко підняти).
+Апатія та байдужість – Muriaticum acidum – небалакучість та байдужість; Sulphur - байдужий; Helleborus niger – важко підняти).
 
 М'яка, з усім погоджується – Pulsatilla.
 

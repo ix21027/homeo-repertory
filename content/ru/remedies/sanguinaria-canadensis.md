@@ -521,7 +521,7 @@ Sanguinaria оказывает выраженное действие на мол
 
 **Совместима с**: Belladonna (скарлатина).
 
-**Следует сравнить**: ботанические родственники, Chelidonium, Opium. При ревматической боли в правой дельтовидной мышце — Magnesia сarbonica. Головная боль распространяется из затылка вперед и локализуется над (правым) глазом, Spigelia (над левым глазом), Sepia (над обоими глазами); распространяется вперед — Gelsemium, Lachesis, назад — Аnасardium, Bryonia, Chininum sulphuricum, Naja, Nux vomica).
+**Следует сравнить**: ботанические родственники, Chelidonium, Opium. При ревматической боли в правой дельтовидной мышце — Magnesia carbonica. Головная боль распространяется из затылка вперед и локализуется над (правым) глазом, Spigelia (над левым глазом), Sepia (над обоими глазами); распространяется вперед — Gelsemium, Lachesis, назад — Anacardium, Bryonia, Chininum sulphuricum, Naja, Nux vomica).
 
 Головная боль ослабевает при сильном надавливании — Indigo, Magnesia muriatica. Приступы головной боли оканчиваются обильным мочеиспусканием — Ignatia, Gelsemium, Veratrum album.
 

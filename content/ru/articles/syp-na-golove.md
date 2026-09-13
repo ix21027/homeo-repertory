@@ -7,7 +7,7 @@ origin: https://homeopat-sam.com/-/a445
 remedy_blocks: 13
 ---
 
-Наиболее часто при данной проблеме назначают следующие гомеопатические препараты: **Baryta carbonica Cicuta Graphites Hepar sulfur Kali sulfuricum Мercurius corrosives Mercurius solubilis Petroleum Rhus toxicodendron Senega Staphysagria Sulfur Vinca minor**
+Наиболее часто при данной проблеме назначают следующие гомеопатические препараты: **Baryta carbonica Cicuta Graphites Hepar sulfur Kali sulfuricum Mercurius corrosives Mercurius solubilis Petroleum Rhus toxicodendron Senega Staphysagria Sulfur Vinca minor**
 
 ### Baryta carbonica (Барита карбоника)
 
@@ -31,7 +31,7 @@ remedy_blocks: 13
 
 ### Mercurius corrosives (Меркуриус коррозивус)
 
-Юз: Во всех случаях сыпи на голове и лице у детей с образованием на них корок или без этих последних, при зудящей, мокнущей сыпи (пузырях) очень полезно смазывать раза 3 в день мазью из Мercurius corrosivus х3, 10 капель на 1 унцию чистого белого вазелина.
+Юз: Во всех случаях сыпи на голове и лице у детей с образованием на них корок или без этих последних, при зудящей, мокнущей сыпи (пузырях) очень полезно смазывать раза 3 в день мазью из Mercurius corrosivus х3, 10 капель на 1 унцию чистого белого вазелина.
 
 ### Mercurius solubilis (Меркуриус солюбилис)
 

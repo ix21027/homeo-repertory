@@ -383,7 +383,7 @@ sections: Характеристика; Психика; Тип; Тропност
 
 **Антидотами для Lilium tigrinum являются**: Platina, Helonias (антеверсия), Nux vomica (колики); Pulsatilla.
 
-**Следует сравнить**: Sepia, Pulsatilla, Natrum muriaticum, Апасardium и Veratrum (богохульствует); Belladonna, Sulphur, Zincum, Phosphorus, Murex, Viburnum opulus, Nux mpschata, Gossypium, Lachesis, Actea racemosa и Ustilago, Calcarea carbonica, Palladium,. Platina, Latrodectus, Spigelia, Podophyllum, Cactus, Natrum phosphoricum, Tarentula, Rhus, Кali bichromicum.
+**Следует сравнить**: Sepia, Pulsatilla, Natrum muriaticum, Aпacardium и Veratrum (богохульствует); Belladonna, Sulphur, Zincum, Phosphorus, Murex, Viburnum opulus, Nux mpschata, Gossypium, Lachesis, Actea racemosa и Ustilago, Calcarea carbonica, Palladium,. Platina, Latrodectus, Spigelia, Podophyllum, Cactus, Natrum phosphoricum, Tarentula, Rhus, Kali bichromicum.
 
 ## Рекомендации
 

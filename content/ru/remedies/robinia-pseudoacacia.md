@@ -197,7 +197,7 @@ sections: Характеристика; Психика; Тропность; Кл
 
 Ощущение вывиха нижней челюсти – Rhus toxicodendron.
 
-Смена сторон — Lac сaninum (Robinia — справа налево).
+Смена сторон — Lac caninum (Robinia — справа налево).
 
 Сердце – Phaseolus nanus.
 

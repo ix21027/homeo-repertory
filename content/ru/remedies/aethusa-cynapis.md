@@ -227,7 +227,7 @@ sections: Характеристика; Психика; Тропность; Кл
 
 ## Взаимосвязи
 
-**Следует сравнить**: Cicuta, Oenanthe crocata, Antimonium crudum и Calcarea сarbonica (рвота от молока); Arsenicum album, Asarum, Cuprum, Ipecacuanha, Opium.
+**Следует сравнить**: Cicuta, Oenanthe crocata, Antimonium crudum и Calcarea carbonica (рвота от молока); Arsenicum album, Asarum, Cuprum, Ipecacuanha, Opium.
 
 **Является антидотом для** Opium.
 

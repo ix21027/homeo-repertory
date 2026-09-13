@@ -339,12 +339,12 @@ Hale высказал предположение о специфичности �
 
 ## Взаимосвязи
 
-**Следует сравнить**: Ammonium, Arsenicum album, Bryonia, Gelsemium (недомогание, нервозность, румяное лицо, сонливость и болезненность мышц); Ecchinacea angustifolia, Hyoscyamus, Kali muriaticum, Lachesis, Мuriaticum acidum и Nitricum acidum (тиф); Nux vomica, Opium, Rhus toxicodendron.
+**Следует сравнить**: Ammonium, Arsenicum album, Bryonia, Gelsemium (недомогание, нервозность, румяное лицо, сонливость и болезненность мышц); Ecchinacea angustifolia, Hyoscyamus, Kali muriaticum, Lachesis, Muriaticum acidum и Nitricum acidum (тиф); Nux vomica, Opium, Rhus toxicodendron.
 
 **Baptisia tinctoria хорошо следует после**: Arsenicum album.
 
 **После Baptisia tinctoria хорошо следуют**: Terebinthiniae, Nitricum acidum, Hamamelis.
 
-Для Silicea, как и для Варtisia, характерна способность глотать только жидкости (например, молоко), но в противоположность Варtisia у Silicea наблюдается отвращение к молоку.
+Для Silicea, как и для Baptisia, характерна способность глотать только жидкости (например, молоко), но в противоположность Baptisia у Silicea наблюдается отвращение к молоку.
 
 Ecchinacea angustifolia является, пожалуй, наиболее близким аналогом препарата.
