@@ -293,4 +293,4 @@ sections: Характеристика; Психіка; Тропність; Кл
 
 **Слід порівняти**: Ranunculus bulbulus (Ranunculus sceleratus викликає сильніше роздратування).
 
-Гризучий головний біль на невеликій ділянці верхівки - Pulsatilla; «географічний» язик – Natrium muriaticum, Arsenicum album, Rhus toxicodendron, Таrахacum (у Ranunculus sceleratus печіння та садніння сильніше, ніж у всіх інших препаратів); відчуття павутиння - Baryta carbonicum, Boricum, Bromium, Bryonia, Calcium carbonicum, Conium, Graphites, Magnesium сarbonicum.
+Гризучий головний біль на невеликій ділянці верхівки - Pulsatilla; «географічний» язик – Natrium muriaticum, Arsenicum album, Rhus toxicodendron, Taraxacum (у Ranunculus sceleratus печіння та садніння сильніше, ніж у всіх інших препаратів); відчуття павутиння - Baryta carbonicum, Boricum, Bromium, Bryonia, Calcium carbonicum, Conium, Graphites, Magnesium carbonicum.

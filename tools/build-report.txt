@@ -6,11 +6,11 @@
 [ru] remedy block headers: 3046; unresolved in headers: 32; unresolved in intro lists: 6
 unresolved in headers: Honey suckle×1, Wild rose×1, Olive×1, White chestnut×1, Mustard×1, Chestnut bud×1, Cerato×1, Sclerantes×1, Garse×1, Hornbeam×1, Wild Oat×1, Heather×1, Water Violet×1, Impatiens×1, Larch×1, Pine×1, Elm×1, Sweet Chestnut×1, Star of Bethlehem×1, Willow×1, Oak×1, Crab apple×1, Aspen×1, Cherry Plum×1, Mimulus×1, Red Chestnut×1, Rock Rose×1, Beech×1, Chicory×1, Rock water×1, Vervain×1, Vine×1
 unresolved in intro lists: Formicicum acidum×1, Ferrum aceticum×1, Capsicum vegetabilis×1, Baryta sulphurica×1, Ferula neapolitana×1, Cadmium phosphoricum×1
-[ua] remedies: 443 (+26 без сторінки); articles: 148; rubrics: 3151 (nos 2523, art 132, line 284, mod 177, etio 35)
-[ua] nos: merged forms 125; hierarchy links 1129; grade distribution 1/2/3: 2992/9430/1614
-[ua] index: paragraphs 52472; sentence units 109995; vocab 32616; index.json 3.86 MB; catalog.json 0.53 MB; aligned with ru: 591 docs, misaligned 0; sentence counts equal: 52126/52472 paras; modality clause lists aligned: 315/326 remedies
+[ua] remedies: 443 (+26 без сторінки); articles: 148; rubrics: 3153 (nos 2523, art 132, line 286, mod 177, etio 35)
+[ua] nos: merged forms 125; hierarchy links 1141; grade distribution 1/2/3: 2862/9419/1755
+[ua] index: paragraphs 52472; sentence units 110023; vocab 32620; index.json 3.86 MB; catalog.json 0.53 MB; aligned with ru: 591 docs, misaligned 0; sentence counts equal: 52151/52472 paras; modality clause lists aligned: 315/326 remedies
 [ua] mined modalities: sentence text carried over for 4598/4598 items
 [ua] remedy block headers: 3046; unresolved in headers: 32; unresolved in intro lists: 6
 cross-linked nosology rubrics ru→ua: 2480/2498
 [ru] data: 17.65 MB
-[ua] data: 18.42 MB
+[ua] data: 18.43 MB

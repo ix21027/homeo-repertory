@@ -165,9 +165,9 @@ sections: Характеристика; Психіка; Тропність; Кл
 
 ## Взаємозв’язки
 
-**Антидотом для Arsenicum metallicum є**: Belladonna (запалення горла); Natrum сarbonicum (сифілітичні симптоми).
+**Антидотом для Arsenicum metallicum є**: Belladonna (запалення горла); Natrum carbonicum (сифілітичні симптоми).
 
-**Слід порівняти:** Iodum, Mercurius, Natrum сarbonicum при сифілісі; Nux vomica (сонливість після міцного сну); Rhus (біль у спині, тазостегновій ділянці тощо); Sulphur (пульс); Arsenicum album.
+**Слід порівняти:** Iodum, Mercurius, Natrum carbonicum при сифілісі; Nux vomica (сонливість після міцного сну); Rhus (біль у спині, тазостегновій ділянці тощо); Sulphur (пульс); Arsenicum album.
 
 Arsenicum metallicum може добре вплинути на птеригію після невдачі Nux vomica і Spigelia.
 

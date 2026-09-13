@@ -977,4 +977,4 @@ Sepia показана при тенденції до викиднів; кажу
 
 **Додаткові**: Natrum muriaticum (каракатиця живе в солоній воді), Natrum carbonicum та інші солі натрію; Sulphur.
 
-**За нею добре йде** Nitricum асidum.
+**За нею добре йде** Nitricum acidum.

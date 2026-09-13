@@ -27,7 +27,7 @@ Lycopodium стоїть в одному ряду з такими засобам�
 
 Плауни займають становище між мохами та папоротями, а в далекому минулому, як показують розкопки, займали важливе місце у рослинному царстві Землі.
 
-Teste містить Lycopodium на чолі групи, в яку включені також Natrum muriaticum, Viola triсolor і Antimonium сrudum.
+Teste містить Lycopodium на чолі групи, в яку включені також Natrum muriaticum, Viola tricolor і Antimonium crudum.
 
 До загальних його характеристик відносяться: первинна дія на травну трубку і залози, що відносяться до неї; дія Lycopodium скоріше спрямована на печінку та товстий кишечник, ніж на шлунок. Нестача життєвого тепла.
 
@@ -1009,9 +1009,9 @@ Lycopodium особливо підходить людям із проникли�
 
 **Lycopodium є антидотом**: China (обличчя жовте, печінка та селезінка набряклі, метеоризм, напруга під хибними ребрами, сильніша справа; тиск у шлунку та запор); Mercurius; Chlorine (дія пари, коли вони викликають імпотенцію).
 
-**З Lycopodium сумісні**: Belladonna, Bryonia, Carbo vegetabilis (доза Carbo vegetabilis, що приймається кожного восьмого дня, сприяє дії Lycopodium); Calcarea сarbonica (схильність до запорів, щільний кал, який виділяється насилу, або неефективні позиви); Graphites, Hyoscyamus, Lachesis, Ledum, Phosphorus, Pulsatilla, Sepia, Stramonium, Sulphur, Veratrum album.
+**З Lycopodium сумісні**: Belladonna, Bryonia, Carbo vegetabilis (доза Carbo vegetabilis, що приймається кожного восьмого дня, сприяє дії Lycopodium); Calcarea carbonica (схильність до запорів, щільний кал, який виділяється насилу, або неефективні позиви); Graphites, Hyoscyamus, Lachesis, Ledum, Phosphorus, Pulsatilla, Sepia, Stramonium, Sulphur, Veratrum album.
 
-**Lycopodium добре йде після**: Sulphur, Calcarea сarbonica, Lachesis. **За ним добре слідують**: Graphites, Lachesis, Ledum, Phosphorus, Silicea. **Несумісний з кавою**.
+**Lycopodium добре йде після**: Sulphur, Calcarea carbonica, Lachesis. **За ним добре слідують**: Graphites, Lachesis, Ledum, Phosphorus, Silicea. **Несумісний з кавою**.
 
 **Додатковими препаратами служать**: Iodum, Chelidonium, Kali iodatum, Lachesis, Ignatia, Pulsatilla, Ipecacuanha.
 

@@ -433,13 +433,13 @@ Sulphuricum acidum є антидотом при отруєнні свинцем.
 
 Слабкість, підвертає ногу в гомілковостопному суглобі - Causticum, Sulphur, Silicea.
 
-Скарлатина, синці, дифтерійні плівки – Muriaticum асidum (для Muriaticum асidum характерне покращення, коли хворий розкривається).
+Скарлатина, синці, дифтерійні плівки – Muriaticum acidum (для Muriaticum acidum характерне покращення, коли хворий розкривається).
 
-Розтягнення - Ammonium сarbonicum (із жаром та болем).
+Розтягнення - Ammonium carbonicum (із жаром та болем).
 
-Пацієнт часто падає - Natrium сarbonicum, Causticum, Sulphur. Біль поступово наростає і раптово припиняється (Belladonna, Lyesinum – біль раптово починається і так само раптово припиняється; Stannum – біль поступово наростає та поступово зменшується).
+Пацієнт часто падає - Natrium carbonicum, Causticum, Sulphur. Біль поступово наростає і раптово припиняється (Belladonna, Lyesinum – біль раптово починається і так само раптово припиняється; Stannum – біль поступово наростає та поступово зменшується).
 
-Афти - Sulphuricum acidum, Borax, Natrium muriaticum, Kali chloricum. Гемороїдальні вузли – Nitricum асidum.
+Афти - Sulphuricum acidum, Borax, Natrium muriaticum, Kali chloricum. Гемороїдальні вузли – Nitricum acidum.
 
 Пиття викликає відчуття холоду в шлунку - Elaps.
 
@@ -447,17 +447,17 @@ Sulphuricum acidum є антидотом при отруєнні свинцем.
 
 Пульсуючий головний біль під час менструації - Lachesis (Sulphuricum acidum супроводжується пітливістю).
 
-Пахвинна грижа - Lyesinum (Lyesinum - праворуч, Sulphuric acidum - зліва). Незважаючи на миття, від дитини виходить кислий запах Hepar sulphur, Magnesia сarbonica, Rheum.
+Пахвинна грижа - Lyesinum (Lyesinum - праворуч, Sulphuric acidum - зліва). Незважаючи на миття, від дитини виходить кислий запах Hepar sulphur, Magnesia carbonica, Rheum.
 
 Відчуття, ніби мозок вільно переміщається в черепі з боку на бік, — Belladonna, Bryonia, Rheum, Spigelia.
 
-Прострація – Aceticum асidum.
+Прострація – Aceticum acidum.
 
-Витікання чорної крові з усіх отворів - Crotalus, Muriaticum acidum, Nitricum асidum, Terebinthinae.
+Витікання чорної крові з усіх отворів - Crotalus, Muriaticum acidum, Nitricum acidum, Terebinthinae.
 
 Слабкість та виснаження внаслідок глибокої дискразії, за відсутності інших симптомів – Psorinum, Sulphur.
 
-Слабкість – Picricum асidum.
+Слабкість – Picricum acidum.
 
 Відчуття яєчного білка на обличчі - Alumina.
 

@@ -580,6 +580,14 @@ def fix_terms2(ru: str, s: str, ru_orig: str = None) -> str:
     # жжение/горение → печіння (не «горіння»)
     if has(r"жжени|горени"):
         s = _sub(s, LB + r"([Гг])орінн(ям|я|ю|і)" + RB, lambda m: _case(m.group(1), "п") + "ечінн" + m.group(2))
+    # неперекладені російські прикметники перед «ділянка» (Google лишає «околопупочной ділянки»)
+    RU_ADJ_AREA = {"околопупочн": "навколопупков", "подреберн": "підреберн", "подложечн": "надчеревн",
+                   "подвздошн": "клубов", "надчревн": "надчеревн", "поясничн": "попереков"}
+    if re.search(r"(?<![а-яіїєґ])(околопупочн|подреберн|подложечн|подвздошн|надчревн|поясничн)", s, re.I):
+        for ru, ua in RU_ADJ_AREA.items():
+            s = _sub(s, LB + r"([" + ru[0].upper() + ru[0] + r"])" + ru[1:] + r"(ой|ий|ая|ое|ые|ой)?" + RB,
+                     lambda m, ua=ua: _case(m.group(1), ua[0]) + ua[1:] + "ій")
+        s = _sub(s, r"(навколопупковій|підреберній|надчеревній|клубовій|поперековій) ділянки" + RB, r"\1 ділянці")
     # схватки (пологові) → перейми (не «сутички»: у Google це бійка)
     if has(r"(?<![а-яё])схватк"):
         FIGHT = {"сутички": "перейми", "сутичках": "переймах", "сутичками": "переймами", "сутичкам": "переймам",
@@ -1057,6 +1065,7 @@ NEG_FIXES = json.load(open(NEG_FIXES_FILE, encoding="utf-8")) if os.path.exists(
 TERM_FIXES_FILE = os.path.join(ROOT, "tools", "term-fixes.json")
 if os.path.exists(TERM_FIXES_FILE):
     NEG_FIXES = NEG_FIXES + json.load(open(TERM_FIXES_FILE, encoding="utf-8"))
+USED = {}  # id(правки) → чи знайшовся її російський рядок у корпусі
 
 
 def _loose(s: str):
@@ -1072,7 +1081,9 @@ def _word_span(s: str):
 def apply_negation_fixes(seg: str, out: str) -> str:
     for fx in NEG_FIXES:
         if fx["ru"] not in seg:
+            USED.setdefault(id(fx), False)
             continue
+        USED[id(fx)] = True
         if fx["good"] in out:
             continue                                   # вже правильно (те саме речення в іншому місці)
         if fx["bad"] in out:
@@ -1258,6 +1269,9 @@ def main():
             continue
         open(os.path.join(DST, sub, fn), "w", encoding="utf-8").write(render_ua(fm, body, kind))
     print(f"written: {len(parsed) - missing}, skipped (untranslated segments remain): {missing}", flush=True)
+    orphan = sum(1 for fx in NEG_FIXES if not USED.get(id(fx)))
+    if orphan:
+        print(f"УВАГА: {orphan} правок не знайшли свого російського рядка (див. tools/negation-fixes.json, tools/term-fixes.json)", file=sys.stderr)
 
 
 if __name__ == "__main__":

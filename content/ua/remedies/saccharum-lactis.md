@@ -287,7 +287,7 @@ Camphora посилює дію Saccharum lactis.
 
 **Слід порівняти**: Saccharum officinale та препарати з молока.
 
-Права вилкова кістка - Magnesia сarbonica.
+Права вилкова кістка - Magnesia carbonica.
 
 Піднебіння - Manganum.
 
@@ -299,7 +299,7 @@ Camphora посилює дію Saccharum lactis.
 
 Тупий біль у нирках – Santalum, Saccharum officinale.
 
-Втома - Picricum асidum, Magnesia сarbonica.
+Втома - Picricum acidum, Magnesia carbonica.
 
 Жар у серці — Lachnanthes.
 
@@ -307,4 +307,4 @@ Camphora посилює дію Saccharum lactis.
 
 Гірше від вологості – Dulcamara.
 
-Чутливість - Kali iodatum, Magnesia сarbonica.
+Чутливість - Kali iodatum, Magnesia carbonica.
