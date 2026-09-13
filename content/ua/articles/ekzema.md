@@ -51,9 +51,9 @@ _На кісточках_ - Psorinum, Chelidonium, Natrium phosphoricum.
 
 _На стопі_ - Psorinum, Mercurius, Cuprum.
 
-Шкіра; свербляча висипка при роздяганні - Rumex, Arsenicum iodatum, Kali arsenicosum, Natrium sulphuricum. Шкіра; погіршення в теплі ліжку - Sulphur, Psorinum.
+_Шкіра; свербляча висипка при роздяганні_ - Rumex, Arsenicum iodatum, Kali arsenicosum, Natrium sulphuricum. _Шкіра; погіршення в теплі ліжку_ - Sulphur, Psorinum.
 
-Шкіра; погіршення при миття холодною водою - Clematis.
+_Шкіра; погіршення при митті холодною водою_ - Clematis.
 
 _Сверблячка посилюється при контакті з вовною _ - Hepar sulphur, Phosphorus, Psorinum, Pulsatilla, Sulphur._Розчісує до крові_ - Arsenicum album, Agaricus, Alumina, Argentum muriaticum, Baryta carbonica, Bovista, Chloral, Medorrhinum, Psorinum, Pulsatilla, Carbo vegetabilis, Ledum.
 
@@ -67,7 +67,7 @@ _Сверблячка з внутрішніми симптомами_ - Graphyte
 
 _Еріматозна стадія_: Apis, Belladonna, Juglans regia, Sulphur, Iodum, Psorinum.
 
-Бульбашки: Anacardium, Anagallis, Apis, Canhtaris, Rhus toxicodendron, Hepar sulphur. Червона екзема; інфільтрат з кіркою темно-червоного кольору з бульбашками: Mezereum, Rhus venenata, Mercurius.
+_Бульбашки_: Anacardium, Anagallis, Apis, Canhtaris, Rhus toxicodendron, Hepar sulphur. _Червона екзема; інфільтрат з кіркою темно-червоного кольору з бульбашками_: Mezereum, Rhus venenata, Mercurius.
 
 _Сині бульбашки_: Arsenicum album, Lachesis, Ranunculus bulbosus.
 
@@ -81,4 +81,4 @@ _Кірки та тріщини_: Calcarea carbonica, Carboneum sulphuratum, Gra
 
 Єдине суттєве ускладнення – це поява внутрішніх симптомів після зникнення екземи; але це найчастіше результат кортикоїдних мазей.
 
-Нарешті, треба сказати кілька слів про нозоду, який слід застосовувати у високій динамізації (15СH - 30СH), або з першого ж разу у дитини, або обережніше у дорослого, якщо основні ліки не діє. Psorinum є особливим випадком, тому що його можна вживати, або як нозод (виходячи з сімейного анамнезу), або як ліки, відповідно до патогенетичних симптомів.
+Нарешті, треба сказати кілька слів про нозод, який слід застосовувати у високій динамізації (15СH - 30СH), або з першого ж разу у дитини, або обережніше у дорослого, якщо основні ліки не діють. Psorinum є особливим випадком, тому що його можна вживати, або як нозод (виходячи з сімейного анамнезу), або як ліки, відповідно до патогенетичних симптомів.

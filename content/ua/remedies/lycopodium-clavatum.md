@@ -55,7 +55,7 @@ Lycopodium - це правостороннє засіб, але правобіч
 
 6) _Раптовість_; раптові припливи жару, біль, що нагадує блискавку; раптове насичення.
 
-Біль та інші симптоми купіруються і йдуть раптово, як у Belladonna.7) Відчуття, ніби в тілі знаходиться рука, яка вистачає за начинки (так само як у Belladonna).
+Біль та інші симптоми купіруються і йдуть раптово, як у Belladonna.7) Відчуття, ніби в тілі знаходиться рука, яка хапає за нутрощі (так само як у Belladonna).
 
 8) _Занепокоєння_, яке слабшає під час руху.
 
@@ -205,7 +205,7 @@ Lycopodium особливо підходить людям із проникли�
 
 Спить із напіввідкритими очима. Спить із відкритим ротом.
 
-Лежати на лівому боці важко через серцебиття та колючий біль у серці. Не може лежати вночі, тому що не в змозі знайти зручне становище. Дитина спить цілий день і плаче всю ніч.
+Лежати на лівому боці важко через серцебиття та колючий біль у серці. Не може лежати вночі, тому що не в змозі знайти зручне положення. Дитина спить цілий день і плаче всю ніч.
 
 ## Гарячка
 
@@ -1005,13 +1005,13 @@ Lycopodium особливо підходить людям із проникли�
 
 ## Взаємозв’язки
 
-**Антидотами для Lycopodium є**: Асонітум, Camphora, Causticum, Chamomilla, Coffea, Graphites, Nux vomica, Pulsatilla.
+**Антидотами для Lycopodium є**: Aconitum, Camphora, Causticum, Chamomilla, Coffea, Graphites, Nux vomica, Pulsatilla.
 
 **Lycopodium є антидотом**: China (обличчя жовте, печінка та селезінка набряклі, метеоризм, напруга під хибними ребрами, сильніша справа; тиск у шлунку та запор); Mercurius; Chlorine (дія пари, коли вони викликають імпотенцію).
 
 **З Lycopodium сумісні**: Belladonna, Bryonia, Carbo vegetabilis (доза Carbo vegetabilis, що приймається кожного восьмого дня, сприяє дії Lycopodium); Calcarea сarbonica (схильність до запорів, щільний кал, який виділяється насилу, або неефективні позиви); Graphites, Hyoscyamus, Lachesis, Ledum, Phosphorus, Pulsatilla, Sepia, Stramonium, Sulphur, Veratrum album.
 
-**Lycopodium добре слід за**: Sulphur, Calcarea сarbonica, Lachesis. **За ним добре слідують**: Graphites, Lachesis, Ledum, Phosphorus, Silicea. **Несумісний з кавою**.
+**Lycopodium добре слідує за**: Sulphur, Calcarea сarbonica, Lachesis. **За ним добре слідують**: Graphites, Lachesis, Ledum, Phosphorus, Silicea. **Несумісний з кавою**.
 
 **Додатковими препаратами служать**: Iodum, Chelidonium, Kali iodatum, Lachesis, Ignatia, Pulsatilla, Ipecacuanha.
 

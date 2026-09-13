@@ -27,7 +27,7 @@ sections: Характеристика; Психіка; Тип; Клініка; 
 
 Hering, який дізнався про його властивості від містера Понда, який виробляв знаменитий «Екстракт Понда» (Понд був пацієнтом Hering), провів перші його випробування та включив до гомеопатичних засобів.
 
-Він визначив позицію Hamamelis між Асонітом і Arnica.
+Він визначив позицію Hamamelis між Aconitum і Arnica.
 
 З цим чагарником пов'язана велика кількість цікавих забобонів; його пагони використовуються як лоза для відшукання підземних вод та металів. Hale склав повний звіт щодо використання Hamamelis.
 
@@ -365,4 +365,4 @@ Hamamelis добре діє у випадках «варикозної ангі�
 
 **Антидотами для Hamamelis** є: Camphora, China, Pulsatilla (зубний біль). **Додатковим засобом** є Ferrum при кровотечах.
 
-**Слід порівняти**: Calendula («Ham. прискорює розсмоктування внутрішньоочних крововиливів ефективніше, ніж будь-який з цих препаратів». Hering), Chloralum, Secale (пурпура), Fluoricum асidum, Lachesis, Secale, Pulsatilla, Nux vomica, Aesculus, Nitricвенозних вузлах); Spongia, Actea racemosa, Вгуonia (вікарні менструації); Belladonna, Euphorbium, Rhus, Terebinthina (як зовнішній засіб при опіках першого ступеня); Sanguisuga (кровотечі).
+**Слід порівняти**: Calendula («Ham. прискорює розсмоктування внутрішньоочних крововиливів ефективніше, ніж будь-який з цих препаратів». Hering), Chloralum, Secale (пурпура), Fluoricum асidum, Lachesis, Secale, Pulsatilla, Nux vomica, Aesculus, Nitricum acidum (при варикозному розширенні вен і венозних вузлах); Spongia, Actea racemosa, Вгуonia (вікарні менструації); Belladonna, Euphorbium, Rhus, Terebinthina (як зовнішній засіб при опіках першого ступеня); Sanguisuga (кровотечі).

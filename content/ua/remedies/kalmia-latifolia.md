@@ -443,4 +443,4 @@ Kalmia – це назва сімейства. вересових, що похо
 
 **Добре слідує за**: Nux vomica, Thyroidinum, Spigelia.
 
-**Слід порівняти**: Tabacum, Pulsatilla, Ledum, Rhododendron, Abrotanum, Arbutus, Aesculus, Urtica urens, Actea racemosa, Cedron, Асонітум, Arsenicum album, Digitalis, Gelsemium, Benzoicum асидум, Calcarea carbonica, Dioscoreсarbonicum, Lyesinum, Spigelia, Cactus, Aloe. Ledum, Rhododendron та Uva ursi є близькими родичами.
+**Слід порівняти**: Tabacum, Pulsatilla, Ledum, Rhododendron, Abrotanum, Arbutus, Aesculus, Urtica urens, Actea racemosa, Cedron, Aconitum, Arsenicum album, Digitalis, Gelsemium, Benzoicum acidum, Calcarea carbonica, Dioscorea, Kali bichromicum, Lithium сarbonicum, Lyesinum, Spigelia, Cactus, Aloe. Ledum, Rhododendron та Uva ursi є близькими родичами.

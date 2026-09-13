@@ -27,7 +27,7 @@ sections: Характеристика; Психіка; Тип; Клініка; 
 
 Ці ліки показали свою виняткову ефективність у випадках злоякісної та пригніченої скарлатини.
 
-Під час випробувань часто відзначалося відчуття переповнення у всьому тілі та почуття, ніби електричний струм проходит від голови до кінцівок. Затяжна лихоманка цих ліків характеризується ступором або апатією та зітханнями.
+Під час випробувань часто відзначалося відчуття переповнення у всьому тілі та почуття, ніби електричний струм проходить від голови до кінцівок. Затяжна лихоманка цих ліків характеризується ступором або апатією та зітханнями.
 
 ## Психіка
 
@@ -249,4 +249,4 @@ sections: Характеристика; Психіка; Тип; Клініка; 
 
 До Ailanthus glandulosa ботанічно близькі Ptelea та інші представники сімейства рутових.
 
-**Антидотами** Ailanthus glandulosa служать: алкоголь, Rhus toxicodendron, Nux vomica. **Слід порівняти**: Ammonium сarbonicum, Arnica, Arum triphyllum, Aloe (тупий біль у ділянці чола), Вартісія, Bryonia, Gelsemium, Hyoscyamus, Lachesis, Nitricum azidum, Nux vomica, Phytolacca, Hydrocyanicum асідум, Rhu.
+**Антидотами** Ailanthus glandulosa служать: алкоголь, Rhus toxicodendron, Nux vomica. **Слід порівняти**: Ammonium сarbonicum, Arnica, Arum triphyllum, Aloe (тупий біль у ділянці чола), Baptisia, Bryonia, Gelsemium, Hyoscyamus, Lachesis, Nitricum acidum, Nux vomica, Phytolacca, Hydrocyanicum acidum, Rhus toxicodendron, Stramonium, Echinacea.

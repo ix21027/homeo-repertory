@@ -8,7 +8,7 @@ origin: https://homeopat-sam.com/-/a412
 remedy_blocks: 4
 ---
 
-Найчастіше при цій проблемі призначають такі гомеопатичні препарати: Baryta carbonica Calcium fluoricum Natrium muriaticum Vipera
+Найчастіше при цій проблемі призначають такі гомеопатичні препарати: **Baryta carbonica Calcium fluoricum Natrium muriaticum Vipera**
 
 ### Baryta carbonica (Барита карбоніка)
 

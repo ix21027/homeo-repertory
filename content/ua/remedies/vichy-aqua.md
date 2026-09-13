@@ -227,7 +227,7 @@ Croserio випробував цей препарат, вживаючи неро
 
 **Слід порівняти** з Natrium muriaticum.
 
-Колючий біль - Калі саrbonicum.
+Колючий біль - Kali carbonicum.
 
 Відчуття залізного засуву грудях – Haematoxylum campechianum, Arsenicum album, Oxalicum асidum.
 

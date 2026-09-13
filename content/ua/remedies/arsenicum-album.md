@@ -539,7 +539,7 @@ Arsenicum album - одне з "періодичних" ліків.
 
 Випадання прямої кишки із сильним болем.
 
-Сверблячка, що саднить біль і печіння в анусі і прямій кишці; у гемороїдальних вузлах, зазвичай ночами.
+Свербіж, саднучий біль і печіння в анусі і прямій кишці; у гемороїдальних вузлах, зазвичай ночами.
 
 Простріли у гемороїдальних вузлах.
 
@@ -639,7 +639,7 @@ Arsenicum album - одне з "періодичних" ліків.
 
 **Arsenicum album добре слідує після**: Aconitum, Agaricus, Belladonna, Chamomilla, China, Ipecacuanha, Lachesis, Veratrum album.
 
-**Після Arsenicum album добре слідують**: Aranea diadema, Nux vomica, Iodum, Sulphur. При шкірних ураженнях після Arsenicum album добре слідує Rhus. **Додаткові кошти**: Allium sativum, Carbo vegetabilis, Phosphorus. **Слід порівняти**: Aconitum, Apocynum, Argentum nitricum, Belladonna, Bismuhtum, Calcium carbonicum, Cannabis indica, Carbo vegetabilis, China, Ferrum, Hyoscyamus, Ipecacuanha, Kreosotum, Lachesis, Lyesinum, Nux vomicatoxicodendron, Tabacum, Veratrum album.
+**Після Arsenicum album добре слідують**: Aranea diadema, Nux vomica, Iodum, Sulphur. При шкірних ураженнях після Arsenicum album добре слідує Rhus. **Додаткові засоби**: Allium sativum, Carbo vegetabilis, Phosphorus. **Слід порівняти**: Aconitum, Apocynum, Argentum nitricum, Belladonna, Bismuhtum, Calcium carbonicum, Cannabis indica, Carbo vegetabilis, China, Ferrum, Hyoscyamus, Ipecacuanha, Kreosotum, Lachesis, Lyesinum, Nux vomica, Phosphorus, Pulsatilla, Rhus toxicodendron, Tabacum, Veratrum album.
 
 ## Рекомендації
 

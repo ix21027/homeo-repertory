@@ -535,8 +535,8 @@ Guernsey вважає, що ці ліки необхідні «висушени�
 
 **Добре слідує після**: Bryonia, Spigelia (диспепсія); Causticum (ураження уретри); Spongia (подагра); Veratrum album (метеоризм).
 
-**Після Argentum nitricum добре слід** Lyesinum (метеоризм).
+**Після Argentum nitricum добре йде** Lyesinum (метеоризм).
 
-**Слід порівняти**: Argentum metallicum, Aurum, Сірrum, Kali bichromicum, Lachesis, Mercurius, Mercurius corrosivus, Mercurius iodatus, Natrum muriaticum, Nitricum acidum, Thuj, Calcarea carbonica, Bryonia, Causticum, Lyesinuпрепарати – похідні азотної кислоти.
+**Слід порівняти**: Argentum metallicum, Aurum, Сірrum, Kali bichromicum, Lachesis, Mercurius, Mercurius corrosivus, Mercurius iodatus, Natrum muriaticum, Nitricum acidum, Thuj, Calcarea carbonica, Bryonia, Causticum, Lyesinum, Sarsaparilla і Stannum, Glonoinum та інші препарати – похідні азотної кислоти.
 
 **Найближчим препаратом** є Pulsatilla.

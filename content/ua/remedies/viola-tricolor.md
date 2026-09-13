@@ -231,6 +231,6 @@ Viola tricolor була випробувана Hahnemann та його спів�
 
 Висипання, виразки та ін. - Chamomilla, Graphites, Hepar sulphuris, Mercurius, Oleander, Petroleum, Staphysagria.
 
-Проколи - Калі саrbonicum.
+Проколи - Kali carbonicum.
 
 Ботанічна спорідненість: див. у Viola odorata.

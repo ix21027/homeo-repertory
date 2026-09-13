@@ -9,7 +9,7 @@ origin: https://homeopat-sam.com/%D0%9E%D1%82%D0%B8%D1%82%20(%D0%BD%D0%B0%D1%87%
 remedy_blocks: 14
 ---
 
-Повсякденна клінічна практика вказує на ліки, що найчастіше застосовуються: Aconitum, Apis, Arsenicum album, Belladonna, Chamomilla, Dulcamara, Ferrum phosphoricum, Hepar sulphur, Lachesis, Lycopodium, Nux vomica, Pulsatilla, Rhus toxicodendphron, Os.
+Повсякденна клінічна практика вказує на ліки, що найчастіше застосовуються: Aconitum, Apis, Arsenicum album, Belladonna, Chamomilla, Dulcamara, Ferrum phosphoricum, Hepar sulphur, Lachesis, Lycopodium, Nux vomica, Pulsatilla, Rhus toxicodendron, Oscillococcinum, Sulphur, ізопатичні засоби.
 
 ### Apis (Апіс)
 
@@ -87,7 +87,7 @@ remedy_blocks: 14
 
 Підвищена чутливість до болю при торканні та від холоду.
 
-Загострення в положенні лежачи від холоду, заспокоєння в теплі. Тенденція до нагноєння. Ліки слід давати на початку захворювання. Результати очевидні.
+Загострення в положенні лежачи і від холоду, заспокоєння в теплі. Тенденція до нагноєння. Ліки слід давати на початку захворювання. Результати очевидні.
 
 Супроводжується нежиттю та жовтуватими виділеннями (схильність до нагноєнь).
 

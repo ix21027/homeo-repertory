@@ -346,8 +346,8 @@ Sabina є одним із засобів, які діють на п'яти.
 
 Погіршення вночі у ліжку - Sulphur, Mercurius, Pulsatilla, Chamomilla (зубний біль), Вrуonia (ревматизм).
 
-Фімоз - Саннабіс indica, Mercurius, Sulphur, Nitricum асidum, Sepia, Thuja, Rhus. Тимпаніт - Terebinthina.
+Фімоз - Cannabis indica, Mercurius, Sulphur, Nitricum асidum, Sepia, Thuja, Rhus. Тимпаніт - Terebinthina.
 
 Ревматичний біль слабшає від холодних аплікацій – Ledum.
 
-Менструації лише у положенні лежачи (тільки вночі - Bovista, Magnesia сarbonica). Джон Генрі Кларк. «Словник Практичної Materia Medica в 6-ти томах» (Видання «Гомеопатична медицина». Москва. 2001 р.).
+Менструації лише у положенні лежачи (тільки вночі - Bovista, Magnesia сarbonica). _Джон Генрі Кларк. «Словник Практичної Materia Medica в 6-ти томах»_ _(Видання «Гомеопатична медицина». Москва. 2001 р.)._

@@ -35,15 +35,15 @@ _Наповнення вен (руки)_: Sulphur.
 
 _Тромбоз_: Apis, Arsenicum album.
 
-Виразка варикозної ноги: Aesculus, Carbo vegetabilis, Graphites, Hamamelis, Natrium muriaticum. Варикоз під час вагітності: Pulsatilla, Ferrum, Lycopodium, Millefolium, Zincum.
+_Виразка варикозної ноги_: Aesculus, Carbo vegetabilis, Graphites, Hamamelis, Natrium muriaticum. _Варикоз під час вагітності_: Pulsatilla, Ferrum, Lycopodium, Millefolium, Zincum.
 
 **Локалізація венозної патології**
 
-Ніс; варикозні хвороби: Carbo vegetabilis, Aurum, Mezereum.
+_Ніс; варикозні хвороби_: Carbo vegetabilis, Aurum, Mezereum.
 
-Обличчя; розширені вени: China, Lachesis.
+_Обличчя; розширені вени_: China, Lachesis.
 
-Обличчя; мармуровість: Lachesis, Calcarea carbonica, Carbo vegetabilis, Crotalus horridus, Lycopodium, Thuja. Ріт; варикоз язика: Digitalis, Fluoricum acidum, Hamamelis, Pulsatilla, Thuja.
+_Обличчя; мармуровість_: Lachesis, Calcarea carbonica, Carbo vegetabilis, Crotalus horridus, Lycopodium, Thuja. _Рот; варикоз язика_: Digitalis, Fluoricum acidum, Hamamelis, Pulsatilla, Thuja.
 
 _Горло; варикоз_: Hamamelis.
 
@@ -51,15 +51,15 @@ _Горло; варикоз, ковтка_: Aesculus.
 
 _Горло; варикоз, мигдалики_: Baryta carbonica, Hamamelis, Lachesis.
 
-Живіт; розширені вени: Berberis, Sepia.
+_Живіт; розширені вени_: Berberis, Sepia.
 
 Пахова ділянка; розширені вени: Berberis.
 
-Живіт; варикоз: Hamamelis, Sulphur.
+_Живіт; варикоз_: Hamamelis, Sulphur.
 
-_Мочовий міхур _;_ порушення в ділянці сечового міхура як наслідок геморою_: Cantharis, Hamamelis, Nux vomica, Pulsatilla.
+_Сечовий міхур_; _порушення в ділянці сечового міхура як наслідок геморою_: Cantharis, Hamamelis, Nux vomica, Pulsatilla.
 
-Мочовий міхур; кровоточит: Calcarea carbonica, Hamamelis, Nitricum acidum.
+_Сечовий міхур; кровоточить_: Calcarea carbonica, Hamamelis, Nitricum acidum.
 
 _Верхні кінцівки_: Pulsatilla, Nux vomica, Plumbum, Strontium.
 
@@ -69,15 +69,15 @@ _На стегні_: Hamamelis, Calcarea carbonica, Pulsatilla, Zincum.
 
 _На нозі_: Carboneum sulphuratum, Carbo vegetabilis, Causticum, Hamamelis, Lycopodium, Pulsatilla, Zincum. **Рубрики Реперторіуму Кента для венозної патології**
 
-Варикозні вузли: Arnica, Calcarea carbonica, Carbo vegetabilis, Fluoricum acidum, Hamamelis, Lycopus, Pulsatilla.
+_Варикозні вузли_: Arnica, Calcarea carbonica, Carbo vegetabilis, Fluoricum acidum, Hamamelis, Lycopus, Pulsatilla.
 
-Варикозні вузли, пекучі: Arsenicum album, Apis, Calcarea carbonica.
+_Варикозні вузли, пекучі_: Arsenicum album, Apis, Calcarea carbonica.
 
-Варикозні вузли, пекучі, вночі: Arsenicum album.
+_Варикозні вузли, пекучі, вночі_: Arsenicum album.
 
-Варикозні вузли, запалені: Arsenicum album, Calcarea carbonica, Hamamelis, Lycopus, Pulsatilla. Варикозні вузли, як підшкірна мережа: Calcarea carbonica, Carbo vegetabilis, Causticum, Crotalus horridus, Lachesis.
+_Варикозні вузли, запалені_: Arsenicum album, Calcarea carbonica, Hamamelis, Lycopus, Pulsatilla. _Варикозні вузли, як підшкірна мережа_: Calcarea carbonica, Carbo vegetabilis, Causticum, Crotalus horridus, Lachesis.
 
-Варикозні вузли, болючі: Pulsatilla, Bromium, Causticum, Hamamelis, Lycopodium, Millefolium, Sanguinaria.
+_Варикозні вузли, болючі_: Pulsatilla, Bromium, Causticum, Hamamelis, Lycopodium, Millefolium, Sanguinaria.
 
 **Ліки, які найчастіше вживаються при венозній патології**
 

@@ -147,7 +147,7 @@ Quercus – корисний засіб при застарілих малярі
 
 Дуб є близьким родичем верби, він має властивість викликати лихоманку та запаморочення, аналогічні ефекту саліцину та його складових. З кори дуба та галлів (або дубильних горішків, які утворюються при проколюванні листя горіхами) отримують танін, танінову та галову кислоти.
 
-Quercus є антидотом при симптомах алкогольної інтоксикації. **Слід порівняти**: при запамороченні - Cocculus, Gelsemium, Natrum muriaticum, Natrum salicylicum, Digitalis; при захворюваннях селезінки - Seanothus, Scilla, Cedron, Urtica urens, Rubia tinctorum, Thuja; при алкоголізмі Nux vomica, Arsenicum album, China.
+_Quercus є антидотом при симптомах алкогольної інтоксикації_. **Слід порівняти**: при запамороченні - Cocculus, Gelsemium, Natrum muriaticum, Natrum salicylicum, Digitalis; при захворюваннях селезінки - Ceanothus, Scilla, Cedron, Urtica urens, Rubia tinctorum, Thuja; при алкоголізмі Nux vomica, Arsenicum album, China.
 
 **Порівняти** (В. Беріке): Lachesis, Helianthus annuus (збільшення та болючість селезінки), Сеаnothus, Natrum muriaticum.
 

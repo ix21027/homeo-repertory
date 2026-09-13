@@ -248,7 +248,7 @@ Cocculus indicus гомеопатичний стан гіперчутливос�
 
 Безплідні позиви до дефекації на фоні запору.
 
-Стискає біль у прямій кишці, що не дозволяє пацієнту сісти (після полудня). Пронос із відходженням газів щоразу перед дефекацією. Рідкий кал із гнильним запахом.
+Стискаючий біль у прямій кишці, що не дозволяє пацієнту сісти (після полудня). Пронос із відходженням газів щоразу перед дефекацією. Рідкий кал із гнильним запахом.
 
 М'які жовті фекалії, що викликають печіння анусу.
 
@@ -358,9 +358,9 @@ Cocculus indicus гомеопатичний стан гіперчутливос�
 
 **Cocculus indicus добре слідує** Асоnitum (ендокардит з сильним страхом); Chamomilla, Nux vomica, Ignatia.
 
-**Слід порівняти**: Асонітум, Actea racemosa, Antonium crudum (біль у шлунку), Agaricus (сонливість), Antimonium tartaricus, Arsenicum album, Belladonna, Calcarea carbonica, Carbo vegetabilis (паротит), Chamomilla, Coffea, Cupecum, IgnaLachesis, Mercurius, Moschus, Nux moschata (сонливість), Oleandrer, Petroleum, Pulsatilla (головний біль), Rhus toxicodendron, Sabina, Scutellaria, Silicea, Stramonium, Tabacum, Veratrum album.
+**Слід порівняти**: Aconitum, Actea racemosa, Antonium crudum (біль у шлунку), Agaricus (сонливість), Antimonium tartaricus, Arsenicum album, Belladonna, Calcarea carbonica, Carbo vegetabilis (паротит), Chamomilla, Coffea, Cuprum, Ignatia (головний біль), Ipecacuanha, Iodum, Lachesis, Mercurius, Moschus, Nux moschata (сонливість), Oleandrer, Petroleum, Pulsatilla (головний біль), Rhus toxicodendron, Sabina, Scutellaria, Silicea, Stramonium, Tabacum, Veratrum album.
 
-Також Nux vomica, Nitricum асidum (гіперчутливість до шуму); Asarum, Cannabis indica, Calcarea carbonica, Gelsemium, Sticta, Silicea, Thuja (запаморочення); Lac deflopatum (менструальний головний біль); Асонітум, арсенічне album, Bromium, Carbo vegetabilis, Lyesinum, Phosphorus, Pulsatilla, Sulphur, Zincum (страх привидів).
+Також Nux vomica, Nitricum асidum (гіперчутливість до шуму); Asarum, Cannabis indica, Calcarea carbonica, Gelsemium, Sticta, Silicea, Thuja (запаморочення); Lac deflopatum (менструальний головний біль); Aconitum, Arsenicum album, Bromium, Carbo vegetabilis, Lyesinum, Phosphorus, Pulsatilla, Sulphur, Zincum (страх привидів).
 
 Крім того, слід порівняти: при пупковій грижі - Nux vomica (без позивів - Bryonia, Natrium muriaticum, Veratrum album); при погіршенні в уклінній позі - Magnasia сarbonica, Sepia; при постійному відчутті нудоти Ipecacuanha, Kali сarbonicum, Sulphur, Ignatia, Aceticum асidum; при спазмах у матці, дисменореї, темних менструальних виділеннях - Ignatia (Cocculus відрізняє вираженість відчуття слабкості та ломоти в попереку, немов вона паралізована; з тремтінням на початку ходьби); при слабкості розмови – Veratrum album, Sulphur, Calcarea carbonica; при функціональних паралічах внаслідок емоційної перенапруги – Ignatia, Phosphorus, Natrium muriaticum, Collinsonia; при болях у потилиці - Gelsemium, Juglans сinerea; при слабкості у м'язах шиї – Antimonium tartaricum; при полегшенні від закидання голови назад - Senega (гірше від закидання голови назад - Clematis, Cinnabaris).
 

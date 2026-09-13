@@ -256,13 +256,13 @@ Guernsey: «Поліпи із закладеністю носа з того бо
 
 Гельмінти – Scirrhinum, Cina, Spigelia.
 
-Туберкульоз – Васіллінум.
+Туберкульоз – Bacillinum.
 
 Поліпи, погіршення у вологу погоду – Lemna minor.
 
 Підвищена нервова збудливість Nux vomica, Vol.
 
-Риніт - Калі bochromicum.
+Риніт - Kali bochromicum.
 
 Носові поліпи – Phosphorus, Sanguinaria, Silicea.
 

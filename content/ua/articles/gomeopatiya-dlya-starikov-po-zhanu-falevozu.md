@@ -33,7 +33,7 @@ remedy_blocks: 0
 
 **Ущільнення тканин, вузлики** – Antimonium crudum, Calcarea carbonica, Conium, Lycopodium, Phosphorus, Rhus toxicodendron.
 
-**Ущільнення тканин, вузлики у старої людини** – Барбарис.
+**Ущільнення тканин, вузлики у старої людини** – Berberis.
 
 **Пролежні у лежачих хворих** - Arnica, China, Graphytes, Lachesis, Petroleum, Sepia, Silicea. **Стареча гангрена** – Secale, Carbo vegetabilis.
 
@@ -147,7 +147,7 @@ remedy_blocks: 0
 
 **Часте сечовипускання** - Baryta carbonica.
 
-* Мимовільне сечовипускання - Allium cepa, Arsenicum album, Aurum muriaticum, Cicuta, Iodum, Secale, Thuja.
+**Мимовільне сечовипускання** - Allium cepa, Arsenicum album, Aurum muriaticum, Cicuta, Iodum, Secale, Thuja.
 
 **Мижвільне сечовипускання з гіпертрофією простати у літніх чоловіків** - Allivum sativa, Aloe, Cicuta, Iodum, Pareira, Secale, Thuja, Digitalis, Kali phosphoricum, Nux vomica. **Гіпертрофія простати у людей похилого віку** – Baryta carbonica, Digitalis, Selenium, Benzoicum acidum, Conium, Iodum, Staphysagria, Aloe, Nux vomica, Sabadilla, Sulphur.
 

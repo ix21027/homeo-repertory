@@ -261,11 +261,11 @@ Phellandrium є цінним засобом кашлю. Goullonjunr стверд
 
 **Слід порівняти**: Симптоми з боку грудей - Conium, Phytolacca, Bryonia, Oleum animale (Oleum animale - біль, що коле і стріляє, поширюється зсередини назовні; Phellandrium - зовні всередину).
 
-Біль при годуванні груддю - Croton tiglium (біль у молочних залозах при годуванні віддає у спину), Bovista (відчуття порожнечі); колючий біль - Калі саrbonicum.
+Біль при годуванні груддю - Croton tiglium (біль у молочних залозах при годуванні віддає у спину), Bovista (відчуття порожнечі); колючий біль - Kali саrbonicum.
 
 Головний біль, що поширюється на очі, – Onosmodium.
 
-Біль у правій половині грудей - Zincum (права верхівка - Calcarea carbonica, Arsenicum album; справа посередині - Sepia; справа біля основи - Chelidonium, Lachnanthes, Kali саrbonicum, Sepia; ліва верхівка - Arsenicum album, ліворуч - Охalicph асidum).
+Біль у правій половині грудей - Zincum (права верхівка - Calcarea carbonica, Arsenicum album; справа посередині - Sepia; справа біля основи - Chelidonium, Lachnanthes, Kali саrbonicum, Sepia; ліва верхівка - Arsenicum album, зліва біля основи - Охalicum асidum, Sulphur).
 
 Остання стадія туберкульозу, надзвичайно смердюче мокротиння - Silicea. Смердюче дихання з кашлем - Capsicum.
 

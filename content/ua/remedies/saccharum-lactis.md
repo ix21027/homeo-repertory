@@ -293,7 +293,7 @@ Camphora посилює дію Saccharum lactis.
 
 Відчуття грудки у прямій кишці - Sepia.
 
-Погіршення звуку поточної води — Hydroohorbinum.
+Погіршення від звуку проточної води — Hydroohorbinum.
 
 Болі розходяться у всіх напрямках – Kali bichromicum.
 

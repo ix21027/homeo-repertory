@@ -13,7 +13,7 @@ sections: Характеристика; Психіка; Клініка; Зага
 
 Джон Генрі Кларк. «Словник Практичної Materia Medica у 6-ти томах» (Видання «Гомеопатична медицина». Москва. 2001 р.).
 
-**Lapis albus** — Силіко-флюорид кальцію, Кремнієво-фтористий кальцій — різновид гнейсу, виявлений Grauvogl у мінеральних цілях. Препарат готують із розтирання.
+**Lapis albus** — Силіко-флюорид кальцію, Кремнієво-фтористий кальцій — різновид гнейсу, виявлений Grauvogl у мінеральних джерелах. Ці води, пройшовши крізь гнейсові утворення, витікають у долині Ахен, де поширені зоб і кретинізм. Препарат готують із розтирання.
 
 ## Характеристика
 
@@ -87,4 +87,4 @@ Grauvogl, який ввів цей засіб у гомеопатію, вилі�
 
 ## Взаємозв’язки
 
-**Слід порівняти:** Gastein (дія на рубцеву тканину); Arsenicum album, Arsenicum iodatum, Badiaga, Calcarea carbonica, Calcarea іодата, Conium, Cundurango, Iodum, Kali carbonicum, Kali iodatum, Silicea, Spongia.
+**Слід порівняти:** Gastein (дія на рубцеву тканину); Arsenicum album, Arsenicum iodatum, Badiaga, Calcarea carbonica, Calcarea iodata, Conium, Cundurango, Iodum, Kali carbonicum, Kali iodatum, Silicea, Spongia.

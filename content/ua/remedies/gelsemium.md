@@ -561,7 +561,7 @@ Foy вказує, що одного разу ідеальним антидото
 
 **Є антагоністом для:** Atropinum, Opium.
 
-**Сумісний з**: Варtisia (при тифі та грипі); Ipecacuanha (при малярії). **Слід порівняти**: Caulophyllum, Cocculus, Conium, Oleum animale, Belladonna, Caustticum, Curare, Phosphorus, Veratrum, Borax, Вгуонія, Gelsemium, Hypericum.
+**Сумісний з**: Варtisia (при тифі та грипі); Ipecacuanha (при малярії). **Слід порівняти**: Caulophyllum, Cocculus, Conium, Oleum animale, Belladonna, Caustticum, Curare, Phosphorus, Veratrum, Borax, Bryonia, Gelsemium, Hypericum.
 
 ## Рекомендації
 

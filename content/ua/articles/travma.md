@@ -27,7 +27,7 @@ remedy_blocks: 26
 
 **Фізичні ознаки** Це насамперед ліки «синяків». Здається, що кровоносні судини слабкі і кров вилилася у травмоване місце – Arnica, Sulphuricum acidum, Badiaga, Hepar sulphur, Lachesis, Pulsatilla, Ruta, Sulphur.
 
-_Удар по голові _: Arnica, Natrium sulphuricum, Cicuta, Natrium muriaticum, Hypericum. Але слід віддати перевагу Natrium muriaticum, якщо є запаморочення - Natrium muriaticum, Cicuta._ Очні травми_: Arnica як і раніше показана, але їй слід віддати перевагу Symphytum, якщо йдеться про удар яким-небудь предметом, і Ledum, якщо це «ліхтар під оком» - Symphytum, Arnica, Euphrasia, Ledum, Staphysagria, Aconitum, Calcarea car,Sulphur, Sulphuricum acidum.
+_Удар по голові_: Arnica, Natrium sulphuricum, Cicuta, Natrium muriaticum, Hypericum. Але слід віддати перевагу Natrium muriaticum, якщо є запаморочення - Natrium muriaticum, Cicuta. _Очні травми_: Arnica як і раніше показана, але їй слід віддати перевагу Symphytum, якщо йдеться про удар яким-небудь предметом, і Ledum, якщо це «ліхтар під оком» - Symphytum, Arnica, Euphrasia, Ledum, Staphysagria, Aconitum, Calcarea carbonica, Calcarea sulphurica, Hamamelis, Silicea, Sulphur, Sulphuricum acidum.
 
 _Удар по носу_: кровотеча з носа, як наслідок удару вимагає Arnica, Elaps, Hamamelis, Sepia, Aceticum acidum, Hypericum, Natrium sulphuricum, Apis, Calcarea carbonica, Conium, Ledum, Nitricum acidum, Rhus toxicodendron, Ruta, Silicea, Thuja.
 
@@ -69,7 +69,7 @@ _Модальності_: кінцівка стає блідою, холодно
 
 Ця судомна отрута викликає приплив крові до основи черепа і в довгастий мозок (опистотонус). Збудливість така сильна, що простий тиск на якусь ділянка тіла викликає судоми (ліки від правця).
 
-Cicuta – це добрі ліки при хронічних наслідках черепної контузії (перелом скроневої кістки) або контузії мозку при травмі черепа або хребетного стовпа, особливо якщо Arnica не призвела до позитивного результату при спазмах, оніміннях, відчуттях судом у м'язах потилиці та спини (Belladonna, Cigata, Cicuta, Cigata).
+Cicuta – це добрі ліки при хронічних наслідках черепної контузії (перелом скроневої кістки) або контузії мозку при травмі черепа або хребетного стовпа, особливо якщо Arnica не призвела до позитивного результату при спазмах, оніміннях, відчуттях судом у м'язах потилиці та спини (Belladonna, Cicuta, Cimicifuga, Opium).
 
 Головний біль в одній з півкуль, що змушує хворого сидіти випроставшись.
 

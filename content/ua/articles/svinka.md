@@ -47,4 +47,4 @@ Apis та Bryonia завжди допомагали уникнути госпі�
 
 Слід порадити профілактичну ін'єкцію гамма-глобуліну для батьків, які не мають імунітету, діти яких хворі на свинку. Найчастіше у цьому випадку показана Pulsatilla.
 
-**Корисно знати відповідну рубрику Кента**: _набряк яєчка від свинки_ - Pulsatilla, Carbolicum acidum, Jaborandi, Mercurius, Abrotanum, Arsenicum album, Natrium muriaticum, Nux vomica, Phosphorus, Rhus toxicodendron, Staphyy
+**Корисно знати відповідну рубрику Кента**: _набряк яєчка від свинки_ - Pulsatilla, Carbolicum acidum, Jaborandi, Mercurius, Abrotanum, Arsenicum album, Natrium muriaticum, Nux vomica, Phosphorus, Rhus toxicodendron, Staphysagria.

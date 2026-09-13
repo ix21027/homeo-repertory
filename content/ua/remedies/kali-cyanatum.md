@@ -213,7 +213,7 @@ Petroz був першим, хто запропонував призначати
 
 ## Взаємозв’язки
 
-**Слід порівняти**: Nydroсуnicum асidum, Amygdalus, Camphora.
+**Слід порівняти**: Hydrocyanicum acidum, Amygdalus, Camphora.
 
 При періодичній циліарній невралгії – Cedron.
 

@@ -61,7 +61,7 @@ Arnulphy вважає, що Tuberculinum часто буває корисним 
 
 Tuberculinum викликав повторні еритематозні висипання на шкірі, а в деяких випадках – дрібні крововиливи у клітковину.
 
-Акне. Ерітема. Вовчак. Рожа. Обмороження.
+Акне. Еритема. Вовчак. Бешиха. Обмороження.
 
 ## Сон
 
@@ -223,7 +223,7 @@ Tuberculinum має виражену дію при туберкульозі го
 
 Нежить. Виділення в'язкого, жовтувато-зеленого слизу з носа.
 
-Підвищена секреція слизу з болем у лобі.
+Підвищена секреція слизу з болем у ділянці чола.
 
 Тупий біль у вухах та зубах з нежиттю та головним болем вечорами. Кровотечі з носа. Комедони на носі, оточені дрібними пустулами. Відчуття жару та печіння в носі.
 
@@ -391,7 +391,7 @@ Tuberculinum має виражену дію при туберкульозі го
 
 Біль у ділянці апендикса – Arsenicum album, Lachesis.
 
-Біль у молочних залозах під час менструації – Conium, Calcarea carbonica. Підвищена чутливість до музики - Асонітум, Амбра, Natrium сarbonicum, Nux vomica, Phosphoricum асідум, Sepia, Thuja, Viola оdorata.
+Біль у молочних залозах під час менструації – Conium, Calcarea carbonica. Підвищена чутливість до музики - Aconitum, Ambra, Natrium сarbonicum, Nux vomica, Phosphoricum acidum, Sepia, Thuja, Viola оdorata.
 
 **Сумісний:** Hydrastis, Calcarea carbonica, Calcarea iodatum, Calcarea phosphorica, Phosphorus, Thuja, Sepia, Pulsatilla.
 

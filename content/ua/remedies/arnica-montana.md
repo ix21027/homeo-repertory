@@ -141,7 +141,7 @@ Nash дає як ключові такі симптоми. «Ступор з м�
 
 Біль, ніби в мозок забивають цвях.
 
-Пронизливий, що тягне, стріляє головний біль, головним чином у скронях. Гострий біль, що пронизує голову наскрізь.
+Пронизливий, тягнучий, стріляючий головний біль, головним чином у скронях. Гострий біль, що пронизує голову наскрізь.
 
 Ріжучий, наче ножем, головний біль, з наступним відчуттям ознобу. Колючий головний біль, особливо в скронях і в ділянці чола.
 
@@ -241,7 +241,7 @@ Ussher зазначає, що локальне застосування арні
 
 Простріли в грудній клітці, у центрі та з боків, із утрудненням дихання; гірше від кашлю, глибокого вдиху, руху; краще від зовнішнього натискання. Біль у грудях, як від забиття або здавлення.
 
-Печіння та садіння в грудях. Болючість у сфері ребер.
+Печіння та садіння в грудях. Болючість у ділянці ребер.
 
 Колючий біль у лівій половині грудної клітки, що посилюється від сухого кашлю, із утрудненням дихання; гірше від руху; краще від зовнішнього натискання.
 
@@ -483,7 +483,7 @@ Teste поміщає Arnica у свою першу групу, разом з Led
 
 **Додатковий засіб**: Paeonia.
 
-**Дія подібна**: Paeonia, Ammonium carbonicum, Croton (плескіт у животі), Arsenicum album, Baptisia (тифоїдний стан, при цьому пацієнт Baptisia «почується хворим», а пацієнт Arnica «почується здоровим» і злиться, коли йому кажуть, що він хворий), Belladonna, Brillania, Bryonia,sulphur, Hypericum, Hamamelis, Ipecacuanha, Ledum, Mercurius, Pulsatilla, Ranunculus sceleratus, Rhododendron, Ruta, Staphysagria, Silicea, Symphytum, Sulphur, Sulphuricum acidum, Veratrum album. **Arnica добре слідує після**: Асоnitum, Ipecacuanha, Veratrum album, Apis. **Після Arnica добре слідують**: Асоnitum, Arsenicum album, Bryonia, Ipecacuanha, Rhus toxicodendron.
+**Дія подібна**: Paeonia, Ammonium carbonicum, Croton (плескіт у животі), Arsenicum album, Baptisia (тифоїдний стан, при цьому пацієнт Baptisia «почувається хворим», а пацієнт Arnica «почувається здоровим» і злиться, коли йому кажуть, що він хворий), Belladonna, Bryonia, Chamomilla, Euphrasia, Calendula, Hepar sulphur, Hypericum, Hamamelis, Ipecacuanha, Ledum, Mercurius, Pulsatilla, Ranunculus sceleratus, Rhododendron, Ruta, Staphysagria, Silicea, Symphytum, Sulphur, Sulphuricum acidum, Veratrum album. **Arnica добре слідує після**: Асоnitum, Ipecacuanha, Veratrum album, Apis. **Після Arnica добре слідують**: Асоnitum, Arsenicum album, Bryonia, Ipecacuanha, Rhus toxicodendron.
 
 **Дію Arnica сприяє Arsenicum album** (дизентерія та варикозне розширення вен).
 
@@ -491,7 +491,7 @@ Teste поміщає Arnica у свою першу групу, разом з Led
 
 **Arnica є антидотом для**: Ammonium carbonicum, China, Cicuta, Ignatia, Ipecacuanha, Senega.
 
-**Антидотами для Arnica є**: Camph., Ipecacuanha (для вагомих доз); Coffee (головний біль); Асонітум, Arsenicum album, China, Ignatia, Ipecacuanha (для потенційованих ліків).
+**Антидотами для Arnica є**: Camph., Ipecacuanha (для вагомих доз); Coffee (головний біль); Aconitum, Arsenicum album, China, Ignatia, Ipecacuanha (для потенційованих ліків).
 
 Вино посилює небажану дію Arnica.
 

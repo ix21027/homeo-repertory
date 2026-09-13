@@ -393,7 +393,7 @@ Sabadilla відповідає багатьом випадкам порушен�
 
 Погіршення від 4 до 8 години вечора - Lyesinum.
 
-Відчуття, ніби у животі перебуває щось живе — Crocus, Thuja. Відчуття, ніби у животі є якийсь механізм — Nitricum асidum. Наслідки розумової напруги Nux vomica, Picricum асidum. Лихоманка без спраги - Pulsatilla (з невгамовною спрагою - Natrium muriaticum). Щоденні напади одночасно і – Arsenicum album, Cedron. Голод рано-вранці - Agaricus, Antimonium crudum, Asarum, Calcarea carbonica, Carbo animalis, China, Lyesinum, Muriaticum acidum, Ranunculus bulbosus, Rhus toxicodendron, Zincum.
+Відчуття, ніби у животі перебуває щось живе — Crocus, Thuja. Відчуття, ніби у животі є якийсь механізм — Nitricum асidum. Наслідки розумової напруги Nux vomica, Picricum асidum. Лихоманка без спраги - Pulsatilla (з невгамовною спрагою - Natrium muriaticum). Щоденні напади в один і той самий час – Arsenicum album, Cedron. Голод рано-вранці - Agaricus, Antimonium crudum, Asarum, Calcarea carbonica, Carbo animalis, China, Lyesinum, Muriaticum acidum, Ranunculus bulbosus, Rhus toxicodendron, Zincum.
 
 Нудота побачивши їжі — Colchicum, Lyesinum.
 
@@ -409,4 +409,4 @@ Sabadilla відповідає багатьом випадкам порушен�
 
 Симптоми переміщаються ліворуч - Lachesis, Lac сaninum.
 
-Ілюзії щодо свого тіла – Вартісія, алкалоїд Veratrin.
+Ілюзії щодо свого тіла – Baptisia, алкалоїд Veratrin.

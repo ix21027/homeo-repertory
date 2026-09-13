@@ -423,7 +423,7 @@ Iodium показаний при ущільненнях та атрофії яє
 
 Сильні та постійні ерекції. Підвищена сексуальність.
 
-Тягне, хворобливе відчуття в передній частині пеніса.
+Тягнуче, хворобливе відчуття в передній частині пеніса.
 
 Тупий біль, тиск, посмикування або біль при вигнанні насіння у насіннєвих канатиках; після коїтусу.
 
@@ -509,8 +509,8 @@ Nash вважає Iodium одним із засобів, на який впли�
 
 **Добре слідує за**: Mercurius; Hepar sulphur (круп); Arsenicum album. При дефектах росту, викривленні кісток та дитячих захворюваннях Iodium **добре слідує за Calcarea carbonica.**
 
-**За Iodium добре слідують**: Асонітум, Argentum, Argentum nitricum, Calcarea carbonica, Mercurius solubilis, Phosphorus, Pulsatilla.
+**За Iodium добре слідують**: Aconitum, Argentum, Argentum nitricum, Calcarea carbonica, Mercurius solubilis, Phosphorus, Pulsatilla.
 
 **Додатковим є**: Lyesinum.
 
-**Слід порівняти:** Bromium (для Bromium характерне волосся і колір обличчя світлі, для Iodium - темні; Bromium - гнильний запах виразок); Chlorum; Natrum muriaticum (вовчий апетит, а пацієнт все ж таки залишається худим - Natrum muriaticum особливо навколо шиї); Kali iodatum (балакучий, немов після прийому алкоголю); Ваryta carbonica (туберкульоз брижових лімфатичних вузлів; жахливий голод, виснаження „болтливість, антипатія до незнайомих; Ваryta carbonica — підходить малорослим людям; не має нестерпної дратівливості Iodium, яка сильніша, ніж у Antimonium crudum); чутливість, гідроцефалія), Cactus і Spigelia (серце); Hydrastis (патологія матки);
+**Слід порівняти:** Bromium (для Bromium характерне волосся і колір обличчя світлі, для Iodium - темні; Bromium - гнильний запах виразок); Chlorum; Natrum muriaticum (вовчий апетит, а пацієнт все ж таки залишається худим - Natrum muriaticum особливо навколо шиї); Kali iodatum (балакучий, немов після прийому алкоголю); Ваryta carbonica (туберкульоз брижових лімфатичних вузлів; жахливий голод, виснаження „балакучість, антипатія до незнайомих; Ваryta carbonica — підходить малорослим людям; не має нестерпної дратівливості Iodium, яка сильніша, ніж у Antimonium crudum); Alumina (жахливі передчуття); Apis (випіт у суглобах, чутливість, гідроцефалія); Cactus і Spigelia (серце); Hydrastis (патологія матки); Arsenicum album, Calcarea carbonica, Silicea і Staphysagria (вовчий апетит); Hyoscyamus (втрата голосу; у цьому разі Iodium є антидотом); Sulphur.

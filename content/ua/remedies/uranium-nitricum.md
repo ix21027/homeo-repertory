@@ -178,4 +178,4 @@ sections: Характеристика; Психіка; Тропність; Кл
 
 Діабет – Phosphoricum acidum, Syzygium, Thyroidinum, Lac defloratum, Lacticum асidum.
 
-Нудота відразу після їжі – Arsenicum album, Cina, Lyesinum, Silicea. Джон Генрі Кларк. «Словник Практичної Materia Medica в 6-ти томах» (Видання «Гомеопатична медицина». Москва. 2001 р.).
+Нудота відразу після їжі – Arsenicum album, Cina, Lyesinum, Silicea. _Джон Генрі Кларк. «Словник Практичної Materia Medica в 6-ти томах»_ _(Видання «Гомеопатична медицина». Москва. 2001 р.)._

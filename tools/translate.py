@@ -877,6 +877,10 @@ SEG_FIX = {
 # Правило спрацьовує, коли RU-речення є в сегменті, а зіпсоване UA-речення — у результаті.
 NEG_FIXES_FILE = os.path.join(ROOT, "tools", "negation-fixes.json")
 NEG_FIXES = json.load(open(NEG_FIXES_FILE, encoding="utf-8")) if os.path.exists(NEG_FIXES_FILE) else []
+# tools/term-fixes.json — поштучні правки з вичитки корпусу агентами (той самий механізм: фрагмент → фрагмент).
+TERM_FIXES_FILE = os.path.join(ROOT, "tools", "term-fixes.json")
+if os.path.exists(TERM_FIXES_FILE):
+    NEG_FIXES = NEG_FIXES + json.load(open(TERM_FIXES_FILE, encoding="utf-8"))
 
 
 def _loose(s: str):
@@ -903,7 +907,7 @@ def apply_negation_fixes(seg: str, out: str) -> str:
             a, b = _word_span(fx["good"])
             out = out[:m.start()] + fx["good"][a:b] + out[m.end():]
             continue
-        print(f"negation fix not applied: {fx['ru'][:70]}", file=sys.stderr)
+        print(f"fix not applied: {fx.get('note', '')} {fx['ru'][:70]}", file=sys.stderr)
     return out
 
 

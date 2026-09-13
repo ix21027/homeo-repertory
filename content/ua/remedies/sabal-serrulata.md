@@ -281,8 +281,8 @@ Mullins підтверджує ефективність Sabal у застуда�
 
 Передміхурова залоза та очі - Solidago.
 
-Погіршення після статевого акту – Калі саrbonicum.
+Погіршення після статевого акту – Kali саrbonicum.
 
-Блукаючий біль – Калі bichromicum (коріння Sabal дуже багате на солі калію). Жінки, які надто багато працюють - Magnesia сarbonica.
+Блукаючий біль – Kali bichromicum (коріння Sabal дуже багате на солі калію). Жінки, які надто багато працюють - Magnesia сarbonica.
 
 Hale відносить Sabal до "первинних афродизіаків" - Phosphorus, Turnera aphrodisiaca, до "анафродизіаків" він відносить Conium, Salicinum, Agnus, Nuphar luteum, Arsenicum album, Picricum acidum, Caladium, Camphora, Iodum.

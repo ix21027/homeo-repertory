@@ -483,7 +483,7 @@ Plumbum (Сатурн алхіміків) відчували Hartlaub, Trinks, H
 
 **Сумісний з**: Arsenicum album, Belladonna, Lyesinum, Mercurius, Phosphorus, Pulsatilla, Silicea, Sulphur.
 
-**Слід порівняти**: Запор, млявість кишечника, фекалії у вигляді щільних, дрібних кульок - Оріум (Для Plumbum характерний також спазм ануса.)
+**Слід порівняти**: Запор, млявість кишечника, фекалії у вигляді щільних, дрібних кульок - Opium (Для Plumbum характерний також спазм ануса.)
 
 Буйний делірій, пацієнт б'ється і кусається - Belladonna (Plumbum тремтіння голови і кистей, жовтий слиз на зубах, чергування кольок і делірія.) Чергування головного болю з симптомами з боку живота - Podophyllum. Розм'якшення мозку - Zincum (Для Plumbum характерне чергування кольк з болями в атрофованих кінцівках), Vanadium.
 
@@ -495,7 +495,7 @@ Plumbum (Сатурн алхіміків) відчували Hartlaub, Trinks, H
 
 Грудка в горлі - Ignatia, Lachesis, Lyesinum.
 
-Наслідки ураження хребта – Phosphorus, Picricum асidum, Zincum. Слабка пам'ять, нездатність знайти потрібне слово -Анасардіум, Lac сaninum. Жирне, блискуче обличчя Natrium muriaticum, Sanicula.
+Наслідки ураження хребта – Phosphorus, Picricum асidum, Zincum. Слабка пам'ять, нездатність знайти потрібне слово -Anacardium, Lac сaninum. Жирне, блискуче обличчя Natrium muriaticum, Sanicula.
 
 Бажання потягнутися – Amylenum nitrosum.
 

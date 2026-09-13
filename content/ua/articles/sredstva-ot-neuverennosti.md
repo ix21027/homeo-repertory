@@ -7,11 +7,11 @@ title: Кошти від невпевненості чи проблем із п�
 remedy_blocks: 6
 ---
 
-Кошти для тих, кого мучить невпевненість.
+Засоби для тих, кого мучить невпевненість.
 
 ## Для вирішення цієї проблеми застосовують такі препарати
 
-**1. Ceratо (Ceratostigma willmottiana) - Цератостигма, Свинчатка 2. Sclerantes (Scleranthus aunuus) - Їжака або Дівала 3. Gentian (Gentiana amarella) - Тістечка 4. Garse (Ulex turopaeus) – Утісник 5. HornbeamC. (Bromus racemosus) – Повстання або багаття кистисте**
+**1. Ceratо (Ceratostigma willmottiana) - Цератостигма, Свинчатка 2. Sclerantes (Scleranthus aunuus) - Грястиця або Дивала 3. Gentian (Gentiana amarella) - Тирлич 4. Garse (Ulex turopaeus) – Утісник 5. Hornbeam (Carpinus betulus) – Граб 6. Wild Oat (Bromus racemosus) – Вівсюг або стоколос китицевий**
 
 ### Cerato (Ceratostigma willmottiana) - Цератостигма, Свинчатка
 

@@ -290,7 +290,7 @@ Borax має багато своєрідних симптомів, які доз
 
 ## Взаємозв’язки
 
-**Слід порівняти:** Calcarea carbonica, Nux vomica, Bryonia alba, Lyesinum, Mercurius, Pulsatilla, Rhus toxicodendron, Allium cepa, Silicea, Sulphur, Arsenicum album, Belladonna, Graphytes, Ignatia, Kali bichromicum, Pho. **Антидотами для Borax veneta є**: Chamomilla, Сoffea.
+**Слід порівняти:** Calcarea carbonica, Nux vomica, Bryonia alba, Lyesinum, Mercurius, Pulsatilla, Rhus toxicodendron, Allium cepa, Silicea, Sulphur, Arsenicum album, Belladonna, Graphytes, Ignatia, Kali bichromicum, Phosphorus. **Антидотами для Borax veneta є**: Chamomilla, Сoffea.
 
 **Подібна дія:** Ammonium сarbonicum і Magnesia muriatica (закладеність правої ніздрі); Calcarea carbonica (бажання зробити глибокий вдих); Kali bichromicum (в'язкий слиз); Pulsatilla (чергування сміху та сліз); Sarsaparilla, Lyesinum, Benzoicum асidum (різкий запах сечі; плач перед сечовипусканням, проте у всіх трьох препаратів ці симптоми пов'язані з відходженням піску, у Borax - із запаленням слизової оболонки); Arum triphyllum (стоматит); Graphytes (трихіаз); Belladonna (гарячі білі); Sepia (маленькі виразки в ділянці суглобів); Ваryta carbonica (відчуття павутиння); Natrium sulphuricum (радісний настрій після дефекації).
 

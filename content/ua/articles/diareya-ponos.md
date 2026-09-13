@@ -35,15 +35,15 @@ remedy_blocks: 59
 
 **Вживання цибулі**: Lycopodium, Nux vomica, Pulsatilla, Thuja.
 
-**Інфекції (тифоподібні)**: Agaricus, Apis, Argentum nitricum, Arsenicum album, Baptisia, Bryonia, Calcarea carbonica, Hyoscyamus, Lachesis, Muriaticum acidum, Nitricum acidum, Phosphorus, Phosphoricum acidum, SecaleTerebinthina, Veratrum album. **Травматизм**: Arnica.
+**Інфекції (тифоподібні)**: Agaricus, Apis, Argentum nitricum, Arsenicum album, Baptisia, Bryonia, Calcarea carbonica, Hyoscyamus, Lachesis, Muriaticum acidum, Nitricum acidum, Phosphorus, Phosphoricum acidum, Secale, Stramonium, Sulphuricum acidum, Terebinthina, Veratrum album. **Травматизм**: Arnica.
 
 **Медикаменти** (хінін): Pulsatilla.
 
 **Прорізування зубів**: Calcarea carbonica, Chamomilla, Dulcamara, Ferrum, Rheum, Silcea. **У старих людей**: Antiminium crudum, Arsenicum album, Carbo vegetabilis, Fluoricum acidum, Gambogia, Nitricum acidum.
 
-_Характерні ознаки діареї _: вид калу, консистенція, запах, колір, періодичність._ Супутні симптоми_: подразнення заднього проходу, біль у животі (до, під час, після), здуття живота, гази, блювання, нудота, огида і пристрасть до їжі.
+_Характерні ознаки діареї_: вид калу, консистенція, запах, колір, періодичність. _Супутні симптоми_: подразнення заднього проходу, біль у животі (до, під час, після), здуття живота, гази, блювання, нудота, огида і пристрасть до їжі.
 
-**Зміна загального стану Пригнічений**: Arsenicum album, China, Natrium sulphuricum, Nitricum acidum, Oleander, Phosphorus, Picricum acidum, Podophyllum, Silicea, Veratrum album, Alumina, Apis, Ferrum, Graphytes, Iodum, Ipecacuanacidum, Tabacum, Tarentula, Zincum. **Збуджене, блідість, охолодження, потіння**: Veratrum album, Aconitum, Conum, Sulphur.
+**Зміна загального стану Пригнічений**: Arsenicum album, China, Natrium sulphuricum, Nitricum acidum, Oleander, Phosphorus, Picricum acidum, Podophyllum, Silicea, Veratrum album, Alumina, Apis, Ferrum, Graphytes, Iodum, Ipecacuanha, Nux vomica, Secale, Sulphuricum acidum, Tabacum, Tarentula, Zincum. **Збуджене, блідість, охолодження, потіння**: Veratrum album, Aconitum, Conum, Sulphur.
 
 **Ознаки, отримані в результаті загального огляду**
 
@@ -51,7 +51,7 @@ _Можуть бути два випадки_: **1. Діарея – це сим
 
 Гострий стан, який, повторюючись, стає загальним симптомом:
 
-- Діарея після споживання апельсинів: Phosphoricum acidum.
+- діарея після споживання апельсинів: Phosphoricum acidum.
 
 - _після того, як промочив ноги_: Rhus toxicodendron.
 
@@ -61,7 +61,7 @@ _Можуть бути два випадки_: **1. Діарея – це сим
 
 Ознакою основних ліків є надійний ключовий симптом, оскільки він об'єктивний і повторюється в тих самих обставин.
 
-2. Діарея як епідемічне захворювання.
+**2. Діарея як епідемічне захворювання.**
 
 У хворих треба з'ясувати всі симптоми визначення ліки. Під час епідемій я спостерігаю діарею та блювання. Загальний стан значно погіршується, з'являється озноб, холодний піт на лобі та прострація. Загострення після пиття, сильне блювання з нудотою і болями в животі: спазми (Cuprum). Діарея посилюється вночі, рясна з дуже сильними болями, що супроводжуються астенією (Vtratrum album), залежно від індивіда, але головне буде знайдено в симптомах «епідемічних» ліків.
 
@@ -379,7 +379,7 @@ _Можуть бути два випадки_: **1. Діарея – це сим
 
 ### Nux vomica (Нукс воміка)
 
-Загострюється при розгулі, надлишку алкоголю після переохолодження (протяг), зловживання проносними.
+Загострюється при розгулі, надлишку алкоголю, після переохолодження (протяг), зловживання проносними.
 
 Кал частий, кількість мала, попри сильні потуги (антиперистальтика).
 
@@ -513,7 +513,7 @@ _Можуть бути два випадки_: **1. Діарея – це сим
 
 ### Thuja (Туя)
 
-Діарея загострюється від цибулі, кави, жирної, вакцинації (Antimonium tartaricum, Silicea). Кал рідкий, ранковий, струменем, з багатими газами.
+Діарея загострюється від цибулі, кави, жирної, вакцинації (Antimonium tartaricum, Silicea). Кал рідкий, ранковий, струменем, з рясними газами.
 
 Загострення вранці за сніданком. Сильна спрага, бажання солоного.
 

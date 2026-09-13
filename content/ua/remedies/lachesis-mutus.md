@@ -589,7 +589,7 @@ Lachesis особливо підходить жінкам з холерични�
 
 Ціаноз. Спазми.
 
-Кровотечі Lachesis, мають ту особливість, що містять пластівці крові, що розклалася, які виглядають як обвуглена пшенична солома. Кровотечі та крововилив у різні органи.
+Кровотечі Lachesis, мають ту особливість, що містять пластівці крові, що розклалася, які виглядають як обвуглена пшенична солома. Кровотечі та крововиливи в різні органи.
 
 Варикозне розширення вен.
 
@@ -969,11 +969,11 @@ Lachesis є одним із кращих засобів при апендици�
 
 **Антидотами для отрути змії є**: зовнішнє тепло, прийом алкоголю всередину, сіль після укусу.
 
-Антидоти для потенційованого Lachesis - Alumina, Belladonna, Cocculus, Coffea, Hepar sulphur, Mercurius, Nitricum acidum, Nux vomica, Phosphoricum асidum, при видимих ​​спастичних тенезмах прямої кишки - Sepia. На думку Teste, головним антидотом є Cedron.
+Антидоти для потенційованого Lachesis - Alumina, Belladonna, Cocculus, Coffea, Hepar sulphur, Mercurius, Nitricum acidum, Nux vomica, Phosphoricum асidum, при видимих спастичних тенезмах прямої кишки - Sepia. На думку Teste, головним антидотом є Cedron.
 
 **Lachesis є антидотом для:** Bufo rana, Crotalus, Rhus.
 
-**Сумісний з**: Асонітум, Arsenicum album, Belladonna, Bromium, Carbo vegetabilis, Hepar sulphur, Hyoscyamus, Kali bichromicum, Lac caninum, Lyesinum, Mercurius, Nitricum acidum, Nux vomica, Oleander, Phosphoulmo, Puls.
+**Сумісний з**: Aconitum, Arsenicum album, Belladonna, Bromium, Carbo vegetabilis, Hepar sulphur, Hyoscyamus, Kali bichromicum, Lac caninum, Lyesinum, Mercurius, Nitricum acidum, Nux vomica, Oleander, Phosphorus, Pulsatilla, Sulphur (пневмонія), Tarentula.
 
 **Несумісний з** Aceticum acidum. (Ammonium сarbonicum).
 

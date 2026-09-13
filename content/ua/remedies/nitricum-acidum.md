@@ -541,9 +541,9 @@ Nitricum acidum показана при тифі у випадках перев�
 
 **Антидотами для Nitricum acidum є**: Calcarea carbonica, Hepar sulphur, Mercurius, Mezereum, Sulphur.
 
-**Nitricum acidum служит антидотом для**: Calcarea carbonica, Digitalis, Mercurius. **Nitricum acidum добре діє перед**: Calcarea carbonica, Pulsatilla, Sulphur (колапс при дизентерії); Креосотум (дифтеритична дизентерія); Secale (гангрена слизових оболонок); Sulphur (золотушкова офтальмія).
+**Nitricum acidum служить антидотом для**: Calcarea carbonica, Digitalis, Mercurius. **Nitricum acidum добре діє перед**: Calcarea carbonica, Pulsatilla, Sulphur (колапс при дизентерії); Kreosotum (дифтеритична дизентерія); Secale (гангрена слизових оболонок); Sulphur (золотушна офтальмія).
 
-**Nitricum acidum добре діє після**: Calcarea carbonica, Natrium carbonicum, Pulsatilla, Sulphur, Thuja (сікоз); Carbo animalis (бубон); Калі саrbonicum (сухоти і т. п.); Аurum (передозування ртуті); Mezereum (вторинний сифіліс); Hepar sulphur (ураження горла тощо).
+**Nitricum acidum добре діє після**: Calcarea carbonica, Natrium carbonicum, Pulsatilla, Sulphur, Thuja (сікоз); Carbo animalis (бубон); Kali саrbonicum (сухоти і т. п.); Аurum (передозування ртуті); Mezereum (вторинний сифіліс); Hepar sulphur (ураження горла тощо).
 
 **Доповнюючі препарати:** Caladium, Arsenicum album.
 
@@ -559,13 +559,13 @@ Nitricum acidum показана при тифі у випадках перев�
 
 Погіршення під час пробудження: Lachesis, Natrium muriaticum, Sulphur. Погіршення від носіння шапки: Carbo vegetabilis, Calcarea phosphorica, Natrium сarbonicum.
 
-Тягнуться нитками білі: Калі bichromicum.
+Тягучі нитками білі: Kali bichromicum.
 
 Біль раптово виникає і також раптово зникає: Lyesinum, Belladonna. Тяжка реакція на біль: Асоnitum, Chamomilla, Hepar sulphur.
 
 Гіперчутливість: Hepar sulphur.
 
-Напади задухи, що легко виникають: Калі саrbonicum.
+Напади задухи, що легко виникають: Kali саrbonicum.
 
 Погіршення і від холодного, і гарячого: Mercurius.
 

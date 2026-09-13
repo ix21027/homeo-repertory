@@ -8,7 +8,7 @@ origin: https://homeopat-sam.com/-/a335
 remedy_blocks: 6
 ---
 
-Найчастіше при цій проблемі призначають такі гомеопатичні препарати: **Actea racemosa Belladonna Hyoscyamus Kali Bromatum Mercurius Veratrum viride**
+Найчастіше при цій проблемі призначають такі гомеопатичні препарати: **Actea racemosa Belladonna Hyoscyamus Kali bromatum Mercurius Veratrum viride**
 
 ### Actea racemosa (Актеа рацемозу)
 

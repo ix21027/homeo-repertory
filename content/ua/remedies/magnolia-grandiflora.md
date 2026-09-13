@@ -241,4 +241,4 @@ Alien дає такі ключові симптоми: «Ревматичний 
 
 ## Взаємозв’язки
 
-**Слід порівняти:** Magnolia glauca; Illicium anisatum (ботанічне спорідненість), Kali bichromicum, Kalmia (ревматизм); Hamamelis, Bovista, Belladonna, Chamomilla, Elaps (міжменструальні кровотечі).
+**Слід порівняти:** Magnolia glauca; Illicium anisatum (ботанічна спорідненість), Kali bichromicum, Kalmia (ревматизм); Hamamelis, Bovista, Belladonna, Chamomilla, Elaps (міжменструальні кровотечі).

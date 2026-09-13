@@ -302,7 +302,7 @@ Snader вважав Cactus зовсім особливим препаратом,
 
 **Антидотами для Cactus grandiflorus є**: Асоnitum, Camphora, Eupatorium perfoliatum.
 
-**Препарат компліментарний з Digitalis** (безладна робота серця; уповільнений, нерегулярний пульс; мізерна сеча; набряклість); Eupatorium perfoliatum, Lachesis, Nux vomica, Sulphur (плеврит). **Добре слід за**: Асонітум, Arnica, Arsenicum album, Belladonna, Bryonia, Chamomilla, Gelsemium, Ipecacuanha, Калі bromatum (болючість діафрагми), Lachesis, Nux vomica, Rhus toxicodendron.
+**Препарат компліментарний з Digitalis** (безладна робота серця; уповільнений, нерегулярний пульс; мізерна сеча; набряклість); Eupatorium perfoliatum, Lachesis, Nux vomica, Sulphur (плеврит). **Добре слідує за**: Aconitum, Arnica, Arsenicum album, Belladonna, Bryonia, Chamomilla, Gelsemium, Ipecacuanha, Kali bromatum (болючість діафрагми), Lachesis, Nux vomica, Rhus toxicodendron.
 
 **Слід порівняти**: психічні симптоми - Digitalia, Lachesis; приплив крові до голови – Belladonna, Glonoinum.
 
@@ -310,7 +310,7 @@ Snader вважав Cactus зовсім особливим препаратом,
 
 Відчуття тяжкості у потилиці – Aloe, Alumina.
 
-Ураження серця - Асонітум, Actea racemosa, Amylenum нітросум, Arnica, Belladonna, Bovista, Crotalus, Digitalis, Eupatorium perfoliatum, Kalmia, Lachesis, Lilium tigrinum, Naja, Pulsatilla, Spigelia, Zincum (наче на серці надіти ковпак); збудливість серця - Cereus bonplandii, Hepar sulphur, Phosphorus. Відчуття стиску в грудях - Zincum, Kali chloricum, Cadmium sulphuricum, Alumina, Belladonna, Bovista, Arnica, Cainca, Kali nitricum, Lachesis, Stramonium.
+Ураження серця - Aconitum, Actea racemosa, Amylenum nitrosum, Arnica, Belladonna, Bovista, Crotalus, Digitalis, Eupatorium perfoliatum, Kalmia, Lachesis, Lilium tigrinum, Naja, Pulsatilla, Spigelia, Zincum (наче на серці надіти ковпак); збудливість серця - Cereus bonplandii, Hepar sulphur, Phosphorus. Відчуття стиску в грудях - Zincum, Kali chloricum, Cadmium sulphuricum, Alumina, Belladonna, Bovista, Arnica, Cainca, Kali nitricum, Lachesis, Stramonium. Відчуття стиснення в матці — Murex. Відчуття стиснення в піхві — Kali carbonicum.
 
 Припинення менструальних виділень ночами - Causticum.
 

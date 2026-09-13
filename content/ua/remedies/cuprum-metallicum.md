@@ -340,4 +340,4 @@ sections: Характеристика; Психіка; Тип; Клініка; 
 
 При стані, коли бачить все немов уві сні, - Ambra, Anacardium, Calcarea carbonica, Cannabis indica та ін.
 
-При балакучості - Нуоссіамус, Lachesis, Opium, Stramonium, Veratrum album. При поганій реактивності - Sulphur, Carbo vegetabilis, Laurocerasus, Ambra, Capsicum, Psorinum, Opium, Belladonna, Stramonium, Bryonia, Apis.
+При балакучості - Hyoscyamus, Lachesis, Opium, Stramonium, Veratrum album. При поганій реактивності - Sulphur, Carbo vegetabilis, Laurocerasus, Ambra, Capsicum, Psorinum, Opium, Belladonna, Stramonium, Bryonia, Apis.

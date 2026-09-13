@@ -188,4 +188,4 @@ sections: Характеристика; Психіка; Тип; Клініка; 
 
 **Слід порівняти:** Am., Arsenicum albu, Bryonia, Calcarea sulphurica, Carbo animalis, Carbo vegetabilis, Hamamelis, Hepar sulphur, Hypericum, Ledum, Nitricum acidum, Phosphorus, Rhus toxicodendron, Ruta, Salicylicum acidum, Sulhuricum acidum, Symphytum.
 
-Джон Генрі Кларк. «Словник Практичної Materia Medica в 6-ти томах» (Видання «Гомеопатична медицина». Москва. 2001 р.).
+_Джон Генрі Кларк. «Словник Практичної Materia Medica в 6-ти томах»_ _(Видання «Гомеопатична медицина». Москва. 2001 р.)._

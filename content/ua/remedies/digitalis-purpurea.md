@@ -380,7 +380,7 @@ Ross свідченнями для дигіталісу вважає: «сухи
 
 **Digitalis несумісний з**: China (підсилює тривожність); нітратним спиртом, солодким.
 
-**Слід порівняти**: Асоnitum (тривожність); Antimonium tartaricum (надзвичайно сильна нудота); Аросунум, Arsenicum album, Belladonna, Bryonia, Chamomilla, Conium, Zincum, Kalmia, Lachesis (сон); Lobelia, Lycopus, Crataegus (слабке серце); Natrium muriaticum (частий та інтермітуючий пульс); Phosphorus (генітальні симптоми); Spigelia, Sulphur, Tabacum. (найсильніша нудота); При гонореї - Sulphur (крайня плоть ущільнена; Digitalis набрякла, інфільтрована); Серцебиття з проносом - Antimonium tartaricum.
+**Слід порівняти**: Асоnitum (тривожність); Antimonium tartaricum (надзвичайно сильна нудота); Apocynum, Arsenicum album, Belladonna, Bryonia, Chamomilla, Conium, Zincum, Kalmia, Lachesis (сон); Lobelia, Lycopus, Crataegus (слабке серце); Natrium muriaticum (частий та інтермітуючий пульс); Phosphorus (генітальні симптоми); Spigelia, Sulphur, Tabacum. (найсильніша нудота); При гонореї - Sulphur (крайня плоть ущільнена; Digitalis набрякла, інфільтрована); Серцебиття з проносом - Antimonium tartaricum.
 
 Діють через мозок - Lobelia, Tabacum.
 
@@ -388,8 +388,8 @@ Ross свідченнями для дигіталісу вважає: «сухи
 
 З'їдена їжа піднімається і наповнює рота — Phosphorus.
 
-Будь-який поштовх потрапляє в підшлункову яму - Phosphorus, Mezereum, Kali carbonicum, Calcarea carbonica.
+Будь-який шок б'є по надчеревній ямці - Phosphorus, Mezereum, Kali carbonicum, Calcarea carbonica.
 
-Тріщини в голові - Алое.
+Тріск у голові - Алое.
 
-Головний біль, що поширюється на ніс - діоскорея.
+Головний біль, що поширюється на ніс - Dioscorea.

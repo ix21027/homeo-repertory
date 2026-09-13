@@ -8,7 +8,7 @@ origin: https://homeopat-sam.com/-/a454
 remedy_blocks: 7
 ---
 
-Найчастіше при цій проблемі призначають такі гомеопатичні препарати: Borax Caladium Ichthyolum Opium Sepia Sulfur Tabacum
+Найчастіше при цій проблемі призначають такі гомеопатичні препарати: **Borax Caladium Ichthyolum Opium Sepia Sulfur Tabacum**
 
 ### Borax (Боракс)
 

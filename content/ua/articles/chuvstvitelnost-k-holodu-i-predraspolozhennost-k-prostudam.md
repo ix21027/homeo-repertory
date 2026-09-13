@@ -8,7 +8,7 @@ origin: https://homeopat-sam.com/-/a462
 remedy_blocks: 19
 ---
 
-Для вирішення цієї проблеми найчастіше призначають такі гомеопатичні препарати: **Alumen Anacardium Aurum metallicum Bryonia Calcarea carbonica Calendula Camphora Dulcamara Hepar sulfur Kali bichromicum Magnesium muriaticum Magnetis polus ausralis Natrium carbonicum Nux vomica Natrium muriaticum Rumex Silicea Sulfur Tuberculinum**
+Для вирішення цієї проблеми найчастіше призначають такі гомеопатичні препарати: **Alumen Anacardium Aurum metallicum Bryonia Calcarea carbonica Calendula Camphora Dulcamara Hepar sulfur Kali bichromicum Magnesium muriaticum Magnetis polus ausralis Natrium carbonicum Nux vomica Natrium muriaticum Rumex Silicea Sulphur Tuberculinum**
 
 ### Alumen (Алюмін)
 
@@ -42,13 +42,13 @@ remedy_blocks: 19
 
 ### Camphora (Камфора)
 
-До Camphor officinalis найбільш чутливі скрофульозні діти.
+До Camphora officinalis найбільш чутливі скрофульозні діти.
 
 Велика чутливість до холоду і холодного повітря, що посилює біль; легко застуджується.
 
 ### Dulcamara (Дулькамара)
 
-Чутливість до холоду і вологості характерна для всіх пасльонових, вона відзначена у беладони і стручкового перцю, але найбільш виражена у дулькамари.
+Чутливість до холоду і вологості характерна для всіх пасльонових, вона відзначена у Belladonna і Capsicum, але найбільш виражена у Dulcamara.
 
 ### Hepar sulfur (Гепар сульфур)
 

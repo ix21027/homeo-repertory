@@ -45,7 +45,7 @@ Nash стверджує, що Pulsatilla легко прояснює ті вип
 
 Іншими провідними вказівками для Pulsatilla є: перше серйозне порушення здоров'я, що припадає на пубертатний вік, – «з того часу ніколи вже не почувається добре».
 
-Біль починається раптово, але проходит поступово; або напруга поступово зростає до дуже сильного, а потім різко, «ніби її вимкнули», відпускає.
+Біль починається раптово, але минає поступово; або напруга поступово зростає до дуже сильного, а потім різко, «ніби її вимкнули», відпускає.
 
 ## Психіка
 
@@ -903,6 +903,6 @@ Nash стверджує, що Pulsatilla легко прояснює ті вип
 
 ## Взаємозв’язки
 
-**Антидотами для Pulsatilla nigricans є**: Chamomilla (Chamomilla і Pulsatilla - взаємні антидоти і добре слідують один за одним. Якщо один з них надмірно впливає, то інший його нейтралізує і посилює цілющу дію); Coffea, Ignatia, Nux vomica (Teste додає Sulphur). **Pulsatilla є антидотом для:** Chininum sulphuricum, Ferrum (Pulsatilla має чудову дію на хлоротичних дівчат, яких перелікували залізом), Magnesium carbonicum, Sulphur, Sulphuricum acidum, парів ртуті та міді - Belladonna, ChaPlatinum, Gelsemium, Stramonium, Sabadilla, Antimonium tartaricum, скроні, отруєння поганками.
+**Антидотами для Pulsatilla nigricans є**: Chamomilla (Chamomilla і Pulsatilla - взаємні антидоти і добре слідують один за одним. Якщо один з них надмірно впливає, то інший його нейтралізує і посилює цілющу дію); Coffea, Ignatia, Nux vomica (Teste додає Sulphur). **Pulsatilla є антидотом для:** Chininum sulphuricum, Ferrum (Pulsatilla має чудову дію на хлоротичних дівчат, яких перелікували залізом), Magnesium carbonicum, Sulphur, Sulphuricum acidum, парів ртуті та міді - Belladonna, Chamomilla, Coffea, Colchicum, Lyesinum, Platinum, Gelsemium, Stramonium, Sabadilla, Antimonium tartaricum, віскі, отруєння поганками.
 
 **Pulsatilla сумісна з:** Arsenicum album, Bryonia, Belladonna, Ignatia, Kali bichromicum, Lyesinum, Nux vomica, Phosphorus, Rhus, Sepia, Sulphur. **Доповнює:** Lyesinum, Sulphuricum acidum, Argentum nitricum (якщо Argentum nitricum починає гірше працювати, дайте Pulsatilla); Strontium (у Strontium менструації надто ранні та надто рясні).

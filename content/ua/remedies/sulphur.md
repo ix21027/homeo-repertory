@@ -655,7 +655,7 @@ Sulphur – настільки універсальний засіб, що бу�
 
 Зубний біль із припливом крові до голови або колючим болем у вухах. Коричнева слиз на зубах.
 
-Болюче розхитування, подовження, оскому на зубах, часті кровотечі із зубів.
+Болюче розхитування, подовження, оскома на зубах, часті кровотечі із зубів.
 
 Кровотеча, відчуття, ніби зуби хитаються, набряклість ясен, іноді з пульсуючим болем (і жаром). Десневой свищ.
 
@@ -1013,8 +1013,8 @@ Sulphur часто використовується для підвищення 
 
 У цьому плані він є близьким аналогом і союзником Medorrhinum і Syphylinum, тому ці кошти слід вивчати разом.
 
-**Антидотами для Sulphur є**: Асонітум, Camphora, Chamomilla, China, Mercurius, Pulsatilla, Rhus, Sepia, Thuja.
+**Антидотами для Sulphur є**: Aconitum, Camphora, Chamomilla, China, Mercurius, Pulsatilla, Rhus, Sepia, Thuja.
 
-**Sulphur є антидотом для**: Асонітум, Aloe, China, Iodum, Merurius, Nitricum acidum, Oleander, Rhus, Sepia, Thuja; і загалом при захворюваннях, викликаних зловживанням металами.
+**Sulphur є антидотом для**: Aconitum, Aloe, China, Iodum, Merurius, Nitricum acidum, Oleander, Rhus, Sepia, Thuja; і загалом при захворюваннях, викликаних зловживанням металами.
 
 **Слід порівняти**: Calcarea carbonica, Calcarea phosphorica, Lyesinum, Sarsaparilla, Sepia, Pulsatilla.

@@ -333,7 +333,7 @@ Lorbacher описує три важливі вказівки на Sepia, які
 
 Бешихове запалення і пастозність однієї половини обличчя (через зуб, уражений карієсом).
 
-Запалення і набряклість обличчя з групами жовтих прищиків, що лущиться. Герпес з лущенням шкіри обличчя.
+Запалення і набряклість обличчя з групами жовтих прищиків, що лущаться. Герпес з лущенням шкіри обличчя.
 
 Бородавки на личку. Чорні пори на обличчі.
 
@@ -971,7 +971,7 @@ Sepia показана при тенденції до викиднів; кажу
 
 ## Взаємозв’язки
 
-**Антидотами для Sepia є**: Запах - Nitri spiritus dulcis, Asonitum, Antimonium crudum, Antimonium tartaricum, Rhus.
+**Антидотами для Sepia є**: Запах - Nitri spiritus dulcis, Aconitum, Antimonium crudum, Antimonium tartaricum, Rhus.
 
 **Sepia є антидотом для**: Calcarea carbonica, Mercurius, Natrum muriaticum, Natrum phosphoricum, Phosphorus, Sarsaparilla, Sulphur. **Несумісна з**: Lachesis.
 

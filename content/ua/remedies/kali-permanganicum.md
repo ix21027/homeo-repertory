@@ -145,8 +145,8 @@ Kali permanganicum є добре відомою дезінфікуючою ре�
 
 ## Взаємозв’язки
 
-**Слід порівняти** з іншими окислюючими солями, особливо з Калі bichromicum, а також Manganum, Causticum, Калі саrbonicum. при набряку піднебінного язичка - Мuriaticum асidum, Apis; при дифтерії - Diphtherinum, Mercurius суanatus, Arum tryphyllum, Kali bichromicum, Kali muriaticum; при густому, тягучому слизу - Калі bichromicum.
+**Слід порівняти** з іншими окислюючими солями, особливо з Калі bichromicum, а також Manganum, Causticum, Kali саrbonicum. при набряку піднебінного язичка - Мuriaticum асidum, Apis; при дифтерії - Diphtherinum, Mercurius суanatus, Arum tryphyllum, Kali bichromicum, Kali muriaticum; при густому, тягучому слизу - Kali bichromicum.
 
 **Kali permanganicum є антидотом** Opium.
 
-Випадок отруєння опіумом описується у «Н. W.», ХХХІІІ.380, пацієнт отруївся 15 г лаудануму, проковтнутим помилково. Йому було призначено (на кілька прийомів) Kali permanganicum у розведенні (2 г на 0,57 л), який швидко подіяв. Наступного дня турбувала лише сухість у роті та горлі.
+Випадок отруєння опіумом описується у «Н. W.», XXXIII. 380, пацієнт отруївся 15 г лаудануму, проковтнутим помилково. Йому було призначено (на кілька прийомів) Kali permanganicum у розведенні (2 г на 0,57 л), який швидко подіяв. Наступного дня турбувала лише сухість у роті та горлі.
