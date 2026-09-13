@@ -32,7 +32,7 @@
       title: 'Реперторій — гомеопатичні препарати за симптомами', htmlLang: 'uk',
       navRep: 'Симптоми', navRemedies: 'Препарати', navArticles: 'Статті',
       kind: { free: 'Текст', nos: 'Клініка', art: 'Стаття', line: 'Рубрика', mod: 'Модальність', etio: 'Причина' },
-      repPlaceholder: 'Симптом, хвороба або рубрика…', allSections: 'Усі розділи', add: 'Додати', freeSearch: 'Шукати в текстах', freeKind: 'повнотекстово',
+      repPlaceholder: 'Симптом, хвороба або рубрика…', allSections: 'Усі розділи', freeSearch: 'Шукати в текстах', freeKind: 'повнотекстово',
       error: 'помилка', clear: 'Очистити', remove: 'Прибрати', removeRubric: 'Прибрати рубрику', loadingIndex: 'Завантаження індексу…',
       nothing: 'Нічого не знайдено. Спробуйте інше формулювання або коротше слово.', found: n => 'Знайдено препаратів: ' + n + '. Натисніть на рядок, щоб побачити підстави.',
       remedy: 'Препарат', sumTitle: 'Покрито рубрик / сума балів', hits: 'зб.', ext: 'без сторінки', more: 'Показати ще',
@@ -57,7 +57,7 @@
       title: 'Реперторий — гомеопатические препараты по симптомам', htmlLang: 'ru',
       navRep: 'Симптомы', navRemedies: 'Препараты', navArticles: 'Статьи',
       kind: { free: 'Текст', nos: 'Клиника', art: 'Статья', line: 'Рубрика', mod: 'Модальность', etio: 'Причина' },
-      repPlaceholder: 'Симптом, болезнь или рубрика…', allSections: 'Все разделы', add: 'Добавить', freeSearch: 'Искать в текстах', freeKind: 'полнотекстово',
+      repPlaceholder: 'Симптом, болезнь или рубрика…', allSections: 'Все разделы', freeSearch: 'Искать в текстах', freeKind: 'полнотекстово',
       error: 'ошибка', clear: 'Очистить', remove: 'Убрать', removeRubric: 'Убрать рубрику', loadingIndex: 'Загрузка индекса…',
       nothing: 'Ничего не найдено. Попробуйте другую формулировку или более короткое слово.', found: n => 'Найдено препаратов: ' + n + '. Нажмите на строку, чтобы увидеть основания.',
       remedy: 'Препарат', sumTitle: 'Покрыто рубрик / сумма баллов', hits: 'совп.', ext: 'без страницы', more: 'Показать ещё',
@@ -407,7 +407,6 @@
           <option value="">${esc(t.allSections)}</option>
           ${SECTIONS[state.lang].map(s => '<option value="' + esc(s) + '">' + esc(s) + '</option>').join('')}
         </select>
-        <button class="btn" type="submit">${esc(t.add)}</button>
       </form>
       <details class="picker" id="picker"><summary>${esc(t.picker)}</summary><div class="picker-body" id="pickerBody"></div></details>
       <div class="chips" id="chips"></div>
