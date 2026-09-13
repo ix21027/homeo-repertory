@@ -1,0 +1,339 @@
+---
+id: deti-s-trudnym-harakterom
+type: article
+group: lechebnik
+title: Дети с трудным характером
+source: Точная гомеопатия. Дух лекарства. Под редакцией Дидье Гранжоржа. «Гомеопатия и фитотерапия». Санкт-Петербург. 1999 Автор статьи: Дидье Гранжорж
+origin: https://homeopat-sam.com/%D0%94%D0%B5%D1%82%D0%B8%20%D1%81%20%D1%82%D1%80%D1%83%D0%B4%D0%BD%D1%8B%D0%BC%20%D1%85%D0%B0%D1%80%D0%B0%D0%BA%D1%82%D0%B5%D1%80%D0%BE%D0%BC/a116
+remedy_blocks: 18
+---
+
+**1. Аналитическое исследование**
+
+**Резкий, категоричный, нелюбезный**: Tarentula, Natrum muriaticum.
+
+**Невнимательный**: Nux moschata, Phosphorus.
+
+**Грубый, сквернослов**: Anacardium, Belladonna, Hyoscyamus, Lyssinum, Nux vomica, Petroleum, Senega, Sepia, Veratrum album.
+
+**Гнев, когда дотрагиваются**: Tarentula, Antimonium crudum, Iodum.
+
+**Гнев сильный**: Aconitum, Aurum, Chamomilla, Hepar sulphur, Nitricum acidum, Nux vomica, Stapysagria, Tarentula.
+
+**Устраивает розыгрыши**: Belladonna.
+
+**Тревожное состояние у детей**: Borax, Gelsemium, Kali carbonicum, Calcarea carbonica, Calcarea phosphorica.
+
+**Смелый**: Aconitum, Agaricus, Mercurius, Opium.
+
+**Отвращение при приближении**: Lycopodium, Iodum, Aurum, Cajuputum, Helleborus, Hippomanes, Lilium tigrinum, Helonias, Sulphur.
+
+**Вопли, крики**: Belladonna, Cantharis, Ccalcarea carbonica, Stramonium.
+
+**Воет**: Cantharis, Cuprum, Belladonna.
+
+**Укус**: Belladonna, Stramonium, Calcarea carbonica, Camphora, Cantharis, Cuprum, Hyoscyamus, Lachesis, Lyssinum, Phytolacca, Veratrum album.
+
+**Хочет ломать вещи**: Apis, Stramonium, Tuberculinum, Hura.
+
+**Капризный**: Bryonia, Chamomilla, Cina, Ipecacuanha, Kali carbonicum, Stapysagria.
+
+**Не хочет, чтобы его носили на руках**: Coffea.
+
+**Неаккуратный**: Arsenicum album, Belladonna, Bovista, Mercurius, Phosphorus, Phosporicum acidum, Rhododendron, Senega.
+
+Ведет себя, как маленький ребенок: Baryta carbonica, Cicuta.
+
+Отвращение к компании, хочет быть один: Anacardium, Baryta carbonica, Carbo animalis, Chamomilla, Cicuta, Gelsemium, Ignatia, Natrum muriaticum, Nux vomica.
+
+**Отвращение к компании, хочет быть один, чтобы заниматься мастурбацией**: Bufo rana, Ustilago. **Ребенок с трудом сосредотачивает внимание**: Aethusa, Baryta carbonica.
+
+**Презрительный**: Cicuta, Platina.
+
+**Склонность к противоречию**: Hepar sulphur, Aurum, Cantharis, Causticum, Lycopodium, Oleander. **Не переносит, когда ему противоречат**: Aurum, Ignatia, Lycopodium, Sepia.
+
+**Противоречит:** Alumina, Anacardium, Argentum nitricum, Tarentula.
+
+**Трусость**: Gelsemium, Lycopodium.
+
+**Жестокость**: Anacardium, Platina, Abrotanum, Absintium, Crocus, Curare, Nux vomica, Opium. **Бранится**: Anacardium, Nitricum acidum.
+
+**Обманщик:** Argentum nitricum, Bufo rana, Coca, Drosera.
+
+**Провокатор:** Arnica, Lycopodium, Aconitum, Anacardium, Cantharis, Causticum, Guajacum, Nux vomica, Spongia.
+
+**Все ломает**: Belladonna, Camphora, Cuprum, Hyoscyamus, Stramonium, Tarentula, Tuberculinum, Veratrum album.
+
+**Властный**: Camphora, Lycopodium, Mercurius, Aurum, Causticum, Chamomilla, Conium, Ferrum, Lachesis, Phosphorus.
+
+**Неудовлетворенный**: Anacardium, Calcarea phosphorica, Mercurius, Natrum muriaticum, Sulphur. **Непослушный**: Tarentula, Ammonium carbonicum, China, Digitalis, Lycopodium, Viola tricolor. **Отказывается есть**: Hyoscyamus, Kali chloricum, Phosporicum acidum, Tarentula, Veratrum album, Viola odorata, Ignatia, Phytolacca, Valeriana.
+
+**Эксцентричный**: Veratrum album.
+
+**Эгоцентризм**: Platina, Calcarea carbonica, Lachesis, Palladium, Silicea, Sulphur, Medorrhinum, Mercurius.
+
+**Завистливый**: Pulsatilla, Stapysagria, Lycopodium.
+
+**Ребенок убегает из семьи**: Lycopodium.
+
+**В ссоре с семьей**: Natrum carbonicum, Natrum muriaticum, Nitricum acidum, Sepia.
+
+**Нервное возбуждение**: Aconitum, Argentum nitricum, Cinnabaris, Phosphorus, Strychninum, Sulphuricum acidum, Tarentula,Thea, Valeriana.
+
+**Экстравагантный**: Belladonna, Causticum.
+
+**Навязчивые идеи, педантизм**: Nux vomica, Arsenicum album, Pulsatilla, Anacardium, Alumina, Calcarea carbonica, Conium, Graphytes, Lacticum acidum, Platina, Phosphorus, Sepia, Medorrhinum, Thuja.
+
+**Страх, боится темноты**: Cannabis indica, Stramonium.
+
+**Страх, боится животных:** China, Stramonium, Bufo rana, Causticum, Hyoscyamus.
+
+**Страх, боится собак**: Belladonna, China, Causticum, Hyoscyamus, Stramonium, Tuberculinum. **Страх, боится незнакомых**: Baryta carbonica, Carbo vegetabilis, Causticum, Cuprum, Thuja, Ambra grisea, Lachesis.
+
+**Страх, когда с ним разговаривают**: Kali bromatum, Sepia.
+
+**Симулирует болезнь**: Tarentula, Argentum nitricum, Belladonna, Veratrum album.
+
+**Хочет драться:** Belladonna, Bovista, Hippomanes, Hyoscyamus, Mercurius, Secale.
+
+**Поджигатель:** Hepar sulphur.
+
+**Неразумное поведение**: Hyoscyamus, Stramonium.
+
+**Совершает несдержанные поступки**: Belladonna, Camphora, Hepar sulphur, Hyoscyamus, Stramonium, Agaricus.
+
+**Бешенство, ярость**: Hepar sulphur, Cannabis indica, Sepia.
+
+**Гримасы**: Cuprum, Stramonium.
+
+**Рычит, как собака:** Belladonna, Alumina, Helleborus, Lycopodium, Lyssinum, Magnesium muriaticum.
+
+**Ненависть**: Anacardium, Agaricus, Aurum, Calcarea carbonica, Lac canunum, Lachesis, Ledum, Natrum muriaticum.
+
+**Хочет спрятаться**: Belladonna, Helleborus, Pulsatilla, Stramonium.
+
+**Хочет спрятаться от страха**: Arsenicum album, Belladonna, Cuprum.
+
+**Прячет вещи**: Belladonna.
+
+**Торопливость**: Lilium tigrinum, Medorrhinum, Mercurius, Natrum muriaticum, Sulphur, Sulphuricum acidum, Tarentula.
+
+**Торопится, чтобы поесть**: Causticum, Hepar sulphur, Sulphuricum acidum, Lachesis, Caladium, Coffea.
+
+**Хочет, чтобы торопились окружающие**: Tarentula.
+
+**Хочет сделать сразу несколько дел**: Lilium tigrinum, Aurum, Plantago.
+
+**Водобоязнь:** Lyssinum, Stramonium, Belladonna, Cantharis, Curare, Hyoscyamus, Lachesis, Phellandrium.
+
+**Нетерпение**: Chamomilla, Ignatia, Nux vomica, Sepia, Sulphur.
+
+**Нетерпение с лихорадкой**: Ipecacuanha, Natrum muriaticum, Nux vomica, Pulsatilla, Viola tricolour, Arsenicum album, Belladonna, Lycopodium.
+
+**Нетерпение из-за пустяков**: Medorrhinum, Sulphur, Sulphuricum acidum, Kali phosphoricum, Mercurius, Natrum muriaticum.
+
+**Невежливость, развязность**: Cantharis, Graphytes, Nitricum acidum, Palladium, Phosphorus, Veratrum album.
+
+**Горячий**: Hepar sulphur, Nitricum acidum, Nux vomica, Sepia, Anacardium, Bryonia, Carbo vegetabilis, Chamomilla, Kali carbonicum, Natrum muriaticum, Stapysagria, Sulphur, Zincum.
+
+**Импульсивный**: Argentum nitricum, Arsenicum album, Aurum, Cicuta, Camphora, Ginseng, Mercurius, Nux vomica, Rhus toxicodendron, Stapysagria, Thea.
+
+**Увлекает за собой других**: Hyoscyamus.
+
+**Непостоянство**: Ignatia.
+
+**Детская леность**: Baryta carbonica, Lachesis.
+
+**Наглый**: Lycopodium, Platina, Veratrum album, Cantharis, Graphytes, Hyoscyamus, Lac canunum, Nux vomica, Petroleum, Psorinum.
+
+**Нерешительность**: Baryta carbonica, Lycopodium, Lyssinum.
+
+**Раздражительный ребенок**: Chamomilla, Cina, Magnesium carbonicum, Calcarea phosphorica, Iodum, Silicea.
+
+**Ревность**: Hyoscyamus, Lachesis, Apis, Calcarea sulphurica, Cenchris, Nux vomica, Pulsatilla, Lycopodium, Nux moschata, Stapysagria, Kali carbonicum, Medorrhinum.
+
+**Спрыгивает с кровати**: Belladonna, China, Hyoscyamus, Opium, Stramonium, Aconitum, Argentum nitricum, Arsenicum album, Chininum sulphuricum, Cuprum, Glonoinum, Mercurius.
+
+**Выпрыгивает в окно**: Aurum, Carboneum sulphuratum, China, Glonoinum.
+
+**Дерется ногами**: Belladonna, Lycopodium, Carbo vegetabilis, Strychninum, Tarentula, Veratrum viride. **Желание убить**: Hyoscyamus.
+
+**Угрожает**: Mercurius, Hepar sulphur, Tarentula.
+
+**Вор**: Absintium, Artemisia vulgaris, Curare, Nux vomica.
+
+**Глупый смех**: Hyoscyamus, Lachesis.
+
+**Бесстыдство**: Camphora, Cantharis, Cubeba, Hyoscyamus, Phosphorus, Picricum acidum. **Бесстыдная речь**: Belladonna, Hyoscyamus, Lilium tigrinum, Nux vomica, Stramonium.
+
+**Распущенность**: Nux vomica, Platina, Stapysagria, Picricum acidum.
+
+**Лжет**: Opium, Morphinum, Argentum nitricum, Luesinum.
+
+**Отвращение к труду**: Pulsatilla, Silicea, Tabacum.
+
+**Не выносит, когда на него смотря**т: Arsenicum album, Antimonium crudum, Antimonium tartaricum, Chamomilla, China, Cina, Iodum.
+
+**Красноречивый**: Hyoscyamus, Lachesis, Stramonium.
+
+**Недоброжелательный**: Nux vomica, Stramonium.
+
+**Злой**: Anacardium, Cannabis indica, Nux vomica.
+
+**Насмешник**: Lachesis, Arsenicum album, China, Ipecacuanha, Paris quadrifolia, Platina, Tarentula. **Отсутствие представлений о морали**: Anacardium, Kali chloricum, Laurocerasus.
+
+**Ворчливый**: Anacardium, Aurum, Bryonia, Nux vomica, Pulsatilla, Silicea.
+
+**Самоуродование**: Arsenicum album.
+
+**Хочет быть обнаженным**: Hyoscyamus, Belladonna, Calcarea carbonica, Chamomilla, Nux vomica, Tarentula.
+
+**Упрямство; как осел**: Tuberculinum, Lycopodium, Platina, Veratrum album.
+
+**Упрямство у полного ребенка**: Calcarea carbonica.
+
+**Упрямство у ребенка зябкого, строптивого и неловкого**: Capsicum.
+
+**Упрямство у упрямого ребенка, который однако плачет, если с ним заговорят ласково**: Silicea. **Обидчивый**: Nux vomica, Tuberculinum.
+
+**Обидчивый ребенок, отказывающийся играть**: Rheum, Baryta carbonica, Cina, Hepar sulphur, Lycopodium, Sulphur, Baryta muriatica.
+
+**Раннее развитие**: Mercurius.
+
+**Любовь к власти**: Lycopodium.
+
+**С чувством превосходства**: Lycopodium.
+
+**Драчун**: Aurum, Ignatia, Nux vomica, Petroleum, Sulphur, Tarentula.
+
+**Драчун, ссорится из зависти**: Cenchris, Lachesis, Nux vomica.
+
+**Агрессивный**: Belladonna, Hyoscyamus, Stramonium, Agaricus.
+
+**Не хочет принимать лекарства**: Hyoscyamus.
+
+**Беспокойство у детей**: Jalapa, Antimonium tartaricum, Borax, Chamomilla, Rheum, Mercurius, Rhus toxicodendron, Tuberculinum.
+
+**Беспокойство, сидя за работой**: Graphytes.
+
+**Грубый**: Lycopodium, Veratrum album, Hyoscyamus, Lac caninum, Nux vomica, Stramonium. **Убегает**: Hyoscyamus, Stramonium, Veratrum album, Belladonna, Calcarea carbonica, China, Cuprum, Sulphur.
+
+**Психическая депрессия у детей**: Arsenicum album, Calcarea carbonica, Lachesis, Causticum, Rhus toxicodendron, Sulphur, Abrotanum.
+
+**Любит секреты**: Ignatia, Digitalis, Baryta carbonica, Lycopodium, Sepia, Causticum, Syphilinum, Zincum. **Эгоист**: Pulsatilla, Sulphur, Agaricus, Asa foetida, Croton tiglium, Ignatia, Medorrhinum, Moschus, Valeriana.
+
+**Дети с повышенной чувствительностью**: Aconitum, Belladonna, Chamomilla, Kali phosphoricum, Pulsatilla, Stapysagria, Teucrum, Antimonium tartaricum, Calcarea carbonica.
+
+**Бесстыдный**: Hyoscyamus, Phosphorus, Secale, Stramonium, Tarentula, Veratrum album. **Крикун**: Borax, Lac caninum, Chamomilla, Cina, Tuberculinum.
+
+**Клеветник**: Nux vomica.
+
+**Сомнамбулизм**: Aconitum, Natrum muriaticum, Opium, Phosphorus.
+
+**Плюет в лицо людям**: Belladonna, Calcarea carbonica, Cuprum, Stramonium, Veratrum album. **Не хочет, чтобы с ним разговаривали**: Chamomilla.
+
+**Бьет, толкает**: Chamomilla, Cina.
+
+**Сердитый**: Antimonium crudum, Agaricus, Causticum, Conium, Kali carbonicum, Nux vomica, Platina. **Ребенок долго не говорит**: Natrum muriaticum, Agaricus, Baryta carbonica, Calcarea phosphorica, Nux moschata, Sanicula, Belladonna, Borax, Calcarea carbonica, Causticum, Phosphorus, Phosporicum acidum, Silicea, Sulphur.
+
+**Рвет вещи**: Belladonna, Camphora, Kali phosphoricum, Stramonium, Veratrum album.
+
+**Угрожает:** Tarentula, Hepar sulphur, Stramonium, Tuberculinum.
+
+**Бросает вещи**: Stapysagria, Cina, Kreosotum.
+
+**Бросает вещи в голову людям, которые его обижают**: Stapysagria.
+
+**Не хочет, чтобы до него дотрагивались**: Antimonium crudum, Chamomilla, Kali carbonicum, Tarentula. **Безжалостный**: Anacardium.
+
+**Невнимательный**: Causticum.
+
+**Любит насилие**: Aurum, Belladonna, Cicuta, Hyoscyamus, Nux vomica, Stramonium.
+
+**Любит насилие с болью**: Aurum, Chamomilla, Hepar sulphur.
+
+**Ходит быстро из-за тревожного состояния**: Argentum nitricum.
+
+**Дикарь**: Stramonium, Veratrum album.
+
+**Желание противоречия**: Anacardium, Aconitum, Capsicum, Naja, Sepia.
+
+**Ощущение раздвоения воли**: Anacardium, Lachesis, Naja.
+
+**Заикается**: Belladonna, Causticum, Mercurius, Nux vomica, Stramonium.
+
+**Шепелявит**: Aconitum, Arsenicum album, Lachesis, Veratrum album, Conium, Natrum carbonicum.
+
+**2. Синтетическое исследование, 15 лекарств и 3 нозода**
+
+### Anacardium
+
+Для Кента проблема этого лекарства связана с психическим раздвоением, так как субъект постоянно раздираем высшей волей, которая учит его добродетели и мудрости, и низшей, которая толкает его к самому плохому. В этих случаях он становится страшным, у него приступы сильного гнева, ненависти, он безжалостно жесток, он лишен моральных основ, противоречит, провоцирует, говорит грубости. Ясно, что он в ссоре до грубости. Ясно, что он в ссоре со всей семьей. Он постоянно колеблется и есть одна деталь, которая позволяет это обнаружить: он добавляет ошибки в свои диктовки в последний момент.
+
+### Aurum
+
+очень гневливый и вспыльчивый, а также диктатор и драчун. Физический признак, часто позволяющий его определить: пупочная и паховая грыжи (грыжа у детей: Nitricum acidum, Lyvopodium, Nux vomica).
+
+### Borax
+
+ребенок в состоянии тревоги, возбуждения; кричит; одно из первых лекарств, о котором нужно подумать, когда родители «дошли до ручки»: младенец кричит, как только его кладут в колыбель ночью (ухудшение при опускании). В физическом плане: афты, стоматомикоз.
+
+### Chamomilla
+
+слишком хорошо известна, чтобы о ней долго распространяться. Сильный гнев, слезы, капризы, крайне чувствителен к боли (прорезывание зубов, колики). Мгновенно успокаивается в коляске и заставляет своих измученных родителей возить его ночью по городу. Одна щека красная.
+
+### Cina
+
+еще один крикун, раздражительный и капризный, не желающий играть с другими детьми Охотно бьет других, бросает предметы. Фебрильные судороги. Скрипит зубами, зуд кончика носа, под глазами темные круги, обострение после полнолунии; короче, глисты.
+
+### Hepar sulphur
+
+один из самых агрессивных, грозит убить; ребенок самоуверенный, поджигатель, склонен противоречить окружающим. Его выводит из себя боль. В физическом плане: зябкость и нагноения, вздутие верхней губы.
+
+### Hyoscyamus
+
+очень важное лекарство, связанное с ревностью и эдиповыми проблемами; глупый смех, сексуальное возбуждение; красноречив и бесстыден, как Lachesis; он может быть неистов до убийства, может все крушить, грубить. Он невнимателен в школе, отказывается есть дома, принимать лекарства, он может убегать из дома, он побуждает других делать глупости.
+
+### Ignatia
+
+доминируют непостоянство и нерешительность. Ребенок нетерпелив, часто ссорится, не терпит противоречия, неаккуратен и эгоистичен. Ребенок цепляющийся, жаждущий любви. Последствия страха, смерти, разочарований в любви.
+
+### Kali bromatum
+
+тоже скрипит ночью зубами, не имеет моральных принципов, заикается. Руки должны всегда теребить что-нибудь. Лекарство от ночных страхов, когда ребенок мечется и кричит, не просыпаясь. Бессонница от горя (Natrum muriaticum, Ignatia). В физическом плане: крупные угри у совершенно здоровых юношей.
+
+### Lachesis
+
+здесь также на первом плане ревность и сексуальное возбуждение с бесстыдным поведением, мастурбацией, глупым смехом, красноречием (Hyoscyamus). Но, кроме этого, заметен диктаторский и эгоцентричный аспект. Ребенок может иногда впасть в депрессию, например, по причине рождения маленького брата. В школе этот непослушный и насмешливый ребенок болтлив и ленив. Чтобы его определить, есть два хороших физических симптома: он пришепетывает и у него выступает пупочная грыжа.
+
+### Lycopodium
+
+один из самых трудных характеров, хотя и при живом уме. Властен, упрям «как осел», груб, нахален. Он всех провоцирует, будучи трусом, не хочет, чтобы к нему приближались, бьет ногами, подвержен вспышкам гнева. Любит власть. Если в драке над ним одерживают верх, он предпочитает убежать. В физическом плане: постоянный тик, ацетонемия; проблемы с ЛОР органами и с пищеварением; спазматические рыдания (Arsenicum album, Camphora, Laurocerasus, Phosphorus, Secale, Veratrum album, Ignatia, Aurum, Chamomilla, Cuprum, Lycopodium, Nux vomica, Pulsatilla, Sulphur).
+
+### Mercurius
+
+Еще один властный, противоречащий и драчливый ребенок. Преждевременно развитый во всех планах, к тому же смелый, он легко может пойти по плохому пути. Его возбуждение происходит от его нетерпения (в пустяках), от его импульсивного темперамента, который может его толкнуть на самое плохое (убийство), тем более, что он настроен против существующего порядка. В физическом плане: обильный пот, зловонное дыхание, заикание.
+
+### Nux vomica
+
+мог бы составить хорошую компанию для дебошира с Mercurius. Он также нетерпелив, импульсивен, может быть очень агрессивен (до убийства), злой, жестокий и грубый. В физическом плане: склонность к фебрильным судорогам; запоры и безрезультатными позывами; паховая и (или) пупочная грыжа.
+
+### Stramonium
+
+ребенок – дикарь. Лает, кусается, ломает вещи; поведение бессмысленное, иногда очень агрессивное (убийство): ключевое лекарство при ночных страхах. Ребенок кричит во сне и его не удается разбудить. Страх темноты, животных, заикание. Одна мать мне сказала: «Я стала переносить моего ребенка только тогда, когда узнала Stramonium». В физическом плане: фебрильные судороги, косоглазие, усиливащееся от волнения или страха (Cicuta, Nux moschata).
+
+### Tarentula hispanica
+
+к нему применима поговорка: «Музыка смягчает нравы». Этот ребенок непослушный, драчливый, агрессивный, все ломает, отказывается от еды, торопится. Ночью он постоянно просыпается в одно и то же время. Может симулировать болезнь. Все успокаивается, когда он слышит музыку, которая побуждает его танцевать.
+
+### Tuberculinum
+
+возбужденный, громко плачет, обижается, угрожает, все ломает. Два ключевых признака: упрям «как осел» и боится собак. В физическом плане: любит сыр, жирное, спит на спине, на ногтях белые пятна.
+
+### Luesinum
+
+обманщик и неряха. В физическом плане: ангиома, ассиметричное и неправильное расположение зубов.
+
+### Medorrhinum
+
+тороплив и нетерпелив по пустякам, беспокоится заранее, эгоист, эгоцентрист, мелочный. В физическом плане: спит на животе, эритема ягодиц, разрастания на коже.

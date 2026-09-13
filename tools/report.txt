@@ -1,0 +1,108 @@
+HTML files in archive: 748
+Materia Medica index: 341; Лечебник index: 136
+NO PAGE for remedy: Allium sativum (Аллиум сативум) — чеснок
+NO PAGE for remedy: Asterias rubens (Астериас рубенс) – морская звезда
+NO PAGE for remedy: Bismuthum metallicum (Бисмутум металликум) – висмут
+NO PAGE for remedy: Chimaphila maculata (Химафиля макулята) — зимолюбка пятнистая
+NO PAGE for remedy: Chionanthus virginica (Хионантус виргиника) — хионантус виргинский
+NO PAGE for remedy: Coriaria myrtifolia (Кориария миртифолия) – кориария миртоподобная
+NO PAGE for remedy: Coriaria ruscifolia (Кориария русцифолия) – кориария Ruscifolia
+NO PAGE for remedy: Cotyledon umbilicus (Котиледон умбиликус) — умбиликус скальный
+NO PAGE for remedy: Croton tiglium (Кротон тиглиум) — кротон
+NO PAGE for remedy: Cubeba officinalis (Кубеба оффициналис) – перец кубеба
+NO PAGE for remedy: Cuprum metallicum (Купрум) – медь металлическая
+NO PAGE for remedy: Duboisinum (Дубоизинум) – пробковое дерево
+NO PAGE for remedy: Equisetum hyemale (Эквисэтум хиемале) – хвощ зимующий
+NO PAGE for remedy: Eugenia jambosa (Эугениа йямбоза) – сизигиум джамбоза
+NO PAGE for remedy: Eupatorium purpureum (Эупаториум пуррурэум) — посконник пурпурный
+NO PAGE for remedy: Euphorbium officinarum (Эуфорбиум) – молочай ядовитый
+NO PAGE for remedy: Gambogia (Гамбогиа) — Гумми-гут, камедь
+NO PAGE for remedy: Indigo tinctoria (Индиго тинктория) — индиго
+NO PAGE for remedy: Iodoformium (Йодоформиум) – йодоформ
+NO PAGE for remedy: Jalapa (Ялапа) — ялапа настоящая
+NO PAGE for remedy: Juncus effuses (Юнкус эффузес) — ситник развесистый
+NO PAGE for remedy: Kali bromatum (Кали броматум) — бромид калия
+NO PAGE for remedy: Kali cyanatum (Кали цианатум) — цианид калия
+NO PAGE for remedy: Kali nitricum (Кали нитрикум) — селитра, нитрат калия
+NO PAGE for remedy: Kali phosphoricum (Кали фосфорикум) — фосфат калия
+NO PAGE for remedy: Kissingen aqua (Киссинген аква) — источники Киссингена в Баварии
+NO PAGE for remedy: Linum catharticum (Линум катартикум) — лен слабительный
+NO PAGE for remedy: Lippspringe aqua (Липпспринг аква) — вода минерального источника Lippspringe
+NO PAGE for remedy: Magnetis poliambo (Магнэтис полиамбо) — магнит
+NO PAGE for remedy: Nicotinum (Никотинум) – никотин, алкалоид табака
+NO PAGE for remedy: Origanum (Ориганум) — садовый майоран
+NO PAGE for remedy: Raphanus sativus (Рафанус сативус) – редька посевная
+NO PAGE for remedy: Ratanhia periviana (Крамэрия пэривиана) — крамерия трехтычинковая
+NO PAGE for remedy: Selenium metallicum (Селениум металликум) – селен
+NO PAGE for remedy: Solanum nigrum (Солянум нигрум) – паслен черный
+NO PAGE for remedy: Solidago virgaurea (Солидаго виргаурэа) – золотая розга
+NO PAGE for remedy: Stramonium (Страмониум) – дурман обыкновенный
+NO PAGE for remedy: Tanacetum vulgare (Танацэтум ) – пижма обыкновенная
+NO PAGE for remedy: Tellurium metallicum (Тэллуриум металликум) — теллур
+NO PAGE for remedy: Teucrum marum verum (Тэукрум марум вэрум) – дубровник истинный
+NO PAGE for remedy: Valeriana officinalis (Валериана оффициналис) – валериана лекарственная
+NO PAGE for remedy: Vespa crabro (Вэспа крабро) – шершень
+NO PAGE for remedy: Vinca minor (Винка минор) — барвинок малый
+NO PAGE for remedy: Xanthoxylum fraxineum (Ксантоксилюм) — желтобровник американский
+NO PAGE for remedy: Yucca filamentosa (Юкка филаментоза) — юкка нитевидная
+Remedies written: 296
+NO PAGE for article: Бессонница при беременности
+NO PAGE for article: Воспаление грудных сосков
+NO PAGE for article: Втянутые соски
+NO PAGE for article: Желудочные проблемы у беременных
+NO PAGE for article: Запор у грудных детей
+NO PAGE for article: Изменение состава молока у кормящих женщин
+NO PAGE for article: Лихорадка при появлении молока
+NO PAGE for article: Лохии (послеродовые выделения из матки)
+NO PAGE for article: Ожог
+NO PAGE for article: Отвращение к еде во время беременности
+NO PAGE for article: Отиты у грудных детей
+NO PAGE for article: Послеродовые боли
+NO PAGE for article: Рвота у грудных детей (острые приступы)
+NO PAGE for article: Сомнамбулизм (лунатизм, снохождение)
+NO PAGE for article: СХУ (синдром хронической усталости) — лечение по аналогии с преждевременным старением
+NO PAGE for article: СХУ (синдром хронической усталости) — лечение по сходству возможного причинного фактора
+NO PAGE for article: Трещины ануса у грудных детей
+NO PAGE for article: Цвет ногтей
+NO PAGE for article: Чувствительность кожи
+NO PAGE for article: Эндокардиты
+NO PAGE for article: Эритема (покраснение кожи) ягодиц у грудных детей
+Articles written: 127 (lechebnik 115, bach 8, about 4)
+Dropped pages (not remedies/articles):
+   18091  Materia Medica
+    2408  Стеатоз печени: причины, симптомы и лечение заболевания
+    2645  Немецкие имплантаты
+    2832  Сила красоты в волосах
+    2271  От простатита к бесплодию
+    4965  Лазерная эпиляция александритовым лазером
+    1960  Целебные травы вместо аспирина
+    4999  Домашний гомеопатический лечебник
+    6352  Что делать при отравлении в домашних условиях у взрослых понос и рвота, Что делать при пищ
+    2441  Почему женщине нужно уметь готовить: топ причин
+    3192  Когда нужно лечить зубы
+    2229  Попробуйте обе схемы управления в Бравл Старс
+    3261  Коронавирус и что это такое
+    3353  Пять качеств хорошего психолога
+    6004  Гомеопатический препарат Ременс – советы профессионала по применению, показания, отзывы и 
+    4534  Доходчиво о вреде курения
+    2516  Эллипсоид — надежный друг для стройной фигуры
+  214955  Чайлдерс Грир.  Великолепная фигура за 15 минут в день
+    5195  Безопасный загар. Что советует дерматолог?
+    3226  Причины и признаки отложения солей в суставах. Основные методы избавления от расстройства
+    2362  Фотообои
+    3591  Как экономить деньги и копить средства: инструкция
+    2420  Где приобретать диабетические товары
+    2060  Протезирование зубов
+    6419  Герметики фиссур и ямок в стоматологии
+    2469  Как правильно выбрать оправу для очков?
+    3333  Принцип действия нитей Аптос
+    2412  Молочница у женщин: лечится ли она полностью?
+    2438  Лечение фимоза. Можно ли обойтись без операции?
+    3176  Понятие кератита: виды и симптомы
+   13718  Центры Кабинеты Аптеки
+    1283  Ремонтируем потолки в многоэтажном доме
+    8095  Обзор Пин Ап
+    1965  Что поможет справится с респираторными заболеваниями?
+    5171  Как решить проблему БЕСПЛОДИЯ
+    2453  Правильно подобранное постельное белье — залог здоровья
+    2980  Решаем проблемы с психотерапевтом.
