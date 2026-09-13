@@ -2,11 +2,14 @@
 """
 extract.py — перетворює архів сайту «Сам себе гомеопат» (hom.zip) на чистий Markdown.
 
-    python3 tools/extract.py ~/.moshi/uploads/hom.zip [--out content]
+    python3 tools/extract.py ~/.moshi/uploads/hom.zip [--out content/ru] [--extra DIR ...]
+
+    --extra DIR — додаткові HTML-сторінки того ж сайту (наприклад, збережені з Wayback Machine),
+                  якими доповнюються препарати, відсутні в архіві.
 
 Результат:
-    content/remedies/<slug>.md   — препарати Materia Medica Дж. Г. Кларка (в архіві 296 із 341)
-    content/articles/<slug>.md   — статті «Домашнього лікувальника», квіткові настої Баха, про гомеопатію
+    content/ru/remedies/<slug>.md — препарати Materia Medica Дж. Г. Кларка (в архіві 296 із 341; решта — з --extra)
+    content/ru/articles/<slug>.md — статті «Домашнього лікувальника», квіткові настої Баха, про гомеопатію
     tools/report.txt             — що відкинуто, нерозпізнані заголовки, дублікати
 
 Лише стандартна бібліотека Python 3.
@@ -803,6 +806,7 @@ def write_md(path, fm: dict, body: str):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("zip")
+    ap.add_argument("--extra", nargs="*", default=[], help="теки з додатковими HTML-сторінками сайту")
     ap.add_argument("--out", default=os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "content", "ru"))
     args = ap.parse_args()
     out_dir = args.out
@@ -818,6 +822,13 @@ def main():
 
     docs = read_zip(args.zip)
     report.append(f"HTML files in archive: {len(docs)}")
+    for d in args.extra:
+        n = 0
+        for fn in sorted(os.listdir(d)):
+            if fn.lower().endswith(".html"):
+                docs["extra:" + os.path.basename(d) + "/" + fn] = open(os.path.join(d, fn), encoding="utf-8", errors="replace").read()
+                n += 1
+        report.append(f"extra HTML files from {d}: {n}")
 
     # --- індекси
     mm_doc = next(d for n, d in docs.items() if n.startswith("Materia Medica") and '<div id="titles">' in d)
