@@ -59,9 +59,8 @@ BASE=http://127.0.0.1:8765/ node tools/uitest/pwa.js
 запускається. На іншій машині досить поставити puppeteer (`npm i puppeteer`) і задати `PUPPETEER`
 та `CHROME` під себе.
 
-## CI
+## Коли ганяти
 
-`.github/workflows/build.yml` на кожен push і pull request у `main` робить `node tools/build.mjs`
-і `node tools/uitest/unit.js`. Браузерні набори в CI не ганяємо — puppeteer там нестабільний, їх
-проганяють локально перед комітом помітних змін в інтерфейсі. Збірка перезаписує `data/`, тому
-diff `data/` у CI не перевіряється (у каталозі є дата збірки).
+Автоматичних прогонів на сервері немає — тести локальні. Перед комітом помітних змін в інтерфейсі
+чи в пошуку: `node tools/build.mjs` (якщо чіпали `content/` або `tools/`), далі `run.sh`. Швидка
+перевірка під час роботи — `node tools/uitest/unit.js`: секунди, без сервера й браузера.

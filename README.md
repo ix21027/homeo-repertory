@@ -86,7 +86,6 @@ tools/report.txt, build-report.txt — звіти екстракції та зб
 tools/uitest/                   — тести: unit.js (пошук у Node), basic.js, features.js, cases.js, feedback.js,
                                   modal2.js, pwa.js (headless-браузер), run.sh (прогін усіх наборів локально)
 tools/report-mined-modalities.txt — вибірка 100 видобутих модальностей із ручною оцінкою точності
-.github/workflows/build.yml     — CI: збірка data/ і tools/uitest/unit.js на кожен push і PR у main
 ```
 
 ## Формат Markdown
@@ -250,8 +249,9 @@ node tools/uitest/unit.js      # лише перевірки пошуку: се�
 подробиці в `tools/uitest/README.md`; той самий набір можна пустити й на живий сайт:
 `BASE=https://ix21027.github.io/homeo-repertory/ node tools/uitest/basic.js`.
 
-На кожен push і pull request у `main` GitHub Actions (`.github/workflows/build.yml`) перезбирає
-`data/` і проганяє `unit.js`. Браузерні набори в CI не ганяємо — puppeteer там нестабільний.
+Перевірки лише локальні — автоматичних прогонів на сервері немає. Перед комітом помітних змін
+в інтерфейсі або в пошуку: `node tools/build.mjs`, далі `tools/uitest/run.sh`; `data/` у git
+тримається зібраним, тож перезбирати треба разом зі зміною `content/` чи `tools/build.mjs`.
 
 ## Офлайн (PWA)
 
