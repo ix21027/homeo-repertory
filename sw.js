@@ -54,6 +54,14 @@ function cacheable(res) {
   return res && res.status === 200 && res.type === 'basic';
 }
 
+// Порядок пошуку: спершу RUNTIME — там найсвіжіше з мережі; прекеш оболонки лише запасний,
+// бо перезбирається тільки з підйомом VERSION і може відставати від сайту. (caches.match()
+// шукає в порядку створення кешів, тобто сам по собі віддав би саме застарілу оболонку.)
+async function fromCache(request) {
+  const rt = await caches.open(RUNTIME);
+  return (await rt.match(request)) || (await caches.match(request));
+}
+
 self.addEventListener('fetch', e => {
   const req = e.request;
   if (req.method !== 'GET') return;
@@ -69,9 +77,9 @@ self.addEventListener('fetch', e => {
         }
         return res;
       })
-      .catch(() => caches.match(req, { ignoreSearch: false })
-        .then(hit => hit
-          || (req.mode === 'navigate' ? caches.match('./index.html') : null)
-          || Response.error()))
+      .catch(async () => await fromCache(req)
+        // Маршрути хешеві, тож будь-яка навігація без мережі обслуговується оболонкою.
+        || (req.mode === 'navigate' ? await fromCache('./index.html') : null)
+        || Response.error())
   );
 });
