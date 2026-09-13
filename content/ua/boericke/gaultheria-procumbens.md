@@ -4,8 +4,8 @@ lang: ua
 type: remedy
 latin: Gaultheria procumbens
 alt_latin: Gaultheria
-common: Wintergreen (GAULTHERIA)
-title: Gaultheria procumbens — Wintergreen (GAULTHERIA)
+common: Гаультерія лежача (GAULTHERIA)
+title: Gaultheria procumbens — Гаультерія лежача (GAULTHERIA)
 source: William Boericke. Pocket Manual of Homoeopathic Materia Medica, 9th ed., 1927 (машинний переклад з англійської)
 origin: http://www.homeoint.org/books/boericmm/g/gaul.htm
 src: boericke
@@ -14,24 +14,24 @@ sections: Характеристика; Голова; Шлунок; Шкіра; 
 
 ## Характеристика
 
-Запальний ревматизм, плевродинія, ішіас та інші невралгії входять до сфери цього засобу. Подразнення кісти та простати, надмірне сексуальне збудження та запалення нирок.
+Запальний ревматизм, плевродинія, ішіас та інші невралгії входять до сфери дії цього засобу. Подразнення сечового міхура й передміхурової залози, надмірне статеве збудження та запалення нирок.
 
 ## Голова
 
-Невралгія голови та обличчя.
+Невралгія голови й обличчя.
 
 ## Шлунок
 
-Гострий гастрит, сильний біль в епігастрії; тривала блювота. Неконтрольований апетит, незважаючи на роздратований шлунок. Гастралгія від нервової депресії (Дайте п'ять крапель 1x олії).
+Гострий гастрит, сильний біль у надчерев'ї; тривале блювання. Невгамовний апетит, попри подразнений шлунок. Гастралгія від нервового пригнічення (Давати п'ять крапель олії 1x).
 
 ## Шкіра
 
-Розум і печіння. Інтенсивна еритема, гірше холодне купання; краще, оливкова олія та прохолодне повітря частково.
+Пекуча болючість і печіння. Сильна еритема, гірше від холодних обмивань; краще від оливкової олії та подуву прохолодного повітря на уражене місце.
 
 ## Взаємозв’язки
 
-**Порівняти:** Spiraeea. Gaultheria contains Arbutin. Salycyl acid. Methylium salicylicum (an artificial Gaultheria oil for rheumatism, especially when the salicylates cannot be used. Pruritus and epididymitis, locally). After Cantharis in burns.
+**Порівняти:** Spiraea. Gaultheria contains Arbutin. Salicyl acid. Methylium salicylicum (an artificial Gaultheria oil for rheumatism, especially when the salicylates cannot be used. Pruritus and epididymitis, locally). After Cantharis in burns.
 
 ## Дози
 
-Настоянка і зниження потенції.
+Настоянка і нижчі розведення.
