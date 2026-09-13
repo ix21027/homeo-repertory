@@ -77,6 +77,11 @@
     return Array.from(seen).sort((a, b) => a - b);
   }
 
+  // Стем тексту s вважається збігом зі стемом запиту a за тим самим правилом, що й у
+  // unitsForStem: точний збіг або префікс від 4 літер. Розмітка markdown — як у збірці.
+  function matchStem(s, a) { return s === a || (a.length >= 4 && s.startsWith(a)); }
+  const stripMd = s => s.replace(/\*\*|_/g, ' ');
+
   // Відстань Левенштейна з обмеженням (для виправлення одруків за словником індексу)
   function lev(a, b, max) {
     const m = a.length, n = b.length;
@@ -111,74 +116,210 @@
 
   function gradeScore(score) { return score >= 6 ? 3 : score >= 3 ? 2 : score > 0 ? 1 : 0; }
 
-  // Повнотекстовий пошук. Сильний збіг — усі слова запиту в одному реченні (2 бали),
-  // слабкий — в одному абзаці (1 бал); бал множиться на вагу розділу; сума по препарату
-  // ділиться на м'яку поправку за обсяг опису (поліхрести мають більше абзаців).
-  // Слова з «-» попереду виключають абзаци. Слово без збігів замінюється найближчим за
-  // словником індексу (res.corrections).
-  function freeText(idx, query, sectionFilter, lang, opts) {
-    const withArticles = !(opts && opts.articles === false);
-    const { inc, exc } = SC.queryTerms(query, lang || 'ru');
-    const res = { stems: [], paras: [], byRemedy: new Map(), byArticle: new Map(), corrections: [] };
-    if (!inc.length) return res;
-    const slots = [];
-    const stemSet = new Set();
-    for (const term of inc) {
-      let alts = term.alts;
-      let u = union(alts.map(st => unitsForStem(idx, st)));
-      if (!u.length) {
-        const fz = fuzzyStems(idx, alts[0]);
-        if (fz.length) { res.corrections.push({ word: term.word, to: fz }); alts = fz; u = union(fz.map(st => unitsForStem(idx, st))); }
-      }
-      slots.push({ units: u, alts });
-      alts.forEach(s => stemSet.add(s));
-    }
-    res.stems = Array.from(stemSet);
-    let strong = slots[0].units;
-    for (let i = 1; i < slots.length && strong.length; i++) strong = intersect(strong, slots[i].units);
-    const toParas = units => { const s = new Set(); for (const u of units) s.add(idx.u2p[u]); return s; };
-    let paraSet = toParas(slots[0].units);
-    for (let i = 1; i < slots.length && paraSet.size; i++) {
-      const other = toParas(slots[i].units);
-      paraSet = new Set(Array.from(paraSet).filter(p => other.has(p)));
-    }
-    if (exc.length && paraSet.size) {
-      for (const term of exc) for (const u of union(term.alts.map(st => unitsForStem(idx, st)))) paraSet.delete(idx.u2p[u]);
-    }
-    const strongByPara = new Map();
-    for (const u of strong) { const p = idx.u2p[u]; if (!paraSet.has(p)) continue; let a = strongByPara.get(p); if (!a) strongByPara.set(p, a = []); a.push(u); }
-    const unitsByPara = new Map();
-    for (const s of slots) for (const u of s.units) { const p = idx.u2p[u]; if (!paraSet.has(p) || strongByPara.has(p)) continue; let a = unitsByPara.get(p); if (!a) unitsByPara.set(p, a = new Set()); a.add(u); }
-    const paras = [];
-    for (const p of Array.from(paraSet).sort((a, b) => a - b)) {
-      const d = idx.docs[idx.pd[p]];
-      if (sectionFilter && !(d.t === 'r' && d.s[idx.ps[p]] === sectionFilter)) continue;
-      if (!withArticles && d.t === 'a') continue;
-      const su = strongByPara.get(p);
-      const units = su ? su : Array.from(unitsByPara.get(p) || []).sort((a, b) => a - b);
-      const w = d.t === 'r' ? (SECTION_WEIGHT[d.s[idx.ps[p]]] || 1) : 1;
-      const score = (su ? 2 : 1) * w;
-      const k = paras.length;
-      paras.push({ p, strong: !!su, units, score });
-      const r = idx.pr[p];
+  // Зведення res.paras у res.byRemedy / res.byArticle. Викликається після кожної зміни
+  // списку абзаців (пошук, підтвердження фраз), бо e.paras зберігає індекси в res.paras.
+  function aggregate(idx, res) {
+    res.byRemedy = new Map();
+    res.byArticle = new Map();
+    res.paras.forEach((x, k) => {
+      const d = idx.docs[idx.pd[x.p]];
+      const r = idx.pr[x.p];
       if (r >= 0) {
         let e = res.byRemedy.get(r);
         if (!e) res.byRemedy.set(r, e = { hits: 0, raw: 0, score: 0, best: 0, g: 0, paras: [] });
-        e.hits++; e.raw += score; if (score > e.best) e.best = score; e.paras.push(k);
+        e.hits++; e.raw += x.score; if (x.score > e.best) e.best = x.score; e.paras.push(k);
       }
       if (d.t === 'a') {
         let e = res.byArticle.get(d.a);
         if (!e) res.byArticle.set(d.a, e = { hits: 0, paras: [] });
         e.hits++; e.paras.push(k);
       }
-    }
+    });
     for (const [r, e] of res.byRemedy) {
       const np = idx.remParas.get(r) || 60;
       e.score = e.raw / (1 + Math.log10(1 + np / 80));
       e.g = gradeScore(e.score);
     }
-    res.paras = paras;
     return res;
+  }
+
+  // Повнотекстовий пошук. Сильний збіг — усі слова запиту в одному реченні (2 бали),
+  // слабкий — в одному абзаці (1 бал); бал множиться на вагу розділу і на частку idf,
+  // що зібралась у найкращому реченні абзацу (рідкісні слова поруч важать більше за
+  // розкидані); сума по препарату ділиться на м'яку поправку за обсяг опису.
+  // idf слова = log((N+1)/(df+1)), N — кількість речень індексу, df — кількість речень
+  // зі словом (за об'єднанням його альтернативних стемів).
+  // Слова з «-» попереду виключають абзаци. Слово без збігів замінюється найближчим за
+  // словником індексу (res.corrections). Якщо слів ≥3, а повний AND дає менше ніж три
+  // абзаци по препаратах, найзагальніше слово (найменший idf) відкидається — до двох
+  // разів (res.dropped); слова фрази не відкидаються ніколи.
+  // Слова в лапках (res.phraseTerms) на цьому кроці дають лише кандидатів — усі слова
+  // фрази в одному реченні; порядок «підряд» перевіряє confirmPhrases за текстом.
+  function freeText(idx, query, sectionFilter, lang, opts) {
+    const withArticles = !(opts && opts.articles === false);
+    lang = lang || 'ru';
+    const { inc, exc, phrases } = SC.queryTerms(query, lang);
+    const res = { stems: [], paras: [], byRemedy: new Map(), byArticle: new Map(), corrections: [], dropped: [], phrases: [], phraseTerms: [] };
+    if (!inc.length) return res;
+    // слова запиту розв'язуємо один раз: постинги, виправлення одруків, idf
+    const slots = inc.map(term => {
+      let alts = term.alts;
+      let u = union(alts.map(st => unitsForStem(idx, st)));
+      if (!u.length) {
+        const fz = fuzzyStems(idx, alts[0]);
+        if (fz.length) { res.corrections.push({ word: term.word, to: fz }); alts = fz; u = union(fz.map(st => unitsForStem(idx, st))); }
+      }
+      return { word: term.word, ph: term.ph, alts, units: u, idf: Math.log((idx.nUnits + 1) / (u.length + 1)) };
+    });
+    const excUnits = exc.length ? union(exc.map(t => union(t.alts.map(st => unitsForStem(idx, st))))) : [];
+    const toParas = units => { const s = new Set(); for (const u of units) s.add(idx.u2p[u]); return s; };
+    // фрази: кандидати — речення, де зійшлися всі слова фрази (слова фрази не відкидаються)
+    const groups = phrases.map(ph => {
+      const mem = ph.terms.map(i => slots[i]);
+      let u = mem[0].units;
+      for (let i = 1; i < mem.length && u.length; i++) u = intersect(u, mem[i].units);
+      return { text: ph.text, alts: mem.map(s => s.alts), units: u };
+    });
+    res.phrases = groups.map(g => g.text);
+    res.phraseTerms = groups.map(g => g.alts);
+
+    function run(active) {
+      const out = { stems: [], paras: [] };
+      const stemSet = new Set();
+      for (const s of active) for (const a of s.alts) stemSet.add(a);
+      out.stems = Array.from(stemSet);
+      const idfTotal = active.reduce((a, s) => a + s.idf, 0) || 1;
+      let strong = active[0].units;
+      for (let i = 1; i < active.length && strong.length; i++) strong = intersect(strong, active[i].units);
+      let paraSet = toParas(active[0].units);
+      for (let i = 1; i < active.length && paraSet.size; i++) {
+        const other = toParas(active[i].units);
+        paraSet = new Set(Array.from(paraSet).filter(p => other.has(p)));
+      }
+      for (const g of groups) {
+        if (!paraSet.size) break;
+        const ps = toParas(g.units);
+        paraSet = new Set(Array.from(paraSet).filter(p => ps.has(p)));
+      }
+      if (excUnits.length && paraSet.size) for (const u of excUnits) paraSet.delete(idx.u2p[u]);
+      const phByPara = groups.map(g => {
+        const m = new Map();
+        for (const u of g.units) { const p = idx.u2p[u]; if (!paraSet.has(p)) continue; let a = m.get(p); if (!a) m.set(p, a = []); a.push(u); }
+        return m;
+      });
+      const strongByPara = new Map();
+      for (const u of strong) { const p = idx.u2p[u]; if (!paraSet.has(p)) continue; let a = strongByPara.get(p); if (!a) strongByPara.set(p, a = []); a.push(u); }
+      const unitsByPara = new Map();
+      const idfByUnit = new Map();
+      for (const s of active) for (const u of s.units) {
+        const p = idx.u2p[u];
+        if (!paraSet.has(p) || strongByPara.has(p)) continue;
+        let a = unitsByPara.get(p); if (!a) unitsByPara.set(p, a = new Set()); a.add(u);
+        idfByUnit.set(u, (idfByUnit.get(u) || 0) + s.idf);
+      }
+      for (const p of Array.from(paraSet).sort((a, b) => a - b)) {
+        const d = idx.docs[idx.pd[p]];
+        if (sectionFilter && !(d.t === 'r' && d.s[idx.ps[p]] === sectionFilter)) continue;
+        if (!withArticles && d.t === 'a') continue;
+        const su = strongByPara.get(p);
+        const units = su ? su : Array.from(unitsByPara.get(p) || []).sort((a, b) => a - b);
+        const w = d.t === 'r' ? (SECTION_WEIGHT[d.s[idx.ps[p]]] || 1) : 1;
+        // частка idf, що зібралась у найкращому реченні абзацу (для сильного збігу — уся)
+        let ratio = 1;
+        if (!su) {
+          let best = 0;
+          for (const u of units) { const v = idfByUnit.get(u) || 0; if (v > best) best = v; }
+          ratio = best / idfTotal;
+        }
+        const x = { p, strong: !!su, units, w, ratio, score: (su ? 2 : 1) * w * ratio };
+        if (groups.length) x.pc = phByPara.map(m => m.get(p) || []);
+        out.paras.push(x);
+      }
+      return out;
+    }
+
+    let active = slots;
+    let out = run(active);
+    while (inc.length >= 3 && res.dropped.length < 2 && active.length >= 2) {
+      let n = 0;
+      for (const x of out.paras) if (idx.pr[x.p] >= 0) n++;
+      if (n >= 3) break;
+      const cand = active.filter(s => s.ph == null);
+      if (!cand.length) break;
+      let worst = cand[0];
+      for (const s of cand) if (s.idf < worst.idf) worst = s;
+      active = active.filter(s => s !== worst);
+      res.dropped.push(worst.word);
+      out = run(active);
+    }
+    res.stems = out.stems;
+    res.paras = out.paras;
+    return aggregate(idx, res);
+  }
+
+  // Фраза в реченні: стеми слів ідуть підряд (між сусідніми допускається одне стоп-слово,
+  // бо «страх перед смертью» — та сама фраза, що й «страх смерти»). Повертає null, якщо
+  // якогось слова у власному тексті речення немає взагалі: в українському індексі збіг міг
+  // дати російський стем вирівняного перекладу, де позицій слів немає, — таке речення
+  // зараховується як сильний збіг (див. confirmPhrases).
+  function phraseInSentence(sent, termAlts, lang) {
+    const toks = SC.tokenizeMarked(stripMd(sent), lang);
+    const st = toks.map(x => (x.stop ? null : SC.stem(x.w, lang)));
+    const hit = (k, alts) => st[k] != null && alts.some(a => matchStem(st[k], a));
+    for (const alts of termAlts) if (!st.some((s, k) => hit(k, alts))) return null;
+    for (let k = 0; k < st.length; k++) {
+      if (!hit(k, termAlts[0])) continue;
+      let pos = k, ok = true;
+      for (let t = 1; t < termAlts.length; t++) {
+        let next = -1;
+        for (let j = pos + 1; j <= pos + 2 && j < st.length; j++) {
+          if (hit(j, termAlts[t])) { next = j; break; }
+          if (!toks[j].stop) break;
+        }
+        if (next < 0) { ok = false; break; }
+        pos = next;
+      }
+      if (ok) return true;
+    }
+    return false;
+  }
+
+  // Підтвердження фраз за текстом абзаців: індекс не зберігає позицій слів (формат v3),
+  // тому freeText дає лише кандидатів, а порядок слів перевіряється тут по завантажених
+  // документах. texts — Map(номер абзацу → markdown абзацу); абзац без тексту відкидається.
+  // res.unverified — скільки речень не вдалося перевірити за власним текстом (для ua це
+  // збіг через російський стем перекладу і речення лишається, для ru — ознака розбіжності
+  // з конвеєром збірки).
+  function confirmPhrases(idx, res, lang, texts) {
+    if (!res.phraseTerms || !res.phraseTerms.length) return res;
+    const kept = [];
+    res.unverified = 0;
+    for (const x of res.paras) {
+      const md = texts.get(x.p);
+      if (md == null) continue;
+      const sents = SC.splitSentences(md);
+      const base = idx.pstart[x.p];
+      const oks = [];
+      for (let g = 0; g < res.phraseTerms.length; g++) {
+        const hit = ((x.pc && x.pc[g]) || []).filter(u => {
+          const s = sents[u - base];
+          if (s == null) return false;
+          const v = phraseInSentence(s, res.phraseTerms[g], lang);
+          if (v === null) { res.unverified++; return lang === 'ua'; }
+          return v;
+        });
+        if (!hit.length) { oks.length = 0; break; }
+        oks.push(hit);
+      }
+      if (!oks.length) continue;
+      const all = union(oks);
+      const both = intersect(all, x.units);
+      x.units = both.length ? both : all;
+      if (!both.length && x.strong) { x.strong = false; x.score = x.w * x.ratio; }
+      kept.push(x);
+    }
+    res.paras = kept;
+    return aggregate(idx, res);
   }
 
   // ---- рубрики каталогу --------------------------------------------------
@@ -297,5 +438,5 @@
     return out.slice(0, limit || 8);
   }
 
-  return { makeIndex, freeText, gradeScore, repertorize, rubricRemedies, suggest, matchRemedies, foldForMatch, vocabRange, SECTION_WEIGHT };
+  return { makeIndex, freeText, confirmPhrases, phraseInSentence, gradeScore, repertorize, rubricRemedies, suggest, matchRemedies, foldForMatch, vocabRange, SECTION_WEIGHT };
 });
