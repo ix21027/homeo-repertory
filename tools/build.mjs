@@ -102,6 +102,15 @@ const SPECIAL = {
   'iodum': 'Iodum', 'borax': 'Borax', 'capsicum': 'Capsicum annuum', 'cina': 'Cina', 'euphrasia': 'Euphrasia officinalis', 'allium cepa': 'Allium cepa',
   'sabina': 'Sabina', 'secale': 'Secale cornutum', 'sanguinaria': 'Sanguinaria canadensis', 'spigelia': 'Spigelia anthelmia', 'tabacum': 'Tabacum',
   'urtica': 'Urtica urens', 'cantharis': 'Cantharis', 'mezereum': 'Mezereum', 'kreosotum': 'Kreosotum', 'lac caninum': 'Lac caninum',
+  // написання зі статей, що позначають наявний препарат Кларка (звірено з покажчиком Boericke)
+  'crotalus': 'Crotalus horridus', 'kali hydroiodicum': 'Kali iodatum', 'nux juglans': 'Juglans regia',
+  'mercurius photoiodatus': 'Mercurius iodatus flavus', 'mercurius protoiodatus': 'Mercurius iodatus flavus',
+  'calcarea fluorata': 'Calcarea fluorica',
+  // родові назви, які до появи описів Boericke резолвились як єдині з таким першим словом;
+  // друга сіль того ж роду зняла цю однозначність, тож типовий препарат називаємо явно
+  'apocynum': 'Apocynum cannabinum', 'tarentula': 'Tarentula hispanica', 'actea': 'Actea racemosa',
+  'bismuthum': 'Bismuthum metallicum', 'carboneum': 'Carboneum sulphuratum', 'manganum': 'Manganum carbonicum',
+  'saccharum': 'Saccharum lactis', 'solanum': 'Solanum nigrum',
 };
 
 function lev(a, b) {
@@ -145,19 +154,22 @@ const MOD_MARK = /^\*\*\s*•?\s*(Хуже|Лучше|Гірше|Краще)[.:]
 // ---------------------------------------------------------------------------
 function buildLang(lang, ruBuilt) {
   const dir = path.join(CONTENT, lang);
-  const remedyFiles = fs.readdirSync(path.join(dir, 'remedies')).filter(f => f.endsWith('.md')).sort();
+  // препарати з двох тек: Кларк (remedies/) і Boericke (boericke/, frontmatter src: boericke) — спільний список за назвою файлу
+  const mdIn = sub => (fs.existsSync(path.join(dir, sub)) ? fs.readdirSync(path.join(dir, sub)) : []).filter(f => f.endsWith('.md')).map(f => [sub, f]);
+  const remedyFiles = [...mdIn('remedies'), ...mdIn('boericke')].sort((a, b) => (a[1] < b[1] ? -1 : a[1] > b[1] ? 1 : 0));
   const articleFiles = fs.readdirSync(path.join(dir, 'articles')).filter(f => f.endsWith('.md')).sort();
   const clinic = CLINIC[lang];
   const rep = [];
 
   const remedies = [];
   const remedyDocs = [];
-  for (const f of remedyFiles) {
-    const { fm, blocks } = parseMd(path.join(dir, 'remedies', f));
+  for (const [sub, f] of remedyFiles) {
+    const { fm, blocks } = parseMd(path.join(dir, sub, f));
     const sections = blocks.map(b => ({ title: b.title || (lang === 'ua' ? 'Загальне' : 'Общее'), paras: b.paras })).filter(s => s.paras.length);
-    remedies.push({ id: fm.id, latin: fm.latin, alt: fm.alt_latin || '', translit: fm.transliteration || '', common: fm.common || '', title: fm.title, nsec: sections.length, ext: false });
+    const src = fm.src || '';
+    remedies.push({ id: fm.id, latin: fm.latin, alt: fm.alt_latin || '', translit: fm.transliteration || '', common: fm.common || '', title: fm.title, nsec: sections.length, ext: false, ...(src ? { src } : {}) });
     remedyDocs.push({ id: fm.id, latin: fm.latin, alt: fm.alt_latin || '', translit: fm.transliteration || '', common: fm.common || '', title: fm.title,
-      source: fm.source || '', origin: fm.origin || '', sections });
+      source: fm.source || '', origin: fm.origin || '', ...(src ? { src } : {}), sections });
   }
 
   const alias = new Map();
@@ -170,7 +182,8 @@ function buildLang(lang, ruBuilt) {
     if (!firstWord.has(fw)) firstWord.set(fw, new Set());
     firstWord.get(fw).add(idx);
   }
-  remedies.forEach((r, i) => { addAlias(r.latin, i); if (r.alt) addAlias(r.alt, i); });
+  // alt_latin — список написань через «;» (Boericke несе там і назву з каталогу, і синоніми видання)
+  remedies.forEach((r, i) => { addAlias(r.latin, i); for (const a of r.alt.split(';')) if (a.trim()) addAlias(a, i); });
   for (const [fw, set] of firstWord) if (set.size === 1 && !alias.has(fw) && fw.length > 3) alias.set(fw, Array.from(set)[0]);
 
   function fuzzyAlias(n) {

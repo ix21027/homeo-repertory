@@ -1,0 +1,36 @@
+{
+  "_": "Ручні перевизначення зіставлення ext-назв каталогу з абревіатурами Boericke (tools/import_boericke.py).",
+  "_формат": "\"<ext-назва>\": \"<ABBREV>\" — узяти цю сторінку; \"<ext-назва>\": null — не імпортувати. Ключі з «_» ігноруються.",
+
+  "_друкарські помилки й синоніми": "ту саму речовину названо інакше",
+  "Luesinum": "SYPH",
+  "Sulfur aurati": "ANT-SAUR",
+  "Spartum": "SAROTH",
+  "Scilla maritime": "SQUIL",
+  "Lappa major": "LAPPA",
+  "Cocainum muriaticum": "COCAIN",
+  "Mercurius bijodatus": "MERC-I-R",
+
+  "_за контекстом статті": "вибір виду або солі підтверджено текстом статті лікувальника",
+  "Prymula": "PRIM-O",
+  "Cyanatum acidum": "HYDR-AC",
+
+  "_вже є сторінка Кларка": "не імпортуємо — назву резолвимо в наявний препарат через SPECIAL у tools/build.mjs",
+  "Crotalus": null,
+  "Kali hydroiodicum": null,
+  "Nux juglans": null,
+  "Calcarea fluorata": null,
+  "Mercurius photoiodatus": null,
+
+  "_відхилені кандидати": "схожа назва, але інша речовина або інший вид",
+  "Carica": null,
+  "Formicicum acidum": null,
+  "Aurum muriaticum": null,
+  "Argile": null,
+  "Asterias tuberosa": null,
+  "Iodofyllinum": null,
+  "Iris tenax": null,
+  "Thallium sulfuricum": null,
+  "Ferula neapolitana": null,
+  "Calcarea calcarea": null
+}

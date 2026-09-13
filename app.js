@@ -39,7 +39,7 @@
       evClinic: 'У розділі «Клініка» Materia Medica:', open: 'відкрити', evArt: 'Препарат описано у статті', evLine: 'Рубрика зі статті', evArticle: 'Стаття',
       evMore: n => '… та ще ' + n + ' — ', evOpenRemedy: 'переглянути препарат', noData: 'Немає даних.', evSub: 'через підрубрику',
       evMod: 'У розділі «Модальності»:', evEtio: 'У розділі «Етіологія»:',
-      remediesTitle: 'Препарати', remediesIntro: n => 'Materia Medica Дж. Г. Кларка — ' + n + ' препаратів. Латинська назва, транслітерація, звичайна назва.',
+      remediesTitle: 'Препарати', remediesIntro: n => 'Materia Medica Дж. Г. Кларка і В. Берике (позначені «B») — ' + n + ' препаратів. Латинська назва, транслітерація, звичайна назва.',
       filter: 'Фільтр за назвою…', nothingShort: 'Нічого не знайдено.', source: 'Джерело:', sections: 'Розділи', addRubric: 'Додати рубрику до реперторію',
       inArticles: 'Згадується у статтях', noRemedy: 'Препарат не знайдено.',
       articlesTitle: 'Статті', articlesIntro: 'Домашній гомеопатичний лікувальник за хворобами (Варшавський, Кьолер, Симеонова, Петерс, Роуз, Юз та ін.), квіткові настої д-ра Баха, про гомеопатію. У кожній статті — перелік препаратів із показаннями.',
@@ -65,7 +65,7 @@
       evClinic: 'В разделе «Клиника» Materia Medica:', open: 'открыть', evArt: 'Препарат описан в статье', evLine: 'Рубрика из статьи', evArticle: 'Статья',
       evMore: n => '… и ещё ' + n + ' — ', evOpenRemedy: 'открыть препарат', noData: 'Нет данных.', evSub: 'через подрубрику',
       evMod: 'В разделе «Модальности»:', evEtio: 'В разделе «Этиология»:',
-      remediesTitle: 'Препараты', remediesIntro: n => 'Materia Medica Дж. Г. Кларка — ' + n + ' препаратов. Латинское название, транслитерация, обычное название.',
+      remediesTitle: 'Препараты', remediesIntro: n => 'Materia Medica Дж. Г. Кларка и В. Берике (отмечены «B») — ' + n + ' препаратов. Латинское название, транслитерация, обычное название.',
       filter: 'Фильтр по названию…', nothingShort: 'Ничего не найдено.', source: 'Источник:', sections: 'Разделы', addRubric: 'Добавить рубрику в реперторий',
       inArticles: 'Упоминается в статьях', noRemedy: 'Препарат не найден.',
       articlesTitle: 'Статьи', articlesIntro: 'Домашний гомеопатический лечебник по болезням (Варшавский, Кёлер, Симеонова, Петерс, Роуз, Юз и др.), цветочные настои д-ра Бака, о гомеопатии. В каждой статье — перечень препаратов с показаниями.',
@@ -114,8 +114,10 @@
   function remedyLink(i, cls) {
     const r = cat().remedies[i];
     if (r.ext) return '<span class="' + (cls || '') + '">' + esc(r.latin) + ' <span class="ext">' + T().ext + '</span></span>';
-    return '<a class="' + (cls || '') + '" href="' + href('remedy/' + encodeURIComponent(r.id)) + '">' + esc(r.latin) + '</a>';
+    return '<a class="' + (cls || '') + '" href="' + href('remedy/' + encodeURIComponent(r.id)) + '">' + esc(r.latin) + '</a>' + srcMark(r);
   }
+  // маркер джерела опису: описи Boericke відрізняються від основного корпусу Кларка
+  function srcMark(r) { return r.src === 'boericke' ? '<span class="src-b" title="Boericke">B</span>' : ''; }
   function catLabel(rb) { const k = rb.t.indexOf(': '); return k > 0 && (rb.k === 'mod' || rb.k === 'etio') ? rb.t.slice(k + 2) : rb.t; }
   function modLabels() {
     const l = state.lang;
@@ -776,7 +778,7 @@
       for (const x of items) {
         const L = x.r.latin[0].toUpperCase();
         if (L !== letter) { letter = L; html += '<li class="letter">' + L + '</li>'; }
-        html += '<li><a href="' + href('remedy/' + encodeURIComponent(x.r.id)) + '">' + esc(x.r.latin) + '</a>' + (x.r.alt ? ' <span class="muted small">= ' + esc(x.r.alt) + '</span>' : '') +
+        html += '<li><a href="' + href('remedy/' + encodeURIComponent(x.r.id)) + '">' + esc(x.r.latin) + '</a>' + srcMark(x.r) + (x.r.alt ? ' <span class="muted small">= ' + esc(x.r.alt) + '</span>' : '') +
           '<span class="sub">' + esc([x.r.translit.split(' = ')[0], x.r.common].filter(Boolean).join(' — ')) + '</span></li>';
       }
       html += '</ul></div>';
