@@ -46,6 +46,9 @@
       nRemedies: n => n + ' препаратів', noArticle: 'Статтю не знайдено.', author: 'Автор:', addArticle: 'Додати статтю як рубрику до реперторію',
       notFound: 'Сторінку не знайдено.', loadFail: 'Не вдалося завантажити дані:', loading: 'Завантаження…',
       menu: 'Меню', menuLang: 'Мова', menuTheme: 'Тема', themeAuto: 'Системна', themeLight: 'Світла', themeDark: 'Темна',
+      menuFont: 'Шрифт', fontSmall: 'Менший', fontNormal: 'Звичайний', fontLarge: 'Більший',
+      menuFeedback: 'Зв’язок', feedbackLink: 'Повідомити про помилку', fbTitle: 'Помилка на сторінці',
+      fbPage: 'Сторінка', fbLang: 'Мова', fbBuilt: 'Збірка', fbSel: 'Виділений текст', fbWhat: 'Що не так:',
       weight: 'Вага рубрики (натисніть, щоб змінити)', elim: 'Обов’язкова рубрика: показувати лише препарати, що її мають', excl: 'Виключити препарати цієї рубрики',
       sort: 'Сортувати', sortCover: 'за покриттям', sortTotal: 'за балами', sortName: 'за назвою',
       picker: 'Модальності й причини', worse: 'Гірше', better: 'Краще', causes: 'Причини',
@@ -72,6 +75,9 @@
       nRemedies: n => n + ' препаратов', noArticle: 'Статья не найдена.', author: 'Автор:', addArticle: 'Добавить статью как рубрику в реперторий',
       notFound: 'Страница не найдена.', loadFail: 'Не удалось загрузить данные:', loading: 'Загрузка…',
       menu: 'Меню', menuLang: 'Язык', menuTheme: 'Тема', themeAuto: 'Системная', themeLight: 'Светлая', themeDark: 'Тёмная',
+      menuFont: 'Шрифт', fontSmall: 'Меньший', fontNormal: 'Обычный', fontLarge: 'Больший',
+      menuFeedback: 'Связь', feedbackLink: 'Сообщить об ошибке', fbTitle: 'Ошибка на странице',
+      fbPage: 'Страница', fbLang: 'Язык', fbBuilt: 'Сборка', fbSel: 'Выделенный текст', fbWhat: 'Что не так:',
       weight: 'Вес рубрики (нажмите, чтобы изменить)', elim: 'Обязательная рубрика: показывать только препараты, у которых она есть', excl: 'Исключить препараты этой рубрики',
       sort: 'Сортировать', sortCover: 'по покрытию', sortTotal: 'по баллам', sortName: 'по названию',
       picker: 'Модальности и причины', worse: 'Хуже', better: 'Лучше', causes: 'Причины',
@@ -148,13 +154,79 @@
     $('#themeOpts').querySelectorAll('button').forEach(b => b.addEventListener('click', () => { applyTheme(b.dataset.theme || null); closeMenu(); }));
   }
 
+  // ---------------------------------------------------------------- розмір шрифту
+  function applyFont(f) {
+    if (f) document.documentElement.setAttribute('data-font', f); else document.documentElement.removeAttribute('data-font');
+    try { if (f) localStorage.setItem('font', f); else localStorage.removeItem('font'); } catch (e) { /* ignore */ }
+    document.querySelectorAll('#fontOpts button').forEach(b => { const on = (b.dataset.font || '') === (f || ''); b.classList.toggle('active', on); b.setAttribute('aria-pressed', on ? 'true' : 'false'); });
+  }
+  function initFont() {
+    let f = null;
+    try { f = localStorage.getItem('font'); } catch (e) { /* ignore */ }
+    if (f) applyFont(f);
+  }
+  function renderFontOptions() {
+    const t = T();
+    let cur = null;
+    try { cur = localStorage.getItem('font'); } catch (e) { /* ignore */ }
+    $('#fontOpts').innerHTML = [['s', t.fontSmall], ['', t.fontNormal], ['l', t.fontLarge]]
+      .map(([v, l]) => '<button type="button" data-font="' + v + '" class="' + ((cur || '') === v ? 'active' : '') + '" aria-pressed="' + ((cur || '') === v) + '">' + esc(l) + '</button>').join('');
+    $('#fontOpts').querySelectorAll('button').forEach(b => b.addEventListener('click', () => { applyFont(b.dataset.font || null); closeMenu(); }));
+  }
+
+  // ---------------------------------------------------------------- повідомити про помилку
+  const ISSUE_URL = 'https://github.com/ix21027/homeo-repertory/issues/new';
+  let lastSel = '';
+  function selectionText() {
+    const s = window.getSelection ? window.getSelection() : null;
+    if (!s) return '';
+    // через діапазони, а не String(s): для програмного виділення друге дає порожній рядок
+    let out = '';
+    for (let i = 0; i < s.rangeCount; i++) out += (i ? ' ' : '') + s.getRangeAt(i).toString();
+    return (out || String(s)).trim();
+  }
+  function initFeedback() {
+    // клік по меню знімає виділення, тож тримаємо останнє непорожнє
+    document.addEventListener('selectionchange', () => {
+      const s = selectionText(); // вміст полів вводу сюди не потрапляє
+      if (s) lastSel = s.slice(0, 500);
+    });
+    $('#feedbackLink').addEventListener('click', () => closeMenu());
+  }
+  function updateFeedback() {
+    const a = $('#feedbackLink');
+    if (!a) return;
+    const t = T();
+    a.textContent = t.feedbackLink;
+    const built = (state.cat[state.lang] || {}).built || '';
+    const body = [t.fbPage + ': ' + location.href, t.fbLang + ': ' + state.lang]
+      .concat(built ? [t.fbBuilt + ': ' + built] : [])
+      .concat(lastSel ? [t.fbSel + ': «' + lastSel + '»'] : [])
+      .concat(['', t.fbWhat, '']).join('\n');
+    a.setAttribute('href', ISSUE_URL + '?title=' + encodeURIComponent(t.fbTitle) + '&body=' + encodeURIComponent(body));
+  }
+
   // ---------------------------------------------------------------- меню
-  function openMenu() { $('#menu').hidden = false; $('#menuBtn').setAttribute('aria-expanded', 'true'); }
+  function openMenu() { updateFeedback(); $('#menu').hidden = false; $('#menuBtn').setAttribute('aria-expanded', 'true'); }
   function closeMenu() { $('#menu').hidden = true; $('#menuBtn').setAttribute('aria-expanded', 'false'); }
   function initMenu() {
     $('#menuBtn').addEventListener('click', e => { e.stopPropagation(); if ($('#menu').hidden) openMenu(); else closeMenu(); });
     document.addEventListener('click', e => { if (!e.target.closest('#menuWrap')) closeMenu(); });
     document.addEventListener('keydown', e => { if (e.key === 'Escape') closeMenu(); });
+  }
+
+  // «/» — фокус у поле пошуку (реперторій) чи фільтра (списки), якщо фокус не в полі вводу
+  function initHotkeys() {
+    document.addEventListener('keydown', e => {
+      if (e.key !== '/' || e.ctrlKey || e.altKey || e.metaKey) return;
+      const el = e.target;
+      if (el && (el.isContentEditable || /^(input|textarea|select)$/i.test(el.tagName || ''))) return;
+      const f = $('#view input[type="search"]');
+      if (!f) return;
+      e.preventDefault(); // інакше «/» впаде у щойно сфокусоване поле
+      f.focus();
+      f.select();
+    });
   }
 
   // ---------------------------------------------------------------- мова
@@ -173,7 +245,11 @@
     $('#menuBtn').setAttribute('title', t.menu);
     $('#menuLangTitle').textContent = t.menuLang;
     $('#menuThemeTitle').textContent = t.menuTheme;
+    $('#menuFontTitle').textContent = t.menuFont;
+    $('#menuFeedbackTitle').textContent = t.menuFeedback;
     renderThemeOptions();
+    renderFontOptions();
+    updateFeedback();
     document.querySelectorAll('#langBtns button').forEach(b => { b.classList.toggle('active', b.dataset.lang === state.lang); b.setAttribute('aria-pressed', b.dataset.lang === state.lang ? 'true' : 'false'); });
   }
   function switchLang(lang) {
@@ -399,6 +475,28 @@
   }
   function removeRubric(k) { state.rubrics.splice(k, 1); state.open.clear(); rerender(); }
 
+  // Підказки: дочірні рубрики (поле `ch` каталогу) — одразу після батьківської, з відступом (depth)
+  function nestSuggest(c, list) {
+    const pos = new Map();
+    list.forEach((x, i) => { if (!pos.has(x.i)) pos.set(x.i, i); });
+    const parent = new Map();
+    for (const x of list) for (const k of (c.rubrics[x.i].ch || [])) if (pos.has(k) && k !== x.i && !parent.has(k)) parent.set(k, x.i);
+    const kids = new Map();
+    for (const [k, p] of parent) { if (!kids.has(p)) kids.set(p, []); kids.get(p).push(k); }
+    for (const arr of kids.values()) arr.sort((a, b) => pos.get(a) - pos.get(b));
+    const out = [], seen = new Set();
+    function push(x, d) {
+      if (!x || seen.has(x.i)) return;
+      seen.add(x.i);
+      x.depth = d;
+      out.push(x);
+      for (const k of (kids.get(x.i) || [])) push(list[pos.get(k)], d + 1);
+    }
+    for (const x of list) if (!parent.has(x.i)) push(x, 0);
+    for (const x of list) push(x, 0); // рештки (взаємні посилання між рубриками)
+    return out;
+  }
+
   async function viewRepertory(view, params) {
     const t = T();
     const c = cat();
@@ -460,11 +558,11 @@
       const q = input.value.trim();
       if (q.length < 2) { closeSugg(); return; }
       const found = R.suggest(c, q, state.articles ? 10 : 14, state.lang).filter(it => state.articles || (it.rb.k !== 'art' && it.rb.k !== 'line')).slice(0, 10);
-      items = [{ free: true, q }].concat(found);
+      items = [{ free: true, q }].concat(nestSuggest(c, found));
       active = -1;
       sugg.innerHTML = items.map((it, i) => it.free
         ? '<li class="free" data-i="' + i + '"><span>' + esc(t.freeSearch) + ': «' + esc(it.q) + '»' + (sel.value ? ' · ' + esc(sel.value) : '') + '</span><span class="kind">' + esc(t.freeKind) + '</span></li>'
-        : '<li data-i="' + i + '"><span>' + esc(it.rb.t) + (it.rb.ch ? ' <span class="kind">+' + it.rb.ch.length + '</span>' : '') + '</span><span class="cnt">' + it.n + ' <span class="kind">' + esc(t.kind[it.rb.k]) + '</span></span></li>').join('');
+        : '<li' + (it.depth ? ' class="sub' + (it.depth > 1 ? ' sub2' : '') + '"' : '') + ' data-i="' + i + '"><span>' + esc(it.rb.t) + (it.rb.ch ? ' <span class="kind">+' + it.rb.ch.length + '</span>' : '') + '</span><span class="cnt">' + it.n + ' <span class="kind">' + esc(t.kind[it.rb.k]) + '</span></span></li>').join('');
       sugg.hidden = false;
     }
     function pick(i) {
@@ -894,6 +992,7 @@
   // ---------------------------------------------------------------- старт
   async function init() {
     initTheme();
+    initFont();
     try {
       state.langsAvailable = (await fetchJson('data/langs.json')).langs;
     } catch (e) {
@@ -904,6 +1003,8 @@
     btns.querySelectorAll('button').forEach(b => b.addEventListener('click', () => switchLang(b.dataset.lang)));
     if (state.langsAvailable.length < 2) btns.closest('.menu-section').hidden = true;
     initMenu();
+    initFeedback();
+    initHotkeys();
     window.addEventListener('hashchange', route);
     route();
   }

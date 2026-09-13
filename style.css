@@ -38,6 +38,10 @@ html[data-theme="dark"] {
 
 * { box-sizing: border-box; }
 html { -webkit-text-size-adjust: 100%; }
+/* розмір шрифту з меню: решта розмірів у rem, тож тягнеться весь інтерфейс */
+html[data-font="s"] { font-size: 15px; }
+html[data-font="l"] { font-size: 19px; }
+html[data-font] body { font-size: 1rem; }
 body { margin: 0; font-family: var(--font); font-size: 16px; line-height: 1.5; color: var(--fg); background: var(--bg); }
 a { color: var(--accent); text-decoration: none; }
 a:hover { text-decoration: underline; }
@@ -77,6 +81,7 @@ input:focus, select:focus { outline: 2px solid var(--accent); outline-offset: 1p
 .seg button + button { border-left: 1px solid var(--line); }
 .seg button.active { background: var(--accent); color: var(--accent-fg); }
 .seg button:hover:not(.active) { color: var(--accent); }
+.menu-link { display: block; font-size: .92rem; }
 .btn-icon { border: 1px solid var(--line); background: var(--bg-2); color: var(--fg-2); border-radius: 8px; padding: 6px 10px; cursor: pointer; }
 .btn-icon:hover { color: var(--accent); border-color: var(--accent); }
 .dropdown { position: absolute; top: calc(100% + 4px); right: 0; left: 0; margin: 0; padding: 4px 0; list-style: none; background: var(--bg-2); border: 1px solid var(--line); border-radius: 8px; box-shadow: var(--shadow); z-index: 30; max-height: 60vh; overflow: auto; min-width: 260px; }
@@ -85,6 +90,8 @@ input:focus, select:focus { outline: 2px solid var(--accent); outline-offset: 1p
 .dropdown .kind { font-size: .78rem; color: var(--fg-2); white-space: nowrap; }
 .dropdown .cnt { font-size: .8rem; color: var(--fg-2); }
 .dropdown li.free { border-bottom: 1px solid var(--line); font-style: italic; }
+.dropdown li.sub { padding-left: 26px; }
+.dropdown li.sub.sub2 { padding-left: 40px; }
 
 main.wrap { padding-top: 22px; padding-bottom: 60px; min-height: 70vh; }
 
