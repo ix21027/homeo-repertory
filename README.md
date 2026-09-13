@@ -43,6 +43,8 @@ tools/extract.py                — hom.zip → content/ru/*.md (лише ста
 tools/translate.py              — content/ru → content/ua (Google Translate через translatepy, кеш tools/translate-cache.json)
 tools/build.mjs                 — content/<lang>/*.md → data/<lang>/ (Node ≥ 18); індекс v3: одиниця — речення
 tools/modalities.mjs            — категорії модальностей/етіології (регекси + підписи ru/ua), розбір «Взаимосвязи»
+tools/check_negation.mjs        — детектор загублених у перекладі заперечень (content/ru ↔ content/ua)
+tools/negation-fixes.json       — знайдені й перевірені виправлення заперечень, які застосовує translate.py
 sources/wayback/*.html          — 21 стаття лікувальника, якої немає в hom.zip (копії з Wayback Machine, 2020)
 tools/report.txt, build-report.txt — звіти екстракції та збірки
 ```
@@ -89,6 +91,32 @@ node tools/build.mjs                   # content/<lang>/*.md → data/<lang>/
 python3 -m http.server 8000            # локальний перегляд: http://localhost:8000/
 ```
 
+## Перевірка заперечень
+
+Google час від часу губить заперечення («не может лежать на левом боку» → «може лежати на лівому боці»);
+для медичного тексту це інверсія змісту, тому є окремий детектор:
+
+```
+node tools/check_negation.mjs                     # JSONL кандидатів у stdout, зведення у stderr
+node tools/check_negation.mjs --out cand.jsonl    # кандидати у файл
+node tools/check_negation.mjs --no-strip          # без правил зняття ідіом (для калібрування)
+```
+
+Він іде рядок у рядок (`render_ua` зберігає структуру), ділить рядки на речення тим самим
+`splitSentences` зі `search-core.js`, що й `build.mjs`, і позначає кандидатом речення, де маркерів
+заперечення в українському менше, ніж у російському. Щоб не було шуму, у детекторі є таблиця
+парних ідіом (`STRIP`: «без труда» ↔ «легко», «пока … не» ↔ «доки», «какой бы то ни было» тощо) —
+пара спрацьовує лише тоді, коли збіглися обидва боки. Корелятивні «ни … ни» ↔ «ні … ні» рахуються
+окремо від самостійного заперечення: втратою вважається падіння самостійного.
+
+Знайдені й перевірені випадки лежать у `tools/negation-fixes.json` — список
+`{ru: <RU-речення>, bad: <UA-речення як його дав перекладач>, good: <правильне UA>}`. `tr()` у
+`tools/translate.py` застосовує їх після решти пост-правил: якщо RU-речення є в сегменті, а `bad` —
+у результаті, `bad` замінюється на `good` (є запасний пошук за словами, стійкий до розділових знаків;
+якщо й він не спрацював — попередження `negation fix not applied` у stderr). Правила застосовуються
+під час рендеру, тож нове виправлення не потребує повторного перекладу — досить
+`python3 tools/translate.py --force`.
+
 ## GitHub Pages
 
 Репозиторій `ix21027/homeo-repertory` публікується як є: Settings → Pages → Source «Deploy from a branch», гілка `main`, тека `/ (root)`.
@@ -115,4 +143,9 @@ python3 -m http.server 8000            # локальний перегляд: ht
   истечение → витікання, мерещится → ввижається, область → ділянка, глотка (не «горлянка»), живот → живіт (не
   «тварина»), зев → зів, терміни на -ит (синусит, а не «синусить») тощо; жирні списки латинських назв у статтях
   не перекладаються (Google їх обрізав).
+- У 8 довгих абзацах Google обірвав переклад (викинув частину тексту разом із запереченням):
+  `carbo-vegetabilis:525`, `carlsbad-aqua:22`, `muriaticum-acidum:313`, `metody-gomeopaticheskoj-praktiki:34`,
+  `gomeopatiya-segodnya…:26` і `:38`, `ozhirenie-u-rebenka:243`, `venoznye-sredstva:143` (плюс
+  `helleborus-niger:20` і `syphylinum:18`, яких детектор заперечень уже не показує). Це інший клас вади —
+  потрібен повний повторний переклад абзацу, а не правка речення, тож `negation-fixes.json` їх не чіпає.
 - Довідник не замінює консультацію лікаря.
