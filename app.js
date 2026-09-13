@@ -28,12 +28,11 @@
   const I18N = {
     ua: {
       title: 'Реперторій — гомеопатичні препарати за симптомами', htmlLang: 'uk',
-      navRep: 'Симптоми', navRemedies: 'Препарати', navArticles: 'Статті', quick: 'Назва препарату', theme: 'Тема',
+      navRep: 'Симптоми', navRemedies: 'Препарати', navArticles: 'Статті',
       kind: { free: 'Текст', nos: 'Клініка', art: 'Стаття', line: 'Рубрика' },
       repTitle: 'Підбір препаратів за симптомами',
       repIntro: 'Додайте один або кілька симптомів чи хвороб. Підказки пропонують рубрики з розділу «Клініка» Materia Medica Кларка та зі статей лікувальника; можна шукати і будь-який текст. У таблиці препарати впорядковано за кількістю покритих рубрик.',
       repPlaceholder: 'Симптом, хвороба або рубрика…', allSections: 'Усі розділи', add: 'Додати', freeSearch: 'Шукати в текстах', freeKind: 'повнотекстово',
-      examples: 'Приклади:', exampleList: [['страх смерті', 'f:~страх смерті'], ['Астма', 'n:Астма'], ['головний біль гірше від руху', 'f:~головний біль гірше від руху'], ['Бронхіт (стаття)', 'a:bronhit']],
       error: 'помилка', clear: 'Очистити', remove: 'Прибрати', removeRubric: 'Прибрати рубрику', loadingIndex: 'Завантаження індексу…',
       nothing: 'Нічого не знайдено. Спробуйте інше формулювання або коротше слово.', found: n => 'Знайдено препаратів: ' + n + '. Натисніть на рядок, щоб побачити підстави.',
       remedy: 'Препарат', sumTitle: 'Покрито рубрик / сума балів', hits: 'зб.', ext: 'без сторінки', more: 'Показати ще',
@@ -50,12 +49,11 @@
     },
     ru: {
       title: 'Реперторий — гомеопатические препараты по симптомам', htmlLang: 'ru',
-      navRep: 'Симптомы', navRemedies: 'Препараты', navArticles: 'Статьи', quick: 'Название препарата', theme: 'Тема',
+      navRep: 'Симптомы', navRemedies: 'Препараты', navArticles: 'Статьи',
       kind: { free: 'Текст', nos: 'Клиника', art: 'Статья', line: 'Рубрика' },
       repTitle: 'Подбор препаратов по симптомам',
       repIntro: 'Добавьте один или несколько симптомов или болезней. Подсказки предлагают рубрики из раздела «Клиника» Materia Medica Кларка и из статей лечебника; можно искать и любой текст. В таблице препараты упорядочены по числу покрытых рубрик.',
       repPlaceholder: 'Симптом, болезнь или рубрика…', allSections: 'Все разделы', add: 'Добавить', freeSearch: 'Искать в текстах', freeKind: 'полнотекстово',
-      examples: 'Примеры:', exampleList: [['страх смерти', 'f:~страх смерти'], ['Астма', 'n:Астма'], ['головная боль хуже от движения', 'f:~головная боль хуже от движения'], ['Бронхит (статья)', 'a:bronhit']],
       error: 'ошибка', clear: 'Очистить', remove: 'Убрать', removeRubric: 'Убрать рубрику', loadingIndex: 'Загрузка индекса…',
       nothing: 'Ничего не найдено. Попробуйте другую формулировку или более короткое слово.', found: n => 'Найдено препаратов: ' + n + '. Нажмите на строку, чтобы увидеть основания.',
       remedy: 'Препарат', sumTitle: 'Покрыто рубрик / сумма баллов', hits: 'совп.', ext: 'без страницы', more: 'Показать ещё',
@@ -145,8 +143,6 @@
     $('#nav a[data-route="remedies"]').setAttribute('href', href('remedies'));
     $('#nav a[data-route="articles"]').setAttribute('href', href('articles'));
     $('.brand').setAttribute('href', href('rep'));
-    $('#quickInput').placeholder = t.quick;
-    $('#quickInput').setAttribute('aria-label', t.quick);
     $('#menuBtn').setAttribute('aria-label', t.menu);
     $('#menuBtn').setAttribute('title', t.menu);
     $('#menuLangTitle').textContent = t.menuLang;
@@ -408,11 +404,7 @@
     const box = $('#chips');
     if (!box) return;
     const t = T();
-    if (!state.rubrics.length) {
-      box.innerHTML = '<span class="muted small">' + esc(t.examples) + ' ' +
-        t.exampleList.map(([lbl, s]) => '<a href="' + href('rep') + '?r=' + encodeURIComponent(s) + '">' + esc(lbl) + '</a>').join(' · ') + '</span>';
-      return;
-    }
+    if (!state.rubrics.length) { box.innerHTML = ''; return; }
     box.innerHTML = state.rubrics.map((rb, k) => {
       const n = rb.pending ? '…' : rb.error ? t.error : (rb.remedies ? rb.remedies.size : 0);
       return '<span class="chip' + (rb.pending ? ' pending' : '') + '"><span class="k">' + esc(t.kind[rb.kind]) + '</span> ' + esc(rb.label) +
@@ -618,28 +610,6 @@
     if (f) setTimeout(() => f.scrollIntoView({ block: 'start' }), 0);
   }
 
-  // ---------------------------------------------------------------- швидкий пошук назв у шапці
-  function initQuick() {
-    const input = $('#quickInput'), list = $('#quickList');
-    let items = [];
-    function close() { list.hidden = true; list.innerHTML = ''; items = []; }
-    function open() {
-      const q = input.value.trim();
-      if (q.length < 2 || !cat()) { close(); return; }
-      items = R.matchRemedies(cat(), q, 8, state.lang);
-      if (!items.length) { close(); return; }
-      list.innerHTML = items.map((m, i) => '<li data-i="' + i + '"><span>' + esc(m.r.latin) + '</span><span class="kind">' + esc(m.r.translit.split(' = ')[0] || m.r.common) + '</span></li>').join('');
-      list.hidden = false;
-    }
-    function go(i) { const m = items[i]; if (!m) return; input.value = ''; close(); location.hash = href('remedy/' + encodeURIComponent(m.r.id)); }
-    input.addEventListener('input', open);
-    input.addEventListener('focus', open);
-    list.addEventListener('mousedown', e => { const li = e.target.closest('li'); if (li) { e.preventDefault(); go(+li.dataset.i); } });
-    $('#quickForm').addEventListener('submit', e => { e.preventDefault(); if (items.length) go(0); });
-    document.addEventListener('click', e => { if (!e.target.closest('#quickForm')) close(); });
-    input.addEventListener('keydown', e => { if (e.key === 'Escape') close(); });
-  }
-
   // ---------------------------------------------------------------- старт
   async function init() {
     initTheme();
@@ -653,7 +623,6 @@
     btns.querySelectorAll('button').forEach(b => b.addEventListener('click', () => switchLang(b.dataset.lang)));
     if (state.langsAvailable.length < 2) btns.closest('.menu-section').hidden = true;
     initMenu();
-    initQuick();
     window.addEventListener('hashchange', route);
     route();
   }
