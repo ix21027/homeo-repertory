@@ -8,7 +8,7 @@ origin: https://homeopat-sam.com/-/a69
 remedy_blocks: 43
 ---
 
-Найбільш часто при даній патології використовують наступні препарати: **Alumina Ammonium muriaticum Anacardium Antimonium crudum Arnica Baryta carbonica Bryonia Calcarea Сausticum China Collinsonia Dioscorea Dulcamara Graphytes Hepar sulfur Hydrastis Ignatia Iodofyllinum Kali carbonicum Lilium tigrinum Lycopodium Magnesia carbonica Magnesia muriatica Medorrhinum Natrium carbonicum Natrium muriaticum Natrium phosphorum Natrium sulfuricum Nux vomica Opium Phosphorus Platina Plumbum aceticum Plumbum metallicum Podophyllum Ruta Selenium Sepia Silicea Stannum Sulphur Tanacetum Thuja Veratrum album**
+Найбільш часто при даній патології використовують наступні препарати: **Alumina Ammonium muriaticum Anacardium Antimonium crudum Arnica Baryta carbonica Bryonia Calcarea Causticum China Collinsonia Dioscorea Dulcamara Graphytes Hepar sulfur Hydrastis Ignatia Iodofyllinum Kali carbonicum Lilium tigrinum Lycopodium Magnesia carbonica Magnesia muriatica Medorrhinum Natrium carbonicum Natrium muriaticum Natrium phosphorum Natrium sulfuricum Nux vomica Opium Phosphorus Platina Plumbum aceticum Plumbum metallicum Podophyllum Ruta Selenium Sepia Silicea Stannum Sulphur Tanacetum Thuja Veratrum album**
 
 ### Alumina (Алюміну)
 
@@ -66,7 +66,7 @@ remedy_blocks: 43
 
 Надзвичайна сухість слизової оболонки прямої кишки, а калові маси дуже сухі, тверді, великі і обпалені.
 
-Така сама сухість у роті, що супроводжується жагою великої кількості холодної води. Коли язик обкладений, шлунок зіпсований і живіт здутий.
+Така сама сухість у роті, що супроводжується спрагою великої кількості холодної води. Коли язик обкладений, шлунок зіпсований і живіт здутий.
 
 При запорах у вагітних.
 
@@ -126,7 +126,7 @@ remedy_blocks: 43
 
 Його застосовують при вагітності, коли не можна давати проносні.
 
-Пацієнтка просить м'ясо, погано переносит овочі.
+Пацієнтка просить м'ясо, погано переносить овочі.
 
 В інших випадках запори поєднуються з ущільненням печінки, появою нальоту на язиці, поганим запахом з рота, жовтизною шкіри та землистим її відтінком.
 
@@ -194,7 +194,7 @@ remedy_blocks: 43
 
 ### Natrium muriaticum (Натріум муріатикум)
 
-Анус скорочений або розірваний, кровоточит.
+Анус скорочений або розірваний, кровоточить.
 
 Після дефекації у прямій кишці колотя або печіння.
 
@@ -238,7 +238,7 @@ remedy_blocks: 43
 
 Пронос після рясної їжі.
 
-Чергування проносу та запору, особливо при зловживанні проносними засобами. Живіт здутий, колікоподібний біль із почуттям тиску у верхньому відділі, що призводить до здавлення дихання.
+Чергування проносу та запору, особливо при зловживанні проносними засобами. Живіт здутий, колікоподібний біль із відчуттям тиску у верхньому відділі, що призводить до здавлення дихання.
 
 Часті та безрезультатні позиви на дефекацію або виверження лише невеликої кількості фекальних мас. Запор викликається нерегулярною перистальтикою кишківника.
 

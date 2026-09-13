@@ -8,7 +8,7 @@ origin: https://homeopat-sam.com/-/a81
 remedy_blocks: 45
 ---
 
-Найчастіше для лікування цієї патології використовують такі гомеопатичні препарати: **Aconitum Aethusa AnacardiumAntimonium crudum Antimonium tartaricum Apomorphinum Arnica Arsenicum album Belladonna Bismutum subnitricum Bryonia Calcarea carbonica Carbo vegetabilis Chamomilla Chelidonium China Cina Cocculus Colchicum Conium Cyclamen Digitalis Erigeron Ferrum Ferrum aсeticum Ferrum phosphoricum Ignatia Ipecacuanha Iris Kreosotum Lobelia Natrium muriaticum Nux vomica Opium Petroleum Phosphoricum acidum Phosphorus Podophyllium Pulsatilla Pyrogenium Rhus toxicodendron Sepia Sulfuricum acidumTabacum Theridion Veratrum album**
+Найчастіше для лікування цієї патології використовують такі гомеопатичні препарати: **Aconitum Aethusa AnacardiumAntimonium crudum Antimonium tartaricum Apomorphinum Arnica Arsenicum album Belladonna Bismutum subnitricum Bryonia Calcarea carbonica Carbo vegetabilis Chamomilla Chelidonium China Cina Cocculus Colchicum Conium Cyclamen Digitalis Erigeron Ferrum Ferrum aceticum Ferrum phosphoricum Ignatia Ipecacuanha Iris Kreosotum Lobelia Natrium muriaticum Nux vomica Opium Petroleum Phosphoricum acidum Phosphorus Podophyllium Pulsatilla Pyrogenium Rhus toxicodendron Sepia Sulfuricum acidumTabacum Theridion Veratrum album**
 
 ### Aconitum (Аконітум)
 
@@ -238,7 +238,7 @@ _Юз_: Від жирної їжі 3С, Ipecacuanha і Pulsatilla по черз�
 
 Ранкова нудота з наполегливими позивами на блювоту.
 
-Часто входит у диспептичний синдром алкоголіків.
+Часто входить у диспептичний синдром алкоголіків.
 
 Гірше після їди.
 

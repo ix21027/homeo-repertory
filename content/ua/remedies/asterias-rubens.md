@@ -52,7 +52,7 @@ Asterias rubens - дуже важливі ліки, які, на жаль, ви�
 
 Суха, груба шкіра, із землистим відтінком.
 
-Акне з маленькими чорними точками на верхівці і невеликою червоною основою. Виразки з болючими краями і смердючим відокремлюваним. Сверблячка. Екзема.
+Акне з маленькими чорними точками на верхівці і невеликою червоною основою. Виразки з болючими краями і смердючим виділенням. Сверблячка. Екзема.
 
 ## Голова
 
@@ -234,7 +234,7 @@ Asterias rubens - дуже важливі ліки, які, на жаль, ви�
 
 ## Модальності
 
-**• Гірше.** Вночі. Від руху. У холодну погоду. Від тепла. Кава.
+**• Гірше.** Вночі. Від руху. У холодну сиру погоду. Від тепла. Кава.
 
 **• Краще.** Сльози.
 
@@ -242,7 +242,7 @@ Asterias rubens - дуже важливі ліки, які, на жаль, ви�
 
 **Антидотами для Asterias rubens є** Plumbum, Zincum.
 
-**Слід порівняти**: Міrех, Sepia; Astacus fluviatilis, Homarus, Erythrinus, Crotalus, Gratiola, Gambogia, Jatropha, Thuja, Belladonna, Lilium tigrinum. **Asterias rubens добре слідує після**: Belladonna, Carbo animalis, Conium, Silicea, Sulphur, Calcarea carbomica.
+**Слід порівняти**: Міrех, Sepia; Astacus fluviatilis, Homarus, Erythrinus, Crotalus, Gratiola, Gambogia, Jatropha, Thuja, Belladonna, Lilium tigrinum. **Asterias rubens добре йде після**: Belladonna, Carbo animalis, Conium, Silicea, Sulphur, Calcarea carbomica.
 
 **Несумісні ліки:** Coffee, Nux vomica (Ipecacuanha полегшує погіршення, спричинене Nux vomica).
 
