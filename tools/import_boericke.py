@@ -544,6 +544,10 @@ PAREN = re.compile(r"\(([^()]{1,80})\)")
 
 
 _VOCAB = None
+# Назви з тексту Boericke, яких немає ні в покажчику, ні в каталозі: без них _is_names() віддавав
+# би ці дужки на переклад, і запасний шлях Google зробив би з них кирилицю. Перевірено на
+# «(Ulmus)», «(Clematis vitalba)», «(Tart emet)», «(Ars; Chrysoph ac; Thyroid)».
+EXTRA_NAMES = ["Ulmus fulva", "Clematis vitalba", "Tartarus emeticus", "Chrysophanicum acidum"]
 
 
 def latin_vocab():
@@ -566,6 +570,8 @@ def latin_vocab():
             if len(t) >= 2:
                 words.add(t.lower())
 
+    for n in EXTRA_NAMES:
+        add(n)
     if os.path.exists(MAP_FILE):
         for k, v in json.load(open(MAP_FILE, encoding="utf-8")).items():
             if not k.startswith("_"):
@@ -755,9 +761,9 @@ SEC_TITLE = "Название"  # у дампі — розділ підзаго�
 def doc_items(doc):
     """[(канонічний розділ, англійський абзац)] у порядку запису — і для перекладу, і для дампу.
 
-    Тіла структурованих зв'язків (doc["rels"]) сюди не входять: це списки назв препаратів
-    («Bry; Sulphur»), які tools/modalities.mjs резолвить у препарати, — їх не перекладають.
-    Неозаголовлена проза того ж розділу лишається в doc["sections"] і перекладається.
+    ПІДПИСАНІ тіла зв'язків («Сравнить: Bry; Sulphur») сюди не входять: це списки назв
+    препаратів, які tools/modalities.mjs резолвить у препарати, — вони лишаються латиною.
+    Решта розділу «Взаимосвязи» (абзаци без підпису) перекладається, як звичайний текст.
     """
     items = []
     if doc["common"]:
@@ -766,6 +772,8 @@ def doc_items(doc):
         if sec == "Модальности":
             items += [(sec, p) for p in doc["mods"][0] + doc["mods"][1]]
             continue
+        if sec == "Взаимосвязи":
+            items += [(sec, b) for lab, b in doc["rels"] if lab is None]
         items += [(sec, p) for p in doc["sections"].get(sec, [])]
     return items
 
@@ -804,7 +812,7 @@ def render(doc, lang, ext_names_all, origin):
             body.append("## " + sec_name(sec))
             for lab, txt in doc["rels"]:
                 if lab is None:
-                    body.append(txt)
+                    body.append(tr(txt, lang))  # абзац без підпису — звичайний текст, мовою сторінки
                 else:
                     body.append("**" + rel_label(lab, lang) + ":** " + txt)
             for p in rest:
@@ -835,8 +843,23 @@ def render(doc, lang, ext_names_all, origin):
 # 8. Вивантаження англійських абзаців для перекладачів (--dump-segments)
 # ---------------------------------------------------------------------------
 def dump_segments(out_dir, docs, chunks=8):
-    """Усі абзаци, що підлягають перекладу, → DIR/chunk01.json…chunkNN.json + manifest.json."""
-    groups, seen, occurrences, sec_count = [], set(), 0, {}
+    """Усі абзаци, що підлягають перекладу, → DIR/chunk01.json…chunkNN.json + manifest.json.
+
+    Якщо шматки в DIR уже є (їх роздано перекладачам), наявні файли не чіпаємо й ключі в них не
+    переобчислюємо: те, чого в них немає, лягає одним наступним шматком. manifest.json
+    перезаписується по всіх шматках, які є в теці.
+    """
+    done, next_i = {}, 1
+    for f in sorted(os.listdir(out_dir)) if os.path.isdir(out_dir) else []:
+        m = re.fullmatch(r"chunk(\d+)\.json", f)
+        if not m:
+            continue
+        part = json.load(open(os.path.join(out_dir, f), encoding="utf-8"))
+        done[f] = part
+        next_i = max(next_i, int(m.group(1)) + 1)
+    known = {it["key"] for part in done.values() for it in part}
+
+    groups, seen, occurrences, sec_count = [], set(known), 0, {}
     for d in docs:
         extra = set(d["sections"]) - set(SEC_ORDER)
         if extra:  # розділ поза SEC_ORDER ніде не друкується — той самий клас помилки, що й «Взаимосвязи»
@@ -853,38 +876,50 @@ def dump_segments(out_dir, docs, chunks=8):
         if items:
             groups.append(items)
 
-    total = sum(len(it["en"]) for g in groups for it in g)
-    bounds = [total * (i + 1) / chunks for i in range(chunks)]
-    parts, cur, acc = [], [], 0
-    for g in groups:
-        cur += g
-        acc += sum(len(it["en"]) for it in g)
-        if len(parts) < chunks - 1 and acc >= bounds[len(parts)]:
-            parts.append(cur)
-            cur = []
-    parts.append(cur)
+    new = [it for g in groups for it in g]
+    if done:                       # доповнення: усе нове — одним наступним шматком
+        parts = [new] if new else []
+    else:                          # перший дамп: 8 приблизно рівних за обсягом шматків, препарат не ріжемо
+        total_new = sum(len(it["en"]) for it in new)
+        bounds = [total_new * (i + 1) / chunks for i in range(chunks)]
+        parts, cur, acc = [], [], 0
+        for g in groups:
+            cur += g
+            acc += sum(len(it["en"]) for it in g)
+            if len(parts) < chunks - 1 and acc >= bounds[len(parts)]:
+                parts.append(cur)
+                cur = []
+        parts.append(cur)
 
     os.makedirs(out_dir, exist_ok=True)
-    manifest = []
-    for i, part in enumerate(parts, 1):
+    written = dict(done)
+    for i, part in enumerate(parts, next_i):
         name = "chunk%02d.json" % i
         json.dump(part, open(os.path.join(out_dir, name), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+        written[name] = part
+        print("записано %s: %d абзаців" % (name, len(part)))
+    if done and not new:
+        print("нових абзаців немає — жодного шматка не додано")
+    manifest = []
+    for name in sorted(written):
+        part = written[name]
         manifest.append({"file": name, "segments": len(part), "chars": sum(len(it["en"]) for it in part),
                          "remedies": len({it["slug"] for it in part}),
                          "first": part[0]["latin"] if part else None,
                          "last": part[-1]["latin"] if part else None})
+    total = sum(m["chars"] for m in manifest)
     meta = {
         "source": "William Boericke. Pocket Manual of Homoeopathic Materia Medica, 9th ed., 1927",
         "made_by": "tools/import_boericke.py --dump-segments",
         "key": "sha1(utf-8) англійського абзацу — рівно поля \"en\"",
         "target": "tools/boericke-llm.json: {\"<key>\": {\"en\": …, \"ru\": …, \"ua\": …}}",
         "order": "препарат за препаратом, розділи в порядку документа; «%s» — підзаголовок препарату" % SEC_TITLE,
-        "remedies": len(groups), "segments": len(seen), "occurrences": occurrences, "chars": total,
+        "remedies": len(docs), "segments": len(seen), "occurrences": occurrences, "chars": total,
         "sections": dict(sorted(sec_count.items(), key=lambda x: -x[1])), "chunks": manifest,
     }
     json.dump(meta, open(os.path.join(out_dir, "manifest.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
     print("\n%s: %d препаратів, %d абзаців (%d входжень), %d символів, %d шматків"
-          % (out_dir, len(groups), len(seen), occurrences, total, len(parts)))
+          % (out_dir, len(docs), len(seen), occurrences, total, len(manifest)))
     for m in manifest:
         print("  %s  %4d абз.  %6d симв.  %3d преп.  %s … %s"
               % (m["file"], m["segments"], m["chars"], m["remedies"], m["first"], m["last"]))
