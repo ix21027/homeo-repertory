@@ -651,6 +651,41 @@ SEG_FIX = {
 }
 
 
+# Виправлення заперечень, які Google губить (див. tools/check_negation.mjs і README).
+# Кожен запис: {ru: <RU-речення>, bad: <UA-речення як його дав перекладач>, good: <правильне UA>}.
+# Правило спрацьовує, коли RU-речення є в сегменті, а зіпсоване UA-речення — у результаті.
+NEG_FIXES_FILE = os.path.join(ROOT, "tools", "negation-fixes.json")
+NEG_FIXES = json.load(open(NEG_FIXES_FILE, encoding="utf-8")) if os.path.exists(NEG_FIXES_FILE) else []
+
+
+def _loose(s: str):
+    """Той самий текст, але стійкий до розділових знаків і пробілів між словами."""
+    return re.compile(r"[\s\W_]*".join(re.escape(w) for w in re.findall(r"[^\W_]+", s)))
+
+
+def _word_span(s: str):
+    w = list(re.finditer(r"[^\W_]+", s))
+    return (w[0].start(), w[-1].end()) if w else (0, len(s))
+
+
+def apply_negation_fixes(seg: str, out: str) -> str:
+    for fx in NEG_FIXES:
+        if fx["ru"] not in seg:
+            continue
+        if fx["good"] in out:
+            continue                                   # вже правильно (те саме речення в іншому місці)
+        if fx["bad"] in out:
+            out = out.replace(fx["bad"], fx["good"])
+            continue
+        m = _loose(fx["bad"]).search(out)               # інші пост-правила могли трохи змінити текст
+        if m:
+            a, b = _word_span(fx["good"])
+            out = out[:m.start()] + fx["good"][a:b] + out[m.end():]
+            continue
+        print(f"negation fix not applied: {fx['ru'][:70]}", file=sys.stderr)
+    return out
+
+
 def tr(seg):
     if seg in SEG_FIX:
         return SEG_FIX[seg]
@@ -665,7 +700,7 @@ def tr(seg):
     out = fix_terms(key, cache[key])
     if seg[:1].isupper() and out[:1].islower():
         out = out[0].upper() + out[1:]
-    return out
+    return apply_negation_fixes(seg, out)
 
 
 def render_ua(fm, body, kind):
