@@ -89,7 +89,7 @@ remedy_blocks: 0
 
 ## Травлення
 
-**Параліч мови** – Baryta carbonica.
+**Параліч язика** – Baryta carbonica.
 
 **Запор** – Antimonium crudum, Baryta carbonica, Bryonia, Calcarea phosphorica, Conium, Lachesis, Nux vomica, Opium, Phosphorus, Phytolacca, Sulphur, Aloe, Alumen, Alumina, Rhus toxicodendron, Ruta. **Діарея у людей похилого віку** – Antimonium crudum, Arsenicum album, Gambogia, Nitricum acidum, Carbo vegetabilis, Fluoricum acidum.
 

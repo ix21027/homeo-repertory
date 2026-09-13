@@ -191,7 +191,7 @@ Cadmium sulphuricum дуже глибоко впливає на шлунок, п
 
 ## Анус і пряма кишка
 
-Переважно драглистий, жовтувато-зелений, напіврідкий стілець. Пронос у немовлят.
+Переважно драглистий, жовтувато-зелений, напіврідкий кал. Пронос у немовлят.
 
 ## Сечовидільна система
 
@@ -247,7 +247,7 @@ Cadmium sulphuricum дуже глибоко впливає на шлунок, п
 
 ## Взаємозв’язки
 
-**Слід порівняти:** Кali chloricum (стиск у грудях та серцебиття); Arsenicum album (слабкість, нудота, блювання та печіння); Arsenicum album, Lachesis (чорне блювання, наслідки алкоголізму); Asarum, Bryonia, Croton tiglium, Cuprum, Nux vomica, Podophyllum, Antimonium tartaricum (нудота та позиви до блювання); Ipecacuanha, Tabacum (смертельна нудота); Aethusa, Arsenicum album, Bryonia, Ipecacuanha, Veratrum (зелена, драглиста блювота); Aloe, Cubeba, Helleborus, Kali bichromicum, Podophyllum, Rhus toxicodendron (студенистий стілець); Sepia (зелений стілець); Carbo animalis, Carbo vegetabilis, Opium, Grindelia, Lachesis (припинення дихання при засинанні).
+**Слід порівняти:** Кali chloricum (стиск у грудях та серцебиття); Arsenicum album (слабкість, нудота, блювання та печіння); Arsenicum album, Lachesis (чорне блювання, наслідки алкоголізму); Asarum, Bryonia, Croton tiglium, Cuprum, Nux vomica, Podophyllum, Antimonium tartaricum (нудота та позиви до блювання); Ipecacuanha, Tabacum (смертельна нудота); Aethusa, Arsenicum album, Bryonia, Ipecacuanha, Veratrum (зелена, драглиста блювота); Aloe, Cubeba, Helleborus, Kali bichromicum, Podophyllum, Rhus toxicodendron (студенистий кал); Sepia (зелений кал); Carbo animalis, Carbo vegetabilis, Opium, Grindelia, Lachesis (припинення дихання при засинанні).
 
 **Після Cadmium sulphuricum добре слідують:** Belladonna (обертання головою з відкритими очима при проносі у немовлят); Carbo vegetabilis, Lobelia inflata (при жовтій лихоманці); Nitricum асidum, Aletris (нудота при вагітності).
 

@@ -105,6 +105,203 @@ def postfix(ru: str, ua: str) -> str:
     return s.strip()
 
 
+# ---------------------------------------------------------------------------
+# Пастки Google для медичних текстів. Два механізми:
+#  1) protect_ru: перед перекладом замінити слово, яке Google перекладає не тим значенням,
+#     на однозначний відповідник того ж роду (язык → лизык → «лізик» → язик; стул → кал/дефекация;
+#     образование → формирование), щоб узгодження прикметників зробив сам перекладач;
+#  2) fix_terms: після перекладу виправити слова, для яких стенд-іну немає (веко → повіка,
+#     рожа → бешиха, виски → скроні, течение → перебіг) з узгодженням сусідніх прикметників.
+# ---------------------------------------------------------------------------
+LANG_CTX = re.compile(r"(русск|латинск|английск|немецк|французск|греческ|испанск|итальянск|иностранн|родн|литературн|разговорн|научн|украинск|польск)\w*\s+язык|язык\w*\s+(оригинал|науки|общения)|перевод|говорит на|владе\w+ язык", re.I)
+CHAIR_CTX = re.compile(r"спинк\w* стул|со стула|встать со|встал со|вставани\w* со|поставлен стул|садится на стул|сидит на стул|на стуле сид|стул для|стулья|стульях|кресл", re.I)
+EDU_CTX = re.compile(r"образованн|получ\w* образовани|высше\w* образовани|средне\w* образовани|медицинско\w* образовани|без образования", re.I)
+LB = r"(?<![а-яёіїєґA-Za-z])"
+RB = r"(?![а-яёіїєґA-Za-z])"
+STOOL_ACT = re.compile(LB + r"(после|перед|до|во время|при|без|nет|нет|задержк\w*|отсутстви\w*|позыв\w*\s+(?:на|к))\s+(стул|стула|стулу|стулом|стуле)" + RB, re.I)
+STOOL_ACT_FORM = {"стул": "дефекацию", "стула": "дефекации", "стулу": "дефекации", "стулом": "дефекацией", "стуле": "дефекации"}
+STOOL_FORM = {"стул": "кал", "стула": "кала", "стулу": "калу", "стулом": "калом", "стуле": "кале", "стульев": "испражнений"}
+
+
+def _case(src, dst):
+    return dst[0].upper() + dst[1:] if src[0].isupper() else dst
+
+
+def protect_ru(seg: str) -> str:
+    s = seg
+    if re.search(r"\bязык", s, re.I) and not LANG_CTX.search(s):
+        s = re.sub(LB + r"([Яя])зык(а|у|ом|е|и|ов|ам|ами|ах)?" + RB, lambda m: ("Л" if m.group(1) == "Я" else "л") + "изык" + (m.group(2) or ""), s)
+    if re.search(r"\bстул", s, re.I) and not CHAIR_CTX.search(s):
+        def act(m):
+            w = m.group(2)
+            f = STOOL_ACT_FORM[w.lower()]
+            if m.group(1).lower() in ("нет", "без") or m.group(1).lower().startswith(("задержк", "отсутств")):
+                f = "дефекации"
+            return m.group(1) + " " + _case(w, f)
+        s = STOOL_ACT.sub(act, s)
+        s = re.sub(LB + r"([Сс]тул|[Сс]тула|[Сс]тулу|[Сс]тулом|[Сс]туле|[Сс]тульев)" + RB, lambda m: _case(m.group(1), STOOL_FORM[m.group(1).lower()]), s)
+    if re.search(r"\bобразовани", s, re.I) and not EDU_CTX.search(s):
+        s = re.sub(LB + r"([Оо])бразовани(е|я|ю|ем|и|ях|ям|ями)" + RB, lambda m: ("Ф" if m.group(1) == "О" else "ф") + "ормировани" + m.group(2), s)
+    return s
+
+
+CENTURY_CTX = re.compile(r"\b([IVXХ]{1,5}|\d{1,2})\s*-?\s*(го|м|й|х)?\s*(век|века|веке|веков|веках)\b|(прошл|нынешн|наш|нов|средн|минувш|прошедш|текущ|позапрошл|девятнадцат|двадцат|восемнадцат)\w*\s+век|век\w*\s+(назад|наук|истори)|(на протяжении|в течение|многие|многих|долгие|столько)\s+(веков|столетий|века)|(использ|примен|известн|славил|счита)\w*\s+веками|веками\s+(использ|примен|известн|счита|люди|человеч)|столети", re.I)
+EYE_RU = re.compile(r"\b(век|века|веку|веком|веке|веки|векам|веками|веках|веко)\b", re.I)
+EYE_SG_GEN = {"века": "повіки", "век": "повік", "веки": "повіки", "веко": "повіка"}
+# прикметники ліво/право/верхньо/нижньо…: чоловічий/середній рід → жіночий, за відмінком цільового слова
+ADJ_STEMS = r"(верхн|нижн|лів|прав|зовнішн|внутрішн|хвор|уражен|здоров|обидв|друг|один|одн|кожн|цьому|тому)"
+ADJ_TO_FEM = {
+    "повіці": {"ьому": "ій", "ому": "ій", "ім": "ій", "ім́": "ій"},
+    "повіки": {"ього": "ьої", "ого": "ої"},
+    "повікою": {"ім": "ьою", "им": "ою"},
+    "повіка": {"є": "я", "е": "а", "ий": "а", "ій": "я", "а": "і"},
+}
+
+
+def _fem_adjs(text: str, noun: str) -> str:
+    """Узгоджує до 2 прикметників перед noun (жіночий рід)."""
+    table = ADJ_TO_FEM.get(noun)
+    if not table:
+        return text
+    def conv(w):
+        low = w.lower()
+        if low == "обидва" and noun == "повіки":
+            return _case(w, "обидві")
+        for src, dst in table.items():
+            if low.endswith(src) and re.match(ADJ_STEMS, low):
+                return w[: len(w) - len(src)] + dst
+        return w
+    def rep(m):
+        words = m.group(1).split()
+        return " ".join(conv(w) for w in words) + " " + m.group(2)
+    return re.sub(r"((?:[а-яіїєґ’']+\s+){1,2})(" + noun + r")\b", rep, text)
+
+
+def fix_eyelids(ru: str, ua: str) -> str:
+    if not re.search(r"століт|сторіч|\bвік", ua, re.I) or not EYE_RU.search(ru):
+        return ua
+    ru_s = re.split(r"(?<=[.;!?])\s+", ru)
+    ua_s = re.split(r"(?<=[.;!?])\s+", ua)
+    aligned = len(ru_s) == len(ua_s)
+    out = []
+    for i, us in enumerate(ua_s):
+        ctx = ru_s[i] if aligned and EYE_RU.search(ru_s[i]) else ru
+        if not EYE_RU.search(ctx) or CENTURY_CTX.search(ctx) or not re.search(r"століт|сторіч|" + LB + "вік", us, re.I):
+            out.append(us)
+            continue
+        t = us
+        t = re.sub(LB + r"([Сс])толітті" + RB, lambda m: _case(m.group(1), "повіці"), t)
+        t = re.sub(LB + r"([Сс])толіттях" + RB, lambda m: _case(m.group(1), "повіках"), t)
+        t = re.sub(LB + r"([Сс])толіттями" + RB, lambda m: _case(m.group(1), "повіками"), t)
+        t = re.sub(LB + r"([Сс])толіттям" + RB, lambda m: _case(m.group(1), "повікою"), t)
+        t = re.sub(LB + r"([Сс])толіттю" + RB, lambda m: _case(m.group(1), "повіці"), t)
+        t = re.sub(LB + r"([Сс])толіть" + RB, lambda m: _case(m.group(1), "повік"), t)
+        # «століття» ← века/век/веки/веко: k-та форма у російському реченні
+        ru_forms = [m.group(1).lower() for m in re.finditer(r"\b(века|век|веки|веко)\b", ctx, re.I)]
+        k = [0]
+        def sub_sto(m):
+            if k[0] < len(ru_forms):
+                f = EYE_SG_GEN[ru_forms[k[0]]]
+            else:
+                f = "повік" if re.search(r"(набряк|тяжкість|трихіаз|заворот|спазм\w*|набряклість|кра[йя]\w*|склеюванн\w*|посмикуванн\w*|запаленн\w*|почервонінн\w*)\s*$", m.string[: m.start()], re.I) else "повіки"
+            k[0] += 1
+            return _case(m.group(1), f)
+        t = re.sub(LB + r"([Сс])толіття" + RB, sub_sto, t)
+        if not re.search(r"років|роки|похил|дитяч|стареч|молод|середн\w* вік|у віці|з віком|вік\w* пацієнт|старост", t, re.I):
+            t = re.sub(LB + r"([Вв])іком" + RB, lambda m: _case(m.group(1), "повікою"), t)
+            t = re.sub(LB + r"([Вв])іками" + RB, lambda m: _case(m.group(1), "повіками"), t)
+            t = re.sub(LB + r"([Вв])іках" + RB, lambda m: _case(m.group(1), "повіках"), t)
+            t = re.sub(LB + r"([Вв])іці" + RB, lambda m: _case(m.group(1), "повіці"), t)
+            t = re.sub(LB + r"([Вв])іку" + RB, lambda m: _case(m.group(1), "повіки"), t)
+            t = re.sub(LB + r"([Вв])іки" + RB, lambda m: _case(m.group(1), "повіки"), t)
+            t = re.sub(LB + r"([Вв])ік" + RB, lambda m: _case(m.group(1), "повіка"), t)
+        for noun in ("повіці", "повіки", "повікою", "повіка"):
+            if noun in t:
+                t = _fem_adjs(t, noun)
+        if "повіц" in t or "повік" in t:
+            # відірвані прикметники: «на нижньому (лівому), а потім на верхній повіці», «особливо у правому.»
+            t = re.sub(r"\b" + ADJ_STEMS + r"(ьому|ому)\b(?=\s*(?:[,.;:)]|\(|$))", lambda m: m.group(1) + "ій", t)
+            t = re.sub(r"\b" + ADJ_STEMS + r"(ього|ого)\b(?=\s*(?:[,.;:)]|$))", lambda m: m.group(1) + ("ьої" if m.group(2) == "ього" else "ої"), t)
+        out.append(t)
+    return " ".join(out)
+
+
+TECH_FEM2MASC = {"а": "ий", "я": "ій", "у": "ий", "ю": "ій", "ої": "ого", "ьої": "ього", "ій": "ому", "ою": "им", "ьою": "ім"}
+
+
+def fix_terms(ru: str, ua: str) -> str:
+    s = ua
+    # лізик (стенд-ін) → язик
+    s = re.sub(LB + r"([Лл])[иі]зи(к|ц)", lambda m: ("Я" if m.group(1) == "Л" else "я") + "зи" + m.group(2), s)
+    s = re.sub(r"(?<=[Нн]а )[Лл][иі]зи" + RB + "|(?<=[УуВв] )[Лл][иі]зи" + RB, "язиці", s)
+    # «Лизи чисті, червоні» / «Лізино набряклий» (варіанти Google для стенд-іна) → «Язик чистий, червоний»
+    def lizy(m):
+        words = m.group(2).split(" ")
+        out = []
+        stop = False
+        for w in words:
+            lw = w.rstrip(",;")
+            tail = w[len(lw):]
+            if not stop and re.match(r"[а-яіїєґ’']+[аяі]$", lw) and lw not in ("і", "та", "й", "дуже", "трохи", "інколи", "іноді", "зазвичай", "спочатку", "потім", "місцями", "особливо"):
+                lw = lw[:-1] + ("ій" if lw.endswith("я") else "ий")
+            elif lw in ("і", "та", "й") or not re.match(r"[а-яіїєґ’']+[аяі]$", lw):
+                stop = True
+            out.append(lw + tail)
+        return m.group(1) + "Язик " + " ".join(out)
+    s = re.sub(r"(^|[.;!?]\s+|\*\*|_)[Лл][иі]зи(?:но)? ((?:[а-яіїєґ’']+[,;]?\s?){1,4})", lizy, s)
+    s = re.sub(LB + r"([Лл])[иі]зи(?:но|)" + RB, lambda m: ("Я" if m.group(1) == "Л" else "я") + "зик", s)
+    # «Язика волога, обкладена» (Google дав родовий + жіночий рід) → «Язик вологий, обкладений»
+    def sent_init(m):
+        words = m.group(2).split(" ")
+        out = []
+        for w in words:
+            lw = w.rstrip(",;")
+            tail = w[len(lw):]
+            if re.match(r"[а-яіїєґ’']+[ая]$", lw) and lw not in ("дуже", "трохи", "інколи", "іноді", "зазвичай", "спочатку", "потім", "місцями"):
+                lw = lw[:-1] + ("ий" if lw.endswith("а") else "ій")
+            out.append(lw + tail)
+        return m.group(1) + "Язик " + " ".join(out)
+    s = re.sub(r"(^|[.;!?]\s+|\*\*|_)Язика ((?:[а-яіїєґ’']+[,;]?\s?){1,4})", sent_init, s)
+    # рожа → бешиха
+    if re.search(LB + r"рож[аиеуоы]" + RB + "|" + LB + "рожей" + RB, ru, re.I) and re.search(LB + r"пи[кц]", s, re.I):
+        forms = {"пика": "бешиха", "пики": "бешихи", "пиці": "бешисі", "пику": "бешиху", "пикою": "бешихою", "пик": "беших"}
+        s = re.sub(LB + r"([Пп]ика|[Пп]ики|[Пп]иці|[Пп]ику|[Пп]икою|[Пп]ик)" + RB, lambda m: _case(m.group(1), forms[m.group(1).lower()]), s)
+    # виски → скроні (крім віскі-напою)
+    if re.search(r"\bвиск(и|ах|ов|е|ом|ами)\b", ru, re.I) and not re.search(r"желани|пить|напит|алкогол|бренди|водк|\bпив[ао]\b|\bвин[оа]\b|коньяк|ликер|спиртн", ru, re.I):
+        s = re.sub(LB + r"([Вв])іскі" + RB, lambda m: _case(m.group(1), "скроні"), s)
+    # течія → перебіг (з узгодженням прикметника перед і після)
+    if re.search(r"\bтечени[еяюи]\b|\bтечением\b", ru, re.I) and re.search(r"\bтечі", s, re.I):
+        def conv_adj(w, case_end):
+            low = w.lower()
+            for src, dst in TECH_FEM2MASC.items():
+                if low.endswith(src) and (case_end is None or src in case_end):
+                    return w[: len(w) - len(src)] + dst
+            return w
+        forms = {"течія": "перебіг", "течії": "перебігу", "течію": "перебіг", "течією": "перебігом"}
+        ends = {"течія": ("а", "я"), "течії": ("ої", "ьої", "ій"), "течію": ("у", "ю"), "течією": ("ою", "ьою")}
+        STOP = {"хоча", "сама", "сам", "ця", "та", "вся", "яка", "як", "і", "й", "а", "не", "же", "вже", "лише", "має", "була", "буде", "для", "від", "при", "після"}
+        def rep(m):
+            adjs = (m.group(1) or "").split()
+            form = m.group(2).lower()
+            out = []
+            for a in adjs:
+                if a.lower() == "сама":
+                    out.append(_case(a, "сам"))
+                elif a.lower() in STOP:
+                    out.append(a)
+                else:
+                    out.append(conv_adj(a, ends[form]))
+            return " ".join(out) + (" " if adjs else "") + _case(m.group(2), forms[form])
+        s = re.sub(r"((?:[а-яіїєґ’']+\s+){0,2})([Тт]ечія|[Тт]ечії|[Тт]ечію|[Тт]ечією)" + RB, rep, s)
+        # присудок після «перебіг»: «перебіг не бурхлива, а швидше млява» → «не бурхливий, а швидше млявий»
+        FILL = r"(?:(?:не|дуже|швидше|досить|більш|менш|а|й|і)\s+){0,2}"
+        def pred(m):
+            return m.group(1) + re.sub(r"\b([а-яіїєґ’']+)([ая])\b", lambda w: w.group(0) if w.group(0) in ("а", "не", "дуже", "швидше", "досить") else w.group(1) + ("ий" if w.group(2) == "а" else "ій"), m.group(2))
+        s = re.sub(r"(\bперебіг(?:\s+[а-яіїєґ’']+[иіу])?)((?:\s*,?\s*" + FILL + r"[а-яіїєґ’']+[ая]\b)+)", pred, s)
+    s = fix_eyelids(ru, s)
+    return s
+
+
 def need_translation(seg: str) -> bool:
     return bool(CYR.search(seg))
 
@@ -197,7 +394,7 @@ def translate_batch(segs):
 
 def translate_all(segments, workers=4, batch_chars=2800):
     """Перекладає унікальні сегменти, яких немає в кеші."""
-    todo = [s for s in dict.fromkeys(segments) if s not in cache and need_translation(s)]
+    todo = [s for s in dict.fromkeys(protect_ru(x) for x in segments) if s not in cache and need_translation(s)]
     for s in dict.fromkeys(segments):
         if not need_translation(s):
             cache.setdefault(s, s)
@@ -316,7 +513,10 @@ def split_terms(line):
 
 
 def tr(seg):
-    return cache.get(seg, seg)
+    key = protect_ru(seg)
+    if key not in cache:
+        return seg
+    return fix_terms(key, cache[key])
 
 
 def render_ua(fm, body, kind):
@@ -402,7 +602,7 @@ def main():
     missing = 0
     for (sub, fn), (fm, body, kind) in parsed.items():
         segs = collect_segments(fm, body, kind)
-        if any(need_translation(s) and s not in cache for s in segs):
+        if any(need_translation(s) and protect_ru(s) not in cache for s in segs):
             missing += 1
             continue
         open(os.path.join(DST, sub, fn), "w", encoding="utf-8").write(render_ua(fm, body, kind))
