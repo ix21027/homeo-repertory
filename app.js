@@ -18,7 +18,7 @@
   function esc(s) { return String(s).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c])); }
   function el(html) { const t = document.createElement('template'); t.innerHTML = html.trim(); return t.content.firstElementChild; }
   async function fetchJson(rel) {
-    const res = await fetch(rel, { cache: 'force-cache' });
+    const res = await fetch(rel);
     if (!res.ok) throw new Error(rel + ': ' + res.status);
     return res.json();
   }

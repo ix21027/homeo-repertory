@@ -1,6 +1,6 @@
 remedies: 296 (+170 без сторінки, згадані в статтях)
 articles: 127; rubrics: 2979 (nos 2586, art 111, line 282)
-index units: 47039; vocab: 16210; index.json 2.13 MB; catalog.json 0.39 MB
+index units: 47038; vocab: 16202; index.json 2.13 MB; catalog.json 0.39 MB
 remedy block headers: 2690, unresolved names in headers: 32
 unresolved in intro lists (top): Formicicum acidum×1, Fragaria×1, Kali bromatum×1, Prymula×1, Mercurius bijodatus×1, Mercurius cyanatus×1, Myristica×1, Pyrogenium×1, Valeriana×1, Ammonium bromatum×1, Ammonium carbonicum×1, Sulfur aurati×1, Chionantes virginica×1, Ferrum aceticum×1, Ammonium muriaticum×1, Niccolum×1, Capsicum vegetabilis×1, Baryta sulphurica×1, Cenchris×1, Ferula neapolitana×1, Lemna minor×1, Natrium arsenicosum×1, Elaterium×1, Natrium nitricum×1, Salicylicum acidum×1, Actea spicata×1, Apocynum androsaemifolium×1, Carduus marianus×1, Euphorbium×1, Linaria vulgaris×1, Linum catharticum×1, Solidago×1, Vespa crabro×1, Cadmium phosphoricum×1, Doryphora×1, Guarea trichiloides×1, Juncus effuses×1, Kissingen aqua×1, Prunus spinosa×1, Solanum nigrum×1
 unresolved in headers: Honey suckle×1, Wild rose×1, Olive×1, White chestnut×1, Mustard×1, Chestnut bud×1, Cerato×1, Sclerantes×1, Garse×1, Hornbeam×1, Wild Oat×1, Heather×1, Water Violet×1, Impatiens×1, Larch×1, Pine×1, Elm×1, Sweet Chestnut×1, Star of Bethlehem×1, Willow×1, Oak×1, Crab apple×1, Aspen×1, Cherry Plum×1, Mimulus×1, Red Chestnut×1, Rock Rose×1, Beech×1, Chicory×1, Rock water×1, Vervain×1, Vine×1

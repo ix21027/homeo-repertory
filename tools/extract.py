@@ -5,7 +5,7 @@ extract.py — перетворює архів сайту «Сам себе го
     python3 tools/extract.py ~/.moshi/uploads/hom.zip [--out content]
 
 Результат:
-    content/remedies/<slug>.md   — 341 препарат (Materia Medica Дж. Г. Кларка)
+    content/remedies/<slug>.md   — препарати Materia Medica Дж. Г. Кларка (в архіві 296 із 341)
     content/articles/<slug>.md   — статті «Домашнього лікувальника», квіткові настої Баха, про гомеопатію
     tools/report.txt             — що відкинуто, нерозпізнані заголовки, дублікати
 
@@ -935,6 +935,9 @@ def main():
     for a in articles:
         log = []
         lines, src, author = extract_source(a["page"]["lines"], log)
+        cut = [k for k, ln in enumerate(lines) if ln.text == "Новые материалы"]   # хвіст головної сторінки зі списком новин
+        if cut:
+            lines = lines[:cut[0]]
         blocks = parse_article(lines, log)
         body = []
         for kind, title, paras in blocks:
