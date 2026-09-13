@@ -231,6 +231,25 @@ table.cmp .rel { margin: 0 0 3px; }
 
 .error { color: var(--danger); }
 
+/* ---------- випадки ---------- */
+.case-name { font-size: .92rem; color: var(--fg-2); margin: 12px 0 -6px; }
+.results-head .head-right { margin-left: auto; display: inline-flex; align-items: center; gap: 6px 12px; flex-wrap: wrap; justify-content: flex-end; }
+.results-head .case-ctl { display: inline-flex; align-items: center; gap: 6px; flex-wrap: wrap; }
+.results-head .case-form:not([hidden]) { display: inline-flex; align-items: center; gap: 6px; }
+.results-head .case-form input { padding: 3px 7px; font-size: .85rem; width: 15em; max-width: 45vw; }
+.cases { display: flex; flex-direction: column; gap: 2px; max-width: 300px; }
+.cases-empty { font-size: .88rem; color: var(--fg-2); }
+.case-item { display: flex; align-items: flex-start; gap: 4px; }
+.case-open { flex: 1 1 auto; min-width: 0; text-align: left; border: 0; background: transparent; color: var(--fg); font-size: .9rem; padding: 4px 6px; border-radius: 6px; cursor: pointer; overflow-wrap: anywhere; }
+.case-open:hover { background: var(--accent-2); color: var(--accent); }
+.case-open .case-meta { display: block; font-size: .76rem; color: var(--fg-2); }
+.case-del { border: 0; background: transparent; color: var(--fg-2); cursor: pointer; font-size: 1.05rem; line-height: 1.6; padding: 2px 5px; border-radius: 6px; }
+.case-del:hover, .case-del.ask { color: var(--danger); }
+.case-del.ask { font-size: .8rem; }
+.menu-action { border: 0; background: transparent; color: var(--fg); font: inherit; font-size: .92rem; padding: 4px 6px; border-radius: 6px; cursor: pointer; width: 100%; text-align: left; }
+.menu-action:hover { background: var(--accent-2); color: var(--accent); }
+.print-only, .chip-flags { display: none; }
+
 @media (max-width: 640px) {
   .site-header { position: static; }
   .header-row { gap: 6px 8px; }
@@ -246,10 +265,41 @@ table.cmp .rel { margin: 0 0 3px; }
   table.rep tr.detail td { padding: 8px 8px 12px; }
   .detail-box { position: sticky; left: 0; max-width: calc(100vw - 34px); }
   table.cmp td.c { min-width: 140px; }
-  .results-head .sort { margin-left: 0; }
+  .results-head .sort, .results-head .head-right { margin-left: 0; }
+  .results-head .head-right { justify-content: flex-start; }
   .chip .k { display: none; }
   .chip { padding-left: 10px; }
   .toc { flex-wrap: nowrap; overflow-x: auto; margin: 10px -16px 16px; padding: 0 16px 6px; scrollbar-width: thin; }
   .toc a { white-space: nowrap; flex: 0 0 auto; }
   h1 { font-size: 1.35rem; }
+}
+
+/* ---------- друк ---------- */
+@media print {
+  /* світла палітра незалежно від теми — інакше темна тема друкує чорний фон */
+  :root, html[data-theme], html:not([data-theme="light"]) {
+    --bg: #fff; --bg-2: #fff; --bg-3: #fff; --fg: #000; --fg-2: #333; --line: #999;
+    --accent: #000; --accent-2: #fff; --accent-fg: #000; --mark: #eee; --shadow: none;
+  }
+  @page { margin: 12mm; }
+  body { background: #fff; color: #000; font-size: 11pt; }
+  .site-header, .menu-wrap, .rep-search, .picker, .cmp-bar, .more-row, .btn, .sort,
+  .case-name, .case-ctl, .chip .ctl, .chip > button, .toc, input.cmp-box, table.rep .chev { display: none !important; }
+  main.wrap { padding: 0; max-width: none; min-height: 0; }
+  .print-only { display: block; margin: 0 0 10px; }
+  .print-only .print-case { font-family: var(--serif); font-size: 1.25rem; font-weight: 700; }
+  .print-only .print-date { font-size: .85rem; color: #333; }
+  .results-head { display: block; margin: 0 0 6px; }
+  .chips { display: block; margin: 0 0 10px; }
+  .chip { display: block; background: none; border: 0; border-radius: 0; padding: 1px 0; max-width: none; }
+  .chip .k, .chip-flags { display: inline; }
+  .table-wrap { overflow: visible; border: 0; border-radius: 0; }
+  table.rep { width: 100%; font-size: 9.5pt; }
+  table.rep th, table.rep td { border: 1px solid #999; padding: 3px 5px; background: #fff; }
+  table.rep th, table.rep td.rem, table.rep th:first-child { position: static; }
+  table.rep tr.row, table.rep tr.row:hover, table.rep tr.row.open, table.rep tr.row.open td.rem { background: #fff; }
+  table.rep tr { break-inside: avoid; }
+  table.rep td.g span, table.rep td.g.g1 span, table.rep td.g.g3 span { background: none; color: #000; }
+  table.rep td.g.g3 span { font-weight: 700; text-decoration: underline; }
+  a { color: #000; text-decoration: none; }
 }

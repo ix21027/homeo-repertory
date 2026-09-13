@@ -53,6 +53,9 @@
       rel: { cmp: 'Порівняти з', ant: 'Антидоти', compl: 'Доповнюють', incompat: 'Несумісні', after: 'Добре діє після', before: 'Після нього добре діють', other: 'Інше' },
       relTitle: 'Зв’язки', maybe: 'можливо:', clinicRow: 'Клініка (рубрик)', expandAll: 'Розгорнути підстави', collapseAll: 'Згорнути підстави',
       articlesOpt: 'Статті', articlesOptTitle: 'Шукати також у статтях лікувальника і показувати знайдені статті', artResults: 'Статті за запитом', artMore: 'ще', artHits: 'збігів',
+      caseSave: 'Зберегти випадок', caseUpdate: 'Оновити випадок', caseNamePh: 'Назва випадку', caseOk: 'Зберегти', caseCancel: 'Скасувати',
+      menuCases: 'Випадки', casesEmpty: 'Немає збережених випадків', caseDel: 'Видалити випадок', caseDelAsk: 'видалити?',
+      caseN: n => n + ' ' + plural(n, ['рубрика', 'рубрики', 'рубрик']), flagElim: 'елімінативна', flagExcl: 'виключена', menuPrint: 'Друк',
     },
     ru: {
       title: 'Реперторий — гомеопатические препараты по симптомам', htmlLang: 'ru',
@@ -79,18 +82,23 @@
       rel: { cmp: 'Сравнить с', ant: 'Антидоты', compl: 'Дополняют', incompat: 'Несовместимы', after: 'Хорошо действует после', before: 'После него хорошо действуют', other: 'Прочее' },
       relTitle: 'Взаимосвязи', maybe: 'возможно:', clinicRow: 'Клиника (рубрик)', expandAll: 'Показать основания', collapseAll: 'Свернуть основания',
       articlesOpt: 'Статьи', articlesOptTitle: 'Искать также в статьях лечебника и показывать найденные статьи', artResults: 'Статьи по запросу', artMore: 'ещё', artHits: 'совп.',
+      caseSave: 'Сохранить случай', caseUpdate: 'Обновить случай', caseNamePh: 'Название случая', caseOk: 'Сохранить', caseCancel: 'Отменить',
+      menuCases: 'Случаи', casesEmpty: 'Нет сохранённых случаев', caseDel: 'Удалить случай', caseDelAsk: 'удалить?',
+      caseN: n => n + ' ' + plural(n, ['рубрика', 'рубрики', 'рубрик']), flagElim: 'элиминативная', flagExcl: 'исключена', menuPrint: 'Печать',
     },
   };
   const KIND_LETTER = { free: 'f', nos: 'n', art: 'a', line: 'l', mod: 'm', etio: 'e' };
   const LETTER_KIND = { f: 'free', n: 'nos', a: 'art', l: 'line', m: 'mod', e: 'etio' };
 
-  const state = { lang: 'ua', cat: {}, idx: {}, idxPromise: {}, docs: new Map(), linker: {}, rubrics: [], shown: 60, open: new Set(), langsAvailable: null, sort: 'cover', cmp: [], cmpOpen: false, articles: true, artShowAll: false };
+  const state = { lang: 'ua', cat: {}, idx: {}, idxPromise: {}, docs: new Map(), linker: {}, rubrics: [], shown: 60, open: new Set(), langsAvailable: null, sort: 'cover', cmp: [], cmpOpen: false, articles: true, artShowAll: false, caseId: null };
   try { if (localStorage.getItem('articles') === '0') state.articles = false; } catch (e) { /* ignore */ }
   const T = () => I18N[state.lang];
   const cat = () => state.cat[state.lang];
 
   // ---------------------------------------------------------------- утиліти
   function esc(s) { return String(s).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c])); }
+  // Форма слова за числом (одна / дві-чотири / п'ять) — однакова для обох мов
+  function plural(n, forms) { const a = n % 10, b = n % 100; return forms[a === 1 && b !== 11 ? 0 : (a >= 2 && a <= 4 && (b < 10 || b >= 20) ? 1 : 2)]; }
   async function fetchJson(rel) {
     const res = await fetch(rel);
     if (!res.ok) throw new Error(rel + ': ' + res.status);
@@ -148,11 +156,80 @@
     $('#themeOpts').querySelectorAll('button').forEach(b => b.addEventListener('click', () => { applyTheme(b.dataset.theme || null); closeMenu(); }));
   }
 
+  // ---------------------------------------------------------------- випадки
+  // Випадок = назва + хеш реперторію (рубрики, прапорці, сортування, порівняння) у localStorage.
+  function loadCases() {
+    try { const v = JSON.parse(localStorage.getItem('cases') || '[]'); return Array.isArray(v) ? v : []; } catch (e) { return []; }
+  }
+  function storeCases(list) { try { localStorage.setItem('cases', JSON.stringify(list)); } catch (e) { /* ignore */ } }
+  function caseDate(ts) { try { return new Date(ts).toLocaleDateString(T().htmlLang); } catch (e) { return ''; } }
+  // Випадок, який зараз редагується: точний збіг хеша або той, що відкрили/зберегли (state.caseId)
+  function activeCase() {
+    if (!state.rubrics.length) return null;
+    const list = loadCases();
+    const h = repHash();
+    const byHash = list.find(x => x.hash === h);
+    if (byHash) { state.caseId = byHash.id; return byHash; }
+    const cur = state.caseId ? list.find(x => x.id === state.caseId) : null;
+    return cur && cur.lang === state.lang ? cur : null;
+  }
+  function defaultCaseName() { return state.rubrics.slice(0, 3).map(rb => rb.label).join(', '); }
+  function saveCase(name) {
+    const list = loadCases();
+    const cur = activeCase();
+    const rec = {
+      id: cur ? cur.id : 'c' + Date.now().toString(36) + Math.random().toString(36).slice(2, 6),
+      name: name || defaultCaseName(), hash: repHash(), lang: state.lang, ts: Date.now(), n: state.rubrics.length,
+    };
+    const i = cur ? list.findIndex(x => x.id === cur.id) : -1;
+    if (i >= 0) list[i] = rec; else list.push(rec);
+    storeCases(list);
+    state.caseId = rec.id;
+    renderCases();
+  }
+  function deleteCase(id) {
+    storeCases(loadCases().filter(x => x.id !== id));
+    if (state.caseId === id) state.caseId = null;
+    renderCases(); renderCaseName(); renderResults();
+  }
+  function renderCases() {
+    const box = $('#casesList');
+    if (!box) return;
+    const t = T();
+    const list = loadCases().slice().sort((a, b) => b.ts - a.ts);
+    if (!list.length) { box.innerHTML = '<div class="cases-empty">' + esc(t.casesEmpty) + '</div>'; return; }
+    box.innerHTML = list.map(x => '<div class="case-item">' +
+      '<button type="button" class="case-open" data-id="' + esc(x.id) + '">' + esc(x.name) +
+      '<span class="case-meta">' + esc(caseDate(x.ts)) + ' · ' + esc(t.caseN(x.n)) + '</span></button>' +
+      '<button type="button" class="case-del" data-id="' + esc(x.id) + '" title="' + esc(t.caseDel) + '" aria-label="' + esc(t.caseDel) + '">×</button></div>').join('');
+    box.querySelectorAll('button.case-open').forEach(b => b.addEventListener('click', () => {
+      const x = loadCases().find(y => y.id === b.dataset.id);
+      if (!x) return;
+      state.caseId = x.id;
+      closeMenu();
+      if (location.hash === x.hash) { renderCaseName(); renderResults(); } else location.hash = x.hash;
+    }));
+    box.querySelectorAll('button.case-del').forEach(b => b.addEventListener('click', () => {
+      if (b.dataset.ask) { deleteCase(b.dataset.id); return; }
+      box.querySelectorAll('button.case-del').forEach(o => { delete o.dataset.ask; o.textContent = '×'; o.classList.remove('ask'); });
+      b.dataset.ask = '1'; b.textContent = t.caseDelAsk; b.classList.add('ask');
+    }));
+  }
+  function renderCaseName() {
+    const box = $('#caseName');
+    if (!box) return;
+    const cs = activeCase();
+    box.textContent = cs ? cs.name : '';
+    box.hidden = !cs;
+  }
+
   // ---------------------------------------------------------------- меню
-  function openMenu() { $('#menu').hidden = false; $('#menuBtn').setAttribute('aria-expanded', 'true'); }
+  function openMenu() { renderCases(); $('#menu').hidden = false; $('#menuBtn').setAttribute('aria-expanded', 'true'); }
   function closeMenu() { $('#menu').hidden = true; $('#menuBtn').setAttribute('aria-expanded', 'false'); }
   function initMenu() {
     $('#menuBtn').addEventListener('click', e => { e.stopPropagation(); if ($('#menu').hidden) openMenu(); else closeMenu(); });
+    const pb = $('#printBtn');
+    if (pb) pb.addEventListener('click', () => { closeMenu(); window.print(); });
     document.addEventListener('click', e => { if (!e.target.closest('#menuWrap')) closeMenu(); });
     document.addEventListener('keydown', e => { if (e.key === 'Escape') closeMenu(); });
   }
@@ -173,6 +250,9 @@
     $('#menuBtn').setAttribute('title', t.menu);
     $('#menuLangTitle').textContent = t.menuLang;
     $('#menuThemeTitle').textContent = t.menuTheme;
+    const ct = $('#menuCasesTitle'); if (ct) ct.textContent = t.menuCases;
+    const pb = $('#printBtn'); if (pb) pb.textContent = t.menuPrint;
+    renderCases();
     renderThemeOptions();
     document.querySelectorAll('#langBtns button').forEach(b => { b.classList.toggle('active', b.dataset.lang === state.lang); b.setAttribute('aria-pressed', b.dataset.lang === state.lang ? 'true' : 'false'); });
   }
@@ -377,7 +457,8 @@
     });
     return r;
   }
-  function writeHash() {
+  // Поточний стан реперторію як хеш — і для адреси, і як ключ збереженого випадку
+  function repHash() {
     const q = new URLSearchParams();
     const specs = state.rubrics.map(rb => rubricSpec(rb)).join('|');
     if (specs) q.set('r', specs);
@@ -385,7 +466,10 @@
     if (state.cmp.length) q.set('c', state.cmp.map(i => cat().remedies[i].id).join(',') + (state.cmpOpen ? '' : '~'));
     if (!state.articles) q.set('a', '0');
     const qs = q.toString();
-    const h = href('rep') + (qs ? '?' + qs : '');
+    return href('rep') + (qs ? '?' + qs : '');
+  }
+  function writeHash() {
+    const h = repHash();
     if (location.hash !== h) history.replaceState(null, '', h);
   }
   function rerender() { writeHash(); renderChips(); renderResults(); }
@@ -415,6 +499,7 @@
         <label class="opt" title="${esc(t.articlesOptTitle)}"><input type="checkbox" id="artOpt"${state.articles ? ' checked' : ''}> ${esc(t.articlesOpt)}</label>
       </form>
       <details class="picker" id="picker"><summary>${esc(t.picker)}</summary><div class="picker-body" id="pickerBody"></div></details>
+      <div class="case-name" id="caseName" hidden></div>
       <div class="chips" id="chips"></div>
       <div id="results"></div>`;
     const spec = params.get('r');
@@ -430,11 +515,13 @@
       const specs = spec.split('|');
       const same = specs.length === state.rubrics.length && specs.every((s, i) => rubricSpec(state.rubrics[i]) === s);
       if (!same) {
+        state.caseId = null;
         state.rubrics = specs.map(rubricFromSpec).filter(Boolean);
         state.open.clear();
         for (const rb of state.rubrics) if (rb.pending) rb.promise.then(() => { renderChips(); renderResults(); });
       }
     } else {
+      state.caseId = null;
       state.rubrics = [];
     }
     renderPicker();
@@ -510,15 +597,25 @@
     body.querySelectorAll('button.pick').forEach(b => b.addEventListener('click', () => addRubric(makeCatRubric(+b.dataset.i))));
   }
 
+  // Прапорці рубрики словами — видно лише у друці, замість кнопок керування
+  function flagWords(rb) {
+    const t = T();
+    const f = [];
+    if (rb.weight > 1) f.push('×' + rb.weight);
+    if (rb.elim) f.push(t.flagElim);
+    if (rb.excl) f.push(t.flagExcl);
+    return f.length ? ' <span class="chip-flags">(' + esc(f.join(', ')) + ')</span>' : '';
+  }
   function renderChips() {
     const box = $('#chips');
     if (!box) return;
     const t = T();
+    renderCaseName();
     if (!state.rubrics.length) { box.innerHTML = ''; return; }
     box.innerHTML = state.rubrics.map((rb, k) => {
       const n = rb.pending ? '…' : rb.error ? t.error : (rb.remedies ? rb.remedies.size : 0);
       const corr = rb.res && rb.res.corrections && rb.res.corrections.length ? ' <span class="maybe">' + esc(t.maybe) + ' ' + esc(rb.res.corrections.map(x => x.to[0] + '…').join(', ')) + '</span>' : '';
-      return '<span class="chip' + (rb.pending ? ' pending' : '') + (rb.excl ? ' excl' : '') + (rb.elim ? ' elim' : '') + (rb.weight > 1 ? ' weighted' : '') + '"><span class="k">' + esc(t.kind[rb.kind]) + '</span> ' + esc(rb.label) + corr +
+      return '<span class="chip' + (rb.pending ? ' pending' : '') + (rb.excl ? ' excl' : '') + (rb.elim ? ' elim' : '') + (rb.weight > 1 ? ' weighted' : '') + '"><span class="k">' + esc(t.kind[rb.kind]) + '</span> ' + esc(rb.label) + corr + flagWords(rb) +
         ' <span class="n">' + n + '</span>' +
         '<span class="ctl"><button type="button" data-k="' + k + '" data-act="w" class="' + (rb.weight > 1 ? 'on' : '') + '" title="' + esc(t.weight) + '" aria-label="' + esc(t.weight) + '">×' + rb.weight + '</button>' +
         '<button type="button" data-k="' + k + '" data-act="e" class="' + (rb.elim ? 'on' : '') + '" title="' + esc(t.elim) + '" aria-label="' + esc(t.elim) + '" aria-pressed="' + rb.elim + '">!</button>' +
@@ -533,7 +630,7 @@
       else if (b.dataset.act === 'x') { rb.excl = !rb.excl; if (rb.excl) rb.elim = false; }
       rerender();
     }));
-    const c = $('#clearAll'); if (c) c.addEventListener('click', () => { state.rubrics = []; state.open.clear(); state.cmp = []; state.cmpOpen = false; rerender(); });
+    const c = $('#clearAll'); if (c) c.addEventListener('click', () => { state.rubrics = []; state.open.clear(); state.cmp = []; state.cmpOpen = false; state.caseId = null; rerender(); });
   }
 
   // Статті, що відповідають рубрикам: повнотекстові збіги + статті рубрик «Стаття»/«Рядок»
@@ -589,7 +686,15 @@
       (state.cmp.length >= 2 ? ' <button type="button" class="btn small" id="cmpOpen">' + esc(t.compare) + '</button>' : '') + ' <button type="button" class="btn secondary small" id="cmpClear">' + esc(t.clear) + '</button></div>' : '';
     const allOpen = shown.every(row => state.open.has(row.r));
     const toggleAll = '<button type="button" class="btn secondary small" id="toggleAll" aria-pressed="' + allOpen + '">' + esc(allOpen ? t.collapseAll : t.expandAll) + '</button>';
-    box.innerHTML = '<p class="muted small results-head">' + esc(t.found(rows.length)) + ' ' + toggleAll + sortSel + '</p>' + artLine + cmpBar +
+    const cs = activeCase();
+    const caseCtl = '<span class="case-ctl">' +
+      '<button type="button" class="btn secondary small" id="caseBtn">' + esc(cs ? t.caseUpdate : t.caseSave) + '</button>' +
+      '<span class="case-form" id="caseForm" hidden><input type="text" id="caseNameIn" placeholder="' + esc(t.caseNamePh) + '" aria-label="' + esc(t.caseNamePh) + '">' +
+      '<button type="button" class="btn small" id="caseOk">' + esc(t.caseOk) + '</button>' +
+      '<button type="button" class="btn secondary small" id="caseCancel">' + esc(t.caseCancel) + '</button></span></span>';
+    const printHead = '<div class="print-only">' + (cs ? '<div class="print-case">' + esc(cs.name) + '</div>' : '') +
+      '<div class="print-date">' + esc(caseDate(Date.now())) + '</div></div>';
+    box.innerHTML = '<p class="muted small results-head">' + esc(t.found(rows.length)) + ' ' + toggleAll + '<span class="head-right">' + sortSel + caseCtl + '</span></p>' + artLine + cmpBar + printHead +
       '<div class="table-wrap"><table class="rep"><thead>' + head + '</thead><tbody>' + body + '</tbody></table>' +
       (rows.length > shown.length ? '<div class="more-row"><button type="button" class="btn secondary" id="moreBtn">' + esc(t.more) + '</button></div>' : '') + '</div>';
     bindSort(box);
@@ -611,6 +716,18 @@
     const am = $('#artMore'); if (am) am.addEventListener('click', () => { state.artShowAll = true; renderResults(); });
     const co = $('#cmpOpen'); if (co) co.addEventListener('click', () => { state.cmpOpen = true; writeHash(); renderResults(); });
     const cc = $('#cmpClear'); if (cc) cc.addEventListener('click', () => { state.cmp = []; state.cmpOpen = false; writeHash(); renderResults(); });
+    const cb = $('#caseBtn'); if (cb) cb.addEventListener('click', () => {
+      const inp = $('#caseNameIn');
+      inp.value = cs ? cs.name : defaultCaseName();
+      $('#caseForm').hidden = false; cb.hidden = true;
+      inp.focus(); inp.select();
+    });
+    const cok = $('#caseOk'); if (cok) cok.addEventListener('click', () => { saveCase($('#caseNameIn').value.trim()); renderCaseName(); renderResults(); });
+    const ccl = $('#caseCancel'); if (ccl) ccl.addEventListener('click', () => { $('#caseForm').hidden = true; $('#caseBtn').hidden = false; });
+    const cin = $('#caseNameIn'); if (cin) cin.addEventListener('keydown', e => {
+      if (e.key === 'Enter') { e.preventDefault(); $('#caseOk').click(); }
+      else if (e.key === 'Escape') { e.preventDefault(); $('#caseCancel').click(); }
+    });
   }
   function bindSort(box) {
     const s = $('#sortSel', box);
@@ -904,6 +1021,20 @@
     btns.querySelectorAll('button').forEach(b => b.addEventListener('click', () => switchLang(b.dataset.lang)));
     if (state.langsAvailable.length < 2) btns.closest('.menu-section').hidden = true;
     initMenu();
+    // На друк — усі знайдені рядки, після друку повертаємо сторінкове обмеження
+    let shownBeforePrint = null;
+    window.addEventListener('beforeprint', () => {
+      if (shownBeforePrint != null) return;
+      shownBeforePrint = state.shown;
+      state.shown = Infinity;
+      renderResults();
+    });
+    window.addEventListener('afterprint', () => {
+      if (shownBeforePrint == null) return;
+      state.shown = shownBeforePrint;
+      shownBeforePrint = null;
+      renderResults();
+    });
     window.addEventListener('hashchange', route);
     route();
   }
