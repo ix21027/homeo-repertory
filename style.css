@@ -88,7 +88,7 @@ input:focus, select:focus { outline: 2px solid var(--accent); outline-offset: 1p
 .dropdown .cnt { font-size: .8rem; color: var(--fg-2); }
 .dropdown li.free { border-bottom: 1px solid var(--line); font-style: italic; }
 
-main { padding-top: 26px; padding-bottom: 40px; min-height: 60vh; }
+main { padding-top: 26px; padding-bottom: 60px; min-height: 70vh; }
 
 /* ---------- реперторій ---------- */
 .rep-search { position: relative; display: flex; gap: 8px; flex-wrap: wrap; align-items: stretch; }
@@ -166,7 +166,6 @@ table.rep tr.detail td { background: var(--bg); padding: 10px 14px 14px; }
 .home-intro { margin-bottom: 12px; }
 .stats-row { display: flex; gap: 18px; flex-wrap: wrap; color: var(--fg-2); font-size: .9rem; margin: 6px 0 14px; }
 
-.site-footer { border-top: 1px solid var(--line); padding: 20px 0 30px; color: var(--fg-2); font-size: .85rem; }
 .error { color: var(--danger); }
 
 @media (max-width: 640px) {

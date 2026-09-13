@@ -45,8 +45,6 @@
       articlesTitle: 'Статті', articlesIntro: 'Домашній гомеопатичний лікувальник за хворобами (Варшавський, Кьолер, Симеонова, Петерс, Роуз, Юз та ін.), квіткові настої д-ра Баха, про гомеопатію. У кожній статті — перелік препаратів із показаннями.',
       nRemedies: n => n + ' препаратів', noArticle: 'Статтю не знайдено.', author: 'Автор:', addArticle: 'Додати статтю як рубрику до реперторію',
       notFound: 'Сторінку не знайдено.', loadFail: 'Не вдалося завантажити дані:', loading: 'Завантаження…',
-      footer: 'Українська версія — автоматичний переклад російського оригіналу (Google Translate); оригінал доступний за перемикачем RU. Джерела: Дж. Г. Кларк, «Словарь практической Materia Medica» та «Домашний гомеопатический лечебник» за матеріалами сайту «Сам себе гомеопат». Довідник не замінює консультацію лікаря.',
-      stats: s => 'Препаратів: ' + s.remedies + ' · статей: ' + s.articles + ' · рубрик: ' + s.rubrics + ' · абзаців у пошуковому індексі: ' + s.units + ' · дані зібрано ' + s.built + '.',
       mtNote: 'Текст перекладено автоматично з російського оригіналу.',
       menu: 'Меню', menuLang: 'Мова', menuTheme: 'Тема', themeAuto: 'Системна', themeLight: 'Світла', themeDark: 'Темна',
     },
@@ -69,8 +67,6 @@
       articlesTitle: 'Статьи', articlesIntro: 'Домашний гомеопатический лечебник по болезням (Варшавский, Кёлер, Симеонова, Петерс, Роуз, Юз и др.), цветочные настои д-ра Бака, о гомеопатии. В каждой статье — перечень препаратов с показаниями.',
       nRemedies: n => n + ' препаратов', noArticle: 'Статья не найдена.', author: 'Автор:', addArticle: 'Добавить статью как рубрику в реперторий',
       notFound: 'Страница не найдена.', loadFail: 'Не удалось загрузить данные:', loading: 'Загрузка…',
-      footer: 'Тексты приведены на языке оригинала: Дж. Г. Кларк, «Словарь практической Materia Medica» и «Домашний гомеопатический лечебник» по материалам сайта «Сам себе гомеопат». Справочник не заменяет консультацию врача.',
-      stats: s => 'Препаратов: ' + s.remedies + ' · статей: ' + s.articles + ' · рубрик: ' + s.rubrics + ' · абзацев в поисковом индексе: ' + s.units + ' · данные собраны ' + s.built + '.',
       mtNote: '',
       menu: 'Меню', menuLang: 'Язык', menuTheme: 'Тема', themeAuto: 'Системная', themeLight: 'Светлая', themeDark: 'Тёмная',
     },
@@ -156,9 +152,6 @@
     $('#menuLangTitle').textContent = t.menuLang;
     $('#menuThemeTitle').textContent = t.menuTheme;
     renderThemeOptions();
-    $('#footText').textContent = t.footer;
-    const s = cat() && cat().stats;
-    $('#footStats').textContent = s ? t.stats(Object.assign({ built: cat().built }, s)) : '';
     document.querySelectorAll('#langBtns button').forEach(b => { b.classList.toggle('active', b.dataset.lang === state.lang); b.setAttribute('aria-pressed', b.dataset.lang === state.lang ? 'true' : 'false'); });
   }
   function switchLang(lang) {
