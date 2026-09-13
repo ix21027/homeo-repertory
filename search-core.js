@@ -100,13 +100,39 @@
   }
 
   // ---------------------------------------------------------------------
+  // Спрощений стемер для української (за мотивами ukr_stemmer, порт Porter)
+  // ---------------------------------------------------------------------
+  function stemUa(word) {
+    if (word.length < 4 || !/[аеиоуюяіїє]/.test(word)) return word;
+    const m = word.match(/[аеиоуюяіїє]/);
+    const start = word.slice(0, m.index + 1);
+    let rv = word.slice(m.index + 1);
+    const sub = (re, to) => { const n = rv.replace(re, to); const ch = n !== rv; rv = n; return ch; };
+    if (!sub(/(ившись|ивши|ив|ывшись|ывши|ыв|(?<=[ая])(вшись|вши|в))$/, '')) {
+      sub(/(с[яьи])$/, '');
+      if (sub(/(ими|іми|йми|ова|ове|ого|ому|ої|ій|ий|ів|їй|єє|еє|ім|ем|им|их|іх|ою|а|е|є|я|у|ю)$/, '')) {
+        sub(/(ого|ому|ий|ій|им|ім|их|йми|ою|а|у|і)$/, '');
+      } else if (!sub(/(ать|ять|ати|яти|али|учи|ячи|вши|ши|сь|ся|ив|ав|ме|у|ю|е|є)$/, '')) {
+        sub(/(іями|ями|ами|иям|ием|иях|ові|еві|ев|ов|еи|ей|ой|ий|ям|ем|єм|ам|ом|ах|ях|ию|ью|ия|ья|ею|єю|ою|ів|їв|а|е|є|и|й|о|у|ы|ь|ю|я|і|ї)$/, '');
+      }
+    }
+    sub(/и$/, '');
+    if (/[^аеиоуюяіїє][аеиоуюяіїє]+[^аеиоуюяіїє]+[аеиоуюяіїє].*[іо]ст[ьи]?$/.test(rv)) sub(/[іо]ст[ьи]?$/, '');
+    sub(/ь$/, '');
+    sub(/ейше?$/, '');
+    sub(/нн$/, 'н');
+    return start + rv;
+  }
+
+  // ---------------------------------------------------------------------
   // Нормалізація літер: ё→е, українські літери → найближчі російські,
   // кириличні гомогліфи в латинських словах → латиниця.
   // ---------------------------------------------------------------------
   const UA_FOLD = { 'і': 'и', 'ї': 'и', 'є': 'е', 'ґ': 'г', 'ё': 'е' };
   const HOMO = { 'а': 'a', 'с': 'c', 'е': 'e', 'о': 'o', 'р': 'p', 'х': 'x', 'у': 'y', 'к': 'k', 'н': 'h', 'м': 'm', 'т': 't', 'в': 'b' };
 
-  function foldLetters(s) {
+  function foldLetters(s, lang) {
+    if (lang === 'ua') return s.toLowerCase().replace(/ё/g, 'е').replace(/ґ/g, 'г').replace(/[’'ʼ`´]/g, '');
     return s.toLowerCase().replace(/[іїєґё]/g, ch => UA_FOLD[ch]).replace(/[’'ʼ`´]/g, '');
   }
 
@@ -168,7 +194,9 @@
     return w;
   }
 
-  function tokenize(text) {
+  const STOP_UA = new Set('і й та в у на з із зі по при від до для за не ні але або чи що як це цей ця ці той та те ті він вона воно вони ми ви я ти є був була були було бути вже ще якщо то ж би б адже от так також теж лише тільки навіть майже дуже більше менше іноді часто зазвичай потім після перед між через над під біля коло такий така такі таке весь вся все всі всього його її їх нам вам мені тобі собі сам сама самі саме'.split(/\s+/));
+
+  function tokenize(text, lang) {
     const out = [];
     const low = text.toLowerCase();
     const re = /[a-zа-яёіїєґ0-9’'ʼ]+/g;
@@ -176,22 +204,48 @@
     while ((m = re.exec(low)) !== null) {
       let w = m[0];
       if (w.length < 2) continue;
-      w = expandWord(w);
-      w = foldLetters(w);
+      if (lang !== 'ua') w = expandWord(w);
+      w = foldLetters(w, lang);
       w = foldHomoglyphs(w);
-      if (w.length < 2 || STOP.has(w)) continue;
+      if (w.length < 2 || (lang === 'ua' ? STOP_UA.has(w) : STOP.has(w))) continue;
       out.push(w);
     }
     return out;
   }
 
-  function stem(w) {
+  function stem(w, lang) {
+    if (lang === 'ua') return /^[а-яіїє]+$/.test(w) ? stemUa(w) : w;
     if (/^[а-я]+$/.test(w)) return stemRu(w);
     return w;
   }
 
-  function stems(text) {
-    return tokenize(text).map(stem);
+  function stems(text, lang) {
+    return tokenize(text, lang).map(w => stem(w, lang));
+  }
+
+  // Альтернативні стеми для кожного слова запиту (для української версії
+  // додається російський стем через словничок, бо індекс містить обидва).
+  function queryStems(query, lang) {
+    const out = [];
+    const low = query.toLowerCase();
+    const re = /[a-zа-яёіїєґ0-9’'ʼ]+/g;
+    let m;
+    while ((m = re.exec(low)) !== null) {
+      const w = m[0];
+      if (w.length < 2) continue;
+      const alts = new Set();
+      if (lang === 'ua') {
+        const fu = foldHomoglyphs(foldLetters(w, 'ua'));
+        if (fu.length >= 2 && !STOP_UA.has(fu)) alts.add(stem(fu, 'ua'));
+        const ru = UA_RU[w] || (/[ыэъё]/.test(w) ? w : null);
+        if (ru) { const fr = foldHomoglyphs(foldLetters(ru, 'ru')); if (!STOP.has(fr)) alts.add(stem(fr, 'ru')); }
+      } else {
+        const fr = foldHomoglyphs(foldLetters(expandWord(w), 'ru'));
+        if (fr.length >= 2 && !STOP.has(fr)) alts.add(stem(fr, 'ru'));
+      }
+      if (alts.size) out.push(Array.from(alts));
+    }
+    return out;
   }
 
   // ---------------------------------------------------------------------
@@ -223,5 +277,5 @@
     return out;
   }
 
-  return { stemRu, stem, stems, tokenize, foldLetters, foldHomoglyphs, encodeList, decodeList, UA_RU, STOP };
+  return { stemRu, stemUa, stem, stems, queryStems, tokenize, foldLetters, foldHomoglyphs, encodeList, decodeList, UA_RU, STOP, STOP_UA };
 });

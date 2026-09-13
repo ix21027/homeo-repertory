@@ -803,7 +803,7 @@ def write_md(path, fm: dict, body: str):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("zip")
-    ap.add_argument("--out", default=os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "content"))
+    ap.add_argument("--out", default=os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "content", "ru"))
     args = ap.parse_args()
     out_dir = args.out
     rem_dir = os.path.join(out_dir, "remedies")

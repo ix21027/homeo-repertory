@@ -54,14 +54,23 @@
     return out;
   }
 
-  // Повнотекстовий пошук: усі стеми запиту мають бути в одному абзаці.
-  function freeText(idx, query, sectionFilter) {
-    const stems = Array.from(new Set(SC.stems(query)));
+  function union(lists) {
+    if (lists.length === 1) return lists[0];
+    const seen = new Set();
+    for (const l of lists) for (const u of l) seen.add(u);
+    return Array.from(seen).sort((a, b) => a - b);
+  }
+
+  // Повнотекстовий пошук: усі слова запиту мають бути в одному абзаці
+  // (кожне слово — будь-який зі своїх альтернативних стемів).
+  function freeText(idx, query, sectionFilter, lang) {
+    const words = SC.queryStems(query, lang || 'ru');
+    const stems = Array.from(new Set(words.flat()));
     const res = { stems, units: [], byRemedy: new Map(), byArticle: new Map() };
-    if (!stems.length) return res;
+    if (!words.length) return res;
     let units = null;
-    for (const st of stems) {
-      const u = unitsForStem(idx, st);
+    for (const alts of words) {
+      const u = union(alts.map(st => unitsForStem(idx, st)));
       units = units === null ? u : intersect(units, u);
       if (!units.length) break;
     }
@@ -108,17 +117,18 @@
   }
 
   // ---- підказки рубрик --------------------------------------------------
-  function foldForMatch(s) {
-    return s.toLowerCase().split(/\s+/).map(w => SC.UA_RU[w] || w).map(w => SC.foldLetters(w)).join(' ').replace(/э/g, 'е').replace(/[^a-zа-я0-9 ]/g, ' ').replace(/\s+/g, ' ').trim();
+  function foldForMatch(s, lang) {
+    if (lang === 'ua') return s.toLowerCase().split(/\s+/).map(w => SC.foldLetters(w, 'ua')).join(' ').replace(/[^a-zа-яіїє0-9 ]/g, ' ').replace(/\s+/g, ' ').trim();
+    return s.toLowerCase().split(/\s+/).map(w => SC.UA_RU[w] || w).map(w => SC.foldLetters(w, 'ru')).join(' ').replace(/э/g, 'е').replace(/[^a-zа-я0-9 ]/g, ' ').replace(/\s+/g, ' ').trim();
   }
 
-  function suggest(catalog, query, limit) {
-    const q = foldForMatch(query);
+  function suggest(catalog, query, limit, lang) {
+    const q = foldForMatch(query, lang);
     if (q.length < 2) return [];
     const words = q.split(' ').filter(Boolean);
     const out = [];
     catalog.rubrics.forEach((rb, i) => {
-      const t = rb._f || (rb._f = foldForMatch(rb.t));
+      const t = rb._f || (rb._f = foldForMatch(rb.t, lang));
       let score = 0;
       if (t.startsWith(q)) score = 4;
       else if (t.includes(' ' + q)) score = 3;
@@ -132,13 +142,13 @@
   }
 
   // Пошук назв препаратів (для каталогу та переходу за назвою)
-  function matchRemedies(catalog, query, limit) {
-    const q = foldForMatch(query);
+  function matchRemedies(catalog, query, limit, lang) {
+    const q = foldForMatch(query, lang);
     if (!q) return [];
     const out = [];
     catalog.remedies.forEach((r, i) => {
       if (r.ext) return;
-      const f = r._f || (r._f = foldForMatch([r.latin, r.alt, r.translit, r.common].join(' ')));
+      const f = r._f || (r._f = foldForMatch([r.latin, r.alt, r.translit, r.common].join(' '), lang));
       let score = 0;
       if (f.startsWith(q)) score = 3;
       else if (f.includes(' ' + q)) score = 2;
