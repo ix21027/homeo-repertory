@@ -161,6 +161,49 @@ table.rep tr.detail td { background: var(--bg); padding: 10px 14px 14px; }
 .aside { margin-top: 30px; padding-top: 10px; border-top: 1px solid var(--line); }
 .src { font-size: .85rem; color: var(--fg-2); }
 
+/* ---------- модальності / причини (вибір) ---------- */
+.picker { margin: 10px 0 0; }
+.picker summary { cursor: pointer; color: var(--fg-2); font-size: .92rem; user-select: none; }
+.picker summary:hover { color: var(--accent); }
+.picker-body { margin-top: 8px; display: grid; gap: 10px; }
+.picker-group { display: flex; flex-wrap: wrap; gap: 5px; align-items: center; }
+.picker-title { flex-basis: 100%; font-size: .78rem; color: var(--fg-2); text-transform: uppercase; letter-spacing: .04em; }
+button.pick { border: 1px solid var(--line); background: var(--bg-2); color: var(--fg); border-radius: 999px; padding: 2px 9px; font-size: .84rem; cursor: pointer; }
+button.pick:hover { border-color: var(--accent); color: var(--accent); }
+button.pick .n { color: var(--fg-2); font-size: .76rem; }
+
+/* ---------- керування рубриками ---------- */
+.chip .ctl { display: inline-flex; gap: 2px; margin-left: 2px; }
+.chip .ctl button { font-size: .74rem; padding: 0 4px; border: 1px solid transparent; border-radius: 6px; color: var(--fg-2); background: transparent; cursor: pointer; line-height: 1.4; }
+.chip .ctl button:hover { border-color: var(--accent); color: var(--accent); }
+.chip .ctl button.on { background: var(--accent); color: var(--accent-fg); }
+.chip.excl { text-decoration: line-through; opacity: .75; }
+.chip.elim { border-color: var(--accent); }
+.chip .maybe { font-size: .78rem; color: var(--fg-2); font-style: italic; }
+.results-head { display: flex; flex-wrap: wrap; gap: 6px 14px; align-items: center; }
+.results-head .sort { margin-left: auto; }
+.results-head select { padding: 3px 6px; font-size: .85rem; }
+table.rep th.rub.elim { text-decoration: underline; text-decoration-color: var(--accent); }
+table.rep th .w { color: var(--accent); font-size: .78rem; }
+input.cmp-box { margin: 0 4px 0 0; vertical-align: middle; accent-color: var(--accent); }
+.cmp-bar { margin: 0 0 10px; font-size: .92rem; display: flex; flex-wrap: wrap; gap: 6px 10px; align-items: center; }
+.btn.small { padding: 4px 10px; font-size: .85rem; }
+.evid .rel { margin: 0 0 3px; }
+
+/* ---------- порівняння ---------- */
+.cmp-head { display: flex; align-items: center; gap: 12px; margin: 4px 0 10px; }
+.cmp-head h2 { margin: 0; }
+table.cmp th.lbl { text-align: left; font-weight: 600; font-size: .85rem; min-width: 140px; max-width: 220px; background: var(--bg-3); position: static; }
+table.cmp td.c { font-size: .88rem; min-width: 180px; vertical-align: top; }
+table.cmp td.c.g3 { background: color-mix(in srgb, var(--accent) 14%, transparent); }
+table.cmp td.c.g2 { background: color-mix(in srgb, var(--accent) 7%, transparent); }
+table.cmp .dot { display: inline-block; min-width: 20px; text-align: center; border-radius: 6px; padding: 0 5px; background: var(--accent-2); color: var(--accent); font-weight: 600; font-size: .8rem; }
+table.cmp .dot.g3 { background: var(--accent); color: var(--accent-fg); }
+table.cmp .dot.g1 { background: transparent; color: var(--fg-2); font-weight: 400; }
+table.cmp a.tag { display: inline-block; font-size: .8rem; padding: 1px 7px; border-radius: 999px; background: var(--accent-2); color: var(--accent); margin: 1px 0; }
+table.cmp .rel { margin: 0 0 3px; }
+.tags.mod .lbl { font-size: .85rem; color: var(--fg-2); align-self: center; }
+
 .stats-row { display: flex; gap: 18px; flex-wrap: wrap; color: var(--fg-2); font-size: .9rem; margin: 6px 0 14px; }
 
 .error { color: var(--danger); }
@@ -175,5 +218,7 @@ table.rep tr.detail td { background: var(--bg); padding: 10px 14px 14px; }
   main { padding-top: 16px; }
   table.rep th.rub { max-width: 110px; }
   table.rep .rem .ru { display: none; }
+  table.cmp td.c { min-width: 140px; }
+  .results-head .sort { margin-left: 0; }
   h1 { font-size: 1.35rem; }
 }

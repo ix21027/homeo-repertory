@@ -2,12 +2,12 @@
 /*
  * build.mjs — збирає дані сайту з content/<lang>/*.md для кожної мови (ru, ua):
  *   data/<lang>/catalog.json          — каталог препаратів, статей, рубрик (маленький, вантажиться одразу)
- *   data/<lang>/remedies/<id>.json    — текст препарату за розділами
+ *   data/<lang>/remedies/<id>.json    — текст препарату за розділами + структуровані модальності, етіологія, зв'язки
  *   data/<lang>/articles/<id>.json    — текст статті за блоками
- *   data/<lang>/index.json            — інвертований індекс абзаців для повнотекстового пошуку
+ *   data/<lang>/index.json            — інвертований індекс (одиниця — речення; абзаци описано масивами pd/ps/pp/pr/pn)
  *
- * Український індекс містить і російські стеми вирівняних абзаців оригіналу, тому запит
- * українською знаходить абзац і через словничок UA→RU, і через український стемер.
+ * Український індекс містить і російські стеми вирівняних речень оригіналу, тому запит
+ * українською знаходить речення і через словничок UA→RU, і через український стемер.
  *
  *   node tools/build.mjs
  */
@@ -15,6 +15,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { createRequire } from 'node:module';
+import { MOD_CATS, ETIO_CATS, parseModalities, parseEtiology, parseRelations, splitClauses } from './modalities.mjs';
 
 const require = createRequire(import.meta.url);
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
@@ -23,6 +24,11 @@ const SC = require(path.join(ROOT, 'search-core.js'));
 const CONTENT = path.join(ROOT, 'content');
 const OUT = path.join(ROOT, 'data');
 const CLINIC = { ru: 'Клиника', ua: 'Клініка' };
+const MODAL = { ru: 'Модальности', ua: 'Модальності' };
+const ETIOL = { ru: 'Этиология', ua: 'Етіологія' };
+const RELAT = { ru: 'Взаимосвязи', ua: 'Взаємозв’язки' };
+const DIR_LABEL = { ru: { w: 'Хуже', b: 'Лучше' }, ua: { w: 'Гірше', b: 'Краще' } };
+const ETIO_LABEL = { ru: 'После', ua: 'Після' };
 
 // ---------------------------------------------------------------------------
 // Markdown → структура
@@ -130,6 +136,9 @@ function topicOf(title, group) {
   for (const [key, re] of TOPICS) if (re.test(title)) return key;
   return 'other';
 }
+
+const stripMd = s => s.replace(/\*\*|_/g, ' ');
+const MOD_MARK = /^\*\*\s*•?\s*(Хуже|Лучше|Гірше|Краще)[.:]?\s*[а-яёА-ЯЁіїєІЇЄ]*\*\*[.:]?\s*/;
 
 // ---------------------------------------------------------------------------
 // Збірка однієї мови
@@ -306,49 +315,78 @@ function buildLang(lang, ruBuilt) {
     articleDocs.push({ id: fm.id, title: fm.title, group: fm.group, source: fm.source || '', author: fm.author || '', origin: fm.origin || '', blocks: outBlocks });
   }
 
-  // --- рубрики
-  const nosMap = new Map();
-  const nosTermsByRemedy = new Map();   // remedy id → [terms] (для вирівнювання між мовами)
-  function splitTerms(p) {
-    const out = [];
-    for (let term of p.replace(/\*\*|_/g, '').split(/[.;]\s+|\.$/)) {
-      term = term.replace(/^[\s•\-–—]+|[\s.]+$/g, '').trim();
-      if (term.length >= 3 && term.length <= 70) out.push(term);
-    }
-    return out;
-  }
+  // --- модальності, етіологія, зв'язки (структуровано; для ua — перенесення категорій з ru)
+  const modsById = new Map(), etioById = new Map(), relById = new Map();
+  const modStats = { clauses: 0, assigned: 0 }, etioStats = { clauses: 0, assigned: 0 };
+  let relNames = 0, relResolved = 0;
+  let clauseAligned = 0, clauseTotal = 0;
+  const modRubrics = new Map();   // 'w.motion' → Set(remedy)
+  const etioRubrics = new Map();  // 'fright' → Set(remedy)
   remedyDocs.forEach((doc, i) => {
-    const sec = doc.sections.find(s => s.title === clinic);
-    if (!sec) return;
-    const terms = [];
-    for (const p of sec.paras) for (const term of splitTerms(p)) {
-      terms.push(term);
-      const key = term.toLowerCase();
-      if (!nosMap.has(key)) nosMap.set(key, { t: term, r: new Set() });
-      nosMap.get(key).r.add(i);
+    const modSec = doc.sections.find(s => s.title === MODAL[lang]);
+    const etioSec = doc.sections.find(s => s.title === ETIOL[lang]);
+    const relSec = doc.sections.find(s => s.title === RELAT[lang]);
+    let mods = [], etio = [], rel = [];
+    if (lang === 'ru') {
+      if (modSec) { const r = parseModalities(modSec.paras); mods = r.items; modStats.clauses += r.stats.clauses; modStats.assigned += r.stats.assigned; }
+      if (etioSec) { const r = parseEtiology(etioSec.paras); etio = r.items; etioStats.clauses += r.stats.clauses; etioStats.assigned += r.stats.assigned; }
+      if (relSec) rel = parseRelations(relSec.paras);
+      for (const x of rel) {
+        const ids = [];
+        for (const nm of x.names) {
+          relNames++;
+          const j = resolveName(nm);
+          if (j >= 0 && j !== i) { ids.push(j); relResolved++; }
+        }
+        x.r = Array.from(new Set(ids));
+        delete x.names;
+      }
+    } else {
+      // категорії з російського розбору того ж препарату; текст фрази — з українського абзацу, якщо фрази вирівнюються 1:1
+      const ruMods = ruBuilt.modsById.get(doc.id) || [], ruEtio = ruBuilt.etioById.get(doc.id) || [], ruRel = ruBuilt.relById.get(doc.id) || [];
+      const uaClauses = modSec ? modSec.paras.flatMap(p => splitClauses(p.replace(/^\s*-\s*/, '').replace(MOD_MARK, '')).filter(c => !/^(гірше|краще|хуже|лучше)$/i.test(c))) : [];
+      if (ruMods.length) { clauseTotal++; if (uaClauses.length === ruMods.length) clauseAligned++; }
+      const okM = uaClauses.length === ruMods.length;
+      mods = ruMods.map((m, k) => ({ d: m.d, c: m.c, t: okM ? uaClauses[k] : '' }));
+      const uaE = etioSec ? etioSec.paras.flatMap(p => splitClauses(p.replace(/^\s*-\s*/, '').replace(/^\*\*[^*]{0,40}\*\*[.:]?\s*/, ''))) : [];
+      const okE = uaE.length === ruEtio.length;
+      etio = ruEtio.map((e, k) => ({ c: e.c, t: okE ? uaE[k] : '' }));
+      const uaLabels = relSec ? relSec.paras.flatMap(p => Array.from(p.matchAll(/\*\*([^*]{2,90})\*\*/g)).map(m => m[1].replace(/[:.]+$/, '').trim())) : [];
+      const okR = uaLabels.length === ruRel.length;
+      rel = ruRel.map((x, k) => ({ k: x.k, t: okR ? uaLabels[k] : x.t, r: x.r }));
     }
-    nosTermsByRemedy.set(doc.id, terms);
+    modsById.set(doc.id, mods); etioById.set(doc.id, etio); relById.set(doc.id, rel);
+    mods = mods.filter(m => m.c.length);
+    etio = etio.filter(e => e.c.length);
+    rel = rel.filter(x => x.r.length);
+    for (const m of mods) for (const c of m.c) { const key = m.d + '.' + c; if (!modRubrics.has(key)) modRubrics.set(key, new Set()); modRubrics.get(key).add(i); }
+    for (const e of etio) for (const c of e.c) { if (!etioRubrics.has(c)) etioRubrics.set(c, new Set()); etioRubrics.get(c).add(i); }
+    doc.mods = mods; doc.etio = etio; doc.rel = rel;
   });
-  const rubrics = [];
-  const collator = new Intl.Collator(lang === 'ua' ? 'uk' : 'ru');
-  for (const [, v] of Array.from(nosMap.entries()).sort((a, b) => collator.compare(a[0], b[0]))) {
-    rubrics.push({ k: 'nos', t: v.t, r: Array.from(v.r).sort((a, b) => a - b) });
-  }
-  articles.forEach((a, i) => { if (a.rem.length >= 2 && a.group === 'lechebnik') rubrics.push({ k: 'art', t: a.title, a: i, r: a.rem }); });
-  for (const lr of lineRubrics) rubrics.push(lr);
 
-  // --- індекс абзаців
+  // --- індекс речень
   const docs = [];
-  const ud = [], us = [], up = [], ur = [];
+  const pd = [], ps = [], pp = [], pr = [], pn = [];
   const postings = new Map();
-  let aligned = 0, misaligned = 0;
-  function addUnit(docIdx, secIdx, paraIdx, remIdx, text, ruText) {
-    const uid = ud.length;
-    ud.push(docIdx); us.push(secIdx); up.push(paraIdx); ur.push(remIdx);
-    const seen = new Set();
-    const add = st => { if (seen.has(st)) return; seen.add(st); let arr = postings.get(st); if (!arr) { arr = []; postings.set(st, arr); } arr.push(uid); };
-    for (const st of SC.stems(text.replace(/\*\*|_/g, ' '), lang)) add(st);
-    if (ruText) for (const st of SC.stems(ruText.replace(/\*\*|_/g, ' '), 'ru')) add(st);
+  let aligned = 0, misaligned = 0, sentAligned = 0, sentTotal = 0, nUnits = 0;
+  const remSentences = remedyDocs.map(() => []);   // remedy → [Set(stems)] поза «Клінікою» (для ступенів рубрик)
+  function addPara(docIdx, secIdx, paraIdx, remIdx, text, ruText, collect) {
+    const sents = SC.splitSentences(text);
+    const ruSents = ruText ? SC.splitSentences(ruText) : null;
+    if (ruSents) { sentTotal++; if (ruSents.length === sents.length) sentAligned++; }
+    pd.push(docIdx); ps.push(secIdx); pp.push(paraIdx); pr.push(remIdx); pn.push(sents.length);
+    sents.forEach((sent, k) => {
+      const uid = nUnits++;
+      const seen = new Set();
+      const add = st => { if (seen.has(st)) return; seen.add(st); let arr = postings.get(st); if (!arr) { arr = []; postings.set(st, arr); } arr.push(uid); };
+      const own = SC.stems(stripMd(sent), lang);
+      for (const st of own) add(st);
+      if (ruSents) {
+        const j = ruSents.length === sents.length ? k : Math.min(ruSents.length - 1, Math.floor(k * ruSents.length / sents.length));
+        for (const st of SC.stems(stripMd(ruSents[j]), 'ru')) add(st);
+      }
+      if (collect) remSentences[remIdx].push(new Set(own));
+    });
   }
   const ruParas = ruBuilt ? ruBuilt.paras : null;   // id → плоский список абзаців оригіналу
   remedyDocs.forEach((doc, i) => {
@@ -359,7 +397,7 @@ function buildLang(lang, ruBuilt) {
     const ok = ru && ru.length === flat.length;
     if (ruParas) { if (ok) aligned++; else misaligned++; }
     let k = 0;
-    doc.sections.forEach((s, si) => s.paras.forEach((p, pi) => { addUnit(d, si, pi, i, p, ok ? ru[k] : null); k++; }));
+    doc.sections.forEach((s, si) => s.paras.forEach((p, pi) => { addPara(d, si, pi, i, p, ok ? ru[k] : null, s.title !== clinic); k++; }));
   });
   articleDocs.forEach((doc, i) => {
     const d = docs.length;
@@ -369,10 +407,87 @@ function buildLang(lang, ruBuilt) {
     const ok = ru && ru.length === flat.length;
     if (ruParas) { if (ok) aligned++; else misaligned++; }
     let k = 0;
-    doc.blocks.forEach((b, bi) => b.paras.forEach((p, pi) => { addUnit(d, bi, pi, b.rem.length === 1 ? b.rem[0] : -1, p, ok ? ru[k] : null); k++; }));
+    doc.blocks.forEach((b, bi) => b.paras.forEach((p, pi) => { addPara(d, bi, pi, b.rem.length === 1 ? b.rem[0] : -1, p, ok ? ru[k] : null, false); k++; }));
   });
   const vocab = Array.from(postings.keys()).sort();
   const post = vocab.map(v => SC.encodeList(postings.get(v)));
+
+  // --- рубрики «Клініка»: ступені, злиття форм за стемами, ієрархія
+  const nosMap = new Map();            // ключ (сортовані стеми) → { forms: Map(form→count), r: Map(remedy→grade), stems: Set }
+  const nosTermsByRemedy = new Map();  // remedy id → [terms] (для вирівнювання між мовами)
+  function splitTerms(p) {
+    const out = [];
+    for (let term of p.replace(/\*\*|_/g, '').split(/[.;]\s+|\.$/)) {
+      term = term.replace(/^[\s•\-–—]+|[\s.]+$/g, '').trim();
+      if (term.length >= 3 && term.length <= 70) out.push(term);
+    }
+    return out;
+  }
+  const gradeDist = [0, 0, 0, 0];
+  remedyDocs.forEach((doc, i) => {
+    const sec = doc.sections.find(s => s.title === clinic);
+    if (!sec) return;
+    const terms = [];
+    const sents = remSentences[i];
+    for (const p of sec.paras) for (const term of splitTerms(p)) {
+      terms.push(term);
+      const st = Array.from(new Set(SC.stems(term, lang).filter(s => s.length >= 2)));
+      const key = st.length ? st.slice().sort().join(' ') : term.toLowerCase();
+      let e = nosMap.get(key);
+      if (!e) { e = { forms: new Map(), r: new Map(), stems: new Set(st) }; nosMap.set(key, e); }
+      e.forms.set(term, (e.forms.get(term) || 0) + 1);
+      let count = 0;
+      if (st.length) for (const s of sents) { let all = true; for (const x of st) if (!s.has(x)) { all = false; break; } if (all && ++count >= 4) break; }
+      const g = 1 + (count >= 1 ? 1 : 0) + (count >= 4 ? 1 : 0);
+      gradeDist[g]++;
+      if (!e.r.has(i) || e.r.get(i) < g) e.r.set(i, g);
+    }
+    nosTermsByRemedy.set(doc.id, terms);
+  });
+  const rubrics = [];
+  const collator = new Intl.Collator(lang === 'ua' ? 'uk' : 'ru');
+  const nosEntries = Array.from(nosMap.values()).map(e => {
+    const forms = Array.from(e.forms.entries()).sort((a, b) => b[1] - a[1] || a[0].length - b[0].length);
+    const rIdx = Array.from(e.r.keys()).sort((a, b) => a - b);
+    return { t: forms[0][0], al: forms.slice(1).map(f => f[0]), r: rIdx, g: rIdx.map(i => e.r.get(i)), stems: e.stems };
+  }).sort((a, b) => collator.compare(a.t.toLowerCase(), b.t.toLowerCase()));
+  let merged = 0;
+  for (const e of nosEntries) {
+    const rb = { k: 'nos', t: e.t, r: e.r, g: e.g };
+    if (e.al.length) { rb.al = e.al; merged += e.al.length; }
+    rubrics.push(rb);
+  }
+  // ієрархія: батько = рубрика, стеми якої є підмножиною стемів дитини (найдовший збіг)
+  const withStems = nosEntries.map((e, i) => ({ i, st: e.stems, n: e.stems.size, nr: e.r.length })).filter(x => x.n >= 1);
+  let links = 0;
+  for (const child of withStems) {
+    if (child.n < 2) continue;
+    let best = null;
+    for (const par of withStems) {
+      if (par.i === child.i || par.n >= child.n) continue;
+      if (!(par.n >= 2 || child.n <= 3)) continue;
+      let sub = true;
+      for (const s of par.st) if (!child.st.has(s)) { sub = false; break; }
+      if (!sub) continue;
+      if (!best || par.n > best.n || (par.n === best.n && par.nr > best.nr)) best = par;
+    }
+    if (best) { const prb = rubrics[best.i]; (prb.ch = prb.ch || []).push(child.i); links++; }
+  }
+  articles.forEach((a, i) => { if (a.rem.length >= 2 && a.group === 'lechebnik') rubrics.push({ k: 'art', t: a.title, a: i, r: a.rem }); });
+  for (const lr of lineRubrics) rubrics.push(lr);
+  // модальності та етіологія (мовно-незалежні ключі, підписи з таблиць)
+  const modLabel = new Map(MOD_CATS.map(([k, , ru, ua]) => [k, lang === 'ua' ? ua : ru]));
+  const etioLabel = new Map(ETIO_CATS.map(([k, , ru, ua]) => [k, lang === 'ua' ? ua : ru]));
+  for (const d of ['w', 'b']) for (const [k] of MOD_CATS) {
+    const set = modRubrics.get(d + '.' + k);
+    if (!set || !set.size) continue;
+    rubrics.push({ k: 'mod', key: d + '.' + k, t: DIR_LABEL[lang][d] + ': ' + modLabel.get(k), r: Array.from(set).sort((a, b) => a - b) });
+  }
+  for (const [k] of ETIO_CATS) {
+    const set = etioRubrics.get(k);
+    if (!set || !set.size) continue;
+    rubrics.push({ k: 'etio', key: k, t: ETIO_LABEL[lang] + ': ' + etioLabel.get(k), r: Array.from(set).sort((a, b) => a - b) });
+  }
 
   // --- запис
   const out = path.join(OUT, lang);
@@ -380,15 +495,21 @@ function buildLang(lang, ruBuilt) {
   fs.mkdirSync(path.join(out, 'articles'), { recursive: true });
   const catalog = {
     lang, built: new Date().toISOString().slice(0, 10), remedies, articles, rubrics,
-    stats: { remedies: remedies.filter(r => !r.ext).length, ext: remedies.filter(r => r.ext).length, articles: articles.length, rubrics: rubrics.length, units: ud.length, vocab: vocab.length },
+    stats: { remedies: remedies.filter(r => !r.ext).length, ext: remedies.filter(r => r.ext).length, articles: articles.length, rubrics: rubrics.length, units: nUnits, paras: pd.length, vocab: vocab.length },
   };
   fs.writeFileSync(path.join(out, 'catalog.json'), JSON.stringify(catalog));
-  fs.writeFileSync(path.join(out, 'index.json'), JSON.stringify({ v: 2, lang, docs, ud, us, up, ur, vocab, post }));
+  fs.writeFileSync(path.join(out, 'index.json'), JSON.stringify({ v: 3, lang, docs, pd, ps, pp, pr, pn, vocab, post }));
   for (const doc of remedyDocs) fs.writeFileSync(path.join(out, 'remedies', doc.id + '.json'), JSON.stringify(doc));
   for (const doc of articleDocs) fs.writeFileSync(path.join(out, 'articles', doc.id + '.json'), JSON.stringify(doc));
 
-  rep.push(`[${lang}] remedies: ${catalog.stats.remedies} (+${catalog.stats.ext} без сторінки); articles: ${articles.length}; rubrics: ${rubrics.length} (nos ${rubrics.filter(r => r.k === 'nos').length}, art ${rubrics.filter(r => r.k === 'art').length}, line ${rubrics.filter(r => r.k === 'line').length})`);
-  rep.push(`[${lang}] index units: ${ud.length}; vocab: ${vocab.length}; index.json ${(fs.statSync(path.join(out, 'index.json')).size / 1e6).toFixed(2)} MB; catalog.json ${(fs.statSync(path.join(out, 'catalog.json')).size / 1e6).toFixed(2)} MB` + (ruParas ? `; aligned with ru: ${aligned}, misaligned: ${misaligned}` : ''));
+  const cnt = k => rubrics.filter(r => r.k === k).length;
+  rep.push(`[${lang}] remedies: ${catalog.stats.remedies} (+${catalog.stats.ext} без сторінки); articles: ${articles.length}; rubrics: ${rubrics.length} (nos ${cnt('nos')}, art ${cnt('art')}, line ${cnt('line')}, mod ${cnt('mod')}, etio ${cnt('etio')})`);
+  rep.push(`[${lang}] nos: merged forms ${merged}; hierarchy links ${links}; grade distribution 1/2/3: ${gradeDist[1]}/${gradeDist[2]}/${gradeDist[3]}`);
+  rep.push(`[${lang}] index: paragraphs ${pd.length}; sentence units ${nUnits}; vocab ${vocab.length}; index.json ${(fs.statSync(path.join(out, 'index.json')).size / 1e6).toFixed(2)} MB; catalog.json ${(fs.statSync(path.join(out, 'catalog.json')).size / 1e6).toFixed(2)} MB` +
+    (ruParas ? `; aligned with ru: ${aligned} docs, misaligned ${misaligned}; sentence counts equal: ${sentAligned}/${sentTotal} paras; modality clause lists aligned: ${clauseAligned}/${clauseTotal} remedies` : ''));
+  if (lang === 'ru') {
+    rep.push(`[ru] modality coverage: ${modStats.assigned}/${modStats.clauses} clauses (${(100 * modStats.assigned / modStats.clauses).toFixed(1)}%); etiology coverage: ${etioStats.assigned}/${etioStats.clauses} (${(100 * etioStats.assigned / etioStats.clauses).toFixed(1)}%); relations: ${relResolved}/${relNames} names resolved`);
+  }
   const totalHeaders = articleDocs.reduce((n, d) => n + d.blocks.filter(b => b.kind === 'remedy').length, 0);
   rep.push(`[${lang}] remedy block headers: ${totalHeaders}; unresolved in headers: ${Array.from(unresolvedHeaders.values()).reduce((a, b) => a + b, 0)}; unresolved in intro lists: ${Array.from(unresolvedList.values()).reduce((a, b) => a + b, 0)}`);
   if (lang === 'ru') {
@@ -401,7 +522,7 @@ function buildLang(lang, ruBuilt) {
   for (const doc of remedyDocs) paras.set('r:' + doc.id, doc.sections.flatMap(s => s.paras));
   for (const doc of articleDocs) paras.set('a:' + doc.id, doc.blocks.flatMap(b => b.paras));
   const topicById = new Map(articles.map(a => [a.id, a.topic]));
-  return { catalog, paras, topicById, nosTermsByRemedy, rep };
+  return { catalog, paras, topicById, nosTermsByRemedy, modsById, etioById, relById, rep };
 }
 
 // ---------------------------------------------------------------------------
@@ -416,18 +537,24 @@ function crossLink(ru, ua) {
   }
   const ua2ru = new Map();
   for (const [k, v] of ru2ua) if (!ua2ru.has(v.toLowerCase())) ua2ru.set(v.toLowerCase(), k);
-  const ruNosDisplay = new Map(ru.catalog.rubrics.filter(r => r.k === 'nos').map(r => [r.t.toLowerCase(), r.t]));
-  const uaNosDisplay = new Map(ua.catalog.rubrics.filter(r => r.k === 'nos').map(r => [r.t.toLowerCase(), r.t]));
+  const formMap = cat => { const m = new Map(); for (const r of cat.rubrics) if (r.k === 'nos') for (const f of [r.t].concat(r.al || [])) if (!m.has(f.toLowerCase())) m.set(f.toLowerCase(), r); return m; };
+  const ruForms = formMap(ru.catalog), uaForms = formMap(ua.catalog);
   let linked = 0;
   for (const rb of ru.catalog.rubrics) {
     if (rb.k !== 'nos') continue;
-    const t = ru2ua.get(rb.t.toLowerCase());
-    if (t && uaNosDisplay.has(t.toLowerCase())) { rb.x = uaNosDisplay.get(t.toLowerCase()); linked++; }
+    for (const f of [rb.t].concat(rb.al || [])) {
+      const t = ru2ua.get(f.toLowerCase());
+      const other = t && uaForms.get(t.toLowerCase());
+      if (other) { rb.x = other.t; linked++; break; }
+    }
   }
   for (const rb of ua.catalog.rubrics) {
     if (rb.k !== 'nos') continue;
-    const t = ua2ru.get(rb.t.toLowerCase());
-    if (t && ruNosDisplay.has(t)) rb.x = ruNosDisplay.get(t);
+    for (const f of [rb.t].concat(rb.al || [])) {
+      const t = ua2ru.get(f.toLowerCase());
+      const other = t && ruForms.get(t);
+      if (other) { rb.x = other.t; break; }
+    }
   }
   const byArt = list => { const m = new Map(); list.forEach(r => { if (!m.has(r.a)) m.set(r.a, []); m.get(r.a).push(r); }); return m; };
   const ruL = byArt(ru.catalog.rubrics.filter(r => r.k === 'line')), uaL = byArt(ua.catalog.rubrics.filter(r => r.k === 'line'));

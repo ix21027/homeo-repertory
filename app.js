@@ -16,6 +16,8 @@
       'Піт', 'Шкіра', 'Загальні симптоми', 'Модальності', 'Етіологія', 'Характеристика', 'Тип', 'Клініка', 'Взаємозв’язки'],
   };
   const CLINIC = { ru: 'Клиника', ua: 'Клініка' };
+  const MODAL = { ru: 'Модальности', ua: 'Модальності' };
+  const ETIOL = { ru: 'Этиология', ua: 'Етіологія' };
   const TOPIC_ORDER = ['resp', 'digest', 'heart', 'mind', 'skin', 'joints', 'urogen', 'pregnancy', 'children', 'cfs', 'other', 'bach', 'about'];
   const TOPIC = {
     ua: { pregnancy: 'Вагітність, пологи, годування', children: 'Немовлята й діти', heart: 'Серце і судини', resp: 'Дихання, горло, ніс, вуха', digest: 'Травлення',
@@ -29,13 +31,14 @@
     ua: {
       title: 'Реперторій — гомеопатичні препарати за симптомами', htmlLang: 'uk',
       navRep: 'Симптоми', navRemedies: 'Препарати', navArticles: 'Статті',
-      kind: { free: 'Текст', nos: 'Клініка', art: 'Стаття', line: 'Рубрика' },
+      kind: { free: 'Текст', nos: 'Клініка', art: 'Стаття', line: 'Рубрика', mod: 'Модальність', etio: 'Причина' },
       repPlaceholder: 'Симптом, хвороба або рубрика…', allSections: 'Усі розділи', add: 'Додати', freeSearch: 'Шукати в текстах', freeKind: 'повнотекстово',
       error: 'помилка', clear: 'Очистити', remove: 'Прибрати', removeRubric: 'Прибрати рубрику', loadingIndex: 'Завантаження індексу…',
       nothing: 'Нічого не знайдено. Спробуйте інше формулювання або коротше слово.', found: n => 'Знайдено препаратів: ' + n + '. Натисніть на рядок, щоб побачити підстави.',
       remedy: 'Препарат', sumTitle: 'Покрито рубрик / сума балів', hits: 'зб.', ext: 'без сторінки', more: 'Показати ще',
       evClinic: 'У розділі «Клініка» Materia Medica:', open: 'відкрити', evArt: 'Препарат описано у статті', evLine: 'Рубрика зі статті', evArticle: 'Стаття',
-      evMore: n => '… та ще ' + n + ' — ', evOpenRemedy: 'переглянути препарат', noData: 'Немає даних.',
+      evMore: n => '… та ще ' + n + ' — ', evOpenRemedy: 'переглянути препарат', noData: 'Немає даних.', evSub: 'через підрубрику',
+      evMod: 'У розділі «Модальності»:', evEtio: 'У розділі «Етіологія»:',
       remediesTitle: 'Препарати', remediesIntro: n => 'Materia Medica Дж. Г. Кларка — ' + n + ' препаратів. Латинська назва, транслітерація, звичайна назва.',
       filter: 'Фільтр за назвою…', nothingShort: 'Нічого не знайдено.', source: 'Джерело:', sections: 'Розділи', addRubric: 'Додати рубрику до реперторію',
       inArticles: 'Згадується у статтях', noRemedy: 'Препарат не знайдено.',
@@ -43,17 +46,24 @@
       nRemedies: n => n + ' препаратів', noArticle: 'Статтю не знайдено.', author: 'Автор:', addArticle: 'Додати статтю як рубрику до реперторію',
       notFound: 'Сторінку не знайдено.', loadFail: 'Не вдалося завантажити дані:', loading: 'Завантаження…',
       menu: 'Меню', menuLang: 'Мова', menuTheme: 'Тема', themeAuto: 'Системна', themeLight: 'Світла', themeDark: 'Темна',
+      weight: 'Вага рубрики (натисніть, щоб змінити)', elim: 'Обов’язкова рубрика: показувати лише препарати, що її мають', excl: 'Виключити препарати цієї рубрики',
+      sort: 'Сортувати', sortCover: 'за покриттям', sortTotal: 'за балами', sortName: 'за назвою',
+      picker: 'Модальності й причини', worse: 'Гірше', better: 'Краще', causes: 'Причини',
+      compare: 'Порівняти', compareSel: 'Для порівняння:', compareTitle: 'Порівняння препаратів', close: 'Закрити', cmpCheck: 'Вибрати для порівняння (до 4)',
+      rel: { cmp: 'Порівняти з', ant: 'Антидоти', compl: 'Доповнюють', incompat: 'Несумісні', after: 'Добре діє після', before: 'Після нього добре діють', other: 'Інше' },
+      relTitle: 'Зв’язки', maybe: 'можливо:', clinicRow: 'Клініка (рубрик)',
     },
     ru: {
       title: 'Реперторий — гомеопатические препараты по симптомам', htmlLang: 'ru',
       navRep: 'Симптомы', navRemedies: 'Препараты', navArticles: 'Статьи',
-      kind: { free: 'Текст', nos: 'Клиника', art: 'Статья', line: 'Рубрика' },
+      kind: { free: 'Текст', nos: 'Клиника', art: 'Статья', line: 'Рубрика', mod: 'Модальность', etio: 'Причина' },
       repPlaceholder: 'Симптом, болезнь или рубрика…', allSections: 'Все разделы', add: 'Добавить', freeSearch: 'Искать в текстах', freeKind: 'полнотекстово',
       error: 'ошибка', clear: 'Очистить', remove: 'Убрать', removeRubric: 'Убрать рубрику', loadingIndex: 'Загрузка индекса…',
       nothing: 'Ничего не найдено. Попробуйте другую формулировку или более короткое слово.', found: n => 'Найдено препаратов: ' + n + '. Нажмите на строку, чтобы увидеть основания.',
       remedy: 'Препарат', sumTitle: 'Покрыто рубрик / сумма баллов', hits: 'совп.', ext: 'без страницы', more: 'Показать ещё',
       evClinic: 'В разделе «Клиника» Materia Medica:', open: 'открыть', evArt: 'Препарат описан в статье', evLine: 'Рубрика из статьи', evArticle: 'Статья',
-      evMore: n => '… и ещё ' + n + ' — ', evOpenRemedy: 'открыть препарат', noData: 'Нет данных.',
+      evMore: n => '… и ещё ' + n + ' — ', evOpenRemedy: 'открыть препарат', noData: 'Нет данных.', evSub: 'через подрубрику',
+      evMod: 'В разделе «Модальности»:', evEtio: 'В разделе «Этиология»:',
       remediesTitle: 'Препараты', remediesIntro: n => 'Materia Medica Дж. Г. Кларка — ' + n + ' препаратов. Латинское название, транслитерация, обычное название.',
       filter: 'Фильтр по названию…', nothingShort: 'Ничего не найдено.', source: 'Источник:', sections: 'Разделы', addRubric: 'Добавить рубрику в реперторий',
       inArticles: 'Упоминается в статьях', noRemedy: 'Препарат не найден.',
@@ -61,10 +71,18 @@
       nRemedies: n => n + ' препаратов', noArticle: 'Статья не найдена.', author: 'Автор:', addArticle: 'Добавить статью как рубрику в реперторий',
       notFound: 'Страница не найдена.', loadFail: 'Не удалось загрузить данные:', loading: 'Загрузка…',
       menu: 'Меню', menuLang: 'Язык', menuTheme: 'Тема', themeAuto: 'Системная', themeLight: 'Светлая', themeDark: 'Тёмная',
+      weight: 'Вес рубрики (нажмите, чтобы изменить)', elim: 'Обязательная рубрика: показывать только препараты, у которых она есть', excl: 'Исключить препараты этой рубрики',
+      sort: 'Сортировать', sortCover: 'по покрытию', sortTotal: 'по баллам', sortName: 'по названию',
+      picker: 'Модальности и причины', worse: 'Хуже', better: 'Лучше', causes: 'Причины',
+      compare: 'Сравнить', compareSel: 'Для сравнения:', compareTitle: 'Сравнение препаратов', close: 'Закрыть', cmpCheck: 'Выбрать для сравнения (до 4)',
+      rel: { cmp: 'Сравнить с', ant: 'Антидоты', compl: 'Дополняют', incompat: 'Несовместимы', after: 'Хорошо действует после', before: 'После него хорошо действуют', other: 'Прочее' },
+      relTitle: 'Взаимосвязи', maybe: 'возможно:', clinicRow: 'Клиника (рубрик)',
     },
   };
+  const KIND_LETTER = { free: 'f', nos: 'n', art: 'a', line: 'l', mod: 'm', etio: 'e' };
+  const LETTER_KIND = { f: 'free', n: 'nos', a: 'art', l: 'line', m: 'mod', e: 'etio' };
 
-  const state = { lang: 'ua', cat: {}, idx: {}, idxPromise: {}, docs: new Map(), linker: {}, rubrics: [], shown: 60, open: new Set(), langsAvailable: null };
+  const state = { lang: 'ua', cat: {}, idx: {}, idxPromise: {}, docs: new Map(), linker: {}, rubrics: [], shown: 60, open: new Set(), langsAvailable: null, sort: 'cover', cmp: [], cmpOpen: false };
   const T = () => I18N[state.lang];
   const cat = () => state.cat[state.lang];
 
@@ -94,6 +112,17 @@
     const r = cat().remedies[i];
     if (r.ext) return '<span class="' + (cls || '') + '">' + esc(r.latin) + ' <span class="ext">' + T().ext + '</span></span>';
     return '<a class="' + (cls || '') + '" href="' + href('remedy/' + encodeURIComponent(r.id)) + '">' + esc(r.latin) + '</a>';
+  }
+  function catLabel(rb) { const k = rb.t.indexOf(': '); return k > 0 && (rb.k === 'mod' || rb.k === 'etio') ? rb.t.slice(k + 2) : rb.t; }
+  function modLabels() {
+    const l = state.lang;
+    if (!state.modLabels) state.modLabels = {};
+    if (!state.modLabels[l]) {
+      const m = new Map();
+      cat().rubrics.forEach((rb, i) => { if (rb.k === 'mod' || rb.k === 'etio') m.set((rb.k === 'mod' ? 'm:' : 'e:') + rb.key, { label: catLabel(rb), i }); });
+      state.modLabels[l] = m;
+    }
+    return state.modLabels[l];
   }
 
   // ---------------------------------------------------------------- тема
@@ -150,11 +179,15 @@
     let path = seg.slice(1).map(encodeURIComponent).join('/') || 'rep';
     if (seg[1] === 'rep' || seg.length === 1) {
       const specs = state.rubrics.map(rb => {
-        if (rb.kind === 'free' || rb.kind === 'art') return rubricSpec(rb);
-        const x = cat().rubrics[rb.catIdx].x;
-        return x ? (rb.kind === 'nos' ? 'n:' : 'l:') + x : null;
+        if (rb.kind === 'nos' || rb.kind === 'line') { const x = cat().rubrics[rb.catIdx].x; return x ? rubricSpec(rb, x) : null; }
+        return rubricSpec(rb);
       }).filter(Boolean);
-      path = 'rep' + (specs.length ? '?r=' + encodeURIComponent(specs.join('|')) : '');
+      const q = new URLSearchParams();
+      if (specs.length) q.set('r', specs.join('|'));
+      if (state.sort !== 'cover') q.set('s', state.sort);
+      if (state.cmp.length) q.set('c', state.cmp.map(i => cat().remedies[i].id).join(','));
+      const qs = q.toString();
+      path = 'rep' + (qs ? '?' + qs : '');
     } else {
       const q = params.toString();
       if (q && !params.has('hl') && !params.has('sec')) path += '?' + q;
@@ -213,16 +246,35 @@
     const a = Math.max(0, pos - 160), b = Math.min(plain.length, pos + 260);
     return (a > 0 ? '…' : '') + plain.slice(a, b) + (b < plain.length ? '…' : '');
   }
+  // Фрагмент абзацу з реченнями, що містять збіг (номери речень — як у збірці індексу)
+  function sentenceSnippet(md, ordinals, stems) {
+    if (md.length <= 300) return md;
+    const sents = SC.splitSentences(md);
+    const set = new Set(ordinals);
+    const pick = sents.map((s, i) => i).filter(i => set.has(i)).slice(0, 3);
+    if (!pick.length) return snippet(md, stems);
+    let out = '', prev = -1;
+    for (const i of pick) {
+      if (prev < 0 && i > 0) out += '… ';
+      else if (prev >= 0 && i > prev + 1) out += ' … ';
+      else if (prev >= 0) out += ' ';
+      out += sents[i].length > 420 ? snippet(sents[i], stems) : sents[i];
+      prev = i;
+    }
+    if (prev < sents.length - 1) out += ' …';
+    return out.replace(/\*\*(?=\s*…|$)/g, '').replace(/…\s*…/g, '…');
+  }
   function renderPara(md, opts) {
     opts = opts || {};
     const bullet = /^- /.test(md);
     let s = esc(bullet ? md.slice(2) : md);
-    s = s.replace(/\*\*(.+?)\*\*/g, '<b>$1</b>');
+    s = s.replace(/\*\*(.+?)\*\*/g, '<b>$1</b>').replace(/\*\*/g, '');
     s = s.replace(/(^|[\s(«"“])_([^_]+?)_(?=[\s.,;:)»"”!?]|$)/g, '$1<i>$2</i>');
     if (opts.link !== false) s = linkNames(s, opts.selfIdx);
     if (opts.hl) s = highlightHtml(s, opts.hl);
     return '<p' + (bullet ? ' class="bullet"' : '') + '>' + (bullet ? '• ' : '') + s + '</p>';
   }
+  const inner = html => html.replace(/^<p[^>]*>/, '').replace(/<\/p>$/, '');
 
   // ---------------------------------------------------------------- маршрутизація
   function parseHash() {
@@ -247,7 +299,7 @@
       ({ seg, params } = parseHash());
     }
     if (!state.langsAvailable.includes(seg[0])) seg[0] = state.langsAvailable[0];
-    if (seg[0] !== state.lang) state.rubrics = [];
+    if (seg[0] !== state.lang) { state.rubrics = []; state.cmp = []; }
     state.lang = seg[0];
     try { localStorage.setItem('lang', state.lang); } catch (e) { /* ignore */ }
     const view = $('#view');
@@ -269,59 +321,82 @@
     if (!params.get('r') || seg[1] !== 'rep') window.scrollTo(0, 0);
   }
 
-  // ---------------------------------------------------------------- реперторій
-  function rubricSpec(rb) {
-    if (rb.kind === 'free') return 'f:' + (rb.section || '') + '~' + rb.text;
-    if (rb.kind === 'nos') return 'n:' + rb.text;
-    if (rb.kind === 'art') return 'a:' + rb.articleId;
-    return 'l:' + rb.text;
+  // ---------------------------------------------------------------- рубрики
+  // Специфікація рубрики в URL: <літера виду><прапорці>:<тіло>; прапорці: ! обов'язкова, - виключна, 2/3 вага.
+  function rubricSpec(rb, bodyOverride) {
+    const flags = (rb.elim ? '!' : '') + (rb.excl ? '-' : '') + (rb.weight > 1 ? rb.weight : '');
+    let body = bodyOverride;
+    if (body == null) {
+      if (rb.kind === 'free') body = (rb.section || '') + '~' + rb.text;
+      else if (rb.kind === 'art') body = rb.articleId;
+      else if (rb.kind === 'mod' || rb.kind === 'etio') body = rb.key;
+      else body = rb.text;
+    }
+    return KIND_LETTER[rb.kind] + flags + ':' + body;
   }
   function rubricFromSpec(spec) {
-    const k = spec.slice(0, 2), body = spec.slice(2);
+    const m = spec.match(/^([fnalme])([!\-]*)([23]?):([\s\S]*)$/);
+    if (!m) return null;
+    const kind = LETTER_KIND[m[1]], body = m[4];
     const c = cat();
-    if (k === 'f:') { const t = body.indexOf('~'); return makeFreeRubric(body.slice(t + 1), body.slice(0, t)); }
-    if (k === 'n:') { const i = c.rubrics.findIndex(r => r.k === 'nos' && r.t === body); return i >= 0 ? makeCatRubric(i) : null; }
-    if (k === 'a:') { const i = c.rubrics.findIndex(r => r.k === 'art' && c.articles[r.a].id === body); return i >= 0 ? makeCatRubric(i) : null; }
-    if (k === 'l:') { const i = c.rubrics.findIndex(r => r.k === 'line' && r.t === body); return i >= 0 ? makeCatRubric(i) : null; }
-    return null;
+    let rb = null;
+    if (kind === 'free') { const t = body.indexOf('~'); rb = makeFreeRubric(body.slice(t + 1), body.slice(0, t)); }
+    else if (kind === 'nos') {
+      let i = c.rubrics.findIndex(r => r.k === 'nos' && r.t === body);
+      if (i < 0) { const low = body.toLowerCase(); i = c.rubrics.findIndex(r => r.k === 'nos' && (r.t.toLowerCase() === low || (r.al && r.al.some(a => a.toLowerCase() === low)))); }
+      rb = i >= 0 ? makeCatRubric(i) : null;
+    }
+    else if (kind === 'art') { const i = c.rubrics.findIndex(r => r.k === 'art' && c.articles[r.a].id === body); rb = i >= 0 ? makeCatRubric(i) : null; }
+    else if (kind === 'line') { const i = c.rubrics.findIndex(r => r.k === 'line' && r.t === body); rb = i >= 0 ? makeCatRubric(i) : null; }
+    else { const i = c.rubrics.findIndex(r => r.k === kind && r.key === body); rb = i >= 0 ? makeCatRubric(i) : null; }
+    if (!rb) return null;
+    rb.elim = m[2].includes('!'); rb.excl = m[2].includes('-'); rb.weight = m[3] ? +m[3] : 1;
+    return rb;
   }
   function makeCatRubric(i) {
     const rb = cat().rubrics[i];
-    const r = { kind: rb.k, text: rb.t, catIdx: i, remedies: new Map(rb.r.map(x => [x, 2])), label: rb.t };
+    const r = { kind: rb.k, text: rb.t, catIdx: i, remedies: R.rubricRemedies(cat(), i), label: rb.t, weight: 1, elim: false, excl: false };
     if (rb.k === 'art' || rb.k === 'line') { r.articleIdx = rb.a; r.articleId = cat().articles[rb.a].id; }
+    if (rb.k === 'mod' || rb.k === 'etio') r.key = rb.key;
     return r;
   }
   function makeFreeRubric(text, section) {
     text = text.trim();
     if (!text) return null;
     const lang = state.lang;
-    const r = { kind: 'free', text, section: section || '', remedies: null, label: text + (section ? ' · ' + section : ''), pending: true };
+    const r = { kind: 'free', text, section: section || '', remedies: null, label: text + (section ? ' · ' + section : ''), pending: true, weight: 1, elim: false, excl: false };
     r.promise = loadIndex().then(idx => {
       r.res = R.freeText(idx, text, r.section, lang);
-      r.remedies = new Map(Array.from(r.res.byRemedy, ([k, v]) => [k, v.hits]));
+      r.remedies = new Map(Array.from(r.res.byRemedy, ([k, v]) => [k, { g: v.g, hits: v.hits, score: v.score }]));
       r.pending = false;
       return r;
     });
     return r;
   }
   function writeHash() {
-    const specs = state.rubrics.map(rubricSpec).join('|');
-    const h = href('rep') + (specs ? '?r=' + encodeURIComponent(specs) : '');
+    const q = new URLSearchParams();
+    const specs = state.rubrics.map(rb => rubricSpec(rb)).join('|');
+    if (specs) q.set('r', specs);
+    if (state.sort !== 'cover') q.set('s', state.sort);
+    if (state.cmp.length) q.set('c', state.cmp.map(i => cat().remedies[i].id).join(',') + (state.cmpOpen ? '' : '~'));
+    const qs = q.toString();
+    const h = href('rep') + (qs ? '?' + qs : '');
     if (location.hash !== h) history.replaceState(null, '', h);
   }
+  function rerender() { writeHash(); renderChips(); renderResults(); }
   function addRubric(rb) {
     if (!rb) return;
     if (state.rubrics.some(x => rubricSpec(x) === rubricSpec(rb))) return;
     state.rubrics.push(rb);
     state.open.clear();
-    writeHash();
-    renderChips(); renderResults();
+    rerender();
     if (rb.pending) rb.promise.then(() => { renderChips(); renderResults(); }).catch(err => { rb.error = err.message; rb.pending = false; renderChips(); });
   }
-  function removeRubric(k) { state.rubrics.splice(k, 1); state.open.clear(); writeHash(); renderChips(); renderResults(); }
+  function removeRubric(k) { state.rubrics.splice(k, 1); state.open.clear(); rerender(); }
 
   async function viewRepertory(view, params) {
     const t = T();
+    const c = cat();
     view.innerHTML = `
       <form class="rep-search" id="repForm" autocomplete="off">
         <div class="box">
@@ -334,9 +409,15 @@
         </select>
         <button class="btn" type="submit">${esc(t.add)}</button>
       </form>
+      <details class="picker" id="picker"><summary>${esc(t.picker)}</summary><div class="picker-body" id="pickerBody"></div></details>
       <div class="chips" id="chips"></div>
       <div id="results"></div>`;
     const spec = params.get('r');
+    const s = params.get('s');
+    state.sort = s === 'total' || s === 'name' ? s : 'cover';
+    const cm = params.get('c');
+    state.cmpOpen = !!cm && !cm.endsWith('~');
+    state.cmp = cm ? cm.replace(/~$/, '').split(',').map(id => c.remedies.findIndex(r => r.id === id)).filter(i => i >= 0).slice(0, 4) : [];
     if (spec) {
       const specs = spec.split('|');
       const same = specs.length === state.rubrics.length && specs.every((s, i) => rubricSpec(state.rubrics[i]) === s);
@@ -348,6 +429,7 @@
     } else {
       state.rubrics = [];
     }
+    renderPicker();
     renderChips(); renderResults();
 
     const input = $('#repInput'), sugg = $('#repSugg'), sel = $('#repSection');
@@ -356,12 +438,12 @@
     function openSugg() {
       const q = input.value.trim();
       if (q.length < 2) { closeSugg(); return; }
-      const found = R.suggest(cat(), q, 10, state.lang);
+      const found = R.suggest(c, q, 10, state.lang);
       items = [{ free: true, q }].concat(found);
       active = -1;
       sugg.innerHTML = items.map((it, i) => it.free
         ? '<li class="free" data-i="' + i + '"><span>' + esc(t.freeSearch) + ': «' + esc(it.q) + '»' + (sel.value ? ' · ' + esc(sel.value) : '') + '</span><span class="kind">' + esc(t.freeKind) + '</span></li>'
-        : '<li data-i="' + i + '"><span>' + esc(it.rb.t) + '</span><span class="cnt">' + it.rb.r.length + ' <span class="kind">' + esc(t.kind[it.rb.k]) + '</span></span></li>').join('');
+        : '<li data-i="' + i + '"><span>' + esc(it.rb.t) + (it.rb.ch ? ' <span class="kind">+' + it.rb.ch.length + '</span>' : '') + '</span><span class="cnt">' + it.n + ' <span class="kind">' + esc(t.kind[it.rb.k]) + '</span></span></li>').join('');
       sugg.hidden = false;
     }
     function pick(i) {
@@ -390,6 +472,19 @@
     document.addEventListener('click', e => { if (!e.target.closest('#repForm')) closeSugg(); });
   }
 
+  function renderPicker() {
+    const body = $('#pickerBody');
+    if (!body) return;
+    const t = T();
+    const c = cat();
+    const groups = [['w', t.worse], ['b', t.better], ['e', t.causes]];
+    body.innerHTML = groups.map(([g, title]) => {
+      const list = c.rubrics.map((rb, i) => ({ rb, i })).filter(x => g === 'e' ? x.rb.k === 'etio' : (x.rb.k === 'mod' && x.rb.key.startsWith(g + '.'))).sort((a, b) => b.rb.r.length - a.rb.r.length);
+      return '<div class="picker-group"><div class="picker-title">' + esc(title) + '</div>' + list.map(x => '<button type="button" class="pick" data-i="' + x.i + '">' + esc(catLabel(x.rb)) + ' <span class="n">' + x.rb.r.length + '</span></button>').join('') + '</div>';
+    }).join('');
+    body.querySelectorAll('button.pick').forEach(b => b.addEventListener('click', () => addRubric(makeCatRubric(+b.dataset.i))));
+  }
+
   function renderChips() {
     const box = $('#chips');
     if (!box) return;
@@ -397,11 +492,23 @@
     if (!state.rubrics.length) { box.innerHTML = ''; return; }
     box.innerHTML = state.rubrics.map((rb, k) => {
       const n = rb.pending ? '…' : rb.error ? t.error : (rb.remedies ? rb.remedies.size : 0);
-      return '<span class="chip' + (rb.pending ? ' pending' : '') + '"><span class="k">' + esc(t.kind[rb.kind]) + '</span> ' + esc(rb.label) +
-        ' <span class="n">' + n + '</span><button type="button" data-k="' + k + '" title="' + esc(t.remove) + '" aria-label="' + esc(t.removeRubric) + '">×</button></span>';
+      const corr = rb.res && rb.res.corrections && rb.res.corrections.length ? ' <span class="maybe">' + esc(t.maybe) + ' ' + esc(rb.res.corrections.map(x => x.to[0] + '…').join(', ')) + '</span>' : '';
+      return '<span class="chip' + (rb.pending ? ' pending' : '') + (rb.excl ? ' excl' : '') + (rb.elim ? ' elim' : '') + '"><span class="k">' + esc(t.kind[rb.kind]) + '</span> ' + esc(rb.label) + corr +
+        ' <span class="n">' + n + '</span>' +
+        '<span class="ctl"><button type="button" data-k="' + k + '" data-act="w" title="' + esc(t.weight) + '" aria-label="' + esc(t.weight) + '">×' + rb.weight + '</button>' +
+        '<button type="button" data-k="' + k + '" data-act="e" class="' + (rb.elim ? 'on' : '') + '" title="' + esc(t.elim) + '" aria-label="' + esc(t.elim) + '" aria-pressed="' + rb.elim + '">!</button>' +
+        '<button type="button" data-k="' + k + '" data-act="x" class="' + (rb.excl ? 'on' : '') + '" title="' + esc(t.excl) + '" aria-label="' + esc(t.excl) + '" aria-pressed="' + rb.excl + '">−</button></span>' +
+        '<button type="button" data-k="' + k + '" data-act="rm" title="' + esc(t.remove) + '" aria-label="' + esc(t.removeRubric) + '">×</button></span>';
     }).join('') + (state.rubrics.length > 1 ? ' <button type="button" class="btn secondary small" id="clearAll">' + esc(t.clear) + '</button>' : '');
-    box.querySelectorAll('button[data-k]').forEach(b => b.addEventListener('click', () => removeRubric(+b.dataset.k)));
-    const c = $('#clearAll'); if (c) c.addEventListener('click', () => { state.rubrics = []; state.open.clear(); writeHash(); renderChips(); renderResults(); });
+    box.querySelectorAll('button[data-k]').forEach(b => b.addEventListener('click', () => {
+      const k = +b.dataset.k, rb = state.rubrics[k];
+      if (b.dataset.act === 'rm') { removeRubric(k); return; }
+      if (b.dataset.act === 'w') rb.weight = rb.weight >= 3 ? 1 : rb.weight + 1;
+      else if (b.dataset.act === 'e') { rb.elim = !rb.elim; if (rb.elim) rb.excl = false; }
+      else if (b.dataset.act === 'x') { rb.excl = !rb.excl; if (rb.excl) rb.elim = false; }
+      rerender();
+    }));
+    const c = $('#clearAll'); if (c) c.addEventListener('click', () => { state.rubrics = []; state.open.clear(); state.cmp = []; state.cmpOpen = false; rerender(); });
   }
 
   function renderResults() {
@@ -412,31 +519,86 @@
     const ready = state.rubrics.filter(r => r.remedies);
     if (!state.rubrics.length) { box.innerHTML = ''; return; }
     if (!ready.length) { box.innerHTML = '<p class="muted">' + esc(t.loadingIndex) + '</p>'; return; }
-    const rows = R.repertorize(state.rubrics);
-    if (!rows.length) { box.innerHTML = '<p class="muted">' + esc(t.nothing) + '</p>'; return; }
+    const rows = R.repertorize(state.rubrics, { sort: state.sort, nameOf: i => c.remedies[i].latin });
+    if (state.cmpOpen && state.cmp.length >= 2) { renderCompare(box, rows); return; }
+    const sortSel = '<label class="sort">' + esc(t.sort) + ' <select id="sortSel">' + [['cover', t.sortCover], ['total', t.sortTotal], ['name', t.sortName]].map(([v, l]) => '<option value="' + v + '"' + (state.sort === v ? ' selected' : '') + '>' + esc(l) + '</option>').join('') + '</select></label>';
+    if (!rows.length) { box.innerHTML = '<p class="muted small">' + esc(t.nothing) + ' ' + sortSel + '</p>'; bindSort(box); return; }
+    const cols = state.rubrics.map((rb, k) => k).filter(k => !state.rubrics[k].excl);
     const shown = rows.slice(0, state.shown);
-    const head = '<tr><th>' + esc(t.remedy) + '</th>' + state.rubrics.map(rb => '<th class="rub g" title="' + esc(rb.label) + '">' + esc(rb.label.length > 28 ? rb.label.slice(0, 26) + '…' : rb.label) + '</th>').join('') +
-      (state.rubrics.length > 1 ? '<th class="g" title="' + esc(t.sumTitle) + '">Σ</th>' : '') + '</tr>';
+    const head = '<tr><th>' + esc(t.remedy) + '</th>' + cols.map(k => { const rb = state.rubrics[k]; return '<th class="rub g' + (rb.elim ? ' elim' : '') + '" title="' + esc(rb.label) + '">' + esc(rb.label.length > 28 ? rb.label.slice(0, 26) + '…' : rb.label) + (rb.weight > 1 ? ' <span class="w">×' + rb.weight + '</span>' : '') + '</th>'; }).join('') +
+      (cols.length > 1 ? '<th class="g" title="' + esc(t.sumTitle) + '">Σ</th>' : '') + '</tr>';
     const body = shown.map(row => {
       const r = c.remedies[row.r];
-      const cells = row.grades.map((g, k) => '<td class="g g' + g + '">' + (g ? '<span title="' + row.hits[k] + ' ' + esc(t.hits) + '">' + (state.rubrics[k].kind === 'free' ? row.hits[k] : '●') + '</span>' : '') + '</td>').join('');
-      const sum = state.rubrics.length > 1 ? '<td class="sum">' + row.cover + '/' + state.rubrics.length + '</td>' : '';
-      const name = '<td class="rem">' + remedyLink(row.r) + (r.translit ? ' <span class="ru">' + esc(r.translit.split(' = ')[0]) + '</span>' : '') + '</td>';
+      const cells = cols.map(k => { const g = row.grades[k]; return '<td class="g g' + g + '">' + (g ? '<span title="' + row.hits[k] + ' ' + esc(t.hits) + '">' + (state.rubrics[k].kind === 'free' ? row.hits[k] : '●') + '</span>' : '') + '</td>'; }).join('');
+      const sum = cols.length > 1 ? '<td class="sum">' + row.cover + '/' + cols.length + (state.sort === 'total' ? ' <span class="muted small">' + row.total + '</span>' : '') + '</td>' : '';
+      const checked = state.cmp.includes(row.r);
+      const name = '<td class="rem"><input type="checkbox" class="cmp-box" data-r="' + row.r + '"' + (checked ? ' checked' : '') + ' title="' + esc(t.cmpCheck) + '" aria-label="' + esc(t.cmpCheck) + '"> ' + remedyLink(row.r) + (r.translit ? ' <span class="ru">' + esc(r.translit.split(' = ')[0]) + '</span>' : '') + '</td>';
       const open = state.open.has(row.r);
       return '<tr class="row' + (open ? ' open' : '') + '" data-r="' + row.r + '">' + name + cells + sum + '</tr>' +
-        (open ? '<tr class="detail" data-r="' + row.r + '"><td colspan="' + (state.rubrics.length + 2) + '"><div class="detail-box">' + esc(t.loading) + '</div></td></tr>' : '');
+        (open ? '<tr class="detail" data-r="' + row.r + '"><td colspan="' + (cols.length + 2) + '"><div class="detail-box">' + esc(t.loading) + '</div></td></tr>' : '');
     }).join('');
-    box.innerHTML = '<p class="muted small">' + esc(t.found(rows.length)) + '</p>' +
+    const cmpBar = state.cmp.length ? '<div class="cmp-bar">' + esc(t.compareSel) + ' ' + state.cmp.map(i => remedyLink(i)).join(', ') +
+      (state.cmp.length >= 2 ? ' <button type="button" class="btn small" id="cmpOpen">' + esc(t.compare) + '</button>' : '') + ' <button type="button" class="btn secondary small" id="cmpClear">' + esc(t.clear) + '</button></div>' : '';
+    box.innerHTML = '<p class="muted small results-head">' + esc(t.found(rows.length)) + ' ' + sortSel + '</p>' + cmpBar +
       '<div class="table-wrap"><table class="rep"><thead>' + head + '</thead><tbody>' + body + '</tbody></table>' +
       (rows.length > shown.length ? '<div class="more-row"><button type="button" class="btn secondary" id="moreBtn">' + esc(t.more) + '</button></div>' : '') + '</div>';
+    bindSort(box);
     box.querySelectorAll('tr.row').forEach(tr => tr.addEventListener('click', e => {
-      if (e.target.closest('a')) return;
+      if (e.target.closest('a') || e.target.closest('input')) return;
       const r = +tr.dataset.r;
       if (state.open.has(r)) state.open.delete(r); else state.open.add(r);
       renderResults();
     }));
+    box.querySelectorAll('input.cmp-box').forEach(cb => cb.addEventListener('change', () => {
+      const r = +cb.dataset.r;
+      if (cb.checked) { if (state.cmp.length >= 4) { cb.checked = false; return; } if (!state.cmp.includes(r)) state.cmp.push(r); }
+      else state.cmp = state.cmp.filter(x => x !== r);
+      writeHash(); renderResults();
+    }));
     box.querySelectorAll('tr.detail').forEach(tr => renderDetail(tr, +tr.dataset.r, rows.find(x => x.r === +tr.dataset.r)));
     const more = $('#moreBtn'); if (more) more.addEventListener('click', () => { state.shown += 60; renderResults(); });
+    const co = $('#cmpOpen'); if (co) co.addEventListener('click', () => { state.cmpOpen = true; writeHash(); renderResults(); });
+    const cc = $('#cmpClear'); if (cc) cc.addEventListener('click', () => { state.cmp = []; state.cmpOpen = false; writeHash(); renderResults(); });
+  }
+  function bindSort(box) {
+    const s = $('#sortSel', box);
+    if (s) s.addEventListener('change', () => { state.sort = s.value; writeHash(); renderResults(); });
+  }
+
+  // Підстави повнотекстової рубрики для препарату: [{sec, html}] (речення зі збігом)
+  async function freeEvidence(rb, rIdx, max) {
+    const idx = state.idx[state.lang];
+    const c = cat();
+    const e = rb.res.byRemedy.get(rIdx);
+    const out = [];
+    if (!e) return out;
+    const list = e.paras.map(k => rb.res.paras[k]).sort((a, b) => (b.strong - a.strong) || (a.p - b.p));
+    const rem = list.filter(x => idx.docs[idx.pd[x.p]].t === 'r');
+    const art = list.filter(x => idx.docs[idx.pd[x.p]].t === 'a').slice(0, 3);
+    const r = c.remedies[rIdx];
+    if (rem.length && !r.ext) {
+      const doc = await getDoc('remedies', r.id);
+      for (const x of rem.slice(0, max)) {
+        const sec = doc.sections[idx.ps[x.p]];
+        const md = sec.paras[idx.pp[x.p]];
+        const ords = x.units.map(u => u - idx.pstart[x.p]);
+        out.push({ sec: sec.title, html: inner(renderPara(sentenceSnippet(md, ords, rb.res.stems), { hl: rb.res.stems, selfIdx: rIdx })), strong: x.strong });
+      }
+    }
+    for (const x of art) {
+      const d = idx.docs[idx.pd[x.p]];
+      const a = c.articles[d.a];
+      const doc = await getDoc('articles', a.id);
+      const md = doc.blocks[idx.ps[x.p]].paras[idx.pp[x.p]];
+      const ords = x.units.map(u => u - idx.pstart[x.p]);
+      out.push({ article: a, html: inner(renderPara(sentenceSnippet(md, ords, rb.res.stems), { hl: rb.res.stems })), strong: x.strong });
+    }
+    return { items: out, moreRem: Math.max(0, rem.length - max) };
+  }
+  function modClauses(doc, rb) {
+    const key = rb.key;
+    if (rb.kind === 'mod') { const d = key[0], cid = key.slice(2); return (doc.mods || []).filter(m => m.d === d && m.c.includes(cid)).map(m => m.t).filter(Boolean); }
+    return (doc.etio || []).filter(e => e.c.includes(key)).map(e => e.t).filter(Boolean);
   }
 
   async function renderDetail(tr, rIdx, row) {
@@ -445,43 +607,106 @@
     const r = c.remedies[rIdx];
     const box = $('.detail-box', tr);
     const parts = [];
+    let doc = null;
     for (let k = 0; k < state.rubrics.length; k++) {
       const rb = state.rubrics[k];
       if (!row.hits[k]) continue;
       let html = '<div class="evid"><h4>' + esc(t.kind[rb.kind]) + ': ' + esc(rb.label) + '</h4>';
-      if (rb.kind === 'nos') {
-        html += '<p>' + esc(t.evClinic) + ' <b>' + esc(rb.text) + '</b>' + (r.ext ? '' : ' — <a href="' + href('remedy/' + encodeURIComponent(r.id)) + '?sec=' + encodeURIComponent(CLINIC[state.lang]) + '">' + esc(t.open) + '</a>') + '</p>';
-      } else if (rb.kind === 'art') {
-        html += '<p>' + esc(t.evArt) + ' <a href="' + href('article/' + encodeURIComponent(rb.articleId)) + '?r=' + rIdx + '">«' + esc(rb.text) + '»</a>.</p>';
-      } else if (rb.kind === 'line') {
-        html += '<p>' + esc(t.evLine) + ' <a href="' + href('article/' + encodeURIComponent(rb.articleId)) + '?r=' + rIdx + '">«' + esc(c.articles[rb.articleIdx].title) + '»</a>: ' + esc(rb.text.slice(rb.text.indexOf(': ') + 2)) + '</p>';
-      } else if (rb.kind === 'free' && rb.res) {
-        const idx = state.idx[state.lang];
-        const units = rb.res.byRemedy.get(rIdx).units;
-        const remAll = units.filter(u => idx.docs[idx.ud[u]].t === 'r');
-        const remUnits = remAll.slice(0, 5);
-        const artUnits = units.filter(u => idx.docs[idx.ud[u]].t === 'a').slice(0, 3);
-        try {
-          if (remUnits.length) {
-            const doc = await getDoc('remedies', r.id);
-            for (const u of remUnits) {
-              const sec = doc.sections[idx.us[u]];
-              html += '<p><span class="sec">' + esc(sec.title) + ':</span> ' + renderPara(snippet(sec.paras[idx.up[u]], rb.res.stems), { hl: rb.res.stems, selfIdx: rIdx }).slice(3, -4) + '</p>';
-            }
-            if (remAll.length > 5) html += '<p class="muted small">' + esc(t.evMore(remAll.length - 5)) + '<a href="' + href('remedy/' + encodeURIComponent(r.id)) + '?hl=' + encodeURIComponent(rb.text) + '">' + esc(t.evOpenRemedy) + '</a></p>';
+      try {
+        if (rb.kind === 'nos') {
+          const v = rb.remedies.get(rIdx);
+          const via = v && v.child != null ? ' <span class="muted small">(' + esc(t.evSub) + ' «' + esc(c.rubrics[v.child].t) + '»)</span>' : '';
+          html += '<p>' + esc(t.evClinic) + ' <b>' + esc(v && v.child != null ? c.rubrics[v.child].t : rb.text) + '</b>' + via + (r.ext ? '' : ' — <a href="' + href('remedy/' + encodeURIComponent(r.id)) + '?sec=' + encodeURIComponent(CLINIC[state.lang]) + '">' + esc(t.open) + '</a>') + '</p>';
+        } else if (rb.kind === 'art') {
+          html += '<p>' + esc(t.evArt) + ' <a href="' + href('article/' + encodeURIComponent(rb.articleId)) + '?r=' + rIdx + '">«' + esc(rb.text) + '»</a>.</p>';
+        } else if (rb.kind === 'line') {
+          html += '<p>' + esc(t.evLine) + ' <a href="' + href('article/' + encodeURIComponent(rb.articleId)) + '?r=' + rIdx + '">«' + esc(c.articles[rb.articleIdx].title) + '»</a>: ' + esc(rb.text.slice(rb.text.indexOf(': ') + 2)) + '</p>';
+        } else if (rb.kind === 'mod' || rb.kind === 'etio') {
+          if (!doc && !r.ext) doc = await getDoc('remedies', r.id);
+          const cl = doc ? modClauses(doc, rb) : [];
+          const sec = rb.kind === 'mod' ? MODAL[state.lang] : ETIOL[state.lang];
+          html += '<p>' + esc(rb.kind === 'mod' ? t.evMod : t.evEtio) + ' ' + (cl.length ? cl.map(x => '<b>' + esc(x) + '</b>').join('; ') : esc(rb.label)) + (r.ext ? '' : ' — <a href="' + href('remedy/' + encodeURIComponent(r.id)) + '?sec=' + encodeURIComponent(sec) + '">' + esc(t.open) + '</a>') + '</p>';
+        } else if (rb.kind === 'free' && rb.res) {
+          const ev = await freeEvidence(rb, rIdx, 5);
+          for (const it of ev.items) {
+            html += it.article
+              ? '<p><span class="sec">' + esc(t.evArticle) + ' «<a href="' + href('article/' + encodeURIComponent(it.article.id)) + '?r=' + rIdx + '">' + esc(it.article.title) + '</a>»:</span> ' + it.html + '</p>'
+              : '<p><span class="sec">' + esc(it.sec) + ':</span> ' + it.html + '</p>';
           }
-          for (const u of artUnits) {
-            const d = idx.docs[idx.ud[u]];
-            const a = c.articles[d.a];
-            const doc = await getDoc('articles', a.id);
-            html += '<p><span class="sec">' + esc(t.evArticle) + ' «<a href="' + href('article/' + encodeURIComponent(a.id)) + '?r=' + rIdx + '">' + esc(a.title) + '</a>»:</span> ' + renderPara(snippet(doc.blocks[idx.us[u]].paras[idx.up[u]], rb.res.stems), { hl: rb.res.stems }).slice(3, -4) + '</p>';
-          }
-        } catch (e) { html += '<p class="error">' + esc(e.message) + '</p>'; }
-      }
+          if (ev.moreRem > 0) html += '<p class="muted small">' + esc(t.evMore(ev.moreRem)) + '<a href="' + href('remedy/' + encodeURIComponent(r.id)) + '?hl=' + encodeURIComponent(rb.text) + '">' + esc(t.evOpenRemedy) + '</a></p>';
+        }
+      } catch (e) { html += '<p class="error">' + esc(e.message) + '</p>'; }
       parts.push(html + '</div>');
+    }
+    if (!r.ext) {
+      try {
+        if (!doc) doc = await getDoc('remedies', r.id);
+        const rel = relHtml(doc, rIdx);
+        if (rel) parts.push('<div class="evid"><h4>' + esc(t.relTitle) + '</h4>' + rel + '</div>');
+      } catch (e) { /* ignore */ }
     }
     if (!tr.isConnected) return;
     box.innerHTML = parts.join('') || '<p class="muted">' + esc(t.noData) + '</p>';
+  }
+  function relHtml(doc, selfIdx) {
+    const t = T();
+    if (!doc.rel || !doc.rel.length) return '';
+    const byKind = new Map();
+    for (const x of doc.rel) { if (!byKind.has(x.k)) byKind.set(x.k, new Set()); x.r.forEach(i => { if (i !== selfIdx) byKind.get(x.k).add(i); }); }
+    const order = ['compl', 'after', 'before', 'ant', 'incompat', 'cmp', 'other'];
+    return order.filter(k => byKind.has(k) && byKind.get(k).size).map(k => '<p class="rel"><span class="sec">' + esc(t.rel[k]) + ':</span> ' + Array.from(byKind.get(k)).slice(0, 14).map(i => remedyLink(i)).join(', ') + (byKind.get(k).size > 14 ? ' …' : '') + '</p>').join('');
+  }
+
+  // ---------------------------------------------------------------- порівняння
+  async function renderCompare(box, rows) {
+    const t = T();
+    const c = cat();
+    const ids = state.cmp.slice();
+    box.innerHTML = '<p class="muted">' + esc(t.loading) + '</p>';
+    const docs = await Promise.all(ids.map(i => c.remedies[i].ext ? null : getDoc('remedies', c.remedies[i].id).catch(() => null)));
+    const rowOf = new Map(rows.map(r => [r.r, r]));
+    const cols = state.rubrics.map((rb, k) => k).filter(k => !state.rubrics[k].excl);
+    let html = '<div class="cmp-head"><h2>' + esc(t.compareTitle) + '</h2><button type="button" class="btn secondary small" id="cmpClose">' + esc(t.close) + '</button></div>';
+    html += '<div class="table-wrap"><table class="rep cmp"><thead><tr><th></th>' + ids.map(i => '<th>' + remedyLink(i) + '</th>').join('') + '</tr></thead><tbody>';
+    for (const k of cols) {
+      const rb = state.rubrics[k];
+      const cells = [];
+      for (let j = 0; j < ids.length; j++) {
+        const i = ids[j];
+        const row = rowOf.get(i);
+        const g = row ? row.grades[k] : 0;
+        let ev = '';
+        if (g) {
+          const v = rb.remedies.get(i);
+          if (rb.kind === 'nos') ev = esc(v && v.child != null ? c.rubrics[v.child].t : rb.text);
+          else if (rb.kind === 'mod' || rb.kind === 'etio') ev = docs[j] ? modClauses(docs[j], rb).map(esc).join('; ') : '';
+          else if (rb.kind === 'art' || rb.kind === 'line') ev = '<a href="' + href('article/' + encodeURIComponent(rb.articleId)) + '?r=' + i + '">' + esc(c.articles[rb.articleIdx].title) + '</a>';
+          else if (rb.kind === 'free' && rb.res) { try { const e = await freeEvidence(rb, i, 2); ev = e.items.map(x => (x.sec ? '<span class="sec">' + esc(x.sec) + ':</span> ' : '') + x.html).join('<br>'); } catch (e) { ev = ''; } }
+        }
+        cells.push('<td class="c' + (g ? ' g' + g : '') + '">' + (g ? '<span class="dot g' + g + '" title="' + g + '">' + (rb.kind === 'free' ? row.hits[k] : '●') + '</span> ' : '') + ev + '</td>');
+      }
+      html += '<tr><th class="lbl">' + esc(t.kind[rb.kind]) + ': ' + esc(rb.label) + '</th>' + cells.join('') + '</tr>';
+    }
+    if (cols.length > 1) html += '<tr><th class="lbl">Σ</th>' + ids.map(i => { const row = rowOf.get(i); return '<td class="c"><b>' + (row ? row.cover + '/' + cols.length + ' · ' + row.total : '0') + '</b></td>'; }).join('') + '</tr>';
+    const labels = modLabels();
+    const modRow = (dir, title) => '<tr><th class="lbl">' + esc(title) + '</th>' + ids.map((i, j) => {
+      const d = docs[j]; if (!d) return '<td class="c"></td>';
+      const cats = new Map();
+      for (const m of (d.mods || [])) if (m.d === dir) for (const cid of m.c) { const L = labels.get('m:' + dir + '.' + cid); if (L && !cats.has(cid)) cats.set(cid, L); }
+      return '<td class="c">' + Array.from(cats.values()).map(L => '<a class="tag" href="' + href('rep') + '?r=' + encodeURIComponent('m:' + dir + '.' + Array.from(cats.keys())[Array.from(cats.values()).indexOf(L)]) + '">' + esc(L.label) + '</a>').join(' ') + '</td>';
+    }).join('') + '</tr>';
+    html += modRow('w', t.worse) + modRow('b', t.better);
+    html += '<tr><th class="lbl">' + esc(t.causes) + '</th>' + ids.map((i, j) => {
+      const d = docs[j]; if (!d) return '<td class="c"></td>';
+      const cats = new Map();
+      for (const e of (d.etio || [])) for (const cid of e.c) { const L = labels.get('e:' + cid); if (L && !cats.has(cid)) cats.set(cid, L); }
+      return '<td class="c">' + Array.from(cats, ([cid, L]) => '<a class="tag" href="' + href('rep') + '?r=' + encodeURIComponent('e:' + cid) + '">' + esc(L.label) + '</a>').join(' ') + '</td>';
+    }).join('') + '</tr>';
+    html += '<tr><th class="lbl">' + esc(t.relTitle) + '</th>' + ids.map((i, j) => '<td class="c">' + (docs[j] ? relHtml(docs[j], i) : '') + '</td>').join('') + '</tr>';
+    html += '</tbody></table></div>';
+    if (!$('#results')) return;
+    box.innerHTML = html;
+    $('#cmpClose').addEventListener('click', () => { state.cmpOpen = false; writeHash(); renderResults(); });
   }
 
   // ---------------------------------------------------------------- препарати
@@ -516,14 +741,21 @@
     if (rIdx < 0) { view.innerHTML = '<p class="error">' + esc(t.noRemedy) + '</p>'; return; }
     view.innerHTML = '<p class="muted">' + esc(t.loading) + '</p>';
     const doc = await getDoc('remedies', id);
-    const hl = params.get('hl') ? Array.from(new Set(SC.queryStems(params.get('hl'), state.lang).flat())) : null;
+    const hl = params.get('hl') ? Array.from(new Set(SC.queryTerms(params.get('hl'), state.lang).inc.flatMap(x => x.alts))) : null;
     const secId = s => 'sec-' + s.replace(/[^\wа-яёіїєґ]+/gi, '-').toLowerCase();
     const inArticles = c.articles.map((a, i) => ({ a, i })).filter(x => x.a.rem.includes(rIdx));
+    const labels = modLabels();
     let html = '<div class="doc-head"><h1>' + esc(doc.latin) + (doc.alt ? ' <span class="muted">(' + esc(doc.alt) + ')</span>' : '') + '</h1>' +
       '<div class="sub">' + esc([doc.translit, doc.common].filter(Boolean).join(' — ')) + '</div>' +
       (doc.source ? '<div class="meta">' + esc(t.source) + ' ' + esc(doc.source) + '</div>' : '') + '</div>';
     html += '<nav class="toc" aria-label="' + esc(t.sections) + '">' + doc.sections.map(s => '<a href="#' + secId(s.title) + '">' + esc(s.title) + '</a>').join('') + '</nav>';
     html += '<div class="doc">';
+    const tagLinks = (dir, kind) => {
+      const seen = new Map();
+      const items = kind === 'mod' ? (doc.mods || []).filter(m => m.d === dir) : (doc.etio || []);
+      for (const it of items) for (const cid of it.c) { const key = kind === 'mod' ? 'm:' + dir + '.' + cid : 'e:' + cid; const L = labels.get(key); if (L && !seen.has(key)) seen.set(key, L.label); }
+      return Array.from(seen, ([key, L]) => '<a href="' + href('rep') + '?r=' + encodeURIComponent(key) + '" title="' + esc(t.addRubric) + '">' + esc(L) + '</a>').join('');
+    };
     for (const s of doc.sections) {
       html += '<h2 id="' + secId(s.title) + '">' + esc(s.title) + '</h2>';
       if (s.title === CLINIC[state.lang]) {
@@ -532,6 +764,14 @@
         html += '<div class="tags">' + terms.map(x => '<a href="' + href('rep') + '?r=' + encodeURIComponent('n:' + x) + '" title="' + esc(t.addRubric) + '">' + esc(x) + '</a>').join('') + '</div>';
       } else {
         html += s.paras.map(p => renderPara(p, { hl, selfIdx: rIdx })).join('');
+        if (s.title === MODAL[state.lang]) {
+          const w = tagLinks('w', 'mod'), b = tagLinks('b', 'mod');
+          if (w) html += '<div class="tags mod"><span class="lbl">' + esc(t.worse) + ':</span>' + w + '</div>';
+          if (b) html += '<div class="tags mod"><span class="lbl">' + esc(t.better) + ':</span>' + b + '</div>';
+        } else if (s.title === ETIOL[state.lang]) {
+          const e = tagLinks(null, 'etio');
+          if (e) html += '<div class="tags mod">' + e + '</div>';
+        }
       }
     }
     html += '</div>';

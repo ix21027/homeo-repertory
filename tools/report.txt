@@ -1,29 +1,9 @@
 HTML files in archive: 748
 extra HTML files from /home/ubuntu/homeo/raw_html: 341
+extra HTML files from sources/wayback: 21
 Materia Medica index: 341; Лечебник index: 136
 Remedies written: 341
-NO PAGE for article: Бессонница при беременности
-NO PAGE for article: Воспаление грудных сосков
-NO PAGE for article: Втянутые соски
-NO PAGE for article: Желудочные проблемы у беременных
-NO PAGE for article: Запор у грудных детей
-NO PAGE for article: Изменение состава молока у кормящих женщин
-NO PAGE for article: Лихорадка при появлении молока
-NO PAGE for article: Лохии (послеродовые выделения из матки)
-NO PAGE for article: Ожог
-NO PAGE for article: Отвращение к еде во время беременности
-NO PAGE for article: Отиты у грудных детей
-NO PAGE for article: Послеродовые боли
-NO PAGE for article: Рвота у грудных детей (острые приступы)
-NO PAGE for article: Сомнамбулизм (лунатизм, снохождение)
-NO PAGE for article: СХУ (синдром хронической усталости) — лечение по аналогии с преждевременным старением
-NO PAGE for article: СХУ (синдром хронической усталости) — лечение по сходству возможного причинного фактора
-NO PAGE for article: Трещины ануса у грудных детей
-NO PAGE for article: Цвет ногтей
-NO PAGE for article: Чувствительность кожи
-NO PAGE for article: Эндокардиты
-NO PAGE for article: Эритема (покраснение кожи) ягодиц у грудных детей
-Articles written: 127 (lechebnik 115, bach 8, about 4)
+Articles written: 148 (lechebnik 136, bach 8, about 4)
 Dropped pages (not remedies/articles):
    18091  Materia Medica
     2408  Стеатоз печени: причины, симптомы и лечение заболевания
