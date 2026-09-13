@@ -104,6 +104,8 @@ function addAlias(name, idx) {
   firstWord.get(fw).add(idx);
 }
 remedies.forEach((r, i) => { addAlias(r.latin, i); if (r.alt) addAlias(r.alt, i); });
+// однослівні псевдоніми для унікальних перших слів (Aconitum → Aconitum napellus)
+for (const [fw, set] of firstWord) if (set.size === 1 && !alias.has(fw) && fw.length > 3) alias.set(fw, Array.from(set)[0]);
 
 // Спеціальні скорочення, поширені у статтях
 const SPECIAL = {
