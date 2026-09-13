@@ -199,6 +199,10 @@ const UNVISITED = 'zincum-metallicum'; // цю — ні: до збереженн
 
   await step('ru: секція «Офлайн» перекладена', async () => {
     await page.goto(BASE + '#/ru/rep', { waitUntil: 'networkidle0' });
+    // Перехід хешем не перезавантажує документ, тож networkidle0 не чекає каталогу ru:
+    // до його приходу меню ще підписане попередньою мовою. Чекаємо саме перемикання
+    // (applyLangChrome ставить lang і тут же перемальовує секцію «Офлайн»).
+    await page.waitForFunction(() => document.documentElement.lang === 'ru', { timeout: 30000 });
     await openMenu();
     const title = await page.$eval('#menuOfflineTitle', e => e.textContent);
     if (title !== 'Офлайн') throw new Error('заголовок секції ' + title);
