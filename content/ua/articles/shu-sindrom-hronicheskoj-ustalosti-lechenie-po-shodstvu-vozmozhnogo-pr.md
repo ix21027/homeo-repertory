@@ -9,7 +9,7 @@ origin: https://homeopat-sam.com/-/a501
 remedy_blocks: 21
 ---
 
-Найчастіше при даній проблемі призначають такі гомеопатичні препарати: Anacardium Arsenicum album Alumina Baryta carbonica Camphora Cantharis Capsicum
+Найчастіше при даній проблемі призначають такі гомеопатичні препарати: **Anacardium Arsenicum album Alumina Baryta carbonica Camphora Cantharis Capsicum Croton Drosera Echinacea Hepar sulfur Lachesis Mercurius Natrium muriaticum Nitricum acidum Phytolacca Pix liquida Ranunculus bulbosus Rhus toxicodendron Silicea Thuja**
 
 ### Anacardium (Анакардіум)
 

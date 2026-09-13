@@ -9,7 +9,7 @@ origin: https://homeopat-sam.com/-/a502
 remedy_blocks: 11
 ---
 
-Найчастіше при цій проблемі призначають такі гомеопатичні препарати: Baryta carbonica Belladonna Calciarea carbonica Calcarea iodata Capsicum
+Найчастіше при цій проблемі призначають такі гомеопатичні препарати: **Baryta carbonica Belladonna Calciarea carbonica Calcarea iodаta Capsicum Carbo vegetabilis Drosera Natrium muriaticum Petroleum Silicea Sulfur**
 
 ### Baryta carbonica (Барита карбоніка)
 

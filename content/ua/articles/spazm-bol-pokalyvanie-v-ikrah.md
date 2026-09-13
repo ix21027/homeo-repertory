@@ -8,7 +8,7 @@ origin: https://homeopat-sam.com/-/a479
 remedy_blocks: 20
 ---
 
-Найчастіше при цих проблемах призначають наступні гомеопатичні препарати: Alumina Argentum nitricum Bovista Digitalis Iodoformium Kali carbonicum
+Найчастіше при цих проблемах призначають наступні гомеопатичні препарати: **Alumina Argentum nitricum Bovista Digitalis Iodoformium Kali carbonicum Kali iodatum Naja Natrium muriaticum Nitricum асidum Nux vomica Onosmodium Selenium Sepia Silicea Solanum nigrum Sulphur Staphysagria Viscum album Zincum metallicum**
 
 ### Alumina (Алюміну)
 

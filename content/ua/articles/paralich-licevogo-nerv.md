@@ -8,7 +8,7 @@ origin: https://homeopat-sam.com/-/a485
 remedy_blocks: 8
 ---
 
-Найчастіше при цій проблемі призначають такі гомеопатичні препарати: Aconitum Allium cepa Ammonium phosphoricum
+Найчастіше при цій проблемі призначають такі гомеопатичні препарати: **Aconitum Allium cepa Ammonium phosphoricum Cadmium sulphuricum Cocculus Kali chloricum**
 
 ### Ruta graveolens
 
@@ -42,7 +42,7 @@ remedy_blocks: 8
 
 ### Kali chloricum (Калі хлорикум)
 
-Лицо бліде, синюшне, ціанотичні. Стражденний вираз обличчя.
+Обличчя бліде, синюшне, ціанотичні. Стражденний вираз обличчя.
 
 Параліч лицьового нерва.
 

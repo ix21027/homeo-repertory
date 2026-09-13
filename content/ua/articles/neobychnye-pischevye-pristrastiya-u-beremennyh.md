@@ -8,7 +8,7 @@ origin: https://homeopat-sam.com/-/a326
 remedy_blocks: 37
 ---
 
-Найчастіше при цій проблемі призначають наступні гомеопатичні препарати: Abies canadensis Abies nigra ApisNatrium muriaticicum Nux moschata Onosmodium Opium Petroleum Rhus toxicodendron Sabadilla Sanguinaria Selenium Sepia
+Найчастіше при цій проблемі призначають наступні гомеопатичні препарати: **Abies canadensis Abies nigra Apis Argentum nitricum Arsenicum album Caladium Calcarea carbonica Calcarea phosphorica Capsicum Carbo vegetabilis China Cicuta ColchicumConium Graphites Gratiola Hepar sulfur Hypericum Ignatia Lachesis Lycopodium Magnesia carbonica Moschus Natrium muriaticicum Nux moschata Onosmodium Opium Petroleum Rhus toxicodendron Sabadilla Sanguinaria Selenium Sepia Silex Spigelia Sulfur Tellurium Veratrum album**
 
 ### Abies canadensis (Абієс канадензіс)
 

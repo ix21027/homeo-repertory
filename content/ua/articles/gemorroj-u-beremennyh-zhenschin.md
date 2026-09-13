@@ -8,7 +8,7 @@ origin: https://homeopat-sam.com/-/a466
 remedy_blocks: 26
 ---
 
-При геморої вагітним жінкам найчастіше призначають наступні гомеопатичні препарати: Pulsatilla Sabina
+При геморої вагітним жінкам найчастіше призначають наступні гомеопатичні препарати: **Aconitum Aloe Arsenicum album Belladonna Calcarea carbonica Capsicum Carbo vegetabilis Chamomilla Collinsonia Copaiva Crotalus horridus Ferrum Ignatia Millefolium Muriaticum acidum Natrium muriaticum Nitricum acidum Nux vomica Opium Podophyllum Pulsatilla Sabina**
 
 ### Stramonium Sulfur Zigiber
 
@@ -42,7 +42,7 @@ remedy_blocks: 26
 
 ### Carbo vegetabilis (Карбо вегетабіліс)
 
-Симеонова: Пекучі болі в області геморою після випорожнення.
+Симеонова: Пекучі болі в ділянці геморою після випорожнення.
 
 ### Chamomilla (Хамомілла)
 

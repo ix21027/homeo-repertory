@@ -9,7 +9,7 @@ origin: https://homeopat-sam.com/-/a319
 remedy_blocks: 19
 ---
 
-Найчастіше при цій проблемі призначають такі гомеопатичні препарати: Argentum nitricum Arnica Aurum Borax
+Найчастіше при цій проблемі призначають такі гомеопатичні препарати: **Argentum nitricum Arnica Aurum Borax Calcarea carbonica Carbo animalis Chamomilla China Dulcamara Hyoscyamus Ignatia Kreosotum Mercurius solubilis Millefolium Nux vomica Phosphoricum acidum Pulsatilla Rheum Sulfur**
 
 ### Argentum nitricum (Аргентум нітрикум)
 

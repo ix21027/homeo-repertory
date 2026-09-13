@@ -8,7 +8,7 @@ origin: https://homeopat-sam.com/-/a368
 remedy_blocks: 12
 ---
 
-Найчастіше при даній патології призначають наступні гомеопатичні препарати:
+Найчастіше при даній патології призначають наступні гомеопатичні препарати: **Angustura vera Atropinum purum Calcium fluoricum Camphora Caulophyllum Causticum Chelidonium Chromium sulphate Cimicifuga Colchicum Guaiacum Lachnantes Lycopodium**
 
 ### Angustura vera (Ангустура вера)
 
@@ -38,7 +38,7 @@ remedy_blocks: 12
 
 ### Causticum (Каустикум)
 
-Ніж: Тугорухливість шиї. Голова притягнута до одного боку.
+Неш: Тугорухливість шиї. Голова притягнута до одного боку.
 
 ### Chelidonium (Хелідоніум)
 

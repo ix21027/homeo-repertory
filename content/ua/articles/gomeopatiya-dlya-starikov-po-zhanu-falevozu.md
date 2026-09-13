@@ -29,7 +29,7 @@ remedy_blocks: 0
 
 **Ожиріння** – Kali carbonicum.
 
-**Передчасне старіння** – Селен, Амбра, Барита вуглецева, Калі вуглецева.
+**Передчасне старіння** – Selenium, Ambra, Baryta carbonica, Kali carbonicum.
 
 **Ущільнення тканин, вузлики** – Antimonium crudum, Calcarea carbonica, Conium, Lycopodium, Phosphorus, Rhus toxicodendron.
 

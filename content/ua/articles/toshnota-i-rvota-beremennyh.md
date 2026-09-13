@@ -8,7 +8,7 @@ origin: https://homeopat-sam.com/-/a311
 remedy_blocks: 52
 ---
 
-При цій проблемі найчастіше призначаються такі гомеопатичні препарати: **Aconitum Actea racemosa Aethusa Ailanthus glandulosa Anacardium Antimonium crudumversicolor Jacaranda Jatropha curcas Kali bichromicum Kali carbonicum Kali muriaticum Kreosotum Lac vaccinum defloratum Lacticum acidum Lobelia Magnesium carbonicum Natrium muriaticumStaphysagria Sulfur Sulphuricum acidum Tabacum Theridion Veratrum album**
+При цій проблемі найчастіше призначаються такі гомеопатичні препарати: **Aconitum Actea racemosa Aethusa Ailanthus glandulosa Anacardium Antimonium crudum Arnica Arsenicum album Belladonna Bryonia Camphora Carbo animalis Chionanthus Cocculus Conium Cuprum Cuprum arsenicosum Ferrum Hepar sulphur Ignatia Ipecacuanha Iris versicolor Jacaranda Jatropha curcas Kali bichromicum Kali carbonicum Kali muriaticum Kreosotum Lac vaccinum defloratum Lacticum acidum Lobelia Magnesium carbonicum Natrium muriaticum Nux moschata Nux vomica Petroleum Phosphoricum acidum Phosphorus Podophyllum Psorinum Pulsatilla Sepia Staphysagria Sulfur Sulphuricum acidum Tabacum Theridion Veratrum album**
 
 ### Veratrum viride Zincum
 

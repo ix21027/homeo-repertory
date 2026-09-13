@@ -8,7 +8,7 @@ origin: https://homeopat-sam.com/-/a81
 remedy_blocks: 45
 ---
 
-Найчастіше для лікування цієї патології використовують такі гомеопатичні препарати: Aconitum Aethusa AnacardiumAntimonium crudum Antimonium tartaricumFerrum Ferrum aseticum Ferrum phosphoricum Ignatia Ipecacuanha Iris Kreosotum Lobelia Natrium muriaticum Nux vomica Opium Petroleum Phosphoricum acidum
+Найчастіше для лікування цієї патології використовують такі гомеопатичні препарати: **Aconitum Aethusa AnacardiumAntimonium crudum Antimonium tartaricum Apomorphinum Arnica Arsenicum album Belladonna Bismutum subnitricum Bryonia Calcarea carbonica Carbo vegetabilis Chamomilla Chelidonium China Cina Cocculus Colchicum Conium Cyclamen Digitalis Erigeron Ferrum Ferrum aсeticum Ferrum phosphoricum Ignatia Ipecacuanha Iris Kreosotum Lobelia Natrium muriaticum Nux vomica Opium Petroleum Phosphoricum acidum Phosphorus Podophyllium Pulsatilla Pyrogenium Rhus toxicodendron Sepia Sulfuricum acidumTabacum Theridion Veratrum album**
 
 ### Aconitum (Аконітум)
 
@@ -348,7 +348,7 @@ _Юз_: Від жирної їжі, пирогів, пиріжків тощо.3�
 
 ### Theridion (Теридіон)
 
-Приступи блювоти, що супроводжують запаморочення.
+Напади блювоти, що супроводжують запаморочення.
 
 Нудота і блювота, запаморочення, викликані будь-яким шумом, що ніби пронизує все тіло.
 

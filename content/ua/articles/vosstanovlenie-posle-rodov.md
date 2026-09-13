@@ -8,7 +8,7 @@ origin: https://homeopat-sam.com/-/a264
 remedy_blocks: 46
 ---
 
-Відновитися після проблем, що виникли після пологів, допоможуть наступні гомеопатичні препарати: Aconitum Agnus castusKali carbonicum Lachesis Mezereum Millefolium Natrium sulphuricum Nitricum acidum Nux vomica Opium Pareira brava Phytolacca Platinum Podophyllum Pulsatilla Rheum Rhododendron Rhus toxicodendron
+Відновитися після проблем, що виникли після пологів, допоможуть наступні гомеопатичні препарати: **Aconitum Agnus castus Amylenum nitrosum Arnica Arsenicum album Belladonna Carbo animalis Carbo vegetabilis Cantharis Chamomilla China Coffea Collinsonia Colocynthis Equisetum Hamamelis Hypericum Hyoscyamus Ignatia Ipecacuanha Kali bichromicum Kali carbonicum Lachesis Mezereum Millefolium Natrium sulphuricum Nitricum acidum Nux vomica Opium Pareira brava Phytolacca Platinum Podophyllum Pulsatilla Rheum Rhododendron Rhus toxicodendron Ruta Sabina Secale Sepia Stramonium Terebinthinae oleum Thuja Veratrum album Viburnum**
 
 ### Aconitum (Аконітум)
 
@@ -216,7 +216,7 @@ Cantharis «виганяє плаценту; покращує фертильні
 
 ### Secale (Секале)
 
-Ніж: Болі у слабких, кахектичних, пригнічених жінок; виснажують сили.
+Неш: Болі у слабких, кахектичних, пригнічених жінок; виснажують сили.
 
 Петерс: Сильні післяпологові болі.
 

@@ -9,7 +9,7 @@ origin: https://homeopat-sam.com/-/a282
 remedy_blocks: 23
 ---
 
-Вирішити проблему безсоння вагітним жінкам допоможуть наступні гомеопатичні препарати: **Aconitum Actea racemosa Agaricus AmbraRanunculus sceleratus Rhus toxicodendron Valeriana Veratrum album**
+Вирішити проблему безсоння вагітним жінкам допоможуть наступні гомеопатичні препарати: **Aconitum Actea racemosa Agaricus Ambra Anacardium Borax Bryonia Causticum Chamomilla Cimicifuga Cuprum Digitalis Fluoricum acidum Graphites Hyoscyamus Laurocerasus Ledum Mercurius solubilis Moschus Nitricum acidum Plumbum Ranunculus sceleratus Rhus toxicodendron Valeriana Veratrum album**
 
 ### Aconitum (Аконітум)
 

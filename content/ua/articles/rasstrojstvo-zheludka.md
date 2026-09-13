@@ -8,7 +8,7 @@ origin: https://homeopat-sam.com/-/a420
 remedy_blocks: 12
 ---
 
-Найчастіше при цій проблемі призначають такі гомеопатичні препарати: Aloe Arsenicum album Antimonium crudum Baptisia Camphora
+Найчастіше при цій проблемі призначають такі гомеопатичні препарати: **Aloe Arsenicum album Antimonium crudum Baptisia Camphora Carbo vegetabilis China Colchicum Colocynthis Iodum Lycopodium Nux vomica**
 
 ### Aloe (Алое)
 

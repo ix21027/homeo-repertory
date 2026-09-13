@@ -29,7 +29,7 @@ remedy_blocks: 0
 
 Тоді постає проблема етіологічних чинників: емоційна подія, наприклад, наслідки невдалого кохання; вакцинація, особливо БЦЖ, противісне щеплення; дитяча хвороба, наприклад, кір; дитяча туберкульозна первинна інфекція; клімат (берег моря); певний алерген, наприклад, професійні захворювання (у цьому випадку, за відсутності кращого, можна спробувати ізопатичний препарат із підозрюваної речовини, наприклад, борошно, пеніцилін).
 
-**Локальні симптоми Локалізація**: точне місце розташування поразки, де воно почалося? Якщо ця подробиця точна, то вона буде основною відправною точкою для відбору ліків.
+**Локальні симптоми Локалізація**: точне місце розташування ураження, де воно почалося? Якщо ця подробиця точна, то вона буде основною відправною точкою для відбору ліків.
 
 _Екзема на краї волосся потиличної частини _ - Sulphur, Natrium muriaticum, Nitricum acidum, Petroleum._Очі: екзема повік _ - Graphytes, Thuja, Hepar sulphur, Mezereum, Clematis, Tellurium._Вуха _:_ На вусі, за вухом_- Calcarea carbonica, Graphytes, Hepar sulphur, Luesinum, Lycopodium, Oleander, Sulphur, Tuberculinum.
 
@@ -71,7 +71,7 @@ _Еріматозна стадія_: Apis, Belladonna, Juglans regia, Sulphur, I
 
 _Сині бульбашки_: Arsenicum album, Lachesis, Ranunculus bulbosus.
 
-Мокнутие: Mercurius, Mezereum, Graphytes, Antimonium crudum, Psorinum, Staphysagria, Oleander. На цій стадії можна використовувати ізопатичні засоби.
+Мокнуття: Mercurius, Mezereum, Graphytes, Antimonium crudum, Psorinum, Staphysagria, Oleander. На цій стадії можна використовувати ізопатичні засоби.
 
 _Кірки та тріщини_: Calcarea carbonica, Carboneum sulphuratum, Graphytes, Petroleum, Pulsatilla, Sarsaparilla, Sulphur.
 

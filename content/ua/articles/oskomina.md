@@ -8,7 +8,7 @@ origin: https://homeopat-sam.com/-/a352
 remedy_blocks: 10
 ---
 
-Найчастіше при цій проблемі призначають такі гомеопатичні препарати: Ferrum magneticum
+Найчастіше при цій проблемі призначають такі гомеопатичні препарати: **Ferrum magneticum Magnetis polus arcticus Mercurius solubilis Robinia Senega Taraxacum Tartaricum acidum Sarsaparilla Senega Sulphur Sulphuricum acidum**
 
 ### Ferrum magneticum (Феррум магнетикум)
 

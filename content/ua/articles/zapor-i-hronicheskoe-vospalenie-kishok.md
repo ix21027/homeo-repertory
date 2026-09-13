@@ -8,7 +8,7 @@ origin: https://homeopat-sam.com/-/a69
 remedy_blocks: 43
 ---
 
-Найбільш часто при даній патології використовують наступні препарати: Alumina Ammonium muriaticum Anacardium Antimonium crudum Arnica Baryta carbonica Bryonia CalcareaMedorrhinum Natrium carbonicum Natrium muriaticum Natrium phosphorum Natrium sulfuricum Nux vomica Opium Phosphorus Platina Plumbum aceticum Plumbum metallicum
+Найбільш часто при даній патології використовують наступні препарати: **Alumina Ammonium muriaticum Anacardium Antimonium crudum Arnica Baryta carbonica Bryonia Calcarea Сausticum China Collinsonia Dioscorea Dulcamara Graphytes Hepar sulfur Hydrastis Ignatia Iodofyllinum Kali carbonicum Lilium tigrinum Lycopodium Magnesia carbonica Magnesia muriatica Medorrhinum Natrium carbonicum Natrium muriaticum Natrium phosphorum Natrium sulfuricum Nux vomica Opium Phosphorus Platina Plumbum aceticum Plumbum metallicum Podophyllum Ruta Selenium Sepia Silicea Stannum Sulphur Tanacetum Thuja Veratrum album**
 
 ### Alumina (Алюміну)
 
@@ -102,7 +102,7 @@ remedy_blocks: 43
 
 ### Graphytes (Графітес)
 
-Запори з відсутністю позивів у опасистих суб'єктів з ендокринною недостатністю, метеоризмом, схильністю до геморою, до екзем навколо ануса, формування анальних тріщин. Кал йде з великими труднощами, навіть коли він м'який.
+Запори з відсутністю позивів у опасистих суб'єктів з ендокринною недостатністю, метеоризмом, схильністю до геморою, до екзем навколо ануса, утворення анальних тріщин. Кал йде з великими труднощами, навіть коли він м'який.
 
 Вузолуватий кал великими грудками зі слизом. Часто за фекаліями слід слиз.
 
@@ -150,7 +150,7 @@ remedy_blocks: 43
 
 Відчуття, як за потуги з позивом на дефекацію.
 
-Приступоподібні болі, що супроводжуються позивом на дефекацію.
+Нападоподібні болі, що супроводжуються позивом на дефекацію.
 
 ### Lycopodium (Лікоподіум)
 
@@ -372,7 +372,7 @@ _Рекомендація доктора Юза_: При завзятих і т�
 
 Симеонова Н. К.: «Люблю починати лікування запорів за допомогою Сульфура, який може полегшити закрепи шляхом нормалізації кровообігу в черевній порожнині.
 
-Запорам часто супроводжують геморой і свербіж області прямої кишки».
+Запорам часто супроводжують геморой і свербіж ділянки прямої кишки».
 
 ### Tanacetum (Танацетум)
 

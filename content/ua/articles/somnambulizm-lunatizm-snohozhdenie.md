@@ -8,7 +8,7 @@ origin: https://homeopat-sam.com/-/a365
 remedy_blocks: 16
 ---
 
-Найчастіше при цій проблемі призначають такі гомеопатичні препарати: Alumina Artemisia vulgaris Bryonia Kali bromatum
+Найчастіше при цій проблемі призначають такі гомеопатичні препарати: **Alumina Artemisia vulgaris Bryonia Kali bromatum Kali phosphoricum Kalmia Magnesium carbonicum Natrium muriaticum Phosphorus Silicea Spongia Stramonium Sulphur Tuberculinum**
 
 ### Zincum
 

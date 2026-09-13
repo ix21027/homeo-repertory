@@ -33,7 +33,7 @@ remedy_blocks: 12
 
 **Корисні рубрики Кента**: **Імпетиго**: Mercurius, Causticum, Iris versicolor, Petroleum, Viola tricolour, Baryta carbonica, Calcarea phosphorica, Conium, Rhus toxicodendron, Rhus venenata, Silicea, Sulphur; на межі росту волосся – Natrium muriaticum.
 
-**На обличчі**: Cicuta, Conium, Croton tiglium, Dulcamara, Graphytes, Hepar sulphur, Kali bichromicum, Lycopodium, Mercurius, Nitricum acidum, Rhus toxicodendron, Viola tricolour, Antimonium tartaricum, Antimonium p. Kreosotum, Sepia.
+**На обличчі**: Cicuta, Conium, Croton tiglium, Dulcamara, Graphytes, Hepar sulphur, Kali bichromicum, Lycopodium, Mercurius, Nitricum acidum, Rhus toxicodendron, Viola tricolour, Antimonium tartaricum, Antimonium crudum, Arsenicum album, Calcarea phosphorica, Kreosotum, Sepia.
 
 **На лобі**: Antimonium crudum, Kreosotum, Ledum, Natrium muriaticum, Nux vomica, Rhus toxicodendron, Sepia, Sulphur.
 

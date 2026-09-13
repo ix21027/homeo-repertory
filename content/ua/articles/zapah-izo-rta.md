@@ -8,7 +8,7 @@ origin: https://homeopat-sam.com/%D0%97%D0%B0%D0%BF%D0%B0%D1%85%20%D0%B8%D0%B7%D
 remedy_blocks: 41
 ---
 
-Для усунення цієї проблеми застосовуються наступні гомеопатичні препарати: Anacardium Arsenicum albumKali carbonicum Kreosotum Lachesis Lycopodium Mercurius Natrium muriaticum Nitricum acidum Nux vomica Pulsatilla Rhus toxicodendron
+Для усунення цієї проблеми застосовуються наступні гомеопатичні препарати: **Anacardium Arsenicum album Argentum nitricum Aurum Baryta sulphurica Belladonna Borax Bovista Bryonia Calcarea carbonica Capsicum Carbolicum acidum Carbo vegetabilis Castoreum Chamomilla Chelidonium Crocus Crotalus horridus Elaps Graphites Helleborus Hyoscyamus Iodum Kali carbonicum Kreosotum Lachesis Lycopodium Mercurius Natrium muriaticum Nitricum acidum Nux vomica Pulsatilla Rhus toxicodendron Silicea Sinapis nigrum Spigelia Strontium carbonicum Sulfur Terebinthina**
 
 ### Teucrium
 
@@ -132,7 +132,7 @@ remedy_blocks: 41
 
 ### Lachesis (Ляхезіс)
 
-Ніж: Рот може бути сухим або в ньому - рясна скупчення в'язкої слизу. Неприємний запах із рота.
+Неш: Рот може бути сухим або в ньому - рясна скупчення в'язкої слизу. Неприємний запах із рота.
 
 Симеонова: Смердючість слини, кровотечі з ясен.
 
@@ -142,7 +142,7 @@ remedy_blocks: 41
 
 ### Mercurius (Меркуріус)
 
-Неприємний запах із рота, такий сильний, що відчувається по всій кімнаті. Ніж: Запах з рота дуже смердючий; сильна слинотеча.
+Неприємний запах із рота, такий сильний, що відчувається по всій кімнаті. Неш: Запах з рота дуже смердючий; сильна слинотеча.
 
 Роуз: Посилене слиновиділення. Десни стають пухкими, болять і легко кровоточать. Жовтий, млявий, товстий язик із відбитками зубів. Смердючий запах з рота.
 

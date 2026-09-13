@@ -9,7 +9,7 @@ origin: https://homeopat-sam.com/-/a377
 remedy_blocks: 7
 ---
 
-Найчастіше при цій проблемі призначають такі гомеопатичні препарати: Aconitum Agnus castus
+Найчастіше при цій проблемі призначають такі гомеопатичні препарати: **Aconitum Agnus castus Antimonium crudum Asa foetida Belladonna Bryonia Conium Iodum**
 
 ### Aconitum (Аконітум)
 

@@ -8,7 +8,7 @@ origin: https://homeopat-sam.com/-/a483
 remedy_blocks: 60
 ---
 
-У патогенезі наступних гомеопатичних препаратів є характерна по консистенції, кольору і запаху мокротиння: Ailanthus Ammonium bromatumsulphurica Blatta orientalis Borax Bryonia Calcium carbonicum Calcium fluoricum Calcium iodatum Cannabis sativa Cantharis Carboneum oxygenisatum Causticum Cenchris Chromicum acidum Coccus cacti Codeinum Digitalis Droseraiodatum Kali muriaticum Kali nitricum Kalmia Manganum aceticum Mercurius solubilis Naphthalinum Nux vomica Phosphoricum acidum Phosphorus Pulsatilla Pyrogenium Rumex Sanguinaria
+У патогенезі наступних гомеопатичних препаратів є характерна по консистенції, кольору і запаху мокротиння: **Ailanthus Ammonium bromatum Ammonium causticum Antimonium arsenicosum Antimonium tartaricum Aralia racemosa Argentum metallicum Arnica Arum dracontium Arum maculatum Arsenicum album Arundo Bacillinum Baryta sulphurica Blatta orientalis Borax Bryonia Calcium carbonicum Calcium fluoricum Calcium iodatum Cannabis sativa Cantharis Carboneum oxygenisatum Causticum Cenchris Chromicum acidum Coccus cacti Codeinum Digitalis Drosera Erigeron Euphrasia Hydrastis Iodum Kali carbonicum Kali chloricum Kali iodatum Kali muriaticum Kali nitricum Kalmia Manganum aceticum Mercurius solubilis Naphthalinum Nux vomica Phosphoricum acidum Phosphorus Pulsatilla Pyrogenium Rumex Sanguinaria Scilla maritime Senecio Senega Silicea Sinapis nigra Stannum Sulphur Tanacetum Terebinthinae oleum**
 
 ### Viola odorata
 
@@ -278,7 +278,7 @@ Antimonium tartaricum (Антимоніум тартарикум)
 
 Скупчення в'язкого слизу в горлі, яке важко відкашляти.
 
-Рясне скупчення в'язкого слизу в горлі та на небі, що відокремлюється невеликими грудочками. Nash, який успішно застосовував низькі розведення Senegа, вилікував з її допомогою безліч випадків «кашля з великим скупченням мокротиння, яке, здається, заповнює всю грудну клітину, з хрипами та стридорозним, утрудненим диханням».
+Рясне скупчення в'язкого слизу в горлі та на піднебінні, що відокремлюється невеликими грудочками. Nash, який успішно застосовував низькі розведення Senegа, вилікував з її допомогою безліч випадків «кашля з великим скупченням мокротиння, яке, здається, заповнює всю грудну клітину, з хрипами та стридорозним, утрудненим диханням».
 
 Кашель з в'язким мокротинням (як у Kali bichromicum).
 

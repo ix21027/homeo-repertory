@@ -8,7 +8,7 @@ origin: https://homeopat-sam.com/-/a441
 remedy_blocks: 23
 ---
 
-Найчастіше при цій проблемі призначають такі гомеопатичні препарати: Aconitum Aethusa Alumina Angustura vera Argentum nitricum Arnica CantharisOenanthe crocata Opium Platinum Plumbum Secale Silicea Solanum nigrum
+Найчастіше при цій проблемі призначають такі гомеопатичні препарати: **Aconitum Aethusa Alumina Angustura vera Argentum nitricum Arnica Cantharis Carboneum sulphuratum Causticum Cicuta Conium Crotalus horridus Hyoscyamus Ignatia Lachesis Laurocerasus Magnesium phosphoricum Magnetis polus arcticus Mercurius Morphinum Oenanthe crocata Opium Platinum Plumbum Secale Silicea Solanum nigrum Stramonium Theridion Veratrum album Veratrum viride**
 
 ### Aconitum (Аконітум)
 
@@ -38,7 +38,7 @@ remedy_blocks: 23
 
 ### Causticum (Каустикум)
 
-Ніж: Хворий не може відкривати рота. Тугорухливість щелеп.
+Неш: Хворий не може відкривати рота. Тугорухливість щелеп.
 
 ### Cicuta (Цикуту)
 
