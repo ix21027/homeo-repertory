@@ -125,6 +125,34 @@ fs.mkdirSync(OUT, { recursive: true });
     if (!/возможно/.test(chip)) throw new Error('no typo hint: ' + chip);
   });
 
+  await step('phrase in quotes narrows results; chip keeps quotes; evidence has words side by side', async () => {
+    await page.goto(BASE + '#/ru/rep?r=' + encodeURIComponent('f:~страх смерти'), { waitUntil: 'networkidle0' });
+    await rows(); const plain = await foundN();
+    await page.goto(BASE + '#/ru/rep?r=' + encodeURIComponent('f:~"страх смерти"'), { waitUntil: 'networkidle0' });
+    await rows();
+    // підтвердження фрази вантажить документи — чекаємо, поки в чіпі замість «…» стане число
+    await page.waitForFunction(() => /^\d+$/.test((document.querySelector('.chip .n') || {}).textContent || ''), { timeout: 30000 });
+    const chip = await page.$eval('.chip', e => e.textContent);
+    if (!/"страх смерти"/.test(chip)) throw new Error('no quotes in chip: ' + chip);
+    const n = await foundN();
+    if (!(n > 0 && n < plain)) throw new Error(`phrase ${n} vs plain ${plain}`);
+    if (!/Aconitum/.test(await firstName())) throw new Error('first ' + await firstName());
+    await page.click('table.rep tr.row');
+    await page.waitForFunction(() => document.querySelectorAll('tr.detail mark').length > 0, { timeout: 15000 });
+    const txt = await page.$eval('tr.detail .detail-box', e => e.textContent);
+    if (!/страх[а-яё]*\s+(?:\S+\s+)?смерт/i.test(txt)) throw new Error('no phrase in evidence: ' + txt.slice(0, 200));
+    await shot('09-phrase');
+    console.log('      phrase/plain:', n, '/', plain);
+  });
+
+  await step('rare-word AND relaxation: chip shows dropped word', async () => {
+    await page.goto(BASE + '#/ru/rep?r=' + encodeURIComponent('f:~страх смерти во время лихорадки ночью'), { waitUntil: 'networkidle0' });
+    await rows();
+    const chip = await page.$eval('.chip', e => e.textContent);
+    if (!/без:/.test(chip)) throw new Error('no dropped hint: ' + chip);
+    if (!/лихорадки/.test(chip)) throw new Error('dropped word missing: ' + chip);
+  });
+
   await step('exclusion operator -слово reduces count', async () => {
     await page.goto(BASE + '#/ru/rep?r=' + encodeURIComponent('f:~тошнота'), { waitUntil: 'networkidle0' });
     await rows(); const a = await foundN();

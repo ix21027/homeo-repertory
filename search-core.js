@@ -196,20 +196,27 @@
 
   const STOP_UA = new Set('і й та в у на з із зі по при від до для за не ні але або чи що як це цей ця ці той та те ті він вона воно вони ми ви я ти є був була були було бути вже ще якщо то ж би б адже от так також теж лише тільки навіть майже дуже більше менше іноді часто зазвичай потім після перед між через над під біля коло такий така такі таке весь вся все всі всього його її їх нам вам мені тобі собі сам сама самі саме'.split(/\s+/));
 
-  function tokenize(text, lang) {
+  // Розбір тексту на слова зі збереженням стоп-слів: [{ w, stop }]. Потрібен фразовому
+  // пошуку — він рахує відстань між словами фрази, а в індексі стоп-слів немає.
+  function tokenizeMarked(text, lang) {
     const out = [];
     const low = text.toLowerCase();
     const re = /[a-zа-яёіїєґ0-9’'ʼ]+/g;
     let m;
     while ((m = re.exec(low)) !== null) {
       let w = m[0];
-      if (w.length < 2) continue;
+      if (w.length < 2) { out.push({ w, stop: true }); continue; }
       if (lang !== 'ua') w = expandWord(w);
       w = foldLetters(w, lang);
       w = foldHomoglyphs(w);
-      if (w.length < 2 || (lang === 'ua' ? STOP_UA.has(w) : STOP.has(w))) continue;
-      out.push(w);
+      out.push({ w, stop: w.length < 2 || (lang === 'ua' ? STOP_UA.has(w) : STOP.has(w)) });
     }
+    return out;
+  }
+
+  function tokenize(text, lang) {
+    const out = [];
+    for (const t of tokenizeMarked(text, lang)) if (!t.stop) out.push(t.w);
     return out;
   }
 
@@ -340,30 +347,53 @@
     return set ? Array.from(set) : [st];
   }
 
+  // Ділянки запиту в лапках: "…", «…», „…“ — фразовий пошук (слова підряд).
+  const QUOTE_RE = /"([^"]+)"|«([^»]+)»|„([^“”"]+)[“”]/g;
+  function quoteSpans(low) {
+    const out = [];
+    QUOTE_RE.lastIndex = 0;
+    let m;
+    while ((m = QUOTE_RE.exec(low)) !== null) out.push({ from: m.index, to: m.index + m[0].length, text: (m[1] || m[2] || m[3]).trim() });
+    return out;
+  }
+
   // Розбір запиту: слова зі знаком «-» попереду виключають абзаци; для кожного
   // слова — список альтернативних стемів (стемер, словничок UA→RU, синоніми).
+  // Слова в лапках додатково позначаються номером фрази (term.ph) і беруться
+  // БЕЗ синонімів — фраза шукається буквально, за стемами написаних слів.
   function queryTerms(query, lang) {
     const inc = [], exc = [];
     const low = query.toLowerCase();
+    const spans = quoteSpans(low);
+    const phrases = spans.map(s => ({ text: s.text, terms: [] }));
     const re = /(-?)([a-zа-яёіїєґ0-9’'ʼ]+)/g;
     let m;
     while ((m = re.exec(low)) !== null) {
       const w = m[2];
       if (w.length < 2) continue;
+      const g = spans.findIndex(s => m.index >= s.from && m.index < s.to);
       const alts = new Set();
+      const add = (st, l) => { if (g >= 0) alts.add(st); else for (const s of synonyms(st, l)) alts.add(s); };
       if (lang === 'ua') {
         const fu = foldHomoglyphs(foldLetters(w, 'ua'));
-        if (fu.length >= 2 && !STOP_UA.has(fu)) for (const s of synonyms(stem(fu, 'ua'), 'ua')) alts.add(s);
+        if (fu.length >= 2 && !STOP_UA.has(fu)) add(stem(fu, 'ua'), 'ua');
         const ru = UA_RU[w] || (/[ыэъё]/.test(w) ? w : null);
-        if (ru) { const fr = foldHomoglyphs(foldLetters(ru, 'ru')); if (!STOP.has(fr)) for (const s of synonyms(stem(fr, 'ru'), 'ru')) alts.add(s); }
+        if (ru) { const fr = foldHomoglyphs(foldLetters(ru, 'ru')); if (!STOP.has(fr)) add(stem(fr, 'ru'), 'ru'); }
       } else {
         const fr = foldHomoglyphs(foldLetters(expandWord(w), 'ru'));
-        if (fr.length >= 2 && !STOP.has(fr)) for (const s of synonyms(stem(fr, 'ru'), 'ru')) alts.add(s);
+        if (fr.length >= 2 && !STOP.has(fr)) add(stem(fr, 'ru'), 'ru');
       }
       if (!alts.size) continue;
-      (m[1] === '-' && m.index > 0 && /\s/.test(low[m.index - 1]) || (m[1] === '-' && m.index === 0) ? exc : inc).push({ word: w, alts: Array.from(alts) });
+      const term = { word: w, alts: Array.from(alts) };
+      if (g < 0 && m[1] === '-' && (m.index === 0 || /\s/.test(low[m.index - 1]))) { exc.push(term); continue; }
+      if (g >= 0) { term.ph = g; phrases[g].terms.push(inc.length); }
+      inc.push(term);
     }
-    return { inc, exc };
+    // фраза з одного слова — звичайне слово; решту перенумеровуємо підряд
+    const keep = [], remap = new Map();
+    phrases.forEach((p, i) => { if (p.terms.length >= 2) { remap.set(i, keep.length); keep.push(p); } });
+    for (const t of inc) if (t.ph != null) { const n = remap.get(t.ph); if (n == null) delete t.ph; else t.ph = n; }
+    return { inc, exc, phrases: keep };
   }
 
   // ---------------------------------------------------------------------
@@ -395,5 +425,5 @@
     return out;
   }
 
-  return { stemRu, stemUa, stem, stems, queryStems, queryTerms, synonyms, splitSentences, tokenize, foldLetters, foldHomoglyphs, encodeList, decodeList, UA_RU, STOP, STOP_UA };
+  return { stemRu, stemUa, stem, stems, queryStems, queryTerms, synonyms, splitSentences, tokenize, tokenizeMarked, foldLetters, foldHomoglyphs, encodeList, decodeList, UA_RU, STOP, STOP_UA };
 });

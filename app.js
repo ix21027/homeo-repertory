@@ -51,7 +51,7 @@
       picker: 'Модальності й причини', worse: 'Гірше', better: 'Краще', causes: 'Причини',
       compare: 'Порівняти', compareSel: 'Для порівняння:', compareTitle: 'Порівняння препаратів', close: 'Закрити', cmpCheck: 'Вибрати для порівняння (до 4)',
       rel: { cmp: 'Порівняти з', ant: 'Антидоти', compl: 'Доповнюють', incompat: 'Несумісні', after: 'Добре діє після', before: 'Після нього добре діють', other: 'Інше' },
-      relTitle: 'Зв’язки', maybe: 'можливо:', clinicRow: 'Клініка (рубрик)', expandAll: 'Розгорнути підстави', collapseAll: 'Згорнути підстави',
+      relTitle: 'Зв’язки', maybe: 'можливо:', without: 'без:', clinicRow: 'Клініка (рубрик)', expandAll: 'Розгорнути підстави', collapseAll: 'Згорнути підстави',
       articlesOpt: 'Статті', articlesOptTitle: 'Шукати також у статтях лікувальника і показувати знайдені статті', artResults: 'Статті за запитом', artMore: 'ще', artHits: 'збігів',
     },
     ru: {
@@ -77,7 +77,7 @@
       picker: 'Модальности и причины', worse: 'Хуже', better: 'Лучше', causes: 'Причины',
       compare: 'Сравнить', compareSel: 'Для сравнения:', compareTitle: 'Сравнение препаратов', close: 'Закрыть', cmpCheck: 'Выбрать для сравнения (до 4)',
       rel: { cmp: 'Сравнить с', ant: 'Антидоты', compl: 'Дополняют', incompat: 'Несовместимы', after: 'Хорошо действует после', before: 'После него хорошо действуют', other: 'Прочее' },
-      relTitle: 'Взаимосвязи', maybe: 'возможно:', clinicRow: 'Клиника (рубрик)', expandAll: 'Показать основания', collapseAll: 'Свернуть основания',
+      relTitle: 'Взаимосвязи', maybe: 'возможно:', without: 'без:', clinicRow: 'Клиника (рубрик)', expandAll: 'Показать основания', collapseAll: 'Свернуть основания',
       articlesOpt: 'Статьи', articlesOptTitle: 'Искать также в статьях лечебника и показывать найденные статьи', artResults: 'Статьи по запросу', artMore: 'ещё', artHits: 'совп.',
     },
   };
@@ -369,13 +369,46 @@
     if (!text) return null;
     const lang = state.lang;
     const r = { kind: 'free', text, section: section || '', remedies: null, label: text + (section ? ' · ' + section : ''), pending: true, weight: 1, elim: false, excl: false };
-    r.promise = loadIndex().then(idx => {
+    r.promise = loadIndex().then(async idx => {
       r.res = R.freeText(idx, text, r.section, lang, { articles: state.articles });
+      // слова в лапках: індекс не має позицій слів, тому порядок перевіряємо за текстами
+      if (r.res.phraseTerms.length) await confirmPhrases(idx, r.res, lang);
       r.remedies = new Map(Array.from(r.res.byRemedy, ([k, v]) => [k, { g: v.g, hits: v.hits, score: v.score }]));
       r.pending = false;
       return r;
     });
     return r;
+  }
+  // Фразовий пошук: вантажимо документи абзаців-кандидатів (по 8 паралельно, кеш state.docs)
+  // і лишаємо тільки абзаци, де слова фрази стоять підряд. Поки триває — рубрика pending.
+  async function confirmPhrases(idx, res, lang) {
+    const need = new Map();
+    for (const x of res.paras) {
+      const d = idx.docs[idx.pd[x.p]];
+      const kind = d.t === 'r' ? 'remedies' : 'articles';
+      const key = kind + '/' + d.id;
+      let e = need.get(key);
+      if (!e) need.set(key, e = { kind, id: d.id, paras: [] });
+      e.paras.push(x.p);
+    }
+    const list = Array.from(need.values());
+    const texts = new Map();
+    let next = 0;
+    const worker = async () => {
+      while (next < list.length) {
+        const e = list[next++];
+        let doc;
+        try { doc = await getDoc(e.kind, e.id); } catch (err) { continue; }
+        const blocks = e.kind === 'remedies' ? doc.sections : doc.blocks;
+        for (const p of e.paras) {
+          const b = blocks[idx.ps[p]];
+          const md = b && b.paras[idx.pp[p]];
+          if (md != null) texts.set(p, md);
+        }
+      }
+    };
+    await Promise.all(Array.from({ length: Math.min(8, list.length) }, worker));
+    R.confirmPhrases(idx, res, lang, texts);
   }
   function writeHash() {
     const q = new URLSearchParams();
@@ -518,7 +551,8 @@
     box.innerHTML = state.rubrics.map((rb, k) => {
       const n = rb.pending ? '…' : rb.error ? t.error : (rb.remedies ? rb.remedies.size : 0);
       const corr = rb.res && rb.res.corrections && rb.res.corrections.length ? ' <span class="maybe">' + esc(t.maybe) + ' ' + esc(rb.res.corrections.map(x => x.to[0] + '…').join(', ')) + '</span>' : '';
-      return '<span class="chip' + (rb.pending ? ' pending' : '') + (rb.excl ? ' excl' : '') + (rb.elim ? ' elim' : '') + (rb.weight > 1 ? ' weighted' : '') + '"><span class="k">' + esc(t.kind[rb.kind]) + '</span> ' + esc(rb.label) + corr +
+      const drop = rb.res && rb.res.dropped && rb.res.dropped.length ? ' <span class="maybe">' + esc(t.without) + ' ' + esc(rb.res.dropped.join(', ')) + '</span>' : '';
+      return '<span class="chip' + (rb.pending ? ' pending' : '') + (rb.excl ? ' excl' : '') + (rb.elim ? ' elim' : '') + (rb.weight > 1 ? ' weighted' : '') + '"><span class="k">' + esc(t.kind[rb.kind]) + '</span> ' + esc(rb.label) + corr + drop +
         ' <span class="n">' + n + '</span>' +
         '<span class="ctl"><button type="button" data-k="' + k + '" data-act="w" class="' + (rb.weight > 1 ? 'on' : '') + '" title="' + esc(t.weight) + '" aria-label="' + esc(t.weight) + '">×' + rb.weight + '</button>' +
         '<button type="button" data-k="' + k + '" data-act="e" class="' + (rb.elim ? 'on' : '') + '" title="' + esc(t.elim) + '" aria-label="' + esc(t.elim) + '" aria-pressed="' + rb.elim + '">!</button>' +
