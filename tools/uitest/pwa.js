@@ -206,8 +206,11 @@ const UNVISITED = 'zincum-metallicum'; // цю — ні: до збереженн
     if (!/^Сохранить справочник для офлайна/.test(label)) throw new Error('підпис кнопки ' + label);
     const stateTxt = await page.$eval('#offState', e => e.textContent);
     if (!/^Не сохранено/.test(stateTxt)) throw new Error('стан ' + stateTxt);
-    const sec = await page.$$eval('#menu .menu-section', s => s.map(x => x.id));
-    if (sec[sec.length - 1] !== 'menuOfflineSec') throw new Error('секція «Офлайн» не остання: ' + sec.join(', '));
+    // Порядок секцій меню після злиття гілок: мова · тема · шрифт · випадки · друк · офлайн · зв'язок.
+    // Секцію впізнаємо за id першого елемента всередині — id самої секції є не в кожної.
+    const sec = await page.$$eval('#menu .menu-section', s => s.map(x => (x.firstElementChild || {}).id || '?'));
+    const want = ['menuLangTitle', 'menuThemeTitle', 'menuFontTitle', 'menuCasesTitle', 'printBtn', 'menuOfflineTitle', 'menuFeedbackTitle'];
+    if (sec.join(' ') !== want.join(' ')) throw new Error('порядок секцій меню: ' + sec.join(', '));
   });
 
   console.log('console errors:', errors.length ? errors : 'none');
