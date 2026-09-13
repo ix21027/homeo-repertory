@@ -192,13 +192,13 @@ function applyExcl(cats, table) {
 }
 
 export function classifyMod(clause) {
-  const c = clause.toLowerCase();
+  const c = clause.toLowerCase().replace(/ё/g, 'е');
   const cats = [];
   for (const [key, re] of MOD_CATS) if (re.test(c)) cats.push(key);
   return applyExcl(cats, MOD_EXCL);
 }
 export function classifyEtio(clause) {
-  const c = clause.toLowerCase();
+  const c = clause.toLowerCase().replace(/ё/g, 'е');
   const cats = [];
   for (const [key, re] of ETIO_CATS) if (re.test(c)) cats.push(key);
   return applyExcl(cats, ETIO_EXCL);
@@ -230,7 +230,7 @@ export function parseModalities(paras) {
       stats.clauses++;
       let d = pdir;
       const head = dropExcept(cl);
-      const low = head.toLowerCase();
+      const low = head.toLowerCase().replace(/ё/g, 'е');
       if (!head || NEG_MOD.test(low)) { stats.unassigned.push(cl); continue; }
       if (d === 'w' && FLIP_TO_BETTER.test(low) && !FLIP_TO_WORSE.test(low)) d = 'b';
       else if (d === 'b' && FLIP_TO_WORSE.test(low) && !FLIP_TO_BETTER.test(low)) d = 'w';
@@ -271,7 +271,7 @@ export function parseRelations(paras) {
     while ((m = re.exec(p)) !== null) {
       const label = m[1].replace(/[:.]+$/, '').trim();
       let kind = 'other';
-      const low = label.toLowerCase();
+      const low = label.toLowerCase().replace(/ё/g, 'е');
       for (const [k, r] of REL_KINDS) if (r.test(low)) { kind = k; break; }
       if (kind === 'after' && /^после .{3,40} хорошо/.test(low)) kind = 'before';
       if (kind === 'other' && /является антидотом|антидотом (для|при)/.test(low)) kind = 'ant';
@@ -327,7 +327,7 @@ const words = s => s.split(/\s+/).filter(Boolean);
 // (по межі слова). Дужка й «поэтому/которая…» — це вже не обставина, а пояснення симптому.
 function cutWindow(s, limit) {
   let t = s.split(/[;(]/)[0];
-  const st = t.toLowerCase().search(MINE_STOP);
+  const st = t.toLowerCase().replace(/ё/g, 'е').search(MINE_STOP);
   if (st > 0) t = t.slice(0, st);
   if (t.length > limit) {
     const cut = t.lastIndexOf(' ', limit);
@@ -341,7 +341,7 @@ function cutWindow(s, limit) {
 // (б) перед маркером, якщо маркер — перехідне дієслово або обставина винесена вперед.
 export function mineSentence(sent) {
   const out = [];
-  const low = sent.toLowerCase();
+  const low = sent.toLowerCase().replace(/ё/g, 'е');
   const hits = [];
   MINE_RE.lastIndex = 0;
   let m;

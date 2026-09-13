@@ -3,8 +3,8 @@ id: gaultheria-procumbens
 type: remedy
 latin: Gaultheria procumbens
 alt_latin: Gaultheria
-common: Винтергрин (GAULTHERIA)
-title: Gaultheria procumbens — Винтергрин (GAULTHERIA)
+common: Гаультерия лежачая (GAULTHERIA)
+title: Gaultheria procumbens — Гаультерия лежачая (GAULTHERIA)
 source: William Boericke. Pocket Manual of Homoeopathic Materia Medica, 9th ed., 1927 (машинный перевод с английского)
 origin: http://www.homeoint.org/books/boericmm/g/gaul.htm
 src: boericke
@@ -13,7 +13,7 @@ sections: Характеристика; Голова; Желудок; Кожа; 
 
 ## Характеристика
 
-Воспалительный ревматизм, плевродиния, ишиас и другие невралгии входят в сферу действия этого лекарства. Раздражение кисты и предстательной железы, чрезмерное сексуальное возбуждение и воспаление почек.
+Воспалительный ревматизм, плевродиния, ишиас и другие невралгии входят в сферу действия этого средства. Раздражение мочевого пузыря и предстательной железы, чрезмерное половое возбуждение и воспаление почек.
 
 ## Голова
 
@@ -21,16 +21,16 @@ sections: Характеристика; Голова; Желудок; Кожа; 
 
 ## Желудок
 
-Острый гастрит, сильные боли в эпигастрии; продолжительная рвота. Неконтролируемый аппетит, несмотря на раздраженный желудок. Гастралгия вследствие нервной депрессии (дайте пять капель 1 раза масла).
+Острый гастрит, сильная боль в надчревье; длительная рвота. Неукротимый аппетит, несмотря на раздражённый желудок. Гастралгия от нервного угнетения (Давать пять капель масла 1x).
 
 ## Кожа
 
-Жжение и жжение. Интенсивная эритема, хуже от холодного купания; лучше, оливковое масло и прохладный воздух, дующий частично.
+Жгучая болезненность и жжение. Сильная эритема, хуже от холодных обмываний; лучше от оливкового масла и дуновения прохладного воздуха на поражённое место.
 
 ## Взаимосвязи
 
-**Сравнить:** Spiraeea. Gaultheria contains Arbutin. Salycyl acid. Methylium salicylicum (an artificial Gaultheria oil for rheumatism, especially when the salicylates cannot be used. Pruritus and epididymitis, locally). After Cantharis in burns.
+**Сравнить:** Spiraea. Gaultheria contains Arbutin. Salicyl acid. Methylium salicylicum (an artificial Gaultheria oil for rheumatism, especially when the salicylates cannot be used. Pruritus and epididymitis, locally). After Cantharis in burns.
 
 ## Дозы
 
-Настойка и низкие потенции.
+Настойка и более низкие разведения.
