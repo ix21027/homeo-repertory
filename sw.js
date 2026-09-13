@@ -17,7 +17,7 @@
  * RUNTIME-ім'я продубльоване в app.js (константа CACHE_RUNTIME) — кнопка «Зберегти» пише
  * в кеш напряму через Cache API. Збіг імен перевіряє tools/uitest/pwa.js.
  */
-const VERSION = '2026-09-13c';
+const VERSION = '2026-09-13d';
 const SHELL = 'homeo-shell-' + VERSION;
 const RUNTIME = 'homeo-runtime';
 const KEEP = [SHELL, RUNTIME];
