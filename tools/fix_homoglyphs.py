@@ -62,6 +62,94 @@ def fix_homoglyphs(text):
     return TOKEN.sub(rep, text)
 
 
+# ------------------------------------------------------------------ звіряння з каталогом назв
+# Карта двійників сліпа: у ній немає «г» та «и», бо на латиницю вони не схожі (їх дає курсивний
+# OCR: «Bгyonia», «Cиprum», «Миrех»), а розширити карту не можна — «Cиprum» стало б «Ciprum»
+# замість «Cuprum». Тому другим кроком беремо НАЗВУ З КАТАЛОГУ: якщо нормалізований токен не є
+# відомою назвою, шукаємо назву тієї самої довжини на відстані однієї заміни. Це й лагодить
+# літери без двійників, і не дає зіпсувати кириличне слово: «міхураNash» (латиниці менше
+# половини) жодній назві не відповідає — лишається як є, і його правлять поштучно.
+_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+CYR_RE = re.compile(r"[Ѐ-ӿԀ-ԯ]")
+_names = None
+
+
+def catalog_names(root=None):
+    """{назва в нижньому регістрі: канонічний запис} з data/<lang>/catalog.json і boericke-map."""
+    global _names
+    if _names is not None:
+        return _names
+    _names = {}
+    root = root or _ROOT
+    import json
+    srcs = [(os.path.join(root, "data", "ru", "catalog.json"), "catalog"),
+            (os.path.join(root, "tools", "boericke-map.json"), "boericke")]
+    for path, kind in srcs:
+        try:
+            data = json.load(open(path, encoding="utf-8"))
+        except Exception:                      # data/ — продукт збірки, його може не бути
+            continue
+        keys = []
+        if kind == "catalog":
+            for r in data.get("remedies", []):
+                keys += [r.get("latin") or "", r.get("alt") or ""]
+        else:
+            keys = [k for k in data if not k.startswith("_")]
+        for key in keys:
+            for w in re.split(r"[\s/,()]+", key):
+                w = w.strip("-.")
+                if len(w) >= 4 and re.fullmatch(r"[A-Za-z-]+", w):
+                    _names.setdefault(w.lower(), w)
+    return _names
+
+
+def _catalog_hit(tok):
+    """Назва з каталогу, що відрізняється від токена рівно однією літерою (якщо вона єдина)."""
+    low = tok.lower()
+    names = catalog_names()
+    hit = None
+    for name, canon in names.items():
+        if len(name) != len(low) or sum(1 for a, b in zip(name, low) if a != b) != 1:
+            continue
+        if hit is not None and hit.lower() != canon.lower():
+            return None                        # кандидатів кілька — не вгадуємо
+        hit = canon
+    return hit
+
+
+def _repair(tok):
+    """Зіпсована латинська назва → правильна; None, якщо це не вона (або не знаємо, як лагодити)."""
+    lat = sum(1 for c in tok if "A" <= c <= "Z" or "a" <= c <= "z")
+    if lat < 1 or not CYR_RE.search(tok):
+        return None
+    cat_only = lat < 2                         # одна латинська літера — то, найпевніше, кирилиця
+    if cat_only and not (tok[0].isupper() and len(tok) >= 4):
+        return None                            # «носa», «серa», «oт» — не назви, віддаємо як є
+    norm = tok.translate(_TRANS)
+    pure = not CYR_RE.search(norm)
+    if pure and norm.lower() in catalog_names():
+        return norm                            # двійники все пояснили, і це відома назва
+    hit = _catalog_hit(norm)                   # лишились «г»/«и»/«ш» або назва не та: «Ciprum»
+    if hit:
+        return hit[0].upper() + hit[1:] if tok[0].isupper() else hit[0].lower() + hit[1:]
+    if pure and not cat_only and _is_latin_token(tok):
+        return norm                            # давнє правило: латиниці більшість — назва не з каталогу
+    return None
+
+
+def fix_latin_names(text):
+    """Те саме, що fix_homoglyphs, плюс звіряння з каталогом назв (ідемпотентно).
+
+    Окрема функція, а не розширення fix_homoglyphs: ту викликає tools/extract.py на content/ru,
+    а будь-яка зміна content/ru розриває ключі term-fixes.json (див. README)."""
+    if not re.search(r"[A-Za-z]", text):
+        return text
+    def rep(m):
+        tok = m.group(0)
+        return _repair(tok) or (tok.translate(_TRANS) if _is_latin_token(tok) else tok)
+    return TOKEN.sub(rep, text)
+
+
 def count_mixed(text):
     """→ (усього змішаних токенів, з них таких, що їх нормалізує fix_homoglyphs)."""
     mixed = fixable = 0

@@ -3,7 +3,7 @@ id: impetigo
 lang: ua
 type: article
 group: lechebnik
-title: Імпетіго
+title: Імпетиго
 source: Точна гомеопатія. Дух ліки. За редакцією Дідьє Гранжоржа. «Гомеопатія та фітотерапія». Санкт-Петербург.1999 Автори статті: Ален Айк та Дідьє Гранжорж
 origin: https://homeopat-sam.com/%D0%98%D0%BC%D0%BF%D0%B5%D1%82%D0%B8%D0%B3%D0%BE/a149
 remedy_blocks: 12

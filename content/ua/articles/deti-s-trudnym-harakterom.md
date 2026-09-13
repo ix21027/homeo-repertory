@@ -149,7 +149,7 @@ remedy_blocks: 18
 
 **Нерішучість**: Baryta carbonica, Lycopodium, Lyssinum.
 
-**Роздратлива дитина**: Chamomilla, Cina, Magnesium carbonicum, Calcarea phosphorica, Iodum, Silicea.
+**Дратівлива дитина**: Chamomilla, Cina, Magnesium carbonicum, Calcarea phosphorica, Iodum, Silicea.
 
 **Ревність**: Hyoscyamus, Lachesis, Apis, Calcarea sulphurica, Cenchris, Nux vomica, Pulsatilla, Lycopodium, Nux moschata, Stapysagria, Kali carbonicum, Medorrhinum.
 

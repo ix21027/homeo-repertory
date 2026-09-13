@@ -3,7 +3,7 @@ id: laringit
 lang: ua
 type: article
 group: lechebnik
-title: Ларінгіт
+title: Ларингіт
 origin: https://homeopat-sam.com/-/a62
 remedy_blocks: 32
 ---

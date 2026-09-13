@@ -6,7 +6,7 @@ latin: Coriaria ruscifolia
 transliteration: Коріарія русцифолія
 common: коріарію Ruscifolia
 title: Coriaria ruscifolia (Коріарія русцифолія) — коріарію Ruscifolia
-source: Джон Генрі Кларк. «Словник Практичної Materia Medica у 6-ти томах» (Видання «Гомеопатична медицина». Москва. 2001 р.)
+source: Джон Генрі Кларк. «Словник Практичної Materia Medica у 6-ти томах» (Видавництво «Гомеопатична медицина». Москва. 2001 р.)
 origin: https://homeopat-sam.com/-/a275
 sections: Характеристика; Психіка; Клініка; Обличчя; Горло; Шлунок
 ---
