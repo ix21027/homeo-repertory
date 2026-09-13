@@ -148,6 +148,8 @@ table.rep tr.row.open { background: var(--accent-2); }
 table.rep .rem { font-weight: 600; white-space: nowrap; }
 table.rep .rem .ru { font-weight: 400; color: var(--fg-2); font-size: .85rem; white-space: normal; }
 table.rep .ext { font-size: .78rem; color: var(--fg-2); font-weight: 400; }
+/* маркер препарату з опису Boericke (у списку та в таблиці реперторію) */
+.src-b { font-size: .62rem; color: var(--fg-2); font-weight: 400; vertical-align: super; margin-left: 2px; }
 table.rep tr.detail td { background: var(--bg); padding: 10px 14px 14px; }
 .evid { margin: 0 0 10px; }
 .evid h4 { margin: 0 0 4px; font-size: .9rem; color: var(--fg-2); font-weight: 600; }

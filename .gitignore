@@ -4,3 +4,4 @@ __pycache__/
 node_modules/
 tools/translate-cache.json
 tools/uitest/shots/
+tools/boericke-cache.json

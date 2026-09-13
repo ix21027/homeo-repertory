@@ -1,0 +1,29 @@
+---
+id: anthracinum
+type: remedy
+latin: Anthracinum
+common: Яд сибирской язвы
+title: Anthracinum — Яд сибирской язвы
+source: William Boericke. Pocket Manual of Homoeopathic Materia Medica, 9th ed., 1927 (машинный перевод с английского)
+origin: http://www.homeoint.org/books/boericmm/a/anthraci.htm
+src: boericke
+sections: Характеристика; Общие симптомы; Взаимосвязи; Дозы
+---
+
+## Характеристика
+
+Этот нозод оказался отличным средством при эпидемических заболеваниях селезенки домашних животных, а также при септических воспалениях, карбункулах и злокачественных язвах. При фурункулах и фурункулоподобных высыпаниях, угрях. Ужасное горение. Индурация клетчатки, абсцесс, бубон и все воспаления соединительной ткани, при которых имеется гнойный очаг.
+
+## Общие симптомы
+
+Кровотечения черные, густые, смолоподобные, быстро разлагающиеся, из любого отверстия. Железы опухшие, клеточные ткани отечны и уплотнены. Септицемия. Изъязвления, шелушение и невыносимое жжение. Рожа. Черно-синие волдыри. Рассеивающие раны. Укусы насекомых. Негативные последствия вдыхания неприятных запахов. Гангренозный паротит. Последовательность фурункулов. Гангрена. Неприятные выделения.
+
+## Взаимосвязи
+
+Similar to Arsenic, which it often follows
+
+**Сравнить:** Pyrogen; Lachesis; Crotalus; Hippozoen; Echinac; Silica follows well. In the treatment of carbuncles, remember the prescription of the prophet Isaiah for King Hezekiah's carbuncle-i.e the pulp of a fig placed on a poultice and apply.
+
+## Дозы
+
+Тридцатая потенция. Тарант. Кубенсис.
