@@ -280,6 +280,6 @@ Lachnanthes широко использовался для лечения туб
 
 ## Взаимосвязи
 
-**Следует сравнить:** Aletris, Irises и Veratrums (ботан.); жар в области сердца (Crocus, Opium, Rhododendron), боль в нижней доле правого легкого (Chelidonium, Кali саrbonicum, Sepia — правая верхушка, Arsenicum album, Calcarea carbonica; левая верхушка – Arsenicum album, левое основание — Oxalicum асidum, Sulphur, средняя доля правого легкого — Sepia; правая половина груди — Sanguinaria, Phellandrium, Zincum); холод между лопатками (Ammonium muriaticum — жар между лопатками, Lyesinum, Phosphotus, болтливость (Lachesis, Hyoscyamus); блестящие глаза, румянец на щеках, делирий (Belladonna).
+**Следует сравнить:** Aletris, Irises и Veratrums (ботан.); жар в области сердца (Crocus, Opium, Rhododendron), боль в нижней доле правого легкого (Chelidonium, Kali carbonicum, Sepia — правая верхушка, Arsenicum album, Calcarea carbonica; левая верхушка – Arsenicum album, левое основание — Oxalicum acidum, Sulphur, средняя доля правого легкого — Sepia; правая половина груди — Sanguinaria, Phellandrium, Zincum); холод между лопатками (Ammonium muriaticum — жар между лопатками, Lyesinum, Phosphotus, болтливость (Lachesis, Hyoscyamus); блестящие глаза, румянец на щеках, делирий (Belladonna).
 
-**Сравнить также**: Actea racemosa, Aethusa, Agaricus, Cannabis indica, Сalcarea сarbonica, Crotalus, Selenium, Glonoinum, Gymnocladus, Platina, Stramonium.
+**Сравнить также**: Actea racemosa, Aethusa, Agaricus, Cannabis indica, Calcarea carbonica, Crotalus, Selenium, Glonoinum, Gymnocladus, Platina, Stramonium.

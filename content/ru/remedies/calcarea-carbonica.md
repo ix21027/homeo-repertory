@@ -884,6 +884,6 @@ Calcarea carbonica служит антидотом для: Bismuthum, China, Chi
 
 **Комплиментарный препарат**: Belladonna.
 
-**Несовместимый препарат**: Вгуonia.
+**Несовместимый препарат**: Bгyonia.
 
-**Следует сравнить**: Alumina и Ammonium muriaticum (стянутость в грудной клетке); Аrnica (растяжения и т. п.); Arsenicum album (увеличение брюшных лимфоузлов), Calcarea ovi testae, Calcarea arsenicosa, Calcarea phosphorica, другие препараты кальция.
+**Следует сравнить**: Alumina и Ammonium muriaticum (стянутость в грудной клетке); Arnica (растяжения и т. п.); Arsenicum album (увеличение брюшных лимфоузлов), Calcarea ovi testae, Calcarea arsenicosa, Calcarea phosphorica, другие препараты кальция.

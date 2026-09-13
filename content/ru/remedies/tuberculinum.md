@@ -390,7 +390,7 @@ Tuberculinum оказывает выраженное действие при т�
 
 Боль в области аппендикса – Arsenicum album, Lachesis.
 
-Боль в молочных железах во время менструации — Conium, Calcarea carbonica. Повышенная чувствительность к музыке — Асоnitum, Ambra, Natrium сarbonicum, Nux vomica, Phosphoricum асidum, Sepia, Thuja, Viola оdorata.
+Боль в молочных железах во время менструации — Conium, Calcarea carbonica. Повышенная чувствительность к музыке — Aconitum, Ambra, Natrium carbonicum, Nux vomica, Phosphoricum acidum, Sepia, Thuja, Viola odorata.
 
 **Совместим:** Hydrastis, Calcarea carbonica, Calcarea iodatum, Calcarea phosphorica, Phosphorus, Thuja, Sepia, Pulsatilla.
 

@@ -220,7 +220,7 @@ Viola odorata обладает специфическим действием н�
 
 **Антидотом для Viola odorata** служит Camphora.
 
-**Совместимые препараты**: при коклюше — Corallium; при гельминтозе — Сina.
+**Совместимые препараты**: при коклюше — Corallium; при гельминтозе — Cina.
 
 **Следует сравнить**: Боль в правом запястье — Actea spicata, Bryonia.
 
@@ -228,6 +228,6 @@ Viola odorata обладает специфическим действием н�
 
 Слабость мышц шеи — Antimonium tartaricum.
 
-Ухудшение от музыки – Nux vomica, Sepia, Phosphoricum асidum, Асоnitum, Natrium carbonicum, Pulsatilla.
+Ухудшение от музыки – Nux vomica, Sepia, Phosphoricum acidum, Aconitum, Natrium carbonicum, Pulsatilla.
 
 Cooper указывает на близкое родство фиалковых и мареновых, особенно между обоими Viola и Ipecacuanha. Оба вида фиалок и ипекакуана использовались наружно в качестве средств от укусов насекомых и змей. Teste помещает Viola odorata в группу Chelidonium и указывает на большое количество общих черт у этих препаратов.

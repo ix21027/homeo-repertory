@@ -353,6 +353,6 @@ Dieffenbach успішно використовував і Rhus venenata і Rhus
 
 Склерит – Actea racemosa.
 
-Чергування проносу та запору - Antimonium сrudum.
+Чергування проносу та запору - Antimonium crudum.
 
 У Radium bromatum є відчуття тепла, що поширюється вниз стравоходом. Погіршення від гоління – Carbo animalis.

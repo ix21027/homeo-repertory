@@ -218,4 +218,4 @@ Hale считает почки местом особого действия эт
 
 ## Взаимосвязи
 
-**Следует сравнить:** Аросynum androsaemifolium, Alstonia constricta, Strophanthus, Aceticum асidum, Apis (отеки без жажды), Arsenicum album, Belladonna, Bryonia, China, Colchicum, Digitalis (отеки, медленный пульс), Elaterium, Helleborus (гидроцефалия, асцит); Aloe, Gambogia и Trombidium muscae domesticate (понос), Кali carbonicum, Lyesinum, Mercurius, Mercurius sulphuricum, логаниевые — Nux vomica, Ignatia и Curare; Spigelia, Scilla, Sulphur, Veratrum.
+**Следует сравнить:** Аросynum androsaemifolium, Alstonia constricta, Strophanthus, Aceticum acidum, Apis (отеки без жажды), Arsenicum album, Belladonna, Bryonia, China, Colchicum, Digitalis (отеки, медленный пульс), Elaterium, Helleborus (гидроцефалия, асцит); Aloe, Gambogia и Trombidium muscae domesticate (понос), Kali carbonicum, Lyesinum, Mercurius, Mercurius sulphuricum, логаниевые — Nux vomica, Ignatia и Curare; Spigelia, Scilla, Sulphur, Veratrum.

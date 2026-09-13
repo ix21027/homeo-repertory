@@ -413,7 +413,7 @@ Syphylinum виліковує різноманітний головний біл
 
 ## Взаємозв’язки
 
-**Слід порівняти**: При захворюваннях кісток та сифілітичних ураженнях - Aurum, Asa foetida, Kali iodatum, Mercurius, Nitricum асidum.
+**Слід порівняти**: При захворюваннях кісток та сифілітичних ураженнях - Aurum, Asa foetida, Kali iodatum, Mercurius, Nitricum acidum.
 
 Гірше вночі - Aurum, Mercurius, Sulphur (Medorrhinum гірше рано вранці). Гірше на морському узбережжі краще при віддаленні від моря (Medorrhinum навпаки). Гірше на морському узбережжі, огида до втіхи – Natrium muriaticum. Дисменорея – Medorrhinum.
 
@@ -423,7 +423,7 @@ Syphylinum виліковує різноманітний головний біл
 
 Смердючий нежить зі смердючими кірками - Sepia, Psorinum, Kali bichromicum. Послідовне виникнення абсцесів (Anthracinum – послідовне виникнення фурункулів).
 
-Сифілітичний стоматит – Lachesis, Lac сaninum, Mercurius.
+Сифілітичний стоматит – Lachesis, Lac caninum, Mercurius.
 
 Вузли – Kali iodatum, Kali bichromicum, Manganum, Mercurius.
 
@@ -433,7 +433,7 @@ Syphylinum виліковує різноманітний головний біл
 
 Птоз – Causticum, Graphites.
 
-Спадкова схильність до алкоголізму – Asarum, Psorinum, Tuberculinum, Sulphur, Sulphuricum асidum.
+Спадкова схильність до алкоголізму – Asarum, Psorinum, Tuberculinum, Sulphur, Sulphuricum acidum.
 
 Запор з болем, як при пологах - Lac defloratum, Tuberculinum. Тріщини в анусі – Thuja.
 

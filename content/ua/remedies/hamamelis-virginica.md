@@ -365,4 +365,4 @@ Hamamelis добре діє у випадках «варикозної ангі�
 
 **Антидотами для Hamamelis** є: Camphora, China, Pulsatilla (зубний біль). **Додатковим засобом** є Ferrum при кровотечах.
 
-**Слід порівняти**: Calendula («Ham. прискорює розсмоктування внутрішньоочних крововиливів ефективніше, ніж будь-який з цих препаратів». Hering), Chloralum, Secale (пурпура), Fluoricum асidum, Lachesis, Secale, Pulsatilla, Nux vomica, Aesculus, Nitricum acidum (при варикозному розширенні вен і венозних вузлах); Spongia, Actea racemosa, Вгуonia (вікарні менструації); Belladonna, Euphorbium, Rhus, Terebinthina (як зовнішній засіб при опіках першого ступеня); Sanguisuga (кровотечі).
+**Слід порівняти**: Calendula («Ham. прискорює розсмоктування внутрішньоочних крововиливів ефективніше, ніж будь-який з цих препаратів». Hering), Chloralum, Secale (пурпура), Fluoricum acidum, Lachesis, Secale, Pulsatilla, Nux vomica, Aesculus, Nitricum acidum (при варикозному розширенні вен і венозних вузлах); Spongia, Actea racemosa, Bгyonia (вікарні менструації); Belladonna, Euphorbium, Rhus, Terebinthina (як зовнішній засіб при опіках першого ступеня); Sanguisuga (кровотечі).

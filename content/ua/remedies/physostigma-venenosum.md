@@ -379,9 +379,9 @@ sections: Характеристика; Психіка; Тип; Клініка; 
 
 Очі - Onosmodium, Lilium tigrinum, Ruta, Jaborandi, Belladonna. Головний біль із сонливістю - Brucea, Ginseng, Heracleum spondylum. Роздратування спинного мозку, відчуття голоду, оніміння, ригідність м'язів спини, відчуття коливання в мозку - Actea racemosa.
 
-Головний біль посилюється від музики – Phosphorus, Phosphoricum асidum (Physostigma від органу).
+Головний біль посилюється від музики – Phosphorus, Phosphoricum acidum (Physostigma від органу).
 
-Левітація – Phosphorus, Phosphoricum асidum.
+Левітація – Phosphorus, Phosphoricum acidum.
 
 Головний біль із нездатністю призупинити потік думок (Phosphorus з посиленням розумових здібностей) - Ignatia, Asa foetida.
 

@@ -329,7 +329,7 @@ Hale утверждает, что в ряде стран врачи с боль�
 
 Головная боль в 10 часов утра – Natrium muriaticum.
 
-Ощущение занозы - Nitricum асidum, Hepar sulphur.
+Ощущение занозы - Nitricum acidum, Hepar sulphur.
 
 Ощущение, словно язык ошпарен, - Sanguinaria.
 

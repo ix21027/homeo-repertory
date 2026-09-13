@@ -221,4 +221,4 @@ Lippspringe є холодним сірчаним, сольовим джерел�
 
 **Слід порівняти**: Calcarea sulphurica, Natrium sulphuricum, Magnesium muriaticum. Занепокоєння – Rhus toxicodendron, Zincum, Causticum.
 
-Поліпшення після сечовипускання Eugenia jambosa, Lithium сarbonicum. Погіршення після статевого акту – Kali саrbonica.
+Поліпшення після сечовипускання Eugenia jambosa, Lithium carbonicum. Погіршення після статевого акту – Kali carbonica.

@@ -4,13 +4,13 @@ type: remedy
 latin: Limulus cyclops
 transliteration: Лимулюс циклопс
 common: королевский краб
-title: Limulus cycloрs (Лимулюс циклопс) – королевский краб
+title: Limulus cyclops (Лимулюс циклопс) – королевский краб
 source: Джон Генри Кларк. «Словарь Практической Materia Medica в 6-ти томах» (Изд-во «Гомеопатическая медицина». Москва. 2001 г.)
 origin: https://homeopat-sam.com/-/a456
 sections: Характеристика; Психика; Тип; Клиника; Общие симптомы; Кожа; Сон; Лихорадка; Голова; Лицо; Глаза; Уши; Дыхательная система; Грудная клетка; Горло; Нос; Рот; Зубы; Желудок; Живот; Анус и прямая кишка; Мужские; Спина; Конечности; Инфекции; Этиология; Взаимосвязи
 ---
 
-**Limulus cycloрs** (Лимулюс циклопс) – королевский краб — Limulus polyphemus, Polyphemus occidentalis, King-crab, Horse-foot – относится к виду Merostomata, или Poecilopoda of the Crustacea.
+**Limulus cyclops** (Лимулюс циклопс) – королевский краб — Limulus polyphemus, Polyphemus occidentalis, King-crab, Horse-foot – относится к виду Merostomata, или Poecilopoda of the Crustacea.
 
 Препарат готовят из тритурации высушенной крови.
 

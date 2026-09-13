@@ -244,12 +244,12 @@ sections: Характеристика; Психика; Тип; Клиника; 
 
 ## Взаимосвязи
 
-**Следует сравнить**: все представители семейства ароидных (но Caladium несовместим с ними); Асоnitum, Bryonia, Causticum, Carbo vegetabilis, Cantharis, Capsicum, Cina (глисты); Gelsemium (последствия сексуальных эксцессов); Нуоscyamus, Ignatia, Lyesinum, Mercurius, Nitricum асidum, Nux vomica, Phosphorus, Platina, (нимфомания и раздражение гениталий); Pulsatilla, Sepia, Staphysagria (последствия мастурбации); Sulphur, Zingiber.
+**Следует сравнить**: все представители семейства ароидных (но Caladium несовместим с ними); Aconitum, Bryonia, Causticum, Carbo vegetabilis, Cantharis, Capsicum, Cina (глисты); Gelsemium (последствия сексуальных эксцессов); Hyoscyamus, Ignatia, Lyesinum, Mercurius, Nitricum acidum, Nux vomica, Phosphorus, Platina, (нимфомания и раздражение гениталий); Pulsatilla, Sepia, Staphysagria (последствия мастурбации); Sulphur, Zingiber.
 
-**Антидотами для Caladium** являются: Capsicum; Ignatia (покалывание в подложечной ямке и лихорадка); Carbo vegetabilis (сыпь); Нуоscyamus (ночной кашель); Zingiber (астма); Mercurius (симптомы со стороны крайней плоти).
+**Антидотами для Caladium** являются: Capsicum; Ignatia (покалывание в подложечной ямке и лихорадка); Carbo vegetabilis (сыпь); Hyoscyamus (ночной кашель); Zingiber (астма); Mercurius (симптомы со стороны крайней плоти).
 
 **Caladium является антидотом** для Mercurius.
 
-**Совместим с** Асоnitum, Cantharis, Pulsatilla, Sepia.
+**Совместим с** Aconitum, Cantharis, Pulsatilla, Sepia.
 
-**Комплиментарен** Nitricum асidum.
+**Комплиментарен** Nitricum acidum.

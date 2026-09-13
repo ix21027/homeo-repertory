@@ -458,7 +458,7 @@ Stramonium має спорідненість до кульшових сугло�
 
 **Несумісний препарат** - Coffea.
 
-**Слід порівняти**: Метрорагія внаслідок затримки плаценти з характерним делірієм - Secale (Secale часто допомагає, коли призначення Stramonium виявляється неефективним), Руrоgenium (з лихоманкою та тенденцією до розвитку сепсису). Делірій - Belladonna, Lachesis, Agaricus, Cuprum, Zincum.
+**Слід порівняти**: Метрорагія внаслідок затримки плаценти з характерним делірієм - Secale (Secale часто допомагає, коли призначення Stramonium виявляється неефективним), Pyrogenium (з лихоманкою та тенденцією до розвитку сепсису). Делірій - Belladonna, Lachesis, Agaricus, Cuprum, Zincum.
 
 Порушення сприйняття форми – Baptisia, Petroleum, Thuja.
 
@@ -470,13 +470,13 @@ Stramonium має спорідненість до кульшових сугло�
 
 Гикавка - Ignatia (гірше після їжі, куріння, хвилювання), Verayrum album (після гарячого пиття).
 
-Чує голоси, що здалеку говорять з ним; що доносяться з-за спини - Аnасardium.
+Чує голоси, що здалеку говорять з ним; що доносяться з-за спини - Anacardium.
 
 Обливається гарячим потом – Opium.
 
 Обертальні рухи (у Hyoscyamus - кутасті).
 
-Балакучість - Сиprum, Нуоscyamus, Lachesis, Opium, Verayrum album. Постійно смикає геніталії - Zincum.
+Балакучість - Cиprum, Hyoscyamus, Lachesis, Opium, Verayrum album. Постійно смикає геніталії - Zincum.
 
 Чергування сміху та сліз - Aurum, Lyesinum, Capsicum, Graphithes, Phosphorus, Sepia, Sulphur, Verayrum album.
 

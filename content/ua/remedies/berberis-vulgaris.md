@@ -433,6 +433,6 @@ Berberis vulgaris – провідні ліки при люмбаго; біль 
 
 **Ботанічне спорідненість**: Podophyllum, Caulophyllum.
 
-**Антидотами для Berberis vulgaris є** Camphora, Belladonna. **Berberis vulgar is є антидотом** для Асоnitum.
+**Антидотами для Berberis vulgaris є** Camphora, Belladonna. **Berberis vulgar is є антидотом** для Aconitum.
 
 Одноразова доза Lyesinum сприяє найкращій дії Berberis vulgaris. **Berberis vulgaris добре діє після** Bryonia, Kali bichromicum, Rhus, Sulphur.

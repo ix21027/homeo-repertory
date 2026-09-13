@@ -123,4 +123,4 @@ W. A. ​​Dewey («Med. Cent.», VIII. 17) описав чудовий вип�
 
 ## Взаємозв’язки
 
-**Слід порівняти:** Secale (параліч; ціаноз; полегшення, коли розкривається); Phaseolus, Gelsemium, Nux vomica, Curare, Picricum асidum (параліч; ерекції); Dulcamara (погіршення у вологу погоду); Lyesinum (покращення під час розкриття); Nux vomica (підходить чоловікам); Rhus toxicodendron (параплегія після промокання); Manganum і Conium (параліч, що розповсюджується знизу догори).
+**Слід порівняти:** Secale (параліч; ціаноз; полегшення, коли розкривається); Phaseolus, Gelsemium, Nux vomica, Curare, Picricum acidum (параліч; ерекції); Dulcamara (погіршення у вологу погоду); Lyesinum (покращення під час розкриття); Nux vomica (підходить чоловікам); Rhus toxicodendron (параплегія після промокання); Manganum і Conium (параліч, що розповсюджується знизу догори).

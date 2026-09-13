@@ -176,4 +176,4 @@ Eryngium діє на слизові оболонки, викликаючи ут�
 
 **Слід порівняти з іншими парасольковими**: Aethususa (неможливо зібратися з думками), Conium як засобом при виділенні простатичної рідини з найменшого приводу.
 
-**А також при**: полюціях Gelsemium, Phosphorus; захворювання сечових шляхів та уретри Cannabis sativa, Cantharis, Dioscorea, Ocimum canum; запорах та захворюваннях прямої кишки Nitricum асidum; грип: Gelsemium, Sticta.
+**А також при**: полюціях Gelsemium, Phosphorus; захворювання сечових шляхів та уретри Cannabis sativa, Cantharis, Dioscorea, Ocimum canum; запорах та захворюваннях прямої кишки Nitricum acidum; грип: Gelsemium, Sticta.

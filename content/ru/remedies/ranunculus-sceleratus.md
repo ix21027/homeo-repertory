@@ -293,4 +293,4 @@ sections: Характеристика; Психика; Тропность; Кл
 
 **Следует сравнить**: Ranunculus bulbulus (Ranunculus sceleratus вызывает более сильное раздражение).
 
-Гложущая головная боль на небольшом участке макушки - Pulsatilla; «географический» язык – Natrium muriaticum, Arsenicum album, Rhus toxicodendron, Таrахacum (у Ranunculus sceleratus жжение и саднение сильнее, чем у всех других препаратов); ощущение паутины - Ваryta сarbonicum, Boricum, Bromium, Bryonia, Calcium carbonicum, Conium, Graphites, Magnesium сarbonicum.
+Гложущая головная боль на небольшом участке макушки - Pulsatilla; «географический» язык – Natrium muriaticum, Arsenicum album, Rhus toxicodendron, Taraxacum (у Ranunculus sceleratus жжение и саднение сильнее, чем у всех других препаратов); ощущение паутины - Baryta carbonicum, Boricum, Bromium, Bryonia, Calcium carbonicum, Conium, Graphites, Magnesium carbonicum.

@@ -585,10 +585,10 @@ Guernsey підсумовує дію Kreosotum на жінок наступни�
 
 ## Взаємозв’язки
 
-**Для Kreosotum антидотами є**: Асоnitum (васкулярний еретизм), Nux vomica (сильна пульсація у всіх частинах тіла).
+**Для Kreosotum антидотами є**: Aconitum (васкулярний еретизм), Nux vomica (сильна пульсація у всіх частинах тіла).
 
 На думку Teste, **найкращим антидотом** є Ferrum metallicum, особливо при передозуванні Kreosotum у живих, життєрадісних та енергійних дітей. **Kreosotum несумісний з**: Carbo vegetabilis.
 
-**За Kreosotum добре слідують**: Sulphur, Arsenicum album (при злоякісних захворюваннях); Belladonna, Calcarea carbonica, Kali саrbonicum, Lyesinum, Nitricum асidum, Rhus, Sepia.
+**За Kreosotum добре слідують**: Sulphur, Arsenicum album (при злоякісних захворюваннях); Belladonna, Calcarea carbonica, Kali carbonicum, Lyesinum, Nitricum acidum, Rhus, Sepia.
 
 **Слід порівняти**: Близькими родичами Kreosotum є вуглеводні та карболова кислота, a Carbo vegetabilis настільки схожий на нього, що може бути антагоністом.

@@ -340,4 +340,4 @@ sections: Характеристика; Психика; Тип; Клиника; 
 
 При состоянии, когда видит все словно во сне, - Ambra, Anacardium, Calcarea carbonica, Cannabis indica и др.
 
-При болтливости - Нуоscyamus, Lachesis, Opium, Stramonium, Veratrum album. При плохой реактивности - Sulphur, Carbo vegetabilis, Laurocerasus, Ambra, Capsicum, Psorinum, Opium, Belladonna, Stramonium, Bryonia, Apis.
+При болтливости - Hyoscyamus, Lachesis, Opium, Stramonium, Veratrum album. При плохой реактивности - Sulphur, Carbo vegetabilis, Laurocerasus, Ambra, Capsicum, Psorinum, Opium, Belladonna, Stramonium, Bryonia, Apis.

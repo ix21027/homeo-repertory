@@ -353,7 +353,7 @@ Cooper погоджується з думкою Culpepper про те, що ді
 
 **Антидотом для Crocus sativus** є Paeonia, Belladonna, Opium. **Сумісні препарати**: Nux vomica, Pulsatilla, Sulphur.
 
-**Слід порівняти:** Platinum (темні кровотечі зі згустками); Croton (біль, що віддає з лівої половини грудної клітки у спину); Staphysagria (полегшення від позіхання); Fluoricum асidum (відчуття, ніби у вічі дме холодний вітер); Codein (судомні скорочення м'язів, особливо очних); Lachesis (біль, що поширюється з очей до маківки); Tarentula (скорочення окремих груп м'язів); Calcarea carbonica, Ipecacuanha, Ignatia.
+**Слід порівняти:** Platinum (темні кровотечі зі згустками); Croton (біль, що віддає з лівої половини грудної клітки у спину); Staphysagria (полегшення від позіхання); Fluoricum acidum (відчуття, ніби у вічі дме холодний вітер); Codein (судомні скорочення м'язів, особливо очних); Lachesis (біль, що поширюється з очей до маківки); Tarentula (скорочення окремих груп м'язів); Calcarea carbonica, Ipecacuanha, Ignatia.
 
 Також Tarentula (істерія; хоче приєднатися, якщо чує, як хтось музикує чи співає. Tarentula музика полегшує стан, у Crocus немає). Бажання стрибати (Tarentula, Stramonium, Sticta, Asarum, Agaricum); Бажання цілуватися (Agaicum).
 

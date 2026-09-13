@@ -477,7 +477,7 @@ Plumbum (Сатурн алхіміків) відчували Hartlaub, Trinks, H
 
 ## Взаємозв’язки
 
-**Антидотами є**: одним з кращих протиотрут при хронічних отруєннях свинцем є розведена Sulphuric acidum, яку п'ють як лимонад; вважається, що алкоголь має профілактичну дію; а також Alumen, Alumina, Arsenicum album, Antimonium crudum, Belladonna, Cocculus, Hepar sulphur, Kreosotum, Nux vomica, Opium, Petroleum, Platinum, Piperazinum, Zincum (Teste, який відносить Plumbum до групи Mercurius і Arsenivcum album,Aethusa суnnapium; він згадує також Нуоscyamus, Stramonium і Electricitas).
+**Антидотами є**: одним з кращих протиотрут при хронічних отруєннях свинцем є розведена Sulphuric acidum, яку п'ють як лимонад; вважається, що алкоголь має профілактичну дію; а також Alumen, Alumina, Arsenicum album, Antimonium crudum, Belladonna, Cocculus, Hepar sulphur, Kreosotum, Nux vomica, Opium, Petroleum, Platinum, Piperazinum, Zincum (Teste, який відносить Plumbum до групи Mercurius і Arsenivcum album,Aethusa cynnapium; він згадує також Hyoscyamus, Stramonium і Electricitas).
 
 **Plumbum є антидотом**: при порушеннях, спричинених тривалим зловживанням оцтом.
 
@@ -495,8 +495,8 @@ Plumbum (Сатурн алхіміків) відчували Hartlaub, Trinks, H
 
 Грудка в горлі - Ignatia, Lachesis, Lyesinum.
 
-Наслідки ураження хребта – Phosphorus, Picricum асidum, Zincum. Слабка пам'ять, нездатність знайти потрібне слово -Anacardium, Lac сaninum. Жирне, блискуче обличчя Natrium muriaticum, Sanicula.
+Наслідки ураження хребта – Phosphorus, Picricum acidum, Zincum. Слабка пам'ять, нездатність знайти потрібне слово -Anacardium, Lac caninum. Жирне, блискуче обличчя Natrium muriaticum, Sanicula.
 
 Бажання потягнутися – Amylenum nitrosum.
 
-Нюхові ілюзії - Аnaсardium.
+Нюхові ілюзії - Anacardium.

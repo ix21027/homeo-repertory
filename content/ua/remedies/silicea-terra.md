@@ -819,9 +819,9 @@ Silicea має симптоми локомоторної атаксії з ві�
 
 ## Взаємозв’язки
 
-**Антидотами для Silicea служать**: Camphora, Hepar sulphur, Fluoricum асidum. **Silicea є антидотом для**: Mercurius corrosivus, Sulphur. **Несумісний препарат**: Mercurius.
+**Антидотами для Silicea служать**: Camphora, Hepar sulphur, Fluoricum acidum. **Silicea є антидотом для**: Mercurius corrosivus, Sulphur. **Несумісний препарат**: Mercurius.
 
-**Silicea добре діє після**: Belladonna, Bryonia, Calcarea carbonica, Calcarea phosphorica (при рахіті, коли Calcarea phosphorica не допомагає), Graphites, Hepar sulphur, Ignatia, Nitricum acidum, Phosphorus. **Після Silicea добре діють**: Hepar sulphur, Fluoricum асidum, Lachesis, Lyesinum, Sepia.
+**Silicea добре діє після**: Belladonna, Bryonia, Calcarea carbonica, Calcarea phosphorica (при рахіті, коли Calcarea phosphorica не допомагає), Graphites, Hepar sulphur, Ignatia, Nitricum acidum, Phosphorus. **Після Silicea добре діють**: Hepar sulphur, Fluoricum acidum, Lachesis, Lyesinum, Sepia.
 
 (Якщо покращення, що почалося під дією Silicea, припинилося, один-два прийоми Sulphur відновлять реактивність, а потім Silicea завершить лікування пацієнта).
 

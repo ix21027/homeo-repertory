@@ -275,4 +275,4 @@ Flaps отличается от других змеиных ядов черны�
 
 ## Взаимосвязи
 
-**Антидотами для Elaps** являются: излучение тепла, алкоголь, Arsenicum album. **Следует сравнить**: Arsenicum album, Carbo vegetabilis, Crotalus, Lachesis, Мuriaticum асidum, Nitricum асidum, Rhus toxicodendron, Duboisia (красное пятно перед глазами), Dulcamara (действие холода, влажная погода).
+**Антидотами для Elaps** являются: излучение тепла, алкоголь, Arsenicum album. **Следует сравнить**: Arsenicum album, Carbo vegetabilis, Crotalus, Lachesis, Muriaticum acidum, Nitricum acidum, Rhus toxicodendron, Duboisia (красное пятно перед глазами), Dulcamara (действие холода, влажная погода).

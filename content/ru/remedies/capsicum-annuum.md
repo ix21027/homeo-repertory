@@ -360,11 +360,11 @@ Capsicum — лекарство первого ряда при стоматит�
 
 ## Взаимосвязи
 
-**Антидотами для Capsicum служат**: Caladium, Camphora, Cina, Sulphuricum асidum и серные пары.
+**Антидотами для Capsicum служат**: Caladium, Camphora, Cina, Sulphuricum acidum и серные пары.
 
 **Capsicum служит антидотом** при последствиях злоупотребления алкоголем, кофе, опиумом, хинином.
 
-**Совместимые препараты**: Belladonna, Lyesinum, Pulsatilla, Silicea. **Следует сравнить**: Аrnica, Belladonna, (головная боль и т. п.); Вrуonia (головная боль от кашля); Cantharis (жгучая боль, глоточные симптомы; дизентерия; мочевые симптомы); Psorinum (снижение реактивности; пациент отчаялся выздороветь; Capsicum показан субъектам с дряблыми, рыхлыми тканями); Lachesis (жажда перед ознобом и во время него; питье усиливает озноб; также Elaps), Natrum muriaticum, Carbo vegetabilis и Menyanthes (перемежающаяся лихорадка; Natrum muriaticum — это «хронический» Capsicum); Carbo animalis и Nitricum асidum (воспаление сосцевидного отростка, Nitricum асidum больше показаны при абсцессах; Silicea — при хроническом нагноении); Phosphoricum асidum (ностальгия; при этом для Capsicum характерно красное лицо); Arsenicum, Alumina, Carbo vegetabilis, Lyesinum (жгучая боль, уменьшающаяся от тепла); Mercurius, Nitricum асidum, Sulphur (кровотечение из кишечника); Croton tiglium (позывы к дефекации после питья); Helleborus (колики со спазмами мочевого пузыря); Platina (жгучая, едкая боль в лице, усиливающаяся от малейшего дуновения воздуха, холодного или теплого).
+**Совместимые препараты**: Belladonna, Lyesinum, Pulsatilla, Silicea. **Следует сравнить**: Arnica, Belladonna, (головная боль и т. п.); Bryonia (головная боль от кашля); Cantharis (жгучая боль, глоточные симптомы; дизентерия; мочевые симптомы); Psorinum (снижение реактивности; пациент отчаялся выздороветь; Capsicum показан субъектам с дряблыми, рыхлыми тканями); Lachesis (жажда перед ознобом и во время него; питье усиливает озноб; также Elaps), Natrum muriaticum, Carbo vegetabilis и Menyanthes (перемежающаяся лихорадка; Natrum muriaticum — это «хронический» Capsicum); Carbo animalis и Nitricum acidum (воспаление сосцевидного отростка, Nitricum acidum больше показаны при абсцессах; Silicea — при хроническом нагноении); Phosphoricum acidum (ностальгия; при этом для Capsicum характерно красное лицо); Arsenicum, Alumina, Carbo vegetabilis, Lyesinum (жгучая боль, уменьшающаяся от тепла); Mercurius, Nitricum acidum, Sulphur (кровотечение из кишечника); Croton tiglium (позывы к дефекации после питья); Helleborus (колики со спазмами мочевого пузыря); Platina (жгучая, едкая боль в лице, усиливающаяся от малейшего дуновения воздуха, холодного или теплого).
 
 Capsicum следует сравнить также со всеми пасленовыми.
 

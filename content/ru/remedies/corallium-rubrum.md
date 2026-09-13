@@ -210,4 +210,4 @@ Corallium rubrum служит антидотом для ртути.
 
 **Дополняющее лекарство:** Sulphur.
 
-**Следует сравнить**: Belladonna, Causticum, Coffea, Соccus сacti, Conium, Hyosyamus, Hydrophoinum. (вдыхаемый воздух кажется слишком холодным — также Cistus), Nitricum асidum, Nux vomica, Mephitis, Staphysagria, Drosera (кашель всегда влажный, тогда как у Corallium — всегда сухой); Petroleum, Selenium, Graphites; зубы ощущаются сильно сжатыми — Tuberculinum (Koch). Teste, испытавший Corallium rubrum и выявивший характерные дыхательные симптомы, относит его к группе Causticum
+**Следует сравнить**: Belladonna, Causticum, Coffea, Coccus cacti, Conium, Hyosyamus, Hydrophoinum. (вдыхаемый воздух кажется слишком холодным — также Cistus), Nitricum acidum, Nux vomica, Mephitis, Staphysagria, Drosera (кашель всегда влажный, тогда как у Corallium — всегда сухой); Petroleum, Selenium, Graphites; зубы ощущаются сильно сжатыми — Tuberculinum (Koch). Teste, испытавший Corallium rubrum и выявивший характерные дыхательные симптомы, относит его к группе Causticum

@@ -380,7 +380,7 @@ Ross свідченнями для дигіталісу вважає: «сухи
 
 **Digitalis несумісний з**: China (підсилює тривожність); нітратним спиртом, солодким.
 
-**Слід порівняти**: Асоnitum (тривожність); Antimonium tartaricum (надзвичайно сильна нудота); Apocynum, Arsenicum album, Belladonna, Bryonia, Chamomilla, Conium, Zincum, Kalmia, Lachesis (сон); Lobelia, Lycopus, Crataegus (слабке серце); Natrium muriaticum (частий та інтермітуючий пульс); Phosphorus (генітальні симптоми); Spigelia, Sulphur, Tabacum. (найсильніша нудота); При гонореї - Sulphur (крайня плоть ущільнена; Digitalis набрякла, інфільтрована); Серцебиття з проносом - Antimonium tartaricum.
+**Слід порівняти**: Aconitum (тривожність); Antimonium tartaricum (надзвичайно сильна нудота); Apocynum, Arsenicum album, Belladonna, Bryonia, Chamomilla, Conium, Zincum, Kalmia, Lachesis (сон); Lobelia, Lycopus, Crataegus (слабке серце); Natrium muriaticum (частий та інтермітуючий пульс); Phosphorus (генітальні симптоми); Spigelia, Sulphur, Tabacum. (найсильніша нудота); При гонореї - Sulphur (крайня плоть ущільнена; Digitalis набрякла, інфільтрована); Серцебиття з проносом - Antimonium tartaricum.
 
 Діють через мозок - Lobelia, Tabacum.
 

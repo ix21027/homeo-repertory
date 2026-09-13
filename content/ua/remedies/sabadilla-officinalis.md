@@ -379,7 +379,7 @@ Sabadilla відповідає багатьом випадкам порушен�
 
 **Антидотами є:** Camphora, Pulatilla, Conium.
 
-**Вона добре слідує** Вrуonia (плеврит).
+**Вона добре слідує** Bryonia (плеврит).
 
 **За нею добре слідують**: Arsenicum album, Belladonna, Mercurius, Nux vomica. **Слід порівняти з**: ботан., Veratrum album, Veratrum viride.
 
@@ -393,7 +393,7 @@ Sabadilla відповідає багатьом випадкам порушен�
 
 Погіршення від 4 до 8 години вечора - Lyesinum.
 
-Відчуття, ніби у животі перебуває щось живе — Crocus, Thuja. Відчуття, ніби у животі є якийсь механізм — Nitricum асidum. Наслідки розумової напруги Nux vomica, Picricum асidum. Лихоманка без спраги - Pulsatilla (з невгамовною спрагою - Natrium muriaticum). Щоденні напади в один і той самий час – Arsenicum album, Cedron. Голод рано-вранці - Agaricus, Antimonium crudum, Asarum, Calcarea carbonica, Carbo animalis, China, Lyesinum, Muriaticum acidum, Ranunculus bulbosus, Rhus toxicodendron, Zincum.
+Відчуття, ніби у животі перебуває щось живе — Crocus, Thuja. Відчуття, ніби у животі є якийсь механізм — Nitricum acidum. Наслідки розумової напруги Nux vomica, Picricum acidum. Лихоманка без спраги - Pulsatilla (з невгамовною спрагою - Natrium muriaticum). Щоденні напади в один і той самий час – Arsenicum album, Cedron. Голод рано-вранці - Agaricus, Antimonium crudum, Asarum, Calcarea carbonica, Carbo animalis, China, Lyesinum, Muriaticum acidum, Ranunculus bulbosus, Rhus toxicodendron, Zincum.
 
 Нудота побачивши їжі — Colchicum, Lyesinum.
 
@@ -407,6 +407,6 @@ Sabadilla відповідає багатьом випадкам порушен�
 
 Гельмінти у дітей - Conium, Silicea, Spigelia.
 
-Симптоми переміщаються ліворуч - Lachesis, Lac сaninum.
+Симптоми переміщаються ліворуч - Lachesis, Lac caninum.
 
 Ілюзії щодо свого тіла – Baptisia, алкалоїд Veratrin.

@@ -268,7 +268,7 @@ Selenium виліковує багато хронічних захворюван
 
 **Антидотами для Selenium є:** Ignatia, Pulsatilla, Muriaticum acidum. **Несумісні**: China, вино.
 
-**Сумісний з**: Caladium, Natrium сarbonicum, Staphysagria, Phosphoricum асidum (при статевій слабкості).
+**Сумісний з**: Caladium, Natrium carbonicum, Staphysagria, Phosphoricum acidum (при статевій слабкості).
 
 Сверблячка, що зменшується від Mercurius або Sulphur, часто вимагає Selenium. **Слід порівняти**: У всьому патогенезі Selenium простежується паралелізм із Sulphur, особливо це стосується шкірних симптомів.
 
@@ -278,9 +278,9 @@ Selenium виліковує багато хронічних захворюван
 
 Афонія у співаків - Causticum, Argentum nitricum, Stannum, Arum triphyllum, Graphites.
 
-Простатит та уретрит – Lithium сarbonicum, Digitalis, Cyclamen, Causticum, Lyesinum, Сорaiva.
+Простатит та уретрит – Lithium carbonicum, Digitalis, Cyclamen, Causticum, Lyesinum, Copaiva.
 
-Спекотна погода викликає втому - Lachesis, Camphora, Natrium сarbonicum, Natrium muriaticum.
+Спекотна погода викликає втому - Lachesis, Camphora, Natrium carbonicum, Natrium muriaticum.
 
 Наслідки психічного перенапруги та безсоння – Sulphur. Імпотенція - Sulphur (у Sulphur сильніше відчуття холоду і зморщування органів; Selenium - повніше розслаблення, отже насіння мимоволі витікає по краплях).
 
@@ -304,6 +304,6 @@ Selenium виліковує багато хронічних захворюван
 
 Біль у спині при полюціях – Cobaltum.
 
-Втома – Picricum асidum.
+Втома – Picricum acidum.
 
 Вплив сонця – Sol.

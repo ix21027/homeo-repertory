@@ -351,4 +351,4 @@ Carboneum sulphuratum має метеоризм Carbo vegetabilis і болюч�
 
 ## Взаємозв’язки
 
-**Слід порівняти:** Caustшсum, China та Natrium salicylicum (хвороба Меньєра); Carbo vegetabilis (метеоризм); Sulphur (болісна чутливість живота); Benzinum dinitricum (розлади зору); Аnасardium (чує голоси); Cannabis indica (відчуття, що череп відкривається та закривається); Kali bichromicum, Siicea, Sulphur (відчуття волосся у горлі).
+**Слід порівняти:** Caustшcum, China та Natrium salicylicum (хвороба Меньєра); Carbo vegetabilis (метеоризм); Sulphur (болісна чутливість живота); Benzinum dinitricum (розлади зору); Anacardium (чує голоси); Cannabis indica (відчуття, що череп відкривається та закривається); Kali bichromicum, Siicea, Sulphur (відчуття волосся у горлі).

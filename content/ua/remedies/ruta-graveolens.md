@@ -453,21 +453,21 @@ Ruta особливо підходить міцним повнокровним �
 
 ## Взаємозв’язки
 
-**Антидотом для Ruta** є Саmphora.
+**Антидотом для Ruta** є Camphora.
 
 **Ruta є антидотом** для Mercurius.
 
 **Додатковим засобом** є Calcarea phosphorica при ураженні суглобів.
 
-**Сумісність**: після Аrnica при ураженнях суглобів; після Symphytum при пошкодженні кісток; Calcarea carbonica, Causticum, Lyesinum, Phosphoricum acidum, Pulsatilla, Sulphur, Sulphuricum acidum (хвороби кісток).
+**Сумісність**: після Arnica при ураженнях суглобів; після Symphytum при пошкодженні кісток; Calcarea carbonica, Causticum, Lyesinum, Phosphoricum acidum, Pulsatilla, Sulphur, Sulphuricum acidum (хвороби кісток).
 
 **Слід порівняти**: при хворобах кісток – Angustura vera.
 
 Тривожність, вплив холоду та вологи - Rhus.
 
-Перенапруга очей – Natrum muriaticum, Onosmodium, Senega. Пролапс прямої кишки – Aesculus, Belladonna, Chininum sulphuricum, Nitricum асidum, Podophyllum.
+Перенапруга очей – Natrum muriaticum, Onosmodium, Senega. Пролапс прямої кишки – Aesculus, Belladonna, Chininum sulphuricum, Nitricum acidum, Podophyllum.
 
-Біль у спині посилюється вранці перед встанням з ліжка – Petroleum. Біль, немов від забитого місця, в тих частинах тіла, на яких пацієнт лежить, - Arnica, Варtisia, Руrogenium.
+Біль у спині посилюється вранці перед встанням з ліжка – Petroleum. Біль, немов від забитого місця, в тих частинах тіла, на яких пацієнт лежить, - Arnica, Baptisia, Pyrogenium.
 
 Запор після травм - Arnica.
 

@@ -301,4 +301,4 @@ Globus hystericus; ощущение большого комка, поднима�
 
 ## Взаимосвязи
 
-**Следует сравнить:** Lac caninum, Lac coagulatum, Lacticum асidum, Saccharum lactis, Vaccinum (нозод из тканей коровы); Natrium muriaticum (диабет, головная боль, запор, сердце); Cocculus (мигрени во время менструации); Cactus (сердце; но у Lac defloratum нет «сжатия», характерного для Cactus); Nux moschata (голова тяжелая, тенденция падать влево, у Lac defloratum вправо).
+**Следует сравнить:** Lac caninum, Lac coagulatum, Lacticum acidum, Saccharum lactis, Vaccinum (нозод из тканей коровы); Natrium muriaticum (диабет, головная боль, запор, сердце); Cocculus (мигрени во время менструации); Cactus (сердце; но у Lac defloratum нет «сжатия», характерного для Cactus); Nux moschata (голова тяжелая, тенденция падать влево, у Lac defloratum вправо).

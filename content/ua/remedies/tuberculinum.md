@@ -391,7 +391,7 @@ Tuberculinum має виражену дію при туберкульозі го
 
 Біль у ділянці апендикса – Arsenicum album, Lachesis.
 
-Біль у молочних залозах під час менструації – Conium, Calcarea carbonica. Підвищена чутливість до музики - Aconitum, Ambra, Natrium сarbonicum, Nux vomica, Phosphoricum acidum, Sepia, Thuja, Viola оdorata.
+Біль у молочних залозах під час менструації – Conium, Calcarea carbonica. Підвищена чутливість до музики - Aconitum, Ambra, Natrium carbonicum, Nux vomica, Phosphoricum acidum, Sepia, Thuja, Viola odorata.
 
 **Сумісний:** Hydrastis, Calcarea carbonica, Calcarea iodatum, Calcarea phosphorica, Phosphorus, Thuja, Sepia, Pulsatilla.
 

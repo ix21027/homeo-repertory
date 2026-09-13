@@ -884,10 +884,10 @@ Thuja является сильным левосторонним средств�
 
 **Thuja является антидотом для**: Mercurius, Sulphur, Iodum, Nux vomica. **Является дополнительной для**: Medorrhinum, Sabina, Silicea, Natrum sulphuricum при сикозе.
 
-**Совместима с**: Nitricum асidum, Sabina.
+**Совместима с**: Nitricum acidum, Sabina.
 
-**Хорошо следует за**: Medorrhinum, Mercurius, Nitricum асidum.
+**Хорошо следует за**: Medorrhinum, Mercurius, Nitricum acidum.
 
-**За Thuja хорошо следуют**: Mercurius, Sulphur. (эти препараты являются наилучшими), также Calcarea carbonica, Ignatia, Lyesinum, Кali саrbonicum, Pulsatilla, Silicea, Vaccinum.
+**За Thuja хорошо следуют**: Mercurius, Sulphur. (эти препараты являются наилучшими), также Calcarea carbonica, Ignatia, Lyesinum, Kali carbonicum, Pulsatilla, Silicea, Vaccinum.
 
 **Следует сравнить с:** конституциональными полихрестами – Medorrhinum, Syphilinum, Psorinum, Sulphur, Mercurius.

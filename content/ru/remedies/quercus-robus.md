@@ -146,9 +146,9 @@ Quercus — полезное средство при застарелых мал
 
 Дуб является близким родственником ивы, он обладает свойством вызывать лихорадку и головокружение, аналогичные эффекту салицина и его составляющих. Из коры дуба и галлов (или дубильных орешков, которые образуются при прокалывании листьев орехотворками) получают танин, таниновую и галловую кислоты.
 
-_Quercus является антидотом при симптомах алкогольной интоксикации_. **Следует сравнить**: при головокружении — Cocculus, Gelsemium, Natrum muriaticum, Natrum salicylicum, Digitalis; при заболеваниях селезенки — Сеаnothus, Scilla, Cedron, Urtica urens, Rubia tinctorum, Thuja; при алкоголизме – Nux vomica, Arsenicum album, China.
+_Quercus является антидотом при симптомах алкогольной интоксикации_. **Следует сравнить**: при головокружении — Cocculus, Gelsemium, Natrum muriaticum, Natrum salicylicum, Digitalis; при заболеваниях селезенки — Ceanothus, Scilla, Cedron, Urtica urens, Rubia tinctorum, Thuja; при алкоголизме – Nux vomica, Arsenicum album, China.
 
-**Сравнить** (В. Бёрике): Lachesis, Helianthus annuus (увеличение и болезненность селезенки), Сеаnothus, Natrum muriaticum.
+**Сравнить** (В. Бёрике): Lachesis, Helianthus annuus (увеличение и болезненность селезенки), Ceanothus, Natrum muriaticum.
 
 ## Рекомендации
 

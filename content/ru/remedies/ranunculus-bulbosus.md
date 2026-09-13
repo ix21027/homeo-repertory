@@ -342,6 +342,6 @@ Ranunculus bulbosus был испытан Franz.
 
 ## Взаимосвязи
 
-**Антидотами для Ranunculus bulbosus являются**: Вгуonia, Camphora, Pulsatilla, Rhus.
+**Антидотами для Ranunculus bulbosus являются**: Bгyonia, Camphora, Pulsatilla, Rhus.
 
 Ranunculus bulbosus несовместим с Sulphur, Staphysagria, Nit. sp. d., алкоголем, вином, уксусом. Следует сравнить: Ranunculus acris, Ranunculus sceleratus.

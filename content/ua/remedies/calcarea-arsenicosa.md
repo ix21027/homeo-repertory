@@ -187,7 +187,7 @@ sections: Характеристика; Психіка; Тип; Клініка; 
 
 ## Взаємозв’язки
 
-**Слід порівняти:** Lithium сarbonicum (психічні симптоми; серцебиття); Graphites (ожиріння); Glonoinum, Pulsatilla, Sepia, Sulphur (головний біль); Arsenicum album (алкоголізм); Nux vomica (пристрасть до вина); Arsenicum album, Kali iodatum, Phosphorus (виразка шлунка); Arsenicum album, Ipecacuanha (астма); Arsenicum album, Carbo vegetabilis, Digitalis, Glonoinum та Lithium сarbonicum (захворювання серця).
+**Слід порівняти:** Lithium carbonicum (психічні симптоми; серцебиття); Graphites (ожиріння); Glonoinum, Pulsatilla, Sepia, Sulphur (головний біль); Arsenicum album (алкоголізм); Nux vomica (пристрасть до вина); Arsenicum album, Kali iodatum, Phosphorus (виразка шлунка); Arsenicum album, Ipecacuanha (астма); Arsenicum album, Carbo vegetabilis, Digitalis, Glonoinum та Lithium carbonicum (захворювання серця).
 
 **Антидотом для Calcarea arsenicosa є**: Carbo vegetabilis (серцебиття); Glonoinum (головний біль); Pulsatilla (головний біль, що рве біль у лиці).
 

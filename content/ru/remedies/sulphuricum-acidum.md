@@ -32,7 +32,7 @@ Sulphuricum acidum обладает следующим необычным сво
 
 Для Sulphuricum acidum характерны кровотечения из всех отверстий, подкожные кровоизлияния (пурпура).
 
-Еще одним указанием на Sulphuricum acidum является травма; серная кислота следует за Аrnica при повреждении мягких тканей, за Conium — при увеличении лимфоузлов, за Ruta — при травмах костей.
+Еще одним указанием на Sulphuricum acidum является травма; серная кислота следует за Arnica при повреждении мягких тканей, за Conium — при увеличении лимфоузлов, за Ruta — при травмах костей.
 
 Sulphuricum acidum показана: 1) Пожилым людям, особенно женщинам.
 
@@ -432,13 +432,13 @@ Sulphuricum acidum является антидотом при отравлени
 
 Слабость, подворачивает ногу в голеностопном суставе – Causticum, Sulphur, Silicea.
 
-Скарлатина, синяки, дифтерийные пленки – Muriaticum асidum (для Muriaticum асidum характерно улучшение, когда больной раскрывается).
+Скарлатина, синяки, дифтерийные пленки – Muriaticum acidum (для Muriaticum acidum характерно улучшение, когда больной раскрывается).
 
-Растяжения — Ammonium сarbonicum (с жаром и болью).
+Растяжения — Ammonium carbonicum (с жаром и болью).
 
-Пациент часто падает — Natrium сarbonicum, Causticum, Sulphur. Боль постепенно нарастает и внезапно прекращается (Belladonna, Lyesinum — боль внезапно начинается и так же внезапно прекращается; Stannum — боль постепенно нарастает и постепенно уменьшается).
+Пациент часто падает — Natrium carbonicum, Causticum, Sulphur. Боль постепенно нарастает и внезапно прекращается (Belladonna, Lyesinum — боль внезапно начинается и так же внезапно прекращается; Stannum — боль постепенно нарастает и постепенно уменьшается).
 
-Афты — Sulphuricum acidum, Borax, Natrium muriaticum, Кali chloricum. Геморроидальные узлы — Nitricum асidum.
+Афты — Sulphuricum acidum, Borax, Natrium muriaticum, Kali chloricum. Геморроидальные узлы — Nitricum acidum.
 
 Питье вызывает ощущение холода в желудке — Elaps.
 
@@ -446,17 +446,17 @@ Sulphuricum acidum является антидотом при отравлени
 
 Пульсирующая головная боль во время менструации — Lachesis (Sulphuricum acidum сопровождается потливостью).
 
-Паховая грыжа — Lyesinum (Lyesinum — справа, Sulphuric acidum — слева). Несмотря на мытье, от ребенка исходит кислый запах – Hepar sulphur, Magnesia сarbonica, Rheum.
+Паховая грыжа — Lyesinum (Lyesinum — справа, Sulphuric acidum — слева). Несмотря на мытье, от ребенка исходит кислый запах – Hepar sulphur, Magnesia carbonica, Rheum.
 
 Ощущение, будто мозг свободно перемещается в черепе из стороны в сторону, — Belladonna, Bryonia, Rheum, Spigelia.
 
-Прострация — Aceticum асidum.
+Прострация — Aceticum acidum.
 
-Истечение черной крови из всех отверстий — Crotalus, Мuriaticum acidum, Nitricum асidum, Terebinthinae.
+Истечение черной крови из всех отверстий — Crotalus, Muriaticum acidum, Nitricum acidum, Terebinthinae.
 
 Слабость и истощение вследствие глубокой дискразии, при отсутствии других симптомов — Psorinum, Sulphur.
 
-Слабость — Picricum асidum.
+Слабость — Picricum acidum.
 
 Ощущение яичного белка на лице — Alumina.
 

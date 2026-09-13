@@ -515,7 +515,7 @@ Wildes, ссылаясь на известных авторов старой ш�
 
 **Совместимые препараты**: Sulphur (особенно если понос поднимает с постели по утрам).
 
-**Следует сравнить**: Picricum acidum (неспособность идти прямо; приапизм); Camphora и Secale (коллапс, кожа холодная, тем не менее пациент сбрасывает одежду); Veratrum album (коллапс с холодным потом); Syphylinum (время ухудшения - с заката до восхода); Ambra, Anacardium, Calcarea carbonica, Conium, Cuprum, Rheum, Stramonium; Lac сaninum (облегчение, когда опирается спиной на что-нибудь).
+**Следует сравнить**: Picricum acidum (неспособность идти прямо; приапизм); Camphora и Secale (коллапс, кожа холодная, тем не менее пациент сбрасывает одежду); Veratrum album (коллапс с холодным потом); Syphylinum (время ухудшения - с заката до восхода); Ambra, Anacardium, Calcarea carbonica, Conium, Cuprum, Rheum, Stramonium; Lac caninum (облегчение, когда опирается спиной на что-нибудь).
 
 ## Рекомендации
 

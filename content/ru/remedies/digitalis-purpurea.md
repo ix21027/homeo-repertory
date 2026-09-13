@@ -379,7 +379,7 @@ Ross показаниями для дигиталиса считает: «сух
 
 **Digitalis несовместим с**: China (усиливает тревожность); спиртом нитратным, сладким.
 
-**Следует сравнить**: Асоnitum (тревожность); Antimonium tartaricum (чрезвычайно сильная тошнота); Аросуnum, Arsenicum album, Belladonna, Bryonia, Chamomilla, Conium, Zincum, Kalmia, Lachesis (сон); Lobelia, Lycopus, Crataegus (слабое сердце); Natrium muriaticum (частый и интермиттирующий пульс); Phosphorus (генитальные симптомы); Spigelia, Sulphur, Tabacum. (сильнейшая тошнота); При гонорее — Sulphur (крайняя плоть уплотнена; Digitalis отечная, инфильтрированная); Сердцебиение с поносом — Antimonium tartaricum.
+**Следует сравнить**: Aconitum (тревожность); Antimonium tartaricum (чрезвычайно сильная тошнота); Аросуnum, Arsenicum album, Belladonna, Bryonia, Chamomilla, Conium, Zincum, Kalmia, Lachesis (сон); Lobelia, Lycopus, Crataegus (слабое сердце); Natrium muriaticum (частый и интермиттирующий пульс); Phosphorus (генитальные симптомы); Spigelia, Sulphur, Tabacum. (сильнейшая тошнота); При гонорее — Sulphur (крайняя плоть уплотнена; Digitalis отечная, инфильтрированная); Сердцебиение с поносом — Antimonium tartaricum.
 
 Действуют через мозг — Lobelia, Tabacum.
 
@@ -387,7 +387,7 @@ Ross показаниями для дигиталиса считает: «сух
 
 Съеденная пища поднимается и наполняет рот — Phosphorus.
 
-Любой шок ударяет по подложечной ямке — Phosphorus, Mezereum, Kali сarbonicum, Calcarea carbonica.
+Любой шок ударяет по подложечной ямке — Phosphorus, Mezereum, Kali carbonicum, Calcarea carbonica.
 
 Треск в голове — Aloe.
 

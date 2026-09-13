@@ -7,7 +7,7 @@ origin: https://homeopat-sam.com/-/a81
 remedy_blocks: 45
 ---
 
-Наиболее часто для лечения данной патологии используют следующие гомеопатические препараты: **Aconitum Aethusa AnacardiumAntimonium crudum Antimonium tartaricum Apomorphinum Arnica Arsenicum album Belladonna Bismutum subnitricum Bryonia Calcarea carbonica Carbo vegetabilis Chamomilla Chelidonium China Cina Cocculus Colchicum Conium Cyclamen Digitalis Erigeron Ferrum Ferrum aсeticum Ferrum phosphoricum Ignatia Ipecacuanha Iris Kreosotum Lobelia Natrium muriaticum Nux vomica Opium Petroleum Phosphoricum acidum Phosphorus Podophyllium Pulsatilla Pyrogenium Rhus toxicodendron Sepia Sulfuricum acidumTabacum Theridion Veratrum album**
+Наиболее часто для лечения данной патологии используют следующие гомеопатические препараты: **Aconitum Aethusa AnacardiumAntimonium crudum Antimonium tartaricum Apomorphinum Arnica Arsenicum album Belladonna Bismutum subnitricum Bryonia Calcarea carbonica Carbo vegetabilis Chamomilla Chelidonium China Cina Cocculus Colchicum Conium Cyclamen Digitalis Erigeron Ferrum Ferrum aceticum Ferrum phosphoricum Ignatia Ipecacuanha Iris Kreosotum Lobelia Natrium muriaticum Nux vomica Opium Petroleum Phosphoricum acidum Phosphorus Podophyllium Pulsatilla Pyrogenium Rhus toxicodendron Sepia Sulfuricum acidumTabacum Theridion Veratrum album**
 
 ### Aconitum (Аконитум)
 

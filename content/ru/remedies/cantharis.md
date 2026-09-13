@@ -378,4 +378,4 @@ Cantharis «изгоняет пузырный занос, мертвый пло�
 
 **Следует сравнить**: Doryphora, Coccus cacti, Coccionella, Apis, Belladonna, Bryonia, Cannabis sativa (более выражено жжение и щипание; у Cantharis — более выражены тенезмы);Petroselinum (внезапные позывы); Capsicum, Pulsatilla (задержка плаценты); Arsenicum album (задержка мочи после родов); Thuja (эрекции; при этом у Cantharis возникает задержка мочеиспускания, а у Thuja — нет); Mercurius (сперма с примесью крови); Sarsaparilla (моча жжет как огнем, содержит обрывки тканей и кровь); Arum, Rhus, Ranunculus sceleratus.
 
-Teste помещает Cantharis вместе с Senega и Phosphoricum асidum в группу Conium.
+Teste помещает Cantharis вместе с Senega и Phosphoricum acidum в группу Conium.

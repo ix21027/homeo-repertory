@@ -276,7 +276,7 @@ sections: Характеристика; Психика; Тропность; Кл
 
 ## Взаимосвязи
 
-**Следует сравнить:** Copaiva, Ferrum, Zincum, Nitricum асidum (лошадиный запах мочи); Tropaeolum majus.
+**Следует сравнить:** Copaiva, Ferrum, Zincum, Nitricum acidum (лошадиный запах мочи); Tropaeolum majus.
 
 При подагре Benzoicum acidum хорошо следует после Colchicum.
 

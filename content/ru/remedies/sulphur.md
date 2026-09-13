@@ -115,7 +115,7 @@ Sulphur обладает выраженным рассасывающим дей�
 
 **16**. Людям, которые относят все свои жалобы к эпигастрию: «все болезни вызывают нарушения в эпигастрии».
 
-**17**. Препарат показан детям, кишечник которых действует регулярно, но каждая дефекация сопровождается сильной болью (при болезненной дефекации и плотном комковатом стуле следует назначать Nitricum асidum).
+**17**. Препарат показан детям, кишечник которых действует регулярно, но каждая дефекация сопровождается сильной болью (при болезненной дефекации и плотном комковатом стуле следует назначать Nitricum acidum).
 
 ## Тропность
 
@@ -1013,8 +1013,8 @@ Sulphur часто используется для повышения реакт
 
 В этом отношении он является близким аналогом и союзником Medorrhinum и Syphylinum, поэтому эти средства следует изучать вместе.
 
-**Антидотами для Sulphur являются**: Асоnitum, Camphora, Chamomilla, China, Mercurius, Pulsatilla, Rhus, Sepia, Thuja.
+**Антидотами для Sulphur являются**: Aconitum, Camphora, Chamomilla, China, Mercurius, Pulsatilla, Rhus, Sepia, Thuja.
 
-**Sulphur является антидотом для**: Асоnitum, Aloe, China, Iodum, Merurius, Nitricum acidum, Oleander, Rhus, Sepia, Thuja; и в целом при заболеваниях, вызванных злоупотреблением металлами.
+**Sulphur является антидотом для**: Aconitum, Aloe, China, Iodum, Merurius, Nitricum acidum, Oleander, Rhus, Sepia, Thuja; и в целом при заболеваниях, вызванных злоупотреблением металлами.
 
 **Следует сравнить**: Calcarea carbonica, Calcarea phosphorica, Lyesinum, Sarsaparilla, Sepia, Pulsatilla.

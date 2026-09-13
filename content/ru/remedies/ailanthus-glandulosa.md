@@ -248,4 +248,4 @@ sections: Характеристика; Психика; Тип; Клиника; 
 
 К Ailanthus glandulosa ботанически близки Ptelea и другие представители семейства рутовых.
 
-**Антидотами** Ailanthus glandulosa служат: алкоголь, Rhus toxicodendron, Nux vomica. **Следует сравнить**: Ammonium сarbonicum, Arnica, Arum triphyllum, Aloe (тупая боль в области лба), Варtisia, Bryonia, Gelsemium, Hyoscyamus, Lachesis, Nitricum асidum, Nux vomica, Phytolacca, Hydrocyanicum асidum, Rhus toxicodendron, Stramonium, Echinacea.
+**Антидотами** Ailanthus glandulosa служат: алкоголь, Rhus toxicodendron, Nux vomica. **Следует сравнить**: Ammonium carbonicum, Arnica, Arum triphyllum, Aloe (тупая боль в области лба), Baptisia, Bryonia, Gelsemium, Hyoscyamus, Lachesis, Nitricum acidum, Nux vomica, Phytolacca, Hydrocyanicum acidum, Rhus toxicodendron, Stramonium, Echinacea.

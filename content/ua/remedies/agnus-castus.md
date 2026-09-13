@@ -225,4 +225,4 @@ Agnus - єдиний випробуваний засіб із родини ве�
 
 **Порівняйте** (брудні жовті білі): Nux vomica, Chelidonium, Carbo animalis, Kreosotum.
 
-Teste поєднує Agnus з Muriaticum асidum та Hyoscyamus.
+Teste поєднує Agnus з Muriaticum acidum та Hyoscyamus.

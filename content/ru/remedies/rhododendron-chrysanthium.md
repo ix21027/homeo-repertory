@@ -376,7 +376,7 @@ Rhododendron оказывает выраженное действие на му�
 
 Ухудшение во влажную погоду, при перемене погоды, в покое; улучшение от движения — Rhus toxicodendron (Rhus сильнее поражает надкостницу, чем Rhododendron; Rhododendron — улучшение, когда начинает двигаться, Rhus — ухудшение).
 
-Хуже во время грозы — Natrium сarbonicum, Phosphorus, Psorinum, Silicea. Хуже от вина — Zincum.
+Хуже во время грозы — Natrium carbonicum, Phosphorus, Psorinum, Silicea. Хуже от вина — Zincum.
 
 Жар в сердце — Crocus, Lachnanthes, Opium.
 
@@ -398,4 +398,4 @@ Rhododendron оказывает выраженное действие на му�
 
 Опьянение — Quercus.
 
-Звук отзывается в ушах -Causticum, Phosphorus, Phosphoricum асidum, Sarsaparilla.
+Звук отзывается в ушах -Causticum, Phosphorus, Phosphoricum acidum, Sarsaparilla.

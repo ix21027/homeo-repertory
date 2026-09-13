@@ -970,10 +970,10 @@ Sepia показана при тенденции к выкидышам; гово
 
 ## Взаимосвязи
 
-**Антидотами для Sepia являются**: Запах – Nitri spiritus dulcis, Асоnitum, Antimonium crudum, Antimonium tartaricum, Rhus.
+**Антидотами для Sepia являются**: Запах – Nitri spiritus dulcis, Aconitum, Antimonium crudum, Antimonium tartaricum, Rhus.
 
 **Sepia является антидотом для**: Calcarea carbonica, Mercurius, Natrum muriaticum, Natrum phosphoricum, Phosphorus, Sarsaparilla, Sulphur. **Несовместима с**: Lachesis.
 
 **Дополнительные**: Natrum muriaticum (каракатица живет в соленой воде), Natrum carbonicum и другие соли натрия; Sulphur.
 
-**За ней хорошо следует** Nitricum асidum.
+**За ней хорошо следует** Nitricum acidum.

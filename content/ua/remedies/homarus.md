@@ -203,4 +203,4 @@ L. Н. Hallock описав свій особистий досвід. Через
 
 ## Взаємозв’язки
 
-**Слід порівняти:** Sepia, Murex, Asterias rubens, Astacus fluviatilis; при холодних, вологих ногах – Calcarea carbonica; Lachesis - погіршення після сну; Hydrastis, Phytolacca, Picricum acidum; при погіршенні від молока - Calcarea сarbonica, Conium, Nitricum acidum, Sepia, Sulphur, Magnesia carbonica, Aethusa.
+**Слід порівняти:** Sepia, Murex, Asterias rubens, Astacus fluviatilis; при холодних, вологих ногах – Calcarea carbonica; Lachesis - погіршення після сну; Hydrastis, Phytolacca, Picricum acidum; при погіршенні від молока - Calcarea carbonica, Conium, Nitricum acidum, Sepia, Sulphur, Magnesia carbonica, Aethusa.

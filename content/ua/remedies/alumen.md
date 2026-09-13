@@ -269,4 +269,4 @@ sections: Характеристика; Психіка; Тип; Клініка; 
 
 **Alumen є антидотом** при отруєнні свинцем, каломеллю та іншими сполуками ртуті; для Aloe (блювання кров'ю).
 
-**Слід порівняти:** Alumina, Aloe (пряма кишка); Capsicum (подовження язичка); Kali bichromicum (тягучі виділення); Mercurius (випадання матки, піхви, пряма кишка, тенезми); Mercurius corrosivus, Muriaticum асidum, Nitricum асidum, Nux vomica, Opium, Platinum (отруєння свинцем); Plumbum, Rhatanum, Stannum, Sulphur, Sulphuricum acidum, Zincum (очі).
+**Слід порівняти:** Alumina, Aloe (пряма кишка); Capsicum (подовження язичка); Kali bichromicum (тягучі виділення); Mercurius (випадання матки, піхви, пряма кишка, тенезми); Mercurius corrosivus, Muriaticum acidum, Nitricum acidum, Nux vomica, Opium, Platinum (отруєння свинцем); Plumbum, Rhatanum, Stannum, Sulphur, Sulphuricum acidum, Zincum (очі).

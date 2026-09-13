@@ -289,4 +289,4 @@ sections: Характеристика; Психика; Клиника; Общи
 
 ## Взаимосвязи
 
-**Следует сравнить**: Magnesium сarbonicum, Magnesium muriaticum. При диабете – Natrium sulphuricum; при тоске, плаксивости, дурных предчувствиях и тревоге – Actea racemosa, Pulsatilla; при жалящей боли в зеве между актами глотания – Ignatia; при отрыжке – Hepar sulphur; при боязливости, опасениях, дурных предчувствиях - Lyesinum.
+**Следует сравнить**: Magnesium carbonicum, Magnesium muriaticum. При диабете – Natrium sulphuricum; при тоске, плаксивости, дурных предчувствиях и тревоге – Actea racemosa, Pulsatilla; при жалящей боли в зеве между актами глотания – Ignatia; при отрыжке – Hepar sulphur; при боязливости, опасениях, дурных предчувствиях - Lyesinum.

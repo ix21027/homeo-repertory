@@ -818,9 +818,9 @@ _Silicea также подходит_: — Нервным, раздражите�
 
 ## Взаимосвязи
 
-**Антидотами для Silicea служат**: Camphora, Hepar sulphur, Fluoricum асidum. **Silicea является антидотом для**: Mercurius corrosivus, Sulphur. **Несовместимый препарат**: Mercurius.
+**Антидотами для Silicea служат**: Camphora, Hepar sulphur, Fluoricum acidum. **Silicea является антидотом для**: Mercurius corrosivus, Sulphur. **Несовместимый препарат**: Mercurius.
 
-**Silicea хорошо действует после**: Belladonna, Bryonia, Calcarea carbonica, Calcarea phosphorica (при рахите, когда Calcarea phosphorica не помогает), Graphites, Hepar sulphur, Ignatia, Nitricum acidum, Phosphorus. **После Silicea хорошо действуют**: Hepar sulphur, Fluoricum асidum, Lachesis, Lyesinum, Sepia.
+**Silicea хорошо действует после**: Belladonna, Bryonia, Calcarea carbonica, Calcarea phosphorica (при рахите, когда Calcarea phosphorica не помогает), Graphites, Hepar sulphur, Ignatia, Nitricum acidum, Phosphorus. **После Silicea хорошо действуют**: Hepar sulphur, Fluoricum acidum, Lachesis, Lyesinum, Sepia.
 
 (Если улучшение, начавшееся под действием Silicea, прекратилось, один-два приема Sulphur восстановят реактивность, и затем Silicea завершит лечение пациента).
 

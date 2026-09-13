@@ -330,7 +330,7 @@ Guernsey описывает это так: «Язвы с кровянистым 
 
 Круп Hepar сопровождается влажным кашлем со свистом и хрипами (с ощущением, будто еще немного — и мокрота отойдет, но она все-таки не откашливается).
 
-Круп Hepar появляется ранним утром (у Асоnitum. — вечером).
+Круп Hepar появляется ранним утром (у Aconitum. — вечером).
 
 Кашель может начаться после глотка холодного воздуха или если пациент просто раскроется в постели.
 
@@ -596,11 +596,11 @@ Guernsey описывает это так: «Язвы с кровянистым 
 
 ## Взаимосвязи
 
-**Антидотами для Hepar являются:** Aceticum асidum, Belladonna, Chamomilla, Silicea.
+**Антидотами для Hepar являются:** Aceticum acidum, Belladonna, Chamomilla, Silicea.
 
-**Hepar является антидотом для**: металлов, особенно препаратов ртути, Nitricum асidum, Calcarea, Iodum, Kali iodatum, рыбьего жира. Устраняет расслабляющее действие эфира.
+**Hepar является антидотом для**: металлов, особенно препаратов ртути, Nitricum acidum, Calcarea, Iodum, Kali iodatum, рыбьего жира. Устраняет расслабляющее действие эфира.
 
-**Совместим с**: Асоnitum, Belladonna, Lack., Mercurius, Nitricum асidum, Silicea, Spongia, Zincum.
+**Совместим с**: Aconitum, Belladonna, Lack., Mercurius, Nitricum acidum, Silicea, Spongia, Zincum.
 
 **Является дополнительным** к Calendula при травмах.
 

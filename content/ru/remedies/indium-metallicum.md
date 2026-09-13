@@ -213,6 +213,6 @@ Indium, который получил свое название из-за син
 
 ## Взаимосвязи
 
-**Следует сравнить:** Belladonna (головная боль, менструации); Asparagus officinalis (моча); Sanguinaria (головная боль; ревматизм); Phosphorus, Natrium сarbonicum, Sulphur и Zincum (обморок в 11 часов утра.); Selenium и Titan (мужские половые органы); Brucea, Lachesis, Nux moschatus, Opium, Strontium (головная боль с сонливостью. Для Indium характерны и тошнота, и сонливость).
+**Следует сравнить:** Belladonna (головная боль, менструации); Asparagus officinalis (моча); Sanguinaria (головная боль; ревматизм); Phosphorus, Natrium carbonicum, Sulphur и Zincum (обморок в 11 часов утра.); Selenium и Titan (мужские половые органы); Brucea, Lachesis, Nux moschatus, Opium, Strontium (головная боль с сонливостью. Для Indium характерны и тошнота, и сонливость).
 
-Симптомы со стороны горла ослабевают от еды и питья - Indium. Indium напоминает Benzoicum асidum, Cistus, Lachesis.
+Симптомы со стороны горла ослабевают от еды и питья - Indium. Indium напоминает Benzoicum acidum, Cistus, Lachesis.

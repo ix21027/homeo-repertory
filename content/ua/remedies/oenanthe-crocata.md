@@ -203,4 +203,4 @@ Oenanthe crocata - одна з найбільш отруйних рослин р
 
 **Слід порівняти**: Phellandrium, Cicuta virosa, Conium.
 
-Епілепсія: Bufo rana; Пріапізм: Picricum асidum.
+Епілепсія: Bufo rana; Пріапізм: Picricum acidum.

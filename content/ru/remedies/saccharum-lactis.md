@@ -286,7 +286,7 @@ Camphora усиливает действие Saccharum lactis.
 
 **Следует сравнить**: Saccharum officinale и препараты из молока.
 
-Правая скуловая кость — Magnesia сarbonica.
+Правая скуловая кость — Magnesia carbonica.
 
 Нёбо — Manganum.
 
@@ -294,11 +294,11 @@ Camphora усиливает действие Saccharum lactis.
 
 Ухудшение от звука текущей воды — Hydroohorbinum.
 
-Боли расходятся во всех направлениях – Кali bichromicum.
+Боли расходятся во всех направлениях – Kali bichromicum.
 
 Тупая боль в почках — Santalum, Saccharum officinale.
 
-Усталость — Picricum асidum, Magnesia сarbonica.
+Усталость — Picricum acidum, Magnesia carbonica.
 
 Жар в области сердца — Lachnanthes.
 
@@ -306,4 +306,4 @@ Camphora усиливает действие Saccharum lactis.
 
 Хуже от влажности — Dulcamara.
 
-Чувствительность — Кali iodatum, Magnesia сarbonica.
+Чувствительность — Kali iodatum, Magnesia carbonica.

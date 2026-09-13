@@ -268,7 +268,7 @@ Selenium вылечивает многие хронические заболев
 
 **Антидотами для Selenium являются:** Ignatia, Pulsatilla, Muriaticum acidum. **Несовместимы**: China, вино.
 
-**Совместим с**: Caladium, Natrium сarbonicum, Staphysagria, Phosphoricum асidum (при половой слабости).
+**Совместим с**: Caladium, Natrium carbonicum, Staphysagria, Phosphoricum acidum (при половой слабости).
 
 Зуд, который уменьшается от Mercurius или Sulphur, часто требует Selenium. **Следует сравнить**: Во всем патогенезе Selenium прослеживается параллелизм с Sulphur, особенно это касается кожных симптомов.
 
@@ -278,9 +278,9 @@ Selenium вылечивает многие хронические заболев
 
 Афония у певцов - Causticum, Argentum nitricum, Stannum, Arum triphyllum, Graphites.
 
-Простатит и уретрит - Lithium сarbonicum, Digitalis, Cyclamen, Causticum, Lyesinum, Сорaiva.
+Простатит и уретрит - Lithium carbonicum, Digitalis, Cyclamen, Causticum, Lyesinum, Copaiva.
 
-Жаркая погода вызывает утомление - Lachesis, Camphora, Natrium сarbonicum, Natrium muriaticum.
+Жаркая погода вызывает утомление - Lachesis, Camphora, Natrium carbonicum, Natrium muriaticum.
 
 Последствия психического перенапряжения и бессонница - Sulphur. Импотенция - Sulphur (у Sulphur более сильное ощущение холода и сморщивание органов; Selenium - более полное расслабление, так что семя непроизвольно вытекает по каплям).
 
@@ -304,6 +304,6 @@ Selenium вылечивает многие хронические заболев
 
 Боль в спине при поллюциях - Cobaltum.
 
-Усталость - Picricum асidum.
+Усталость - Picricum acidum.
 
 Воздействие солнца - Sol.

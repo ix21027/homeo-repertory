@@ -8,7 +8,7 @@ origin: https://homeopat-sam.com/-/a502
 remedy_blocks: 11
 ---
 
-Наиболее часто при данной проблеме назначают следующие гомеопатические препараты: **Baryta carbonica Belladonna Calciarea carbonica Calcarea iodаta Capsicum Carbo vegetabilis Drosera Natrium muriaticum Petroleum Silicea Sulfur**
+Наиболее часто при данной проблеме назначают следующие гомеопатические препараты: **Baryta carbonica Belladonna Calciarea carbonica Calcarea iodata Capsicum Carbo vegetabilis Drosera Natrium muriaticum Petroleum Silicea Sulfur**
 
 ### Baryta carbonica (Барита карбоника)
 

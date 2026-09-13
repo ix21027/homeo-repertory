@@ -329,6 +329,6 @@ Guernsey наводить наступний характерний шкірни
 
 **Croton tiglium є антидотом** для Rhus toxicodendron.
 
-**Сумісний препарат** Кali bromatum.
+**Сумісний препарат** Kali bromatum.
 
-**Слід порівняти**: Elaterium, Veratrum, Ricinus communis, Euphorbium, Anacardium, Colchicum, Rhus toxicodendron, Phosphorus; при болю в молочних залозах – Bryonia, Borax, Phellandrium, Silicea; при непритомному стані під час дефекації, при убогій калі - Dulcamara, Oxalicum асidum, Petroleum, Sarsaparilla, Sulphur (якщо кал не мізерний - Apis, Nux moschata, Pulsatilla, Spigelia, Veratrum); при непритомному стані після дефекації – Nux vomica.
+**Слід порівняти**: Elaterium, Veratrum, Ricinus communis, Euphorbium, Anacardium, Colchicum, Rhus toxicodendron, Phosphorus; при болю в молочних залозах – Bryonia, Borax, Phellandrium, Silicea; при непритомному стані під час дефекації, при убогій калі - Dulcamara, Oxalicum acidum, Petroleum, Sarsaparilla, Sulphur (якщо кал не мізерний - Apis, Nux moschata, Pulsatilla, Spigelia, Veratrum); при непритомному стані після дефекації – Nux vomica.

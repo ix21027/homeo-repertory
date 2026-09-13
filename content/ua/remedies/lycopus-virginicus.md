@@ -250,6 +250,6 @@ Lycopus не порушує роботу шлунка, але діє як тон
 
 ## Взаємозв’язки
 
-**Слід порівняти**: Lamium (ботан.; гемороїдальні вузли); Ocimum canum (ботан.); Iberis amara, Kalmia, Spigelia, Crataegus, Cactus, Digitalis, Нуdrocyanicum acidum, Laurocerasus, Prunus spinosa (серце); Sanguinaria.
+**Слід порівняти**: Lamium (ботан.; гемороїдальні вузли); Ocimum canum (ботан.); Iberis amara, Kalmia, Spigelia, Crataegus, Cactus, Digitalis, Hydrocyanicum acidum, Laurocerasus, Prunus spinosa (серце); Sanguinaria.
 
 _Джон Генрі Кларк. «Словник Практичної Materia Medica в 6-ти томах»_ _(Видання «Гомеопатична медицина». Москва. 2001 р.)._

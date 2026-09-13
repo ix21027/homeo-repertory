@@ -230,6 +230,6 @@ Viola tricolor была испытана Hahnemann и его сотрудник�
 
 Высыпания, язвы и пр. — Chamomilla, Graphites, Hepar sulphuris, Mercurius, Oleander, Petroleum, Staphysagria.
 
-Проколы — Кali саrbonicum.
+Проколы — Kali carbonicum.
 
 Ботаническое родство: см. у Viola odorata.

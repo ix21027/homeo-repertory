@@ -19,7 +19,7 @@ sections: Характеристика; Психика; Клиника; Общи
 
 ## Характеристика
 
-Сведениями о первых испытаниях этого важнейшего средства мы обязаны Rubini из Неаполя и его жене. Cactus мощно воздействует на весь организм, но наиболее интенсивно его действие отражается на сердце и системе кровообращения. По способности вызывать прилив крови с ним может соперничать только Асоnitum, который, кстати, является одним из его антидотов. Как и для Асоnitum, для Cactus характерны непереносимые боли, вызывающие крики.
+Сведениями о первых испытаниях этого важнейшего средства мы обязаны Rubini из Неаполя и его жене. Cactus мощно воздействует на весь организм, но наиболее интенсивно его действие отражается на сердце и системе кровообращения. По способности вызывать прилив крови с ним может соперничать только Aconitum, который, кстати, является одним из его антидотов. Как и для Aconitum, для Cactus характерны непереносимые боли, вызывающие крики.
 
 Для психического состояния Cactus характерны тоска, мрачные предчувствия, страх смерти, склонность к испугу; как известно, эти же черты сопровождают многие сердечные заболевания. Назначаемый в качестве органотропного препарата, Cactus способен принести пользу во многих случаях сердечной слабости и болей в сердце; когда имеются его ключевые симптомы: «ощущение, будто железная лента мешает сердцу нормально сокращаться» или «сердце будто резко сжимается и отчаянно борется, пытаясь сбросить оковы» — он несомненно принесет исцеление. Боль и онемение в левой руке, сопровождающие заболевание сердца. Острая боль в диафрагме и опоясывающая боль в местах прикрепления диафрагмы. Нарушение пищеварения с описанными выше симптомами.
 
@@ -297,11 +297,11 @@ Snader считал Cactus совершенно особым препарато�
 
 ## Взаимосвязи
 
-**Ботаническое родство**: Cereus bonplandii, Сereus serpentinus, Opuntia и в некотором смысле Coccus cacti.
+**Ботаническое родство**: Cereus bonplandii, Cereus serpentinus, Opuntia и в некотором смысле Coccus cacti.
 
-**Антидотами для Cactus grandiflorus являются**: Асоnitum, Camphora, Eupatorium perfoliatum.
+**Антидотами для Cactus grandiflorus являются**: Aconitum, Camphora, Eupatorium perfoliatum.
 
-**Препарат комплиментарен с Digitalis** (беспорядочная работа сердца; замедленный, нерегулярный пульс; скудная моча; отечность); Eupatorium perfoliatum, Lachesis, Nux vomica, Sulphur (плеврит). **Хорошо следует за**: Асоnitum, Arnica, Arsenicum album, Belladonna, Bryonia, Chamomilla, Gelsemium, Ipecacuanha, Кali bromatum (болезненность диафрагмы), Lachesis, Nux vomica, Rhus toxicodendron.
+**Препарат комплиментарен с Digitalis** (беспорядочная работа сердца; замедленный, нерегулярный пульс; скудная моча; отечность); Eupatorium perfoliatum, Lachesis, Nux vomica, Sulphur (плеврит). **Хорошо следует за**: Aconitum, Arnica, Arsenicum album, Belladonna, Bryonia, Chamomilla, Gelsemium, Ipecacuanha, Kali bromatum (болезненность диафрагмы), Lachesis, Nux vomica, Rhus toxicodendron.
 
 **Следует сравнить**: психические симптомы — Digitalia, Lachesis; прилив крови к голове – Belladonna, Glonoinum.
 
@@ -309,7 +309,7 @@ Snader считал Cactus совершенно особым препарато�
 
 Ощущение тяжести в затылке — Aloe, Alumina.
 
-Поражение сердца — Асоnitum, Actea racemosa, Amylenum nitrosum, Arnica, Belladonna, Bovista, Crotalus, Digitalis, Eupatorium perfoliatum, Kalmia, Lachesis, Lilium tigrinum, Naja, Pulsatilla, Spigelia, Zincum (будто на сердце надет колпак); возбудимость сердца — Cereus bonplandii, Hepar sulphur, Phosphorus. Ощущение сжатия в груди — Zincum, Кali chloricum, Cadmium sulphuricum, Alumina, Belladonna, Bovista, Arnica, Cainca, Kali nitricum, Lachesis, Stramonium, Ощущение сжатия в матке — Мureх Ощущение сжатия во влагалище — Kali arbonicum.
+Поражение сердца — Aconitum, Actea racemosa, Amylenum nitrosum, Arnica, Belladonna, Bovista, Crotalus, Digitalis, Eupatorium perfoliatum, Kalmia, Lachesis, Lilium tigrinum, Naja, Pulsatilla, Spigelia, Zincum (будто на сердце надет колпак); возбудимость сердца — Cereus bonplandii, Hepar sulphur, Phosphorus. Ощущение сжатия в груди — Zincum, Kali chloricum, Cadmium sulphuricum, Alumina, Belladonna, Bovista, Arnica, Cainca, Kali nitricum, Lachesis, Stramonium, Ощущение сжатия в матке — Murex Ощущение сжатия во влагалище — Kali arbonicum.
 
 Прекращение менструальных выделений по ночам — Causticum.
 
@@ -321,7 +321,7 @@ Snader считал Cactus совершенно особым препарато�
 
 Невралгия и другие формы боли, которые появляются каждый раз, когда пропускается привычный прием пищи — Arsenicum album.
 
-Кровохарканье с сильным сердцебиением — Асоnitum (для Асоnitum характерна большая выраженность тревоги и лихорадки).
+Кровохарканье с сильным сердцебиением — Aconitum (для Aconitum характерна большая выраженность тревоги и лихорадки).
 
 Боль в диафрагме — Ranunculus bulbosus (боль Ranunculus bulbosus простреливает спереди назад; для Cactus характерна острая боль в диафрагме и опоясывающая боль в местах прикрепления диафрагмы).
 

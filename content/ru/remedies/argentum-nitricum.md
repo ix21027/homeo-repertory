@@ -536,6 +536,6 @@ Guernsey считает, что это лекарство необходимо �
 
 **После Argentum nitricum хорошо следует** Lyesinum (метеоризм).
 
-**Следует сравнить**: Argentum metallicum, Аurum, Сирrum, Кali bichromicum, Lachesis, Mercurius, Mercurius corrosivus, Mercurius iodatus, Natrum muriaticum, Nitricum acidum, Thuj, Calcarea carbonica, Bryonia, Causticum, Lyesinum, Sarsaparilla и Stannum, Glonoinum и другие препараты — производные азотной кислоты.
+**Следует сравнить**: Argentum metallicum, Aurum, Сирrum, Kali bichromicum, Lachesis, Mercurius, Mercurius corrosivus, Mercurius iodatus, Natrum muriaticum, Nitricum acidum, Thuj, Calcarea carbonica, Bryonia, Causticum, Lyesinum, Sarsaparilla и Stannum, Glonoinum и другие препараты — производные азотной кислоты.
 
 **Наиболее близким препаратом** является Pulsatilla.

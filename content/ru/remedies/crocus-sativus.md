@@ -352,12 +352,12 @@ Cooper согласен с мнением Culpepper о том, что дейст
 
 **Антидотом для Crocus sativus** являются Paeonia, Belladonna, Opium. **Совместимые препараты**: Nux vomica, Pulsatilla, Sulphur.
 
-**Следует сравнить:** Platinum (темные кровотечения со сгустками); Croton (боль, отдающая из левой половины грудной клетки в спину); Staphysagria (облегчение от зеванья); Fluoricum асidum (ощущение, словно в глаза дует холодный ветер); Codein (судорожные сокращения мышц, особенно глазных); Lachesis (боль, распространяющаяся из глаз к макушке); Tarentula (сокращения отдельных групп мышц); Calcarea carbonica, Ipecacuanha, Ignatia.
+**Следует сравнить:** Platinum (темные кровотечения со сгустками); Croton (боль, отдающая из левой половины грудной клетки в спину); Staphysagria (облегчение от зеванья); Fluoricum acidum (ощущение, словно в глаза дует холодный ветер); Codein (судорожные сокращения мышц, особенно глазных); Lachesis (боль, распространяющаяся из глаз к макушке); Tarentula (сокращения отдельных групп мышц); Calcarea carbonica, Ipecacuanha, Ignatia.
 
 Также Tarentula (истерия; хочет присоединиться, если слышит, как кто-то музицирует или поет. У Tarentula музыка облегчает состояние, у Crocus нет). Желание прыгать (Tarentula, Stramonium, Sticta, Asarum, Agaricum); Желание целоваться (Agaicum).
 
 Выкидыш на третьем месяце (Sabina, Kreosotum).
 
-Бурные движения плода (Орium, Thuja, Sulphur).
+Бурные движения плода (Opium, Thuja, Sulphur).
 
 Жар в сердце (Rhododendron, Lachnanhes, Opium).

@@ -289,8 +289,8 @@ Borax veneta – Бура — Na2B4O7 10Н2О.
 
 ## Взаимосвязи
 
-**Следует сравнить:** Calcarea carbonica, Nux vomica, Bryonia alba, Lyesinum, Mercurius, Pulsatilla, Rhus toxicodendron, Allium cepa, Silicea, Sulphur, Arsenicum album, Belladonna, Graphytes, Ignatia, Kali bichromicum, Phosphorus. **Антидотами для Borax veneta являются**: Chamomilla, Сoffea.
+**Следует сравнить:** Calcarea carbonica, Nux vomica, Bryonia alba, Lyesinum, Mercurius, Pulsatilla, Rhus toxicodendron, Allium cepa, Silicea, Sulphur, Arsenicum album, Belladonna, Graphytes, Ignatia, Kali bichromicum, Phosphorus. **Антидотами для Borax veneta являются**: Chamomilla, Coffea.
 
-**Сходное действие:** Ammonium сarbonicum и Magnesia muriatica (заложенность правой ноздри); Calcarea carbonica (желание сделать глубокий вдох); Kali bichromicum (вязкая слизь); Pulsatilla (чередование смеха и слез); Sarsaparilla, Lyesinum, Benzoicum асidum (резкий запах мочи; плач перед мочеиспусканием, однако у всех трех препаратов эти симптомы связаны с отхождением песка, у Borax — с воспалением слизистой); Arum triphyllum (стоматит); Graphytes (трихиаз); Belladonna (горячие бели); Sepia (маленькие язвы в области суставов); Ваryta carbonica (ощущение паутины); Natrium sulphuricum (радостное настроение после дефекации).
+**Сходное действие:** Ammonium carbonicum и Magnesia muriatica (заложенность правой ноздри); Calcarea carbonica (желание сделать глубокий вдох); Kali bichromicum (вязкая слизь); Pulsatilla (чередование смеха и слез); Sarsaparilla, Lyesinum, Benzoicum acidum (резкий запах мочи; плач перед мочеиспусканием, однако у всех трех препаратов эти симптомы связаны с отхождением песка, у Borax — с воспалением слизистой); Arum triphyllum (стоматит); Graphytes (трихиаз); Belladonna (горячие бели); Sepia (маленькие язвы в области суставов); Baryta carbonica (ощущение паутины); Natrium sulphuricum (радостное настроение после дефекации).
 
-Borax veneta нельзя сочетать с AcetIicum асidum, уксусом, вином.
+Borax veneta нельзя сочетать с AcetIicum acidum, уксусом, вином.

@@ -212,6 +212,6 @@ sections: Характеристика; Психика; Тип; Тропност
 
 ## Взаимосвязи
 
-**Следует сравнит**ь: Aralia raсemosa, Hedera helix, Coca.
+**Следует сравнит**ь: Aralia racemosa, Hedera helix, Coca.
 
-Органы дыхания поражаются так же, как при воздействии Aralia raсemosa. При «сонливости с головной болью»: Brucea antidysenterica, Heracleum spondylum, Gelsemium, Natrium sulphuricum, Nux moschata и Sulphur. При сухих губах: Вrуonia.
+Органы дыхания поражаются так же, как при воздействии Aralia racemosa. При «сонливости с головной болью»: Brucea antidysenterica, Heracleum spondylum, Gelsemium, Natrium sulphuricum, Nux moschata и Sulphur. При сухих губах: Bryonia.

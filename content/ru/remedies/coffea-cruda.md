@@ -241,4 +241,4 @@ Coffea подходит для высоких, худых, сутулых, те�
 
 **Несовместимы с Coffea cruda**: Cantharis, Causticum, Cocculus, Ignatia. **После Coffea cruda хорошо следуют:** Aurum, Belladonna, Opium, Nux vomica, Lyesinum.
 
-**Следует сравнить**: Сuprum (исступление); Вrуonia и Chamomilla (зубная боль, облегчающаяся от холодного); Асоnitum (предсказывает время смерти); Coca, Codeinum, Coffea tosta.
+**Следует сравнить**: Cuprum (исступление); Bryonia и Chamomilla (зубная боль, облегчающаяся от холодного); Aconitum (предсказывает время смерти); Coca, Codeinum, Coffea tosta.

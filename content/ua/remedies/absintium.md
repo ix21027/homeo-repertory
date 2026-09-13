@@ -139,4 +139,4 @@ sections: Характеристика; Психіка; Клініка; Зага
 
 ## Взаємозв’язки
 
-**Слід порівняти**: Artemisia vulgaris, Abrotanum, Cicuta, Hyoscyamus, Belladonna, Stramonium. Різкий запах сечі – Benzoicum асidum, Nitricum асidum.
+**Слід порівняти**: Artemisia vulgaris, Abrotanum, Cicuta, Hyoscyamus, Belladonna, Stramonium. Різкий запах сечі – Benzoicum acidum, Nitricum acidum.

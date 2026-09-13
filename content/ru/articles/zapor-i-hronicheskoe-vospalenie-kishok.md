@@ -7,7 +7,7 @@ origin: https://homeopat-sam.com/-/a69
 remedy_blocks: 43
 ---
 
-Наиболее часто при данной патологии используют следующие препараты: **Alumina Ammonium muriaticum Anacardium Antimonium crudum Arnica Baryta carbonica Bryonia Calcarea Сausticum China Collinsonia Dioscorea Dulcamara Graphytes Hepar sulfur Hydrastis Ignatia Iodofyllinum Kali carbonicum Lilium tigrinum Lycopodium Magnesia carbonica Magnesia muriatica Medorrhinum Natrium carbonicum Natrium muriaticum Natrium phosphorum Natrium sulfuricum Nux vomica Opium Phosphorus Platina Plumbum aceticum Plumbum metallicum Podophyllum Ruta Selenium Sepia Silicea Stannum Sulphur Tanacetum Thuja Veratrum album**
+Наиболее часто при данной патологии используют следующие препараты: **Alumina Ammonium muriaticum Anacardium Antimonium crudum Arnica Baryta carbonica Bryonia Calcarea Causticum China Collinsonia Dioscorea Dulcamara Graphytes Hepar sulfur Hydrastis Ignatia Iodofyllinum Kali carbonicum Lilium tigrinum Lycopodium Magnesia carbonica Magnesia muriatica Medorrhinum Natrium carbonicum Natrium muriaticum Natrium phosphorum Natrium sulfuricum Nux vomica Opium Phosphorus Platina Plumbum aceticum Plumbum metallicum Podophyllum Ruta Selenium Sepia Silicea Stannum Sulphur Tanacetum Thuja Veratrum album**
 
 ### Alumina (Алюмина)
 

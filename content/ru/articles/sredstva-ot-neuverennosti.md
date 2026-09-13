@@ -10,7 +10,7 @@ remedy_blocks: 6
 
 ## Для решения этой проблемы применяют следующие препараты
 
-**1. Ceratо (Ceratostigma willmottiana) - Цератостигма, Свинчатка 2. Sclerantes (Scleranthus aunuus) - Ежа или Дивала 3. Gentian (Gentiana amarella) - Горечавка 4. Garse (Ulex turopaeus) – Утесник 5. Hornbeam (Carpinus betulus) – Граб 6. Wild Oat (Bromus racemosus) – Овсюг или костер кистистый**
+**1. Cerato (Ceratostigma willmottiana) - Цератостигма, Свинчатка 2. Sclerantes (Scleranthus aunuus) - Ежа или Дивала 3. Gentian (Gentiana amarella) - Горечавка 4. Garse (Ulex turopaeus) – Утесник 5. Hornbeam (Carpinus betulus) – Граб 6. Wild Oat (Bromus racemosus) – Овсюг или костер кистистый**
 
 ### Cerato (Ceratostigma willmottiana) - Цератостигма, Свинчатка
 

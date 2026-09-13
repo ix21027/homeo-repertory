@@ -136,7 +136,7 @@ sections: Характеристика; Тип; Тропность; Клиник
 
 **Следует сравнить**: Ammonium, Calendula, Hypericum, Conium, Arsenicum album, Hamamelis, Vanadium metallicum.
 
-При переутомлении необходимо дифференцировать с Picricum асidum.
+При переутомлении необходимо дифференцировать с Picricum acidum.
 
 ## Рекомендации
 

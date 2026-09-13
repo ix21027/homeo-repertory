@@ -252,7 +252,7 @@ Iodium широко применяется при ревматизме и заб
 
 Сильнейшее ощущение тревоги в области сердца, вынуждающее больного постоянно менять положение.
 
-Гипертрофия сердца, очень похожая на Аrnica, которая вызвана перенапряжением и часто встречается, например, у горничных.
+Гипертрофия сердца, очень похожая на Arnica, которая вызвана перенапряжением и часто встречается, например, у горничных.
 
 Жировая дистрофия миокарда.
 
@@ -508,8 +508,8 @@ Nash считает Iodium одним из средств, на которое �
 
 **Хорошо следует за**: Mercurius; Hepar sulphur (круп); Arsenicum album. При дефектах роста, искривлении костей и детских заболеваниях Iodium **хорошо следует за Calcarea carbonica.**
 
-**За Iodium хорошо следуют**: Асоnitum, Argentum, Argentum nitricum, Calcarea carbonica, Mercurius solubilis, Phosphorus, Pulsatilla.
+**За Iodium хорошо следуют**: Aconitum, Argentum, Argentum nitricum, Calcarea carbonica, Mercurius solubilis, Phosphorus, Pulsatilla.
 
 **Дополнительным является**: Lyesinum.
 
-**Следует сравнить:** Bromium (для Bromium характерны волосы и цвет лица светлые, для Iodium — темные; Bromium — гнилостный запах язв); Chlorum; Natrum muriaticum (волчий аппетит, а пациент все же остается худым — Natrum muriaticum особенно вокруг шеи); Kali iodatum (болтливый, словно после приема алкоголя); Ваryta carbonica (туберкулез брыжеечных лимфатических узлов; ужасный голод, истощение „болтливость, антипатия к незнакомым; Ваryta carbonica — подходит малорослым людям; не имеет невыносимой раздражительности Iodium, которая сильнее, чем у Antimonium crudum); Alumina (ужасные предчувствия); Apis (выпот в суставах, чувствительность, гидроцефалия); Cactus и Spigelia (сердце); Hydrastis (патология матки); Arsenicum album, Calcarea carbonica, Silicea и Staphysagria (волчий аппетит); Нуоscyamus (потеря голоса; в этом случае Iodium является антидотом); Sulphur.
+**Следует сравнить:** Bromium (для Bromium характерны волосы и цвет лица светлые, для Iodium — темные; Bromium — гнилостный запах язв); Chlorum; Natrum muriaticum (волчий аппетит, а пациент все же остается худым — Natrum muriaticum особенно вокруг шеи); Kali iodatum (болтливый, словно после приема алкоголя); Baryta carbonica (туберкулез брыжеечных лимфатических узлов; ужасный голод, истощение „болтливость, антипатия к незнакомым; Baryta carbonica — подходит малорослым людям; не имеет невыносимой раздражительности Iodium, которая сильнее, чем у Antimonium crudum); Alumina (ужасные предчувствия); Apis (выпот в суставах, чувствительность, гидроцефалия); Cactus и Spigelia (сердце); Hydrastis (патология матки); Arsenicum album, Calcarea carbonica, Silicea и Staphysagria (волчий аппетит); Hyoscyamus (потеря голоса; в этом случае Iodium является антидотом); Sulphur.

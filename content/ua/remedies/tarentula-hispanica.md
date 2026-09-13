@@ -517,7 +517,7 @@ Tarentula є хорошим засобом при невралгії нижнь�
 
 **Tarentula є антидотом**: для Lachesis. (Hering).
 
-**Частковим антидотом для:** Pulsatilla, Magnesium сarbonicum, Moschus, Cuprum, Chelidonium, Gelsemium, Bovista, Carbo vegetabilis.
+**Частковим антидотом для:** Pulsatilla, Magnesium carbonicum, Moschus, Cuprum, Chelidonium, Gelsemium, Bovista, Carbo vegetabilis.
 
 **Слід порівняти**: При подразненні периферичних нервів, що зменшується від фізичних вправ та розтирань, - Kali bromatum, Chorea, Mygale, Actea racemosa, Agaricus, Stramonium.
 
@@ -531,7 +531,7 @@ Tarentula є хорошим засобом при невралгії нижнь�
 
 Найсильніша веселість – Coffea.
 
-Нещасливе кохання - Phosphoricum асidum.
+Нещасливе кохання - Phosphoricum acidum.
 
 Хвороба Меньєра, малярія – Chininum sulphuricum.
 
@@ -543,7 +543,7 @@ Tarentula є хорошим засобом при невралгії нижнь�
 
 Кров у насінні - Mercurius, Ledum.
 
-Стенокардія – Latrodectus mactans, погіршення після статевого акту – Kali саrbonicum, Staphysagria.
+Стенокардія – Latrodectus mactans, погіршення після статевого акту – Kali carbonicum, Staphysagria.
 
 Відчуття, що під шкірою хтось повзає - Coca.
 

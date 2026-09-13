@@ -341,7 +341,7 @@ Valeriana устраняет возбужденное состояние сис�
 
 Гиперчувствительность – Nux vomica.
 
-Страх темноты - Stramonium, Strontium, Ammonium muriaticum, Arsenicum album, Baryta сarbonica, Calcarea carbonica, Carbo animalis, Carbo vegetabilis, Causticum, Lyesinum, Phosphorus, Pulsatilla, Rhus toxicodendron.
+Страх темноты - Stramonium, Strontium, Ammonium muriaticum, Arsenicum album, Baryta carbonica, Calcarea carbonica, Carbo animalis, Carbo vegetabilis, Causticum, Lyesinum, Phosphorus, Pulsatilla, Rhus toxicodendron.
 
 Состояние «как во сне» - Ambra, Anacardium, Calcarea carbonica, Conium, Cuprum, Medorrhinum, Rheum, Veratrum.
 

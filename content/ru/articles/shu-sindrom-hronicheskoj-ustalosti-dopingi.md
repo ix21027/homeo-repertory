@@ -8,7 +8,7 @@ origin: https://homeopat-sam.com/-/a504
 remedy_blocks: 23
 ---
 
-Если при синдроме хронической усталости преобладающими симптомами являются вялость, утомляемость, слабость, то для поднятия жизненных сил наиболее часто назначают следующие гомеопатические препараты: **Antimonium crudum Arsenicum album Belladonna Cantharis Capsicum China Cyanatum acidum Dulcamara Fluoricum acidum Hyoscуamus Ignatia Kali carbonicum Lachesis Laurocerasus Nux vomica Opium Picrinicum acidum Platina Rhus toxicodendron Ruta Selenium Silicea Sol**
+Если при синдроме хронической усталости преобладающими симптомами являются вялость, утомляемость, слабость, то для поднятия жизненных сил наиболее часто назначают следующие гомеопатические препараты: **Antimonium crudum Arsenicum album Belladonna Cantharis Capsicum China Cyanatum acidum Dulcamara Fluoricum acidum Hyoscyamus Ignatia Kali carbonicum Lachesis Laurocerasus Nux vomica Opium Picrinicum acidum Platina Rhus toxicodendron Ruta Selenium Silicea Sol**
 
 ### Stramonium Tabacum Zincum
 

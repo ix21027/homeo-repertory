@@ -305,9 +305,9 @@ Talcott считает, что Agaricus muscarius в большей степен
 
 Bovista, Sticta pulmonaria, Actea racemosa, Cannabis indica, Opium, Stramonium (алкоголизм, хорея); Coffea (экстатическое возбуждение); Cicuta (спазмы глазных яблок); Codein (спазмы век); Mygale; Tarentula; Veratrum album (ощущение ледяного холода в голове); Arsenicum album (горячие иглы; Agaricus — ледяные иглы); Agaricus — среднее между Stramonium и Lachesis.
 
-**Антидотами для Agaricus muscarius служат**: активированный уголь, кофе, бренди, камфора, масло или жир (облегчают состояние желудка); Calcarea сarbonica (облегчает ледяную холодность); Pulsatilla, Rhus toxicodendron (ночная боль в спине).
+**Антидотами для Agaricus muscarius служат**: активированный уголь, кофе, бренди, камфора, масло или жир (облегчают состояние желудка); Calcarea carbonica (облегчает ледяную холодность); Pulsatilla, Rhus toxicodendron (ночная боль в спине).
 
-**Agaricus muscarius хорошо следует за**: Belladonna, Calcarea сarbonica, Mercurius, Opium, Pulsatilla, Calcarea сarbonica, Silicea.
+**Agaricus muscarius хорошо следует за**: Belladonna, Calcarea carbonica, Mercurius, Opium, Pulsatilla, Calcarea carbonica, Silicea.
 
 **После Agaricus muscarius хорошо следует**: Tarentula (тифоидное состояние, когда больной мечется головой по подушке).
 

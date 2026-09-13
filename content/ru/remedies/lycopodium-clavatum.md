@@ -27,7 +27,7 @@ Lycopodium стоит в одном ряду с такими средствам�
 
 Плауны занимают положение между мхами и папоротниками, а в далеком прошлом, как показывают раскопки, занимали важное место в растительном царстве Земли.
 
-Teste помещает Lycopodium во главе группы, в которую включены также Natrum muriaticum, Viola triсolor и Antimonium сrudum.
+Teste помещает Lycopodium во главе группы, в которую включены также Natrum muriaticum, Viola tricolor и Antimonium crudum.
 
 К общим его характеристикам относятся: первичное действие на пищеварительную трубку и относящиеся к ней железы; действие Lycopodium скореенаправлено на печень и толстый кишечник, нежели на желудок. Недостаток жизненного тепла.
 
@@ -1005,15 +1005,15 @@ Lycopodium особенно подходит людям с проницател�
 
 ## Взаимосвязи
 
-**Антидотами для Lycopodium являются**: Асоnitum, Camphora, Causticum, Chamomilla, Coffea, Graphites, Nux vomica, Pulsatilla.
+**Антидотами для Lycopodium являются**: Aconitum, Camphora, Causticum, Chamomilla, Coffea, Graphites, Nux vomica, Pulsatilla.
 
 **Lycopodium является антидотом**: China (лицо желтое, печень и селезенка отечные, метеоризм, напряжение под ложными ребрами, сильнее справа; давление в желудке и запор); Mercurius; Chlorine (действие паров, когда они вызывают импотенцию).
 
-**С Lycopodium совместимы**: Belladonna, Bryonia, Carbo vegetabilis (доза Carbo vegetabilis, принимаемая каждый восьмой день, способствует действию Lycopodium); Calcarea сarbonica (предрасположенность к запорам, плотный стул, который выделяется с трудом, или неэффективные позывы); Graphites, Hyoscyamus, Lachesis, Ledum, Phosphorus, Pulsatilla, Sepia, Stramonium, Sulphur, Veratrum album.
+**С Lycopodium совместимы**: Belladonna, Bryonia, Carbo vegetabilis (доза Carbo vegetabilis, принимаемая каждый восьмой день, способствует действию Lycopodium); Calcarea carbonica (предрасположенность к запорам, плотный стул, который выделяется с трудом, или неэффективные позывы); Graphites, Hyoscyamus, Lachesis, Ledum, Phosphorus, Pulsatilla, Sepia, Stramonium, Sulphur, Veratrum album.
 
-**Lycopodium хорошо следует за**: Sulphur, Calcarea сarbonica, Lachesis. **За ним хорошо следуют**: Graphites, Lachesis, Ledum, Phosphorus, Silicea. **Несовместим с кофе**.
+**Lycopodium хорошо следует за**: Sulphur, Calcarea carbonica, Lachesis. **За ним хорошо следуют**: Graphites, Lachesis, Ledum, Phosphorus, Silicea. **Несовместим с кофе**.
 
-**Дополнительными препаратами служат**: Iodum, Chelidonium, Кali iodatum, Lachesis, Ignatia, Pulsatilla, Ipecacuanha.
+**Дополнительными препаратами служат**: Iodum, Chelidonium, Kali iodatum, Lachesis, Ignatia, Pulsatilla, Ipecacuanha.
 
 ## Рекомендации
 

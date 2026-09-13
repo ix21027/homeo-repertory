@@ -27,7 +27,7 @@ sections: Характеристика; Психика; Голова; Взаим
 
 ## Взаимосвязи
 
-**Сравнить:** The intoxication of Anhalonium is similar to that of Cannabis Indica and Oenanthe.
+**Сравнить:** Agave. The intoxication of Anhalonium is similar to that of Cannabis Indica and Oenanthe.
 
 ## Дозы
 

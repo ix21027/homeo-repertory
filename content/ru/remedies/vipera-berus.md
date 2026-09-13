@@ -196,4 +196,4 @@ Swan называл Vipera лекарством от всех видов нос�
 
 **Следует сравнить**: Кровотечение жидкой кровью - Sanguisuga.
 
-Ухудшение от свободного свисания конечности – Calcarea carbonica, Ammonium сarbonicum, Thuja.
+Ухудшение от свободного свисания конечности – Calcarea carbonica, Ammonium carbonicum, Thuja.

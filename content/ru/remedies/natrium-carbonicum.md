@@ -559,4 +559,4 @@ Natrium carbonicum подходит светловолосым людям; па�
 
 **Совместимые лекарства**: Calcarea carbonica, Nux vomica, Pulsatilla, Sepia, Sulphur.
 
-**Следует сравнить**: Natrum sulphuricum, Natrum muriaticum, Sepia, Picricum acidum, Nux vomica, Phosphorus, Rhododendron, Silicea, Petroleum, Sulphuricum асidum, Sulphur, Lyesinum, Ammonium carbonicum, Ammonium muriaticum, Allium cepa, Вrуonia, Calcarea carbonica, Agaricus, Naja, Асоnitum, Glonoinum, Zincum, Кali carbonicum, Antimonium crudum, Lachesis, Sabina, Agaricus, Lilium tigrinum, Ledum, Carbo animalis.
+**Следует сравнить**: Natrum sulphuricum, Natrum muriaticum, Sepia, Picricum acidum, Nux vomica, Phosphorus, Rhododendron, Silicea, Petroleum, Sulphuricum acidum, Sulphur, Lyesinum, Ammonium carbonicum, Ammonium muriaticum, Allium cepa, Bryonia, Calcarea carbonica, Agaricus, Naja, Aconitum, Glonoinum, Zincum, Kali carbonicum, Antimonium crudum, Lachesis, Sabina, Agaricus, Lilium tigrinum, Ledum, Carbo animalis.

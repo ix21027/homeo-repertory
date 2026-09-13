@@ -190,4 +190,4 @@ sections: Характеристика; Психика; Тип; Клиника; 
 
 **Антидотами** для Magnetis polus austrails являются: Magnetis polus arcticus, Ignatia, Zincum.
 
-**Следует сравнить**: Magnetis poliambo, Galvanismus, Electricitas. При зловонном кашле – Capsicum; при приливах крови к голове –Asterias rubens; при вросшем ногте — Graphithes, Silicea, Nitricum асidum, Thuja. Также см. взаимоотношения Magnetis poliambo.
+**Следует сравнить**: Magnetis poliambo, Galvanismus, Electricitas. При зловонном кашле – Capsicum; при приливах крови к голове –Asterias rubens; при вросшем ногте — Graphithes, Silicea, Nitricum acidum, Thuja. Также см. взаимоотношения Magnetis poliambo.

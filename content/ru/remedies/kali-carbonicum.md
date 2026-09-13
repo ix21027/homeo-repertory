@@ -850,6 +850,6 @@ Kali carbonicum позволил излечить множество забол�
 
 **Антидотами для Kali carbonicum** являются: Camphora, Coffea, Nitri spiritus dulcis. **Kali carbonicum является дополнительным для**: Carbo vegetabilis, Phosphorus, Sepia, Nitricum acidum, Natrum muriaticum.
 
-**Хорошо следует за**: Кali sulphuricum, Phosphorus, Stannum, Bryonia, Lyesinum, Natrum muriaticum.
+**Хорошо следует за**: Kali sulphuricum, Phosphorus, Stannum, Bryonia, Lyesinum, Natrum muriaticum.
 
 **За Kali carbonicum хорошо следуют**: Carbo vegetabilis, Phosphorus, Fluoricum acidum, Arsenicum album, Lyesinum, Pulsatilla, Sepia, Sulphur.

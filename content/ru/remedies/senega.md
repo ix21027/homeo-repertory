@@ -342,11 +342,11 @@ Senega действует на глаза: также внутреннее и н
 
 ## Взаимосвязи
 
-**Антидотами для Senega являются**: Вrуonia, а также Arnica, Belladonna, Camphora.
+**Антидотами для Senega являются**: Bryonia, а также Arnica, Belladonna, Camphora.
 
 **За Senega хорошо следуют**: Calcarea carbonica, Phosphorus, Lyesinum, Sulphur. **Следует сравнить**: Saponin (производное корня Senega).
 
-При поражении бронхов – Аmmonium.
+При поражении бронхов – Ammonium.
 
 Полные, полнокровные люди, предрасположенные к простудам — Calcarea carbonica.
 
@@ -354,8 +354,8 @@ Senega действует на глаза: также внутреннее и н
 
 Бронхит — Spongia.
 
-Коклюш – Соccus cacti, Кali bichromicum (Senega — мокрота прозрачная, кашель усиливается к вечеру; Соccus cacti — мокрота прозрачная, ухудшение утром; Кali bichromicum — желтая мокрота, ухудшение утром).
+Коклюш – Coccus cacti, Kali bichromicum (Senega — мокрота прозрачная, кашель усиливается к вечеру; Coccus cacti — мокрота прозрачная, ухудшение утром; Kali bichromicum — желтая мокрота, ухудшение утром).
 
-Плевродиния, плеврит — Вгуonia.
+Плевродиния, плеврит — Bгyonia.
 
 Туберкулез слизистых — Stannum.

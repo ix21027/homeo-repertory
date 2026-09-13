@@ -226,8 +226,8 @@ Croserio испытал этот препарат, употребляя нера
 
 **Следует сравнить** с Natrium muriaticum.
 
-Колющая боль — Кali саrbonicum.
+Колющая боль — Kali carbonicum.
 
-Ощущение железного засова на груди – Haematoxylum campechianum, Arsenicum album, Oxalicum асidum.
+Ощущение железного засова на груди – Haematoxylum campechianum, Arsenicum album, Oxalicum acidum.
 
-Ухудшение от полового акта — Кali саrbonicum, Кali bichromicum, Staphysagria. Обонятельные галлюцинации — Аnacardium.
+Ухудшение от полового акта — Kali carbonicum, Kali bichromicum, Staphysagria. Обонятельные галлюцинации — Anacardium.

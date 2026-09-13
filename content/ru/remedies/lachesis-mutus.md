@@ -969,13 +969,13 @@ Lachesis является одним из лучших средств при а�
 
 **Антидотами для яда змеи являются**: наружное тепло, прием алкоголя внутрь, соль, после укуса.
 
-**Антидоты для потенцированного Lachesis** - Alumina, Belladonna, Cocculus, Coffea, Hepar sulphur, Mercurius, Nitricum acidum, Nux vomica, Phosphoricum асidum, при видимых, спастических тенезмах прямой кишки - Sepia. По мнению Teste, **главным антидотом является Cedron**.
+**Антидоты для потенцированного Lachesis** - Alumina, Belladonna, Cocculus, Coffea, Hepar sulphur, Mercurius, Nitricum acidum, Nux vomica, Phosphoricum acidum, при видимых, спастических тенезмах прямой кишки - Sepia. По мнению Teste, **главным антидотом является Cedron**.
 
 **Lachesis является антидотом для:** Bufo rana, Crotalus, Rhus.
 
-**Совместим с**: Асоnitum, Arsenicum album, Belladonna, Bromium, Carbo vegetabilis, Hepar sulphur, Hyoscyamus, Kali bichromicum, Lac caninum, Lyesinum, Mercurius, Nitricum acidum, Nux vomica, Oleander, Phosphorus, Pulsatilla, Sulphur (пневмония), Tarentula.
+**Совместим с**: Aconitum, Arsenicum album, Belladonna, Bromium, Carbo vegetabilis, Hepar sulphur, Hyoscyamus, Kali bichromicum, Lac caninum, Lyesinum, Mercurius, Nitricum acidum, Nux vomica, Oleander, Phosphorus, Pulsatilla, Sulphur (пневмония), Tarentula.
 
-**Несовместим с** Aceticum acidum. (Ammonium сarbonicum).
+**Несовместим с** Aceticum acidum. (Ammonium carbonicum).
 
 **Является дополнительным**: Hepar sulphur, Lyesinum, Nitricum acidum. (Lyesinum является главным средством, дополняющим Lachesis, и в то же время его противоположностью по многим параметрам [распространение справа налево, справа сверху - налево, справа сверху - налево вниз; улучшение от теплых напитков]); Iodum и Kali iodatum, которые являются дополнительными для Lyesinum, вероятно, являются дополнительными и для Lachesis.
 

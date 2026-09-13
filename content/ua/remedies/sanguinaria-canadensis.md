@@ -522,7 +522,7 @@ Sanguinaria має виражену дію на молочні залози.
 
 **Сумісна з**: Belladonna (скарлатина).
 
-**Слід порівняти**: ботанічні родичі, Chelidonium, Opium. При ревматичному болю у правій дельтоподібній м'язі - Magnesia сarbonica. Головний біль поширюється із потилиці вперед і локалізується над (правим) оком, Spigelia (над лівим оком), Sepia (над обома очима); поширюється вперед – Gelsemium, Lachesis, назад – Аnасardium, Bryonia, Chininum sulphuricum, Naja, Nux vomica).
+**Слід порівняти**: ботанічні родичі, Chelidonium, Opium. При ревматичному болю у правій дельтоподібній м'язі - Magnesia carbonica. Головний біль поширюється із потилиці вперед і локалізується над (правим) оком, Spigelia (над лівим оком), Sepia (над обома очима); поширюється вперед – Gelsemium, Lachesis, назад – Anacardium, Bryonia, Chininum sulphuricum, Naja, Nux vomica).
 
 Головний біль слабшає при сильному натисканні Indigo, Magnesia muriatica. Напади головного болю закінчуються рясним сечовипусканням - Ignatia, Gelsemium, Veratrum album.
 

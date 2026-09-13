@@ -259,6 +259,6 @@ Hale згадує про лікування імпотенції у чолові
 
 **Слід порівняти**: Аросуnum (набряки); Apis, Cannabis sativa, Cantharis, Copaiva, Ferrum, Hydrastis, Mitchella repens, Senecio, Vespa (ниркові симптоми).
 
-Capsicum, Phosphoricum асidum при тузі за домом.
+Capsicum, Phosphoricum acidum при тузі за домом.
 
 Eupatorium perfoliatum, Colchicum (нудота запаху їжі).

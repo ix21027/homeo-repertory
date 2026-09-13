@@ -137,7 +137,7 @@ Butternut та Black Walnut (Juglans nigra) є американськими пр
 
 ## Серце і кровообіг
 
-Гостра, що скручує біль у лівому боці о 18 годині, що посилюється при ходьбі; з відчуттям ядухи за грудиною, яка змушує пацієнта застигнути, але практично не зменшує біль; напад аналогічний такому при стенокардії (Вгуonia не призвела до миттєвого поліпшення). Пульс пришвидшений. Стенокардія.
+Гостра, що скручує біль у лівому боці о 18 годині, що посилюється при ходьбі; з відчуттям ядухи за грудиною, яка змушує пацієнта застигнути, але практично не зменшує біль; напад аналогічний такому при стенокардії (Bгyonia не призвела до миттєвого поліпшення). Пульс пришвидшений. Стенокардія.
 
 ## Рот
 
@@ -227,6 +227,6 @@ Butternut та Black Walnut (Juglans nigra) є американськими пр
 
 ## Взаємозв’язки
 
-**Антидотами** для Juglans є: Вryonia (стенокардія; Вryonia 5 крапель миттєво покращила стан).
+**Антидотами** для Juglans є: Bryonia (стенокардія; Bryonia 5 крапель миттєво покращила стан).
 
-**Слід порівняти:** Juglans regia, Вryonia (ревматичний біль; гідроторакс; колючий біль у печінці; біль у потилиці); Chelidonium (біль у печінці; біль під правою лопаткою; жовчний кал); Nux vomica (жовтяниця; біль у печінці); Iris versicolor (пронос; біль у печінці); Jalapa (пронос); Septicaemia (табірний пронос); Aethiops antimonialis, Arsenicum album, Primula obconica, Mezereum, Oleander, Viola tricolor, Rhus і т. д. (шкіра); Gelsemium, Cocculus, Carbo vegetabilis, Glonoinum, Sulphur, Natrium sulphuricum і т. д. (Біль у потилиці); Саrуа alba (ботан.; пурпура та цинга).
+**Слід порівняти:** Juglans regia, Bryonia (ревматичний біль; гідроторакс; колючий біль у печінці; біль у потилиці); Chelidonium (біль у печінці; біль під правою лопаткою; жовчний кал); Nux vomica (жовтяниця; біль у печінці); Iris versicolor (пронос; біль у печінці); Jalapa (пронос); Septicaemia (табірний пронос); Aethiops antimonialis, Arsenicum album, Primula obconica, Mezereum, Oleander, Viola tricolor, Rhus і т. д. (шкіра); Gelsemium, Cocculus, Carbo vegetabilis, Glonoinum, Sulphur, Natrium sulphuricum і т. д. (Біль у потилиці); Саrуа alba (ботан.; пурпура та цинга).

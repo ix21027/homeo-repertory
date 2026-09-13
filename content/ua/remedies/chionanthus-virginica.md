@@ -225,6 +225,6 @@ Chionanthus virginica підходить для людей із так зван�
 
 ## Взаємозв’язки
 
-**Слід порівняти**: Вryonia, Carduus marianus, Euonymus, Chelidonium, Mercurius, Podophyllum.
+**Слід порівняти**: Bryonia, Carduus marianus, Euonymus, Chelidonium, Mercurius, Podophyllum.
 
-При жовчному блюванні - Вryonia, Eupatorium perfoliatum, Iris, Nux vomica; при зеленому пінявому калі – Elaterium, Gratiola, Kali bichromicum, Magnesium сarbonicum, Iris, Mercurius vivus; при слабкості, відчутті побитості та хворобливості - Arnica, Baptisia, Bryonia, Eupatorium perfoliatum, Gelsemium, Nux vomica, Rhus toxicodendron; при головному болі – Belladonna, Bryonia, Capsicum, Gelsemium, Nux vomica; при відчутті, ніби всередині є щось живе, - Crocus sativus, Thuja.
+При жовчному блюванні - Bryonia, Eupatorium perfoliatum, Iris, Nux vomica; при зеленому пінявому калі – Elaterium, Gratiola, Kali bichromicum, Magnesium carbonicum, Iris, Mercurius vivus; при слабкості, відчутті побитості та хворобливості - Arnica, Baptisia, Bryonia, Eupatorium perfoliatum, Gelsemium, Nux vomica, Rhus toxicodendron; при головному болі – Belladonna, Bryonia, Capsicum, Gelsemium, Nux vomica; при відчутті, ніби всередині є щось живе, - Crocus sativus, Thuja.

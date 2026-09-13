@@ -379,7 +379,7 @@ Podophyllum часто буває показаний при вагітності
 
 ## Взаємозв’язки
 
-**Антидотами для Podophyllum є**: Lacticum асidum, Nux vomica, Colocyntis, Leptandra.
+**Антидотами для Podophyllum є**: Lacticum acidum, Nux vomica, Colocyntis, Leptandra.
 
 **Podophyllum є антидотом для** Mercurius.
 
@@ -387,7 +387,7 @@ Podophyllum часто буває показаний при вагітності
 
 **Несумісний:** із сіллю, яка посилює його дію.
 
-**Слід порівняти:** При ранковому проносі - Sulphur, Drosera, Bryonia, Natrium sulphuricum, Rumex сrispus.
+**Слід порівняти:** При ранковому проносі - Sulphur, Drosera, Bryonia, Natrium sulphuricum, Rumex crispus.
 
 Пронос гарячої жовтуватої, зеленої смердючої рідини - Chamomilla (Chamomilla - погіршення ввечері; Podophyllum - вранці, кал виливається потоком).
 
@@ -403,7 +403,7 @@ Podophyllum часто буває показаний при вагітності
 
 Відчуття потуг у підчеревній ділянці та ділянці ануса, слабшає у положенні лежачи — Sepia.
 
-Пролапс прямої кишки – Belladonna, Aesculus hippocastanum, Nitricum асidum, Ruta (особливо у дітей – Chininum sulphuricum, Podophyllum).
+Пролапс прямої кишки – Belladonna, Aesculus hippocastanum, Nitricum acidum, Ruta (особливо у дітей – Chininum sulphuricum, Podophyllum).
 
 Дуоденіт - Berberis, China, Hydrastis, Lyesinum, Mercurius, Ricinus communis. Пронос відразу після їжі - Aloe, Arsenicum album, China, Lyesinum, Staphysagria. Погіршення після їжі чи пиття – Digitalis.
 

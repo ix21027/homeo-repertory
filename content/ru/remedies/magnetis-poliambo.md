@@ -227,4 +227,4 @@ sections: Характеристика; Психика; Клиника; Общи
 
 **Антидоты**: Ignatia, Electricitas, Galvanismus, Zincum (наложение цинковых пластин).
 
-**Следует сравнить**: Magnetis arcticus, Magnetis australis, Manganum oxydatum. При иллюзии запаха гари - Аnасardium; при пролапсе ануса - Podophyllum, Causticum, Ignatia; **Также следует сравнить**: Belladonna, Lyesynum, Nux vomica, Petroleum, Pulsatilla, Stramonium, Sabina, Teucrum marum verum.
+**Следует сравнить**: Magnetis arcticus, Magnetis australis, Manganum oxydatum. При иллюзии запаха гари - Anacardium; при пролапсе ануса - Podophyllum, Causticum, Ignatia; **Также следует сравнить**: Belladonna, Lyesynum, Nux vomica, Petroleum, Pulsatilla, Stramonium, Sabina, Teucrum marum verum.
