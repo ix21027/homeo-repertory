@@ -8,7 +8,7 @@ origin: https://homeopat-sam.com/-/a71
 remedy_blocks: 63
 ---
 
-Найчастіше для лікування даної патології використовують наступні препарати: **Aconite Aloe Alumina Antimonium crudum Apis Argentum nitricum Arsenicum album Baptisia Belladonna Bismuthum Bromium Bryonia Calcarea acetica Calcarea carbonica Calcarea phosphorica Camphora Carica Chamomilla China Chininum taninum Colchicum Colocynthis Conium Croton Dulcamara Ferrum Ferrum aceticum Gambogia Gelsemium Graphites Heparsulfur Hydrastis Ipecacuanha Iris Jalapa Kali bichromicum Kreosotum Leptandra Magnesis carbonica Mercurius corrosivus Mercurius solubilis Natrium muriaticum Natrium sulfuricum Nux moschata Nux vomica Oleander Opium Petroleum Phosphoricum acidum Phosphorus Platina Podophyllum Psorinum Pulsatilla Rhus toxicodendron Rumex Sanguinaria Sepia Stramonium Sulfur Sulfuricum acidum Thuja Veratrum album Zingiber** Прочитайте опис усіх препаратів і виберіть собі препарат, найбільш підходящий до ваших відчуттів і болів. Замовте в аптеці 3 або 6 десяткове розведення, можна 3 або 6 сотове розведення.
+Найчастіше для лікування даної патології використовують наступні препарати: **Aconite Aloe Alumina Antimonium crudum Apis Argentum nitricum Arsenicum album Baptisia Belladonna Bismuthum Bromium Bryonia Calcarea acetica Calcarea carbonica Calcarea phosphorica Camphora Carica Chamomilla China Chininum taninum Colchicum Colocynthis Conium Croton Dulcamara Ferrum Ferrum aceticum Gambogia Gelsemium Graphites Heparsulfur Hydrastis Ipecacuanha Iris Jalapa Kali bichromicum Kreosotum Leptandra Magnesis carbonica Mercurius corrosivus Mercurius solubilis Natrium muriaticum Natrium sulfuricum Nux moschata Nux vomica Oleander Opium Petroleum Phosphoricum acidum Phosphorus Platina Podophyllum Psorinum Pulsatilla Rhus toxicodendron Rumex Sanguinaria Sepia Stramonium Sulfur Sulfuricum acidum Thuja Veratrum album Zingiber** Прочитайте опис усіх препаратів і виберіть собі препарат, найбільш підходящий до ваших відчуттів і болів. Замовте в аптеці 3 або 6 десяткове розведення, можна 3 або 6 сотенне розведення.
 
 Розведіть 2-3 крупинки в половині склянки води та приймайте по ковточку кожні 20-30 хвилин. У міру покращення стану приймайте рідше.
 
@@ -128,7 +128,7 @@ _Юз_: Тривалі проноси - С6 поперемінно з Acidum pho
 
 Кал викидається з великою кількістю газів і сильним шумом.
 
-Зелений кал, що «бризкає», оскільки гази (яких буває дуже багато), що випускаються разом з калом, виробляють гучний звук розбризкування.
+Зелений кал, що «бризкає», оскільки гази (яких буває дуже багато), що випускаються разом з калом, створюють гучний звук розбризкування.
 
 ### Camphora (Камфора)
 

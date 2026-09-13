@@ -3,7 +3,7 @@ id: oskomina
 lang: ua
 type: article
 group: lechebnik
-title: Оскоміна
+title: Оскома
 origin: https://homeopat-sam.com/-/a352
 remedy_blocks: 10
 ---
