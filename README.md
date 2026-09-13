@@ -1,5 +1,7 @@
 # Реперторій — гомеопатичні препарати за симптомами
 
+Сайт: **https://ix21027.github.io/homeo-repertory/**
+
 Статичний сайт (працює на GitHub Pages без збірки на сервері) з трьома частинами:
 
 - **Симптоми** — реперторій: додаєте один або кілька симптомів чи хвороб, отримуєте таблицю препаратів,
@@ -68,7 +70,7 @@ python3 -m http.server 8000            # локальний перегляд: ht
 
 ## GitHub Pages
 
-Репозиторій публікується як є: Settings → Pages → Source «Deploy from a branch», гілка `main`, тека `/ (root)`.
+Репозиторій `ix21027/homeo-repertory` публікується як є: Settings → Pages → Source «Deploy from a branch», гілка `main`, тека `/ (root)`.
 Файл `.nojekyll` вимикає Jekyll, усі шляхи відносні, тож сайт працює і за адресою `https://<user>.github.io/<repo>/`.
 
 ## Обмеження
