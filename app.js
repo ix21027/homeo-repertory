@@ -810,7 +810,7 @@
       active = -1;
       sugg.innerHTML = items.map((it, i) => it.free
         ? '<li class="free" data-i="' + i + '"><span>' + esc(t.freeSearch) + ': «' + esc(it.q) + '»' + (sel.value ? ' · ' + esc(sel.value) : '') + '</span><span class="kind">' + esc(t.freeKind) + '</span></li>'
-        : '<li' + (it.depth ? ' class="sub' + (it.depth > 1 ? ' sub2' : '') + '"' : '') + ' data-i="' + i + '"><span>' + esc(it.rb.t) + (it.rb.ch ? ' <span class="kind">+' + it.rb.ch.length + '</span>' : '') + '</span><span class="cnt">' + it.n + ' <span class="kind">' + esc(t.kind[it.rb.k]) + '</span></span></li>').join('');
+        : '<li' + (it.depth ? ' class="sub' + (it.depth > 1 ? ' sub2' : '') + '"' : '') + ' data-i="' + i + '"><span>' + esc(it.rb.t) + (it.rb.ch ? ' <span class="kind">+' + it.rb.ch.length + '</span>' : '') + '</span><span class="cnt">' + suggCount(it) + ' <span class="kind">' + esc(t.kind[it.rb.k]) + '</span></span></li>').join('');
       sugg.hidden = false;
     }
     function pick(i) {
@@ -846,6 +846,9 @@
   // Кількість біля рубрики в списку — лише препарати з розділу «Модальности» (ступінь 2);
   // видобуті з тексту (ступінь 1) у таблиці працюють, але список ними не роздувається.
   function sectionalCount(rb) { return rb.g ? rb.g.reduce((n, g) => n + (g === 2 ? 1 : 0), 0) : rb.r.length; }
+  // Те саме число в підказках пошуку: для рубрик mod — секційна кількість, як у списку;
+  // для решти — те, що порахував R.suggest (там у нозологіях ураховано ще й препарати підрубрик).
+  function suggCount(it) { return it.rb && it.rb.k === 'mod' ? sectionalCount(it.rb) : it.n; }
   function renderPicker() {
     const body = $('#pickerBody');
     if (!body) return;
