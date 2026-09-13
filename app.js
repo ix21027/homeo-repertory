@@ -497,6 +497,9 @@
     document.addEventListener('click', e => { if (!e.target.closest('#repForm')) closeSugg(); });
   }
 
+  // Кількість біля рубрики в списку — лише препарати з розділу «Модальности» (ступінь 2);
+  // видобуті з тексту (ступінь 1) у таблиці працюють, але список ними не роздувається.
+  function sectionalCount(rb) { return rb.g ? rb.g.reduce((n, g) => n + (g === 2 ? 1 : 0), 0) : rb.r.length; }
   function renderPicker() {
     const body = $('#pickerBody');
     if (!body) return;
@@ -504,8 +507,8 @@
     const c = cat();
     const groups = [['w', t.worse], ['b', t.better], ['e', t.causes]];
     body.innerHTML = groups.map(([g, title]) => {
-      const list = c.rubrics.map((rb, i) => ({ rb, i })).filter(x => g === 'e' ? x.rb.k === 'etio' : (x.rb.k === 'mod' && x.rb.key.startsWith(g + '.'))).sort((a, b) => b.rb.r.length - a.rb.r.length);
-      return '<div class="picker-group"><div class="picker-title">' + esc(title) + '</div>' + list.map(x => '<button type="button" class="pick" data-i="' + x.i + '">' + esc(catLabel(x.rb)) + ' <span class="n">' + x.rb.r.length + '</span></button>').join('') + '</div>';
+      const list = c.rubrics.map((rb, i) => ({ rb, i })).filter(x => g === 'e' ? x.rb.k === 'etio' : (x.rb.k === 'mod' && x.rb.key.startsWith(g + '.'))).sort((a, b) => sectionalCount(b.rb) - sectionalCount(a.rb));
+      return '<div class="picker-group"><div class="picker-title">' + esc(title) + '</div>' + list.map(x => '<button type="button" class="pick" data-i="' + x.i + '">' + esc(catLabel(x.rb)) + ' <span class="n">' + sectionalCount(x.rb) + '</span></button>').join('') + '</div>';
     }).join('');
     body.querySelectorAll('button.pick').forEach(b => b.addEventListener('click', () => addRubric(makeCatRubric(+b.dataset.i))));
   }
@@ -647,10 +650,17 @@
     }
     return { items: out, moreRem: Math.max(0, rem.length - max) };
   }
+  // Підстави рубрики: клаузи розділу як є, видобуті з тексту — речення плюс назва розділу
+  // (їх буває багато на препарат, тому не більше MINED_MAX).
+  const MINED_MAX = 3;
   function modClauses(doc, rb) {
     const key = rb.key;
-    if (rb.kind === 'mod') { const d = key[0], cid = key.slice(2); return (doc.mods || []).filter(m => m.d === d && m.c.includes(cid)).map(m => m.t).filter(Boolean); }
-    return (doc.etio || []).filter(e => e.c.includes(key)).map(e => e.t).filter(Boolean);
+    if (rb.kind !== 'mod') return (doc.etio || []).filter(e => e.c.includes(key)).map(e => e.t).filter(Boolean);
+    const d = key[0], cid = key.slice(2);
+    const hit = (doc.mods || []).filter(m => m.d === d && m.c.includes(cid) && m.t);
+    const out = hit.filter(m => !m.src).map(m => m.t);
+    for (const m of hit.filter(m => m.src === 'text').slice(0, MINED_MAX)) out.push(m.t + (m.sec ? ' (' + m.sec + ')' : ''));
+    return out;
   }
 
   async function renderDetail(tr, rIdx, row) {
@@ -804,7 +814,7 @@
     html += '<div class="doc">';
     const tagLinks = (dir, kind) => {
       const seen = new Map();
-      const items = kind === 'mod' ? (doc.mods || []).filter(m => m.d === dir) : (doc.etio || []);
+      const items = kind === 'mod' ? (doc.mods || []).filter(m => m.d === dir && !m.src) : (doc.etio || []);
       for (const it of items) for (const cid of it.c) { const key = kind === 'mod' ? 'm:' + dir + '.' + cid : 'e:' + cid; const L = labels.get(key); if (L && !seen.has(key)) seen.set(key, L.label); }
       return Array.from(seen, ([key, L]) => '<a href="' + href('rep') + '?r=' + encodeURIComponent(key) + '" title="' + esc(t.addRubric) + '">' + esc(L) + '</a>').join('');
     };
