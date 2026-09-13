@@ -116,7 +116,8 @@
   // ділиться на м'яку поправку за обсяг опису (поліхрести мають більше абзаців).
   // Слова з «-» попереду виключають абзаци. Слово без збігів замінюється найближчим за
   // словником індексу (res.corrections).
-  function freeText(idx, query, sectionFilter, lang) {
+  function freeText(idx, query, sectionFilter, lang, opts) {
+    const withArticles = !(opts && opts.articles === false);
     const { inc, exc } = SC.queryTerms(query, lang || 'ru');
     const res = { stems: [], paras: [], byRemedy: new Map(), byArticle: new Map(), corrections: [] };
     if (!inc.length) return res;
@@ -152,6 +153,7 @@
     for (const p of Array.from(paraSet).sort((a, b) => a - b)) {
       const d = idx.docs[idx.pd[p]];
       if (sectionFilter && !(d.t === 'r' && d.s[idx.ps[p]] === sectionFilter)) continue;
+      if (!withArticles && d.t === 'a') continue;
       const su = strongByPara.get(p);
       const units = su ? su : Array.from(unitsByPara.get(p) || []).sort((a, b) => a - b);
       const w = d.t === 'r' ? (SECTION_WEIGHT[d.s[idx.ps[p]]] || 1) : 1;

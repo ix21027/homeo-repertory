@@ -52,6 +52,7 @@
       compare: 'Порівняти', compareSel: 'Для порівняння:', compareTitle: 'Порівняння препаратів', close: 'Закрити', cmpCheck: 'Вибрати для порівняння (до 4)',
       rel: { cmp: 'Порівняти з', ant: 'Антидоти', compl: 'Доповнюють', incompat: 'Несумісні', after: 'Добре діє після', before: 'Після нього добре діють', other: 'Інше' },
       relTitle: 'Зв’язки', maybe: 'можливо:', clinicRow: 'Клініка (рубрик)', expandAll: 'Розгорнути підстави', collapseAll: 'Згорнути підстави',
+      articlesOpt: 'Статті', articlesOptTitle: 'Шукати також у статтях лікувальника і показувати знайдені статті', artResults: 'Статті за запитом', artMore: 'ще', artHits: 'збігів',
     },
     ru: {
       title: 'Реперторий — гомеопатические препараты по симптомам', htmlLang: 'ru',
@@ -77,12 +78,14 @@
       compare: 'Сравнить', compareSel: 'Для сравнения:', compareTitle: 'Сравнение препаратов', close: 'Закрыть', cmpCheck: 'Выбрать для сравнения (до 4)',
       rel: { cmp: 'Сравнить с', ant: 'Антидоты', compl: 'Дополняют', incompat: 'Несовместимы', after: 'Хорошо действует после', before: 'После него хорошо действуют', other: 'Прочее' },
       relTitle: 'Взаимосвязи', maybe: 'возможно:', clinicRow: 'Клиника (рубрик)', expandAll: 'Показать основания', collapseAll: 'Свернуть основания',
+      articlesOpt: 'Статьи', articlesOptTitle: 'Искать также в статьях лечебника и показывать найденные статьи', artResults: 'Статьи по запросу', artMore: 'ещё', artHits: 'совп.',
     },
   };
   const KIND_LETTER = { free: 'f', nos: 'n', art: 'a', line: 'l', mod: 'm', etio: 'e' };
   const LETTER_KIND = { f: 'free', n: 'nos', a: 'art', l: 'line', m: 'mod', e: 'etio' };
 
-  const state = { lang: 'ua', cat: {}, idx: {}, idxPromise: {}, docs: new Map(), linker: {}, rubrics: [], shown: 60, open: new Set(), langsAvailable: null, sort: 'cover', cmp: [], cmpOpen: false };
+  const state = { lang: 'ua', cat: {}, idx: {}, idxPromise: {}, docs: new Map(), linker: {}, rubrics: [], shown: 60, open: new Set(), langsAvailable: null, sort: 'cover', cmp: [], cmpOpen: false, articles: true, artShowAll: false };
+  try { if (localStorage.getItem('articles') === '0') state.articles = false; } catch (e) { /* ignore */ }
   const T = () => I18N[state.lang];
   const cat = () => state.cat[state.lang];
 
@@ -186,6 +189,7 @@
       if (specs.length) q.set('r', specs.join('|'));
       if (state.sort !== 'cover') q.set('s', state.sort);
       if (state.cmp.length) q.set('c', state.cmp.map(i => cat().remedies[i].id).join(','));
+      if (!state.articles) q.set('a', '0');
       const qs = q.toString();
       path = 'rep' + (qs ? '?' + qs : '');
     } else {
@@ -366,7 +370,7 @@
     const lang = state.lang;
     const r = { kind: 'free', text, section: section || '', remedies: null, label: text + (section ? ' · ' + section : ''), pending: true, weight: 1, elim: false, excl: false };
     r.promise = loadIndex().then(idx => {
-      r.res = R.freeText(idx, text, r.section, lang);
+      r.res = R.freeText(idx, text, r.section, lang, { articles: state.articles });
       r.remedies = new Map(Array.from(r.res.byRemedy, ([k, v]) => [k, { g: v.g, hits: v.hits, score: v.score }]));
       r.pending = false;
       return r;
@@ -379,6 +383,7 @@
     if (specs) q.set('r', specs);
     if (state.sort !== 'cover') q.set('s', state.sort);
     if (state.cmp.length) q.set('c', state.cmp.map(i => cat().remedies[i].id).join(',') + (state.cmpOpen ? '' : '~'));
+    if (!state.articles) q.set('a', '0');
     const qs = q.toString();
     const h = href('rep') + (qs ? '?' + qs : '');
     if (location.hash !== h) history.replaceState(null, '', h);
@@ -407,6 +412,7 @@
           <option value="">${esc(t.allSections)}</option>
           ${SECTIONS[state.lang].map(s => '<option value="' + esc(s) + '">' + esc(s) + '</option>').join('')}
         </select>
+        <label class="opt" title="${esc(t.articlesOptTitle)}"><input type="checkbox" id="artOpt"${state.articles ? ' checked' : ''}> ${esc(t.articlesOpt)}</label>
       </form>
       <details class="picker" id="picker"><summary>${esc(t.picker)}</summary><div class="picker-body" id="pickerBody"></div></details>
       <div class="chips" id="chips"></div>
@@ -414,6 +420,9 @@
     const spec = params.get('r');
     const s = params.get('s');
     state.sort = s === 'total' || s === 'name' ? s : 'cover';
+    if (params.get('a') === '0') state.articles = false;
+    else if (params.get('a') === '1') state.articles = true;
+    $('#artOpt').checked = state.articles;
     const cm = params.get('c');
     state.cmpOpen = !!cm && !cm.endsWith('~');
     state.cmp = cm ? cm.replace(/~$/, '').split(',').map(id => c.remedies.findIndex(r => r.id === id)).filter(i => i >= 0).slice(0, 4) : [];
@@ -432,12 +441,25 @@
     renderChips(); renderResults();
 
     const input = $('#repInput'), sugg = $('#repSugg'), sel = $('#repSection');
+    $('#artOpt').addEventListener('change', e => {
+      state.articles = e.target.checked;
+      try { localStorage.setItem('articles', state.articles ? '1' : '0'); } catch (err) { /* ignore */ }
+      state.rubrics = state.rubrics.map(rb => {
+        if (rb.kind !== 'free') return rb;
+        const n = makeFreeRubric(rb.text, rb.section);
+        n.weight = rb.weight; n.elim = rb.elim; n.excl = rb.excl;
+        n.promise.then(() => { renderChips(); renderResults(); });
+        return n;
+      });
+      state.open.clear();
+      rerender();
+    });
     let items = [], active = -1;
     function closeSugg() { sugg.hidden = true; sugg.innerHTML = ''; items = []; active = -1; }
     function openSugg() {
       const q = input.value.trim();
       if (q.length < 2) { closeSugg(); return; }
-      const found = R.suggest(c, q, 10, state.lang);
+      const found = R.suggest(c, q, state.articles ? 10 : 14, state.lang).filter(it => state.articles || (it.rb.k !== 'art' && it.rb.k !== 'line')).slice(0, 10);
       items = [{ free: true, q }].concat(found);
       active = -1;
       sugg.innerHTML = items.map((it, i) => it.free
@@ -514,6 +536,27 @@
     const c = $('#clearAll'); if (c) c.addEventListener('click', () => { state.rubrics = []; state.open.clear(); state.cmp = []; state.cmpOpen = false; rerender(); });
   }
 
+  // Статті, що відповідають рубрикам: повнотекстові збіги + статті рубрик «Стаття»/«Рядок»
+  function articleLine() {
+    const t = T();
+    const c = cat();
+    const acc = new Map();
+    const bump = (a, hits, cover) => { let e = acc.get(a); if (!e) acc.set(a, e = { a, cover: 0, hits: 0 }); e.cover += cover; e.hits += hits; };
+    let nFree = 0;
+    for (const rb of state.rubrics) {
+      if (rb.excl) continue;
+      if (rb.kind === 'free' && rb.res) { nFree++; for (const [a, e] of rb.res.byArticle) bump(a, e.hits, 1); }
+      else if ((rb.kind === 'art' || rb.kind === 'line') && rb.articleIdx != null) bump(rb.articleIdx, 1, 1);
+    }
+    if (!acc.size) return '';
+    const list = Array.from(acc.values()).sort((x, y) => y.cover - x.cover || y.hits - x.hits || x.a - y.a);
+    const freeTexts = state.rubrics.filter(rb => rb.kind === 'free' && !rb.excl).map(rb => rb.text).join(' ');
+    const shown = state.artShowAll ? list : list.slice(0, 6);
+    const li = shown.map(x => '<a href="' + href('article/' + encodeURIComponent(c.articles[x.a].id)) + (freeTexts ? '?hl=' + encodeURIComponent(freeTexts) : '') + '">' + esc(c.articles[x.a].title) + '</a> <span class="n" title="' + esc(t.artHits) + '">' + x.hits + '</span>').join('');
+    return '<div class="art-line"><span class="lbl">' + esc(t.artResults) + ' (' + list.length + '):</span> ' + li +
+      (list.length > shown.length ? ' <button type="button" class="btn secondary small" id="artMore">' + esc(t.artMore) + ' ' + (list.length - shown.length) + '</button>' : '') + '</div>';
+  }
+
   function renderResults() {
     const box = $('#results');
     if (!box) return;
@@ -541,11 +584,12 @@
       return '<tr class="row' + (open ? ' open' : '') + '" data-r="' + row.r + '">' + name + cells + sum + '</tr>' +
         (open ? '<tr class="detail" data-r="' + row.r + '"><td colspan="' + (cols.length + 2) + '"><div class="detail-box">' + esc(t.loading) + '</div></td></tr>' : '');
     }).join('');
+    const artLine = state.articles ? articleLine() : '';
     const cmpBar = state.cmp.length ? '<div class="cmp-bar">' + esc(t.compareSel) + ' ' + state.cmp.map(i => remedyLink(i)).join(', ') +
       (state.cmp.length >= 2 ? ' <button type="button" class="btn small" id="cmpOpen">' + esc(t.compare) + '</button>' : '') + ' <button type="button" class="btn secondary small" id="cmpClear">' + esc(t.clear) + '</button></div>' : '';
     const allOpen = shown.every(row => state.open.has(row.r));
     const toggleAll = '<button type="button" class="btn secondary small" id="toggleAll" aria-pressed="' + allOpen + '">' + esc(allOpen ? t.collapseAll : t.expandAll) + '</button>';
-    box.innerHTML = '<p class="muted small results-head">' + esc(t.found(rows.length)) + ' ' + toggleAll + sortSel + '</p>' + cmpBar +
+    box.innerHTML = '<p class="muted small results-head">' + esc(t.found(rows.length)) + ' ' + toggleAll + sortSel + '</p>' + artLine + cmpBar +
       '<div class="table-wrap"><table class="rep"><thead>' + head + '</thead><tbody>' + body + '</tbody></table>' +
       (rows.length > shown.length ? '<div class="more-row"><button type="button" class="btn secondary" id="moreBtn">' + esc(t.more) + '</button></div>' : '') + '</div>';
     bindSort(box);
@@ -564,6 +608,7 @@
     box.querySelectorAll('tr.detail').forEach(tr => renderDetail(tr, +tr.dataset.r, rows.find(x => x.r === +tr.dataset.r)));
     const more = $('#moreBtn'); if (more) more.addEventListener('click', () => { state.shown += 60; renderResults(); });
     const ta = $('#toggleAll'); if (ta) ta.addEventListener('click', () => { if (allOpen) state.open.clear(); else shown.forEach(row => state.open.add(row.r)); renderResults(); });
+    const am = $('#artMore'); if (am) am.addEventListener('click', () => { state.artShowAll = true; renderResults(); });
     const co = $('#cmpOpen'); if (co) co.addEventListener('click', () => { state.cmpOpen = true; writeHash(); renderResults(); });
     const cc = $('#cmpClear'); if (cc) cc.addEventListener('click', () => { state.cmp = []; state.cmpOpen = false; writeHash(); renderResults(); });
   }
@@ -818,6 +863,7 @@
     const doc = await getDoc('articles', id);
     const a = c.articles[aIdx];
     const focus = params.has('r') ? +params.get('r') : -1;
+    const hl = params.get('hl') ? Array.from(new Set(SC.queryTerms(params.get('hl'), state.lang).inc.flatMap(x => x.alts))) : null;
     let html = '<div class="doc-head"><h1>' + esc(doc.title) + '</h1><div class="meta">' + esc(TOPIC[state.lang][a.topic] || a.topic) +
       (doc.author ? ' · ' + esc(t.author) + ' ' + esc(doc.author) : '') + (doc.source ? ' · ' + esc(t.source) + ' ' + esc(doc.source) : '') + '</div></div>';
     if (a.rem.length) {
@@ -831,17 +877,18 @@
       if (b.kind === 'remedy') {
         const links = b.rem.filter(i => !c.remedies[i].ext);
         const title = links.length ? '<a href="' + href('remedy/' + encodeURIComponent(c.remedies[links[0]].id)) + '">' + esc(b.title) + '</a>' : esc(b.title);
-        html += '<div class="block' + (isFocus ? ' hl' : '') + '" id="blk-' + bi + '"><h3>' + title + '</h3>' + b.paras.map(p => renderPara(p)).join('') + '</div>';
+        html += '<div class="block' + (isFocus ? ' hl' : '') + '" id="blk-' + bi + '"><h3>' + title + '</h3>' + b.paras.map(p => renderPara(p, { hl })).join('') + '</div>';
       } else if (b.kind === 'sub') {
-        html += '<h2 id="blk-' + bi + '">' + esc(b.title) + '</h2>' + b.paras.map(p => renderPara(p)).join('');
+        html += '<h2 id="blk-' + bi + '">' + esc(b.title) + '</h2>' + b.paras.map(p => renderPara(p, { hl })).join('');
       } else {
-        html += b.paras.map(p => renderPara(p)).join('');
+        html += b.paras.map(p => renderPara(p, { hl })).join('');
       }
     });
     html += '</div>';
     view.innerHTML = html;
     const f = view.querySelector('.block.hl');
     if (f) setTimeout(() => f.scrollIntoView({ block: 'start' }), 0);
+    else if (hl) { const m = view.querySelector('mark'); if (m) setTimeout(() => m.scrollIntoView({ block: 'center' }), 0); }
   }
 
   // ---------------------------------------------------------------- старт

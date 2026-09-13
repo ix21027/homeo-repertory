@@ -93,6 +93,12 @@ main.wrap { padding-top: 22px; padding-bottom: 60px; min-height: 70vh; }
 .rep-search .box { position: relative; flex: 1 1 320px; }
 .rep-search input[type="search"] { width: 100%; padding: 10px 12px; font-size: 1.02rem; }
 .rep-search select { flex: 0 0 auto; max-width: 100%; }
+.rep-search .opt { display: inline-flex; align-items: center; gap: 6px; padding: 0 4px; font-size: .92rem; color: var(--fg-2); cursor: pointer; user-select: none; }
+.rep-search .opt input { accent-color: var(--accent); margin: 0; }
+.art-line { margin: -4px 0 10px; font-size: .92rem; line-height: 1.9; }
+.art-line .lbl { color: var(--fg-2); }
+.art-line a { margin-right: 2px; }
+.art-line .n { color: var(--fg-2); font-size: .78rem; margin-right: 10px; }
 .btn { border: 1px solid var(--accent); background: var(--accent); color: var(--accent-fg); border-radius: 8px; padding: 8px 14px; cursor: pointer; font-weight: 500; }
 .btn.secondary { background: transparent; color: var(--accent); }
 .btn:hover { filter: brightness(1.08); }
