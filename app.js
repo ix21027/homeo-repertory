@@ -248,6 +248,7 @@
     try { localStorage.setItem('lang', state.lang); } catch (e) { /* ignore */ }
     const view = $('#view');
     try {
+      if (!state.cat[state.lang]) view.innerHTML = '<p class="muted">' + T().loading + '</p>';
       await loadCatalog(state.lang);
       applyLangChrome();
       const p = seg[1];
