@@ -582,6 +582,18 @@ if (fs.existsSync(path.join(CONTENT, 'ua', 'remedies')) && fs.readdirSync(path.j
   fs.writeFileSync(path.join(OUT, 'ru', 'catalog.json'), JSON.stringify(ru.catalog));
   fs.writeFileSync(path.join(OUT, 'ua', 'catalog.json'), JSON.stringify(ua.catalog));
 }
+// Обсяг data/<lang> — його показує кнопка «Зберегти довідник для офлайну» (app.js). Рахуємо
+// останнім, коли всі файли мови вже на місці; запис catalog.json додає до себе ж кілька байтів,
+// для оцінки в мегабайтах це неважливо.
+const dirBytes = d => fs.readdirSync(d, { withFileTypes: true })
+  .reduce((n, e) => n + (e.isDirectory() ? dirBytes(path.join(d, e.name)) : fs.statSync(path.join(d, e.name)).size), 0);
+for (const b of [ru, ua]) {
+  if (!b) continue;
+  const dir = path.join(OUT, b.catalog.lang);
+  b.catalog.stats.bytes = dirBytes(dir);
+  fs.writeFileSync(path.join(dir, 'catalog.json'), JSON.stringify(b.catalog));
+  report.push(`[${b.catalog.lang}] data: ${(b.catalog.stats.bytes / 1e6).toFixed(2)} MB`);
+}
 fs.writeFileSync(path.join(OUT, 'langs.json'), JSON.stringify({ langs: ua ? ['ua', 'ru'] : ['ru'] }));
 fs.writeFileSync(path.join(ROOT, 'tools', 'build-report.txt'), report.join('\n') + '\n');
 console.log(report.join('\n'));
