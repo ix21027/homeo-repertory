@@ -51,7 +51,7 @@
       picker: 'Модальності й причини', worse: 'Гірше', better: 'Краще', causes: 'Причини',
       compare: 'Порівняти', compareSel: 'Для порівняння:', compareTitle: 'Порівняння препаратів', close: 'Закрити', cmpCheck: 'Вибрати для порівняння (до 4)',
       rel: { cmp: 'Порівняти з', ant: 'Антидоти', compl: 'Доповнюють', incompat: 'Несумісні', after: 'Добре діє після', before: 'Після нього добре діють', other: 'Інше' },
-      relTitle: 'Зв’язки', maybe: 'можливо:', clinicRow: 'Клініка (рубрик)',
+      relTitle: 'Зв’язки', maybe: 'можливо:', clinicRow: 'Клініка (рубрик)', expandAll: 'Розгорнути підстави', collapseAll: 'Згорнути підстави',
     },
     ru: {
       title: 'Реперторий — гомеопатические препараты по симптомам', htmlLang: 'ru',
@@ -76,7 +76,7 @@
       picker: 'Модальности и причины', worse: 'Хуже', better: 'Лучше', causes: 'Причины',
       compare: 'Сравнить', compareSel: 'Для сравнения:', compareTitle: 'Сравнение препаратов', close: 'Закрыть', cmpCheck: 'Выбрать для сравнения (до 4)',
       rel: { cmp: 'Сравнить с', ant: 'Антидоты', compl: 'Дополняют', incompat: 'Несовместимы', after: 'Хорошо действует после', before: 'После него хорошо действуют', other: 'Прочее' },
-      relTitle: 'Взаимосвязи', maybe: 'возможно:', clinicRow: 'Клиника (рубрик)',
+      relTitle: 'Взаимосвязи', maybe: 'возможно:', clinicRow: 'Клиника (рубрик)', expandAll: 'Показать основания', collapseAll: 'Свернуть основания',
     },
   };
   const KIND_LETTER = { free: 'f', nos: 'n', art: 'a', line: 'l', mod: 'm', etio: 'e' };
@@ -469,10 +469,7 @@
       if (!sugg.hidden && active >= 0) { pick(active); return; }
       const q = input.value.trim();
       if (!q) return;
-      // точний збіг із назвою рубрики — беремо рубрику, а не повнотекстовий пошук
-      const f = R.foldForMatch(q, state.lang);
-      const exact = R.suggest(c, q, 10, state.lang).find(it => R.foldForMatch(it.rb.t, state.lang) === f);
-      if (exact) addRubric(makeCatRubric(exact.i)); else addRubric(makeFreeRubric(q, sel.value));
+      addRubric(makeFreeRubric(q, sel.value));
       input.value = ''; closeSugg();
     });
     document.addEventListener('click', e => { if (!e.target.closest('#repForm')) closeSugg(); });
@@ -538,14 +535,17 @@
       const cells = cols.map(k => { const g = row.grades[k]; return '<td class="g g' + g + '">' + (g ? '<span title="' + row.hits[k] + ' ' + esc(t.hits) + '">' + (state.rubrics[k].kind === 'free' ? row.hits[k] : '●') + '</span>' : '') + '</td>'; }).join('');
       const sum = cols.length > 1 ? '<td class="sum">' + row.cover + '/' + cols.length + (state.sort === 'total' ? ' <span class="muted small">' + row.total + '</span>' : '') + '</td>' : '';
       const checked = state.cmp.includes(row.r);
-      const name = '<td class="rem"><input type="checkbox" class="cmp-box" data-r="' + row.r + '"' + (checked ? ' checked' : '') + ' title="' + esc(t.cmpCheck) + '" aria-label="' + esc(t.cmpCheck) + '"> ' + remedyLink(row.r) + (r.translit ? ' <span class="ru">' + esc(r.translit.split(' = ')[0]) + '</span>' : '') + '</td>';
       const open = state.open.has(row.r);
+      const name = '<td class="rem"><input type="checkbox" class="cmp-box" data-r="' + row.r + '"' + (checked ? ' checked' : '') + ' title="' + esc(t.cmpCheck) + '" aria-label="' + esc(t.cmpCheck) + '"> ' +
+        '<span class="chev" aria-hidden="true"></span>' + remedyLink(row.r) + (r.translit ? ' <span class="ru">' + esc(r.translit.split(' = ')[0]) + '</span>' : '') + '</td>';
       return '<tr class="row' + (open ? ' open' : '') + '" data-r="' + row.r + '">' + name + cells + sum + '</tr>' +
         (open ? '<tr class="detail" data-r="' + row.r + '"><td colspan="' + (cols.length + 2) + '"><div class="detail-box">' + esc(t.loading) + '</div></td></tr>' : '');
     }).join('');
     const cmpBar = state.cmp.length ? '<div class="cmp-bar">' + esc(t.compareSel) + ' ' + state.cmp.map(i => remedyLink(i)).join(', ') +
       (state.cmp.length >= 2 ? ' <button type="button" class="btn small" id="cmpOpen">' + esc(t.compare) + '</button>' : '') + ' <button type="button" class="btn secondary small" id="cmpClear">' + esc(t.clear) + '</button></div>' : '';
-    box.innerHTML = '<p class="muted small results-head">' + esc(t.found(rows.length)) + ' ' + sortSel + '</p>' + cmpBar +
+    const allOpen = shown.every(row => state.open.has(row.r));
+    const toggleAll = '<button type="button" class="btn secondary small" id="toggleAll" aria-pressed="' + allOpen + '">' + esc(allOpen ? t.collapseAll : t.expandAll) + '</button>';
+    box.innerHTML = '<p class="muted small results-head">' + esc(t.found(rows.length)) + ' ' + toggleAll + sortSel + '</p>' + cmpBar +
       '<div class="table-wrap"><table class="rep"><thead>' + head + '</thead><tbody>' + body + '</tbody></table>' +
       (rows.length > shown.length ? '<div class="more-row"><button type="button" class="btn secondary" id="moreBtn">' + esc(t.more) + '</button></div>' : '') + '</div>';
     bindSort(box);
@@ -563,6 +563,7 @@
     }));
     box.querySelectorAll('tr.detail').forEach(tr => renderDetail(tr, +tr.dataset.r, rows.find(x => x.r === +tr.dataset.r)));
     const more = $('#moreBtn'); if (more) more.addEventListener('click', () => { state.shown += 60; renderResults(); });
+    const ta = $('#toggleAll'); if (ta) ta.addEventListener('click', () => { if (allOpen) state.open.clear(); else shown.forEach(row => state.open.add(row.r)); renderResults(); });
     const co = $('#cmpOpen'); if (co) co.addEventListener('click', () => { state.cmpOpen = true; writeHash(); renderResults(); });
     const cc = $('#cmpClear'); if (cc) cc.addEventListener('click', () => { state.cmp = []; state.cmpOpen = false; writeHash(); renderResults(); });
   }

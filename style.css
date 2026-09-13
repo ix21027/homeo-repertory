@@ -194,6 +194,9 @@ button.pick .n { color: var(--fg-2); font-size: .76rem; }
 .chip .maybe { font-size: .78rem; color: var(--fg-2); font-style: italic; }
 .results-head { display: flex; flex-wrap: wrap; gap: 6px 14px; align-items: center; }
 .results-head .sort { margin-left: auto; }
+.results-head .btn.small { padding: 2px 9px; font-size: .82rem; }
+table.rep .chev { display: inline-block; width: 0; height: 0; border-left: 5px solid var(--fg-2); border-top: 4px solid transparent; border-bottom: 4px solid transparent; margin: 0 6px 1px 0; transition: transform .15s; vertical-align: middle; }
+table.rep tr.row.open .chev { transform: rotate(90deg); border-left-color: var(--accent); }
 .results-head select { padding: 3px 6px; font-size: .85rem; }
 table.rep th.rub.elim { text-decoration: underline; text-decoration-color: var(--accent); }
 table.rep th .w { color: var(--accent); font-size: .78rem; }
