@@ -9,7 +9,7 @@ origin: https://homeopat-sam.com/-/a504
 remedy_blocks: 23
 ---
 
-Якщо при синдромі хронічної втоми переважаючими симптомами є млявість, стомлюваність, слабкість, то для підвищення життєвих сил найчастіше призначають такі гомеопатичні препарати: **Antimoniumcarbonicum Lachesis Laurocerasus Nux vomica Opium Picrinicum acidum Platina Rhus toxicodendron Ruta Selenium Silicea Sol**
+Якщо при синдромі хронічної втоми переважаючими симптомами є млявість, стомлюваність, слабкість, то для підвищення життєвих сил найчастіше призначають такі гомеопатичні препарати: **Antimonium crudum Arsenicum album Belladonna Cantharis Capsicum China Cyanatum acidum Dulcamara Fluoricum acidum Hyoscуamus Ignatia Kali carbonicum Lachesis Laurocerasus Nux vomica Opium Picrinicum acidum Platina Rhus toxicodendron Ruta Selenium Silicea Sol**
 
 ### Stramonium Tabacum Zincum
 

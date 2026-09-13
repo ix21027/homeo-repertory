@@ -8,7 +8,7 @@ origin: https://homeopat-sam.com/-/a383
 remedy_blocks: 35
 ---
 
-Гомеопатичні препарати, у патогенезах яких є особливості лохій: **Aconitum Ambra grisea Ammonium carbonicum Arnica Baptisia Benzoicum acidum Calcarea carbonicaacidum Nux vomica Petroleum Pulsatilla Pyrogenium Rhus toxicodendron Sabina Secale Sepia Stramonium Sulfur Thuja Ustilago Xanthoxylum Zincum metallicum**
+Гомеопатичні препарати, у патогенезах яких є особливості лохій: **Aconitum Ambra grisea Ammonium carbonicum Arnica Baptisia Benzoicum acidum Calcarea carbonica Calendula Cantharis Carbo animalis Cinnamomum Conium Crotalus Erigeron Graphites Helonias Kreosotum Lachesis Mercurius solubilis Millefolium Nitricum acidum Nux vomica Petroleum Pulsatilla Pyrogenium Rhus toxicodendron Sabina Secale Sepia Stramonium Sulfur Thuja Ustilago Xanthoxylum Zincum metallicum**
 
 ### Aconitum (Аконітум)
 

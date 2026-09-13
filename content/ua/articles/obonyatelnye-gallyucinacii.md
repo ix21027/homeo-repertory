@@ -8,7 +8,7 @@ origin: https://homeopat-sam.com/-/a399
 remedy_blocks: 11
 ---
 
-Найчастіше при цій проблемі призначають такі гомеопатичні препарати: Anacardium Baptisia Baryta carbonica Chelidonium Iodoformium Kali bichromicum
+Найчастіше при цій проблемі призначають такі гомеопатичні препарати: **Anacardium Baptisia Baryta carbonica Chelidonium Iodoformium Kali bichromicum Magnetis poliambo Magnetis polus arcticus Menyanthes Pulsatilla Sulphur**
 
 ### Anacardium (Анакардіум)
 

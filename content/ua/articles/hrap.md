@@ -8,7 +8,7 @@ origin: https://homeopat-sam.com/-/a341
 remedy_blocks: 13
 ---
 
-Найчастіше при цій проблемі призначають такі гомеопатичні препарати: Belladonna Calcarea carbonica Camphora Chamomilla China
+Найчастіше при цій проблемі призначають такі гомеопатичні препарати: **Belladonna Calcarea carbonica Camphora Chamomilla China Chloralum hydratum Muriaticum acidum Nux vomica Opium Sabina Silicea Stramonium Sulfur**
 
 ### Belladonna (Беллядонна)
 

@@ -8,7 +8,7 @@ origin: https://homeopat-sam.com/-/a371
 remedy_blocks: 13
 ---
 
-У патогенезах наступних гомеопатичних препаратів є зміни кольору нігтів: Aesculus hippocastanum Arsenicum album
+У патогенезах наступних гомеопатичних препаратів є зміни кольору нігтів: **Aesculus hippocastanum Arsenicum album Carbo vegetabilis Conium Eupatorium purpureum Ferrum phosphoricum Graphites Mercurius corrosives Nitricum acidum Oxalicum acidum Silicea**
 
 ### Veratrum album
 
@@ -24,7 +24,7 @@ remedy_blocks: 13
 
 ### Carbo vegetabilis (Карбо вегетабіліс)
 
-Ніж: Сині нігті; дуже холодні кисті та стопи, похолодання колін навіть у ліжку, або ж рук і лівої ноги.
+Неш: Сині нігті; дуже холодні кисті та стопи, похолодання колін навіть у ліжку, або ж рук і лівої ноги.
 
 ### Conium (Коніум)
 

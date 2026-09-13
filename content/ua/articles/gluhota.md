@@ -8,7 +8,7 @@ origin: https://homeopat-sam.com/-/a475
 remedy_blocks: 39
 ---
 
-Найчастіше при даній патології призначають наступні гомеопатичні препарати: Allium sativum Anacardium Arnica Aurum muriaticum Belladonna Calcarea carbonicaManganum carbonicum Medorrhinum Mercurius solubilis Muriaticum acidum Natrium carbonicum Natrium salicylicum Nitricum acidum Petroleum Phosphorus Plumbum metallicum
+Найчастіше при даній патології призначають наступні гомеопатичні препарати: **Allium sativum Anacardium Arnica Aurum muriaticum Belladonna Calcarea carbonica Calcarea fluorica Calendula Carbo vegetabilis Causticum Chelidonium China Dulcamara Ferrum picricum Graphytes Hepar sulfur Hydrastis Ignatia Kali muriaticum Lobelia Magnesium carbonicum Manganum carbonicum Medorrhinum Mercurius solubilis Muriaticum acidum Natrium carbonicum Natrium salicylicum Nitricum acidum Petroleum Phosphorus Plumbum metallicum Pulsatilla Raphanus sativus Rhododendron Rhus toxicodendron Silicea Sulfur Syphylinum Viola odorata**
 
 ### Allium sativum (Алліум сативум)
 
@@ -48,7 +48,7 @@ remedy_blocks: 39
 
 ### Causticum (Каустикум)
 
-Ніж: Глухота, що супроводжується дзвонами, дзижчанням і всякого роду шумами. Резонанс звуків, особливо голоси пацієнта.
+Неш: Глухота, що супроводжується дзвонами, дзижчанням і всякого роду шумами. Резонанс звуків, особливо голоси пацієнта.
 
 Роуз: хронічна інфекція середнього вуха. Прогресуюча глухота. Звуки, що дзижчать у вусі. Хворий чує лише високі звуки.
 
@@ -76,7 +76,7 @@ remedy_blocks: 39
 
 ### Hepar sulfur (Гепар сульфар)
 
-Ніж: Тугість слуху з хронічною гіпертрофією мигдаликів.
+Неш: Тугість слуху з хронічною гіпертрофією мигдаликів.
 
 Юз: Внаслідок раптового зараження, течі з вуха – 3 рази на день.
 
@@ -96,7 +96,7 @@ remedy_blocks: 39
 
 Глухота через набряк зовнішнього вуха.
 
-Ніж: Глухота від запалення та закупорки євстахієвої труби.
+Неш: Глухота від запалення та закупорки євстахієвої труби.
 
 ### Lobelia (Лобелія)
 
@@ -206,6 +206,6 @@ remedy_blocks: 39
 
 ### Viola odorata (Віола одората)
 
-Поразка лівого вуха.
+Ураження лівого вуха.
 
 Глухота; оторея.

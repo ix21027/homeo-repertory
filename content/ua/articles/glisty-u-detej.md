@@ -8,7 +8,7 @@ origin: https://homeopat-sam.com/-/a304
 remedy_blocks: 14
 ---
 
-Для лікування глистів в дітей віком застосовують такі гомеопатичні препарати:
+Для лікування глистів в дітей віком застосовують такі гомеопатичні препарати: **Calcarea carbonica Chenopodium anthelminticum Cina Conium Ignatia Mercurius solubilis Natrium phosphoricum Sabadilla Silicea Spigelia Sulfur Teucrum marum verum Valeriana Viola odorata**
 
 ### Calcarea carbonica (Калькарея карбоніка)
 

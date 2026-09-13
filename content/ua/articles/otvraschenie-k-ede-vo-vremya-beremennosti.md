@@ -8,7 +8,7 @@ origin: https://homeopat-sam.com/-/a218
 remedy_blocks: 35
 ---
 
-Петерс Дж. Гомеопатичне лікування порушень під час вагітності, пологів та годування груддю."Гомеопатична медицина", Москва.2000 Для лікування виникаючої відрази до деяких продуктів під час вагітності застосовуються наступні гомеопатичні препарати: Alumina Ammonium carbonicumsolubilis Mezereum Moschus Muriaticum acidum Natrium carbonicum Nitricum acidum Phosphoricum acidum Phosphorus Pulsatilla Rhus toxicodendron
+Петерс Дж. Гомеопатичне лікування порушень під час вагітності, пологів та годування груддю."Гомеопатична медицина", Москва.2000 Для лікування виникаючої відрази до деяких продуктів під час вагітності застосовуються наступні гомеопатичні препарати: **Alumina Ammonium carbonicum Arsenicum album Belladonna Bromium Bryonia Carbo vegetabilis Causticum Chelidonium China Cocculus Colchicum Cyclamen Graphites Gratiola Ignatia Kali carbonicum Magnesia Menyanthes Mercurius solubilis Mezereum Moschus Muriaticum acidum Natrium carbonicum Nitricum acidum Phosphoricum acidum Phosphorus Pulsatilla Rhus toxicodendron Sabina Staphysagria Sepia**
 
 ### Sulfur Tabacum Zincum
 

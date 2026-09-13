@@ -8,7 +8,7 @@ origin: https://homeopat-sam.com/-/a403
 remedy_blocks: 75
 ---
 
-Найчастіше при цій проблемі призначають наступні гомеопатичні препарати: **Aconitum AesculusMuriaticum Graphites Hyoscyamus Inula helenium Iris tenax Iris versicolor Kali bichromicum Lachesis Lycopodium Magnesium carbonicum Magnesium muriaticum Medorrhinum MercuriusNux moschata Nux vomica Oleander Onosmodium Opium Oxytropis Petroleum Phellandrium Phosphoricum acidum Phytolacca Plumbum metallicumacidum Veratrum album Viburnum opulus Xanthoxylum**
+Найчастіше при цій проблемі призначають наступні гомеопатичні препарати: **Aconitum Aesculus Alumina Anacardium pis Arnica Arsenicum album Belladonna Berberis Bryonia Calcarea fluorica Cannabis sativa Carboneum sulphuratum Causticum Cedron China Cinnabaris Coca Cocculus Conium Curare Echinacea Electricitas Euphorbium Ferrum muriaticum Graphites Hyoscyamus Inula helenium Iris tenax Iris versicolor Kali bichromicum Lachesis Lycopodium Magnesium carbonicum Magnesium muriaticum Medorrhinum Mercurius iodatus flavus Millefolium Moschus Myrica Natrium carbonicum Natrium muriaticum Natrium sulphuricum Nitricum acidum Nux moschata Nux vomica Oleander Onosmodium Opium Oxytropis Petroleum Phellandrium Phosphoricum acidum Phytolacca Plumbum metallicum Pulsatilla Radium bromatum Ranunculus sceleratus Ratanhia Sabina Sambucus Sarsaparilla Secale Silicea Solanum nigrum Spigelia Stramonium Sulphur Sulfuricum аcidum Veratrum album Viburnum opulus Xanthoxylum**
 
 ### Zingiber Zizia
 
@@ -22,7 +22,7 @@ remedy_blocks: 75
 
 ### Aesculus (Ескулюс)
 
-Ніж: Набрякла слизова оболонка; печіння, сухість та чутливість.
+Неш: Набрякла слизова оболонка; печіння, сухість та чутливість.
 
 ### Alumina (Алюміну)
 
@@ -38,7 +38,7 @@ remedy_blocks: 75
 
 ### Apis (Апіс)
 
-Ніж: Сухість слизових язика, рота, губ і горла без спраги.
+Неш: Сухість слизових язика, рота, губ і горла без спраги.
 
 ### Arnica (Арніка)
 
@@ -82,7 +82,7 @@ remedy_blocks: 75
 
 Сухість у роті та на язиці.
 
-Відчуття здертої слизової або пекучий біль у роті, небі та в кінчику язика.
+Відчуття здертої слизової або пекучий біль у роті, піднебінні та в кінчику язика.
 
 ### Cedron (Цедрон)
 
@@ -174,7 +174,7 @@ remedy_blocks: 75
 
 Сухість у роті, у ліжку, вранці. Сухість та липка слина у роті.
 
-Відчуття горіння в ротовій порожнині та шлунку; пацієнт майже не може дихати, дихання дуже дратує. Відчуття, ніби ротова порожнина та язик обварені окропом.
+Відчуття печіння в ротовій порожнині та шлунку; пацієнт майже не може дихати, дихання дуже дратує. Відчуття, ніби ротова порожнина та язик обварені окропом.
 
 ### Kali bichromicum (Калі біхромікум)
 
@@ -186,7 +186,7 @@ remedy_blocks: 75
 
 ### Lachesis (Ляхезіс)
 
-Ніж: Може бути сухим або в ньому - рясне скупчення в'язкої слизу. Неприємний запах із рота. Симеонова: Сухість у роті не супроводжується спрагою.
+Неш: Може бути сухим або в ньому - рясне скупчення в'язкої слизу. Неприємний запах із рота. Симеонова: Сухість у роті не супроводжується спрагою.
 
 ### Magnesium carbonicum (Магнезіум карбонікум)
 
@@ -232,7 +232,7 @@ remedy_blocks: 75
 
 ### Natrium muriaticum (Натріум муріатикум)
 
-Ніж: Сильне відчуття сухості горла без дійсної сухості.
+Неш: Сильне відчуття сухості горла без дійсної сухості.
 
 ### Natrium sulphuricum (Натріум сульфурикум)
 
@@ -258,7 +258,7 @@ remedy_blocks: 75
 
 Сухість; відчуття сухості у роті (на язиці та губах, що охоплює горло), без спраги. Сухість ротової порожнини настільки виражена, що язик прилипає до піднебіння, при цьому пити не хочеться, навіть є огида до води (у Mercurius, навпаки, рот переповнений слиною, вона навіть витікає, але при цьому хворий відчуває сильну спрагу).
 
-Ніж: Надзвичайна сухість рота, губ, язика, горла.
+Неш: Надзвичайна сухість рота, губ, язика, горла.
 
 ### Nux vomica (Нукс воміка)
 
@@ -314,11 +314,11 @@ remedy_blocks: 75
 
 ### Pulsatilla (Пульсатилла)
 
-Ніж: Сильна сухість у роті вранці, без спраги. Неприємний смак уже вранці.
+Неш: Сильна сухість у роті вранці, без спраги. Неприємний смак уже вранці.
 
 ### Radium bromatum (Радіум броматум)
 
-Сухість у роті вранці. Відчуття сухості, шорсткості в області піднебіння; зменшується від холодної води, але швидко поновлюється; краще від прийому Nux moschata.
+Сухість у роті вранці. Відчуття сухості, шорсткості в ділянці піднебіння; зменшується від холодної води, але швидко поновлюється; краще від прийому Nux moschata.
 
 Сухість у роті; дихання здається гарячим.
 
@@ -388,13 +388,13 @@ remedy_blocks: 75
 
 Сухість у роті (сухість зіва; сухі, зліплі губи).
 
-Ніж: Сухість його та горла.
+Неш: Сухість його та горла.
 
 ### Sulphur (Сульфур)
 
 Сухість, жар та пекуче відчуття у роті, іноді вранці, з вологістю язика.
 
-Сильна сухість у небі із спрагою, пацієнт змушений багато пити.
+Сильна сухість у піднебінні із спрагою, пацієнт змушений багато пити.
 
 Сухість у роті, несмачна, липка слина вранці.
 

@@ -137,7 +137,7 @@ sections: Характеристика; Клініка; Шкіра; Сон; Га
 
 ## Взаємозв’язки
 
-**Слід порівняти**: Поразка передміхурової залози та сечової сфери - Sabal serrulata, Santalum, Hydrangea abrorescens, Triticum repens.
+**Слід порівняти**: Ураження передміхурової залози та сечової сфери - Sabal serrulata, Santalum, Hydrangea abrorescens, Triticum repens.
 
 Болючість - Santalum.
 

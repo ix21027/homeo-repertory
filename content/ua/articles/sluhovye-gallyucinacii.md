@@ -8,7 +8,7 @@ origin: https://homeopat-sam.com/-/a395
 remedy_blocks: 12
 ---
 
-Найчастіше при цій проблемі призначають наступні гомеопатичні препарати: Anacardium Carboneum sulphuratum chloralum cocainum muriaticum crotalus horridus elaps eupatorium purpureum
+Найчастіше при цій проблемі призначають наступні гомеопатичні препарати: **Anacardium Carboneum sulphuratum Chloralum Cocainum muriaticum Crotalus horridus Elaps Eupatorium purpureum Galvanismus Naja Stramonium Theridion Valeriana**
 
 ### Anacardium (Анакардіум)
 

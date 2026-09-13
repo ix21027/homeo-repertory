@@ -9,7 +9,7 @@ origin: https://homeopat-sam.com/-/a267
 remedy_blocks: 14
 ---
 
-Для усунення цієї хворобливої проблеми використовують такі препарати: Arnica Borax Calcarea carbonica Castor equi Chamomilla Croton Fluoricum acidum Graphites Lycopodium
+Для усунення цієї хворобливої проблеми використовують такі препарати: **Arnica Borax Calcarea carbonica Castor equi Chamomilla Croton Fluoricum acidum Graphites Lycopodium Mercurius corrosivus Mercurius solubilis Nux vomica Sepia Sulfur**
 
 ### Arnica (Арніка)
 
@@ -97,7 +97,7 @@ remedy_blocks: 14
 
 «Людина-термометр» - чутливість до спеки та холоду.
 
-Схильність до формування гною: рідкого, зеленого, гнильного, з прожилками рідкої крові. Усі симптоми погіршуються ночами, від тепла ліжка.
+Схильність до утворення гною: рідкого, зеленого, гнильного, з прожилками рідкої крові. Усі симптоми погіршуються ночами, від тепла ліжка.
 
 Схильність до рясного потоутворення, яке не приносит полегшення.
 

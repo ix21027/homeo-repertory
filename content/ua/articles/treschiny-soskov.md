@@ -8,7 +8,7 @@ origin: https://homeopat-sam.com/-/a493
 remedy_blocks: 12
 ---
 
-Найчастіше при цій проблемі призначають такі гомеопатичні препарати: Aconitum Calcium carbonicum Castor Equi Chamomilla Graphites Ignatia Nitricum acidum Phytolacca
+Найчастіше при цій проблемі призначають такі гомеопатичні препарати: **Aconitum Calcium carbonicum Castor equi Chamomilla Graphites Ignatia Nitricum acidum Phytolacca Pulsatilla Ratanhia periviana Silicea Sulfur**
 
 ### Aconitum (Аконітум)
 

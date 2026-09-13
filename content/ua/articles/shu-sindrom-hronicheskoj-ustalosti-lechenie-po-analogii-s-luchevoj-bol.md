@@ -9,7 +9,7 @@ origin: https://homeopat-sam.com/-/a508
 remedy_blocks: 9
 ---
 
-Найчастіше при цій проблемі призначають наступні гомеопатичні препарати: Arsenicum Album Bromium Cobaltum Ferrum phosphoricu Lachesis
+Найчастіше при цій проблемі призначають наступні гомеопатичні препарати: **Arsenicum album Bromium Cobaltum Ferrum phosphoricu Lachesis Natrium carbonicum Natrium muriaticum Phosphoricum acidum Phosphorus Selenium Strontium carbonicum X-Ray**
 
 ### Zincum
 

@@ -8,7 +8,7 @@ origin: https://homeopat-sam.com/-/a436
 remedy_blocks: 18
 ---
 
-Найчастіше при цій проблемі призначають такі гомеопатичні препарати: Baptisia Baryta carbonica
+Найчастіше при цій проблемі призначають такі гомеопатичні препарати: **Baptisia Baryta carbonica Calcarea carbonica Caladium seguinum Carbo vegetabilis Eryngium aquaticum Fluoricum acidum Graphites Guarea trichiloides Kali carbonicum Lycopodium Mercurius solubilis Nitricum acidum Osmium Petroleum Psorinum Silicea Thuja**
 
 ### Baptisia (Баптизія)
 

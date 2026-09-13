@@ -8,7 +8,7 @@ origin: https://homeopat-sam.com/-/a73
 remedy_blocks: 21
 ---
 
-Для лікування гострого риніту найбільш часто призначаються наступні гомеопатичні препарати:
+Для лікування гострого риніту найбільш часто призначаються наступні гомеопатичні препарати: **Aconitum Allium cepa Apis Arsenicum album Arum triphyllum Belladonna Chamomilla Euphrasia Gelsemium Hepar sulfur Kali bichromicum Natrum sulphuricum Nux vomica Pulsatilla Sabadilla Sambucus Silicea Sticta**
 
 ### Sulfur Thuja
 
@@ -88,7 +88,7 @@ remedy_blocks: 21
 
 ### Kali bichromicum (Калі біхромікум)
 
-Рясні рідкі виділення або густі, тягучі виділення жовто-зеленого кольору. Нежить із формуванням у носі «козявок».
+Рясні рідкі виділення або густі, тягучі виділення жовто-зеленого кольору. Нежить із утворенням у носі «козявок».
 
 Вони свідчать про схильність до виразкових процесів на слизових оболонках.
 

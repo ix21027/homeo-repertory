@@ -8,7 +8,7 @@ origin: https://homeopat-sam.com/-/a323
 remedy_blocks: 16
 ---
 
-При різних шлункових проблемах найчастіше призначають наступні гомеопатичні препарати: **Actea racemosa Anacardium Antimonium crudum Argentum nitricumSabadilla**
+При різних шлункових проблемах найчастіше призначають наступні гомеопатичні препарати: **Actea racemosa Anacardium Antimonium crudum Argentum nitricum Arnica Arsenicum album Belladonna Bryonia Calcarea fluorica Cantharis Carbo animalis Cuprum arsenicosum Cyclamen Dioscorea Ipecacuanha Magnesium carbonicum Nux vomica Podophyllum Pulsatilla Sabadilla**
 
 ### Sepia Sulphuricum acidum Tabacum
 

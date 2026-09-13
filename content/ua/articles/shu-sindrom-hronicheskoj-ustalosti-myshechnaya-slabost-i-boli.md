@@ -9,7 +9,7 @@ origin: https://homeopat-sam.com/-/a496
 remedy_blocks: 17
 ---
 
-Найчастіше при цій проблемі призначають такі гомеопатичні препарати: **Arnica Arsenicum albumRhus toxicodendron Rododendron Sanguinaria**
+Найчастіше при цій проблемі призначають такі гомеопатичні препарати: **Arnica Arsenicum album Bryonia Causticum Cimicifuga Conium Eupatorium perfoliatum Fluoricum acidum Gelsemium Kali carbonicum Magnesium carbonicum Muriaticum acidum Natrium muriaticum Nux moschata Phytolacca Plumbum Ranunculus bulbosus Rhus toxicodendron Rododendron Sanguinaria**
 
 ### Arnica (Арніка)
 

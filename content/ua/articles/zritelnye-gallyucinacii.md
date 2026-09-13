@@ -8,7 +8,7 @@ origin: https://homeopat-sam.com/-/a391
 remedy_blocks: 22
 ---
 
-Найчастіше при цій проблемі призначають наступні гомеопатичні препарати: **Anhalonium lewiniPetroleum**
+Найчастіше при цій проблемі призначають наступні гомеопатичні препарати: **Anhalonium lewini Arsenicum album Belladonna Cannabis indica Chloralum Cocainum muriaticum Crotalus horridus Digitalis Duboisinum Eugenia jambosa Eupatorium purpureum Galvanismus Glonoinum Hyoscyamus Magnesium sulphuricum Morphinum Muriaticum acidum Petroleum**
 
 ### Theridion Valeriana Viscum album
 

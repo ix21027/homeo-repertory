@@ -29,7 +29,7 @@ remedy_blocks: 59
 
 **Зміна погоди, берег моря**: Arsenicum album, Bryonia, Sepia.
 
-**Вживання молока:** Aethusa, Arsenicum album, Bryonia, Calcarea carbonica, Conium, Kali arsenicosum, Kali carbonicum, Lycopodium, Magnesium muriaticum, Natrium muriaticum, Natrium carbonicum, Nux moschata, Medorrhinum, Sepia.
+**Вживання молока: **Aethusa, Arsenicum album, Bryonia, Calcarea carbonica, Conium, Kali arsenicosum, Kali carbonicum, Lycopodium, Magnesium muriaticum, Natrium muriaticum, Natrium carbonicum, Nux moschata, Medorrhinum, Sepia, Silicea, Sulphur.
 
 **Вживання борошняних продуктів**: Lycopodium, Natrium carbonicum, Natrium muriaticum. **Вживання морозива**: Argentum nitricum, Arsenicum album, Bryonia, Calcarea phosphorica, Carbo vegetabilis, Dulcamara, Pulsatilla, Phosphorus.
 
@@ -365,7 +365,7 @@ _Можуть бути два випадки_: **1. Діарея – це сим
 
 Діарея у людей похилого віку з хронічними запальними захворюваннями, для яких характерні запалення, роздратування і схильність до виразки слизової (анальний отвір). Сильні болі під час та після дефекації.
 
-Запалення області ануса (і тріщини) із гемороєм.
+Запалення ділянки ануса (і тріщини) із гемороєм.
 
 ### Nux moschata (Нукс мошата)
 
@@ -391,7 +391,7 @@ _Можуть бути два випадки_: **1. Діарея – це сим
 
 При дитячій холері.
 
-Лицо червоне або бліде з заціпенінням, зіниці нереактивні, коматозні.
+Обличчя червоне або бліде з заціпенінням, зіниці нереактивні, коматозні.
 
 ### Petroleum (Петролеум)
 
@@ -509,7 +509,7 @@ _Можуть бути два випадки_: **1. Діарея – це сим
 
 Загострення від молока та пива, після охолодження, після придушення висипу.
 
-Роздратування, запалення області ануса.
+Роздратування, запалення ділянки ануса.
 
 ### Thuja (Туя)
 

@@ -9,7 +9,7 @@ origin: https://homeopat-sam.com/-/a315
 remedy_blocks: 13
 ---
 
-При цій проблемі призначають такі гомеопатичні препарати: Aconitum Belladonna Bryonia Calcarea carbonica Graphites Nux.
+При цій проблемі призначають такі гомеопатичні препарати: **Aconitum Belladonna Bryonia Calcarea carbonica Graphites Nux moschata Petroleum Rhus toxicodendron Sanguinaria Sarsaparilla Sepia Silicea Zincum**
 
 ### Aconitum (Аконітум)
 

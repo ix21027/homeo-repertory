@@ -8,7 +8,7 @@ origin: https://homeopat-sam.com/-/a470
 remedy_blocks: 10
 ---
 
-При цій патології найчастіше призначають такі гомеопатичні препарати: Alumen Arnica Cadmium sulphuricum Calcarea carbonica Chamomilla Graphites Mercurius corrosivus
+При цій патології найчастіше призначають такі гомеопатичні препарати: **Alumen Arnica Cadmium sulphuricum Calcarea carbonica Chamomilla Graphites Mercurius corrosivus Silicea Sulfur**
 
 ### Alumen (Алюмен)
 

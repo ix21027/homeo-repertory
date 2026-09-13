@@ -8,7 +8,7 @@ origin: https://homeopat-sam.com/-/a458
 remedy_blocks: 31
 ---
 
-Найчастіше при цій проблемі призначають такі гомеопатичні препарати: Aconitum Actea racemosa Arnica Belladonna Bellis Bryonia Calcarea fluoricavomica Opium Podophyllum Pulsatilla Rhus toxicodendron Sabina Secale Sepia Sulfur Veratrum album
+Найчастіше при цій проблемі призначають такі гомеопатичні препарати: **Aconitum Actea racemosa Arnica Belladonna Bellis Bryonia Calcarea fluorica Carbo vegetabilis Caulophyllum Chamomilla China Cimicifuga Cocculus Coffea cruda Colocynthis Conium Crocus sativus Hyoscyamus Hypericum Lac caninum Lachesis Lycopodium Nux vomica Opium Podophyllum Pulsatilla Rhus toxicodendron Sabina Secale Sepia Sulfur Veratrum album**
 
 ### Viburnum Xanthoxinum
 
@@ -18,7 +18,7 @@ remedy_blocks: 31
 
 Післяпологові болі дуже інтенсивні та дуже тривалі.
 
-Петерс: При невралгічних болях після пологів тинктура наноситься на область матки від чверті до половини чайної ложки кожні 2, 4, 6 або 8 годин в залежності від стану.
+Петерс: При невралгічних болях після пологів тинктура наноситься на ділянку матки від чверті до половини чайної ложки кожні 2, 4, 6 або 8 годин в залежності від стану.
 
 ### Actea racemosa (Актеа рацемозу)
 

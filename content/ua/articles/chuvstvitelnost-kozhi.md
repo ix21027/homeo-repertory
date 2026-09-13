@@ -8,7 +8,7 @@ origin: https://homeopat-sam.com/-/a449
 remedy_blocks: 18
 ---
 
-Найчастіше при цій проблемі призначаються наступні гомеопатичні препарати: Antimonium crudum Arsenicum album Capsicum China (Cinchona) Coffea cruda
+Найчастіше при цій проблемі призначаються наступні гомеопатичні препарати: **Antimonium crudum Arsenicum album Capsicum China (Cinchona) Coffea cruda Crotalus horridus Cuprum metallicum Lepidum bonariense Mentha piperita Nitricum acidum Nux moschata Oleander Plumbum Sepia Silicea Sulphur Theridion Vinca minor**
 
 ### Antimonium crudum (Антимоніум крудум)
 
@@ -20,7 +20,7 @@ remedy_blocks: 18
 
 ### Capsicum (Капсікум)
 
-Ніж: Хворий не може виносити гоління внаслідок сильної гіперестезії шкіри.
+Неш: Хворий не може виносити гоління внаслідок сильної гіперестезії шкіри.
 
 ### China (Cinchona)
 
@@ -66,7 +66,7 @@ remedy_blocks: 18
 
 ### Plumbum (Петролеум)
 
-Ніж: Надзвичайна гіперестезія. Хворий не виносить дотику ні до чого — настільки йому боляче.
+Неш: Надзвичайна гіперестезія. Хворий не виносить дотику ні до чого — настільки йому боляче.
 
 ### Sepia (Сепія)
 

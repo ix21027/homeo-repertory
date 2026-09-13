@@ -8,7 +8,7 @@ origin: https://homeopat-sam.com/-/a359
 remedy_blocks: 27
 ---
 
-Найбільш часто при даній патології призначають наступні гомеопатичні препарати: **Arnica Arsenicum album Baptisia CamphoraSulphur Sulfuricum acidum Valeriana Vinca minor**
+Найбільш часто при даній патології призначають наступні гомеопатичні препарати: **Arnica Arsenicum album Baptisia Camphora Carbolicum acidum Carbo vegetabilis Echinacea Fluoricum acidum Hamamelis Hydrastis Lachesis Millefolium Muriaticum acidum Nitricum acidum Paeonia Petroleum Plumbum metallicum Pyrogenium Secale Sepia Silicea Sulphur Sulfuricum acidum Valeriana Vinca minor**
 
 ### Arnica (Арніка)
 
@@ -40,7 +40,7 @@ remedy_blocks: 27
 
 ### Carbolicum acidum (Карболікум ацидум)
 
-Лікує усі екземи. Фізична напруга призводить до формування гнійників на тілі. Ніж: Швидке формування пролежнів.
+Лікує усі екземи. Фізична напруга призводить до утворення гнійників на тілі. Неш: Швидке утворення пролежнів.
 
 ### Carbo vegetabilis (Карбо вегетабіліс)
 
@@ -112,7 +112,7 @@ remedy_blocks: 27
 
 Хронічні виразки на нижніх відділах тіла, на гомілках, стопах, а також на грудях.
 
-Виразки, розташовані нижче крижів, в області куприка.
+Виразки, розташовані нижче крижів, в ділянці куприка.
 
 Виразки, що утворюються внаслідок натискання; пролежні тощо.
 
