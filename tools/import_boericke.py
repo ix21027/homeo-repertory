@@ -9,13 +9,26 @@ HTML-транскрипція: http://www.homeoint.org/books/boericmm/ (Médi-T)
     python3 tools/import_boericke.py --fetch-index   # завантажити покажчики (remedies.htm, a.htm…z.htm)
     python3 tools/import_boericke.py --dry-run       # таблиця зіставлення 136 ext-назв із Boericke
     python3 tools/import_boericke.py --fetch         # довантажити сторінки зіставлених препаратів
+    python3 tools/import_boericke.py --dump-segments DIR   # англійські абзаци шматками для перекладачів
     python3 tools/import_boericke.py                 # розібрати, перекласти EN→RU і EN→UK, записати .md
 
 Ручні перевизначення зіставлення — tools/boericke-map.json:
     {"<ext-назва>": "<ABBREV>"}  або  {"<ext-назва>": null}  щоб пропустити.
-Кеш перекладу — tools/boericke-cache.json (не в git).
+
+Переклад. Спершу дивимось у tools/boericke-llm.json (у git) — переклад моделлю з глосарієм:
+    {"<seg_key(англійський абзац)>": {"en": "…", "ru": "…", "ua": "…"}}
+Чого там немає — доперекладає Google (translatepy) у кеш tools/boericke-cache.json (не в git);
+про кожен такий абзац друкується попередження. seg_key — sha1 англійського рядка ПІСЛЯ
+expand_abbrev і ПЕРЕД protect(), тобто рівно того, що бачить перекладач у --dump-segments.
+
+У sources/boericke/*.htm виправлено очевидні помилки розпізнавання самого джерела (11 місць у
+9 файлах: «Professor yon Jaksch»→«von», «Psorisis»→«Psoriasis», «Heper»→«Hepar», «Spiræea»→
+«Spiræa», «Salycyl»→«Salicyl», «Climateric»→«Climacteric», «micturation»→«micturition»,
+«Prumus padus»→«Prunus padus», «phlyctemular»→«phlyctenular», «direst contact»→«direct contact»,
+«lumber region»→«lumbar region»). Видалення знімка й повторний --fetch їх затре.
 """
 import argparse
+import hashlib
 import html
 import json
 import os
@@ -30,6 +43,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SRC_DIR = os.path.join(ROOT, "sources", "boericke")
 MAP_FILE = os.path.join(ROOT, "tools", "boericke-map.json")
 CACHE_FILE = os.path.join(ROOT, "tools", "boericke-cache.json")
+LLM_FILE = os.path.join(ROOT, "tools", "boericke-llm.json")
 CATALOG = os.path.join(ROOT, "data", "ru", "catalog.json")
 BASE_URL = "http://www.homeoint.org/books/boericmm/"
 SOURCE_LINE = {
@@ -448,8 +462,28 @@ def rel_label(lab, lang):
 # ---------------------------------------------------------------------------
 lock = threading.Lock()
 cache = json.load(open(CACHE_FILE, encoding="utf-8")) if os.path.exists(CACHE_FILE) else {}
+# Переклад моделлю з глосарієм: {seg_key: {"en","ru","ua"}}. Немає файла — усе йде в Google, як раніше.
+llm = json.load(open(LLM_FILE, encoding="utf-8")) if os.path.exists(LLM_FILE) else {}
 DEST = {"ru": "Russian", "ua": "Ukrainian"}
 _translator = None
+
+
+def seg_key(en):
+    """Ключ абзацу в tools/boericke-llm.json — sha1 англійського рядка, який бачить перекладач.
+
+    Рахується ПІСЛЯ expand_abbrev і ПЕРЕД protect(): маркери Qzz у ключ не потрапляють, тож
+    ключ не залежить від того, як саме ми ховаємо назви від Google.
+    """
+    return hashlib.sha1(en.encode("utf-8")).hexdigest()
+
+
+def llm_get(en, lang):
+    """Готовий переклад абзацу з tools/boericke-llm.json або None."""
+    rec = llm.get(seg_key(en))
+    if not isinstance(rec, dict):
+        return None
+    out = (rec.get(lang) or "").strip()
+    return out or None
 
 
 def get_translator():
@@ -509,11 +543,65 @@ STOP = {"of", "with", "the", "in", "and", "a", "an", "at", "from", "to", "for", 
 PAREN = re.compile(r"\(([^()]{1,80})\)")
 
 
+_VOCAB = None
+
+
+def latin_vocab():
+    """→ (слова, префікси≥3) відомих латинських назв: boericke-map.json, каталог, покажчик Boericke.
+
+    Потрібне _is_names(): без словника під захист від перекладу потрапляла будь-яка фраза в
+    дужках, що починається з великої літери, — «(Old school dose)», «(Coff opposite)»,
+    «(Antidotal)», «(Cartier)» лишались англійськими посеред перекладеного розділу.
+    Префікси — бо в тексті трапляються обрізані назви, яких нема в покажчику («Ran bulb» від
+    RANUNCULUS BULBOSUS, «Anthracin» від ANTHRACINUM). Файлів може не бути (як у чистій копії) —
+    тоді словник менший; мережі тут не чіпаємо.
+    """
+    global _VOCAB
+    if _VOCAB is not None:
+        return _VOCAB
+    words = set()
+
+    def add(s):
+        for t in re.split(r"[^A-Za-z]+", s or ""):
+            if len(t) >= 2:
+                words.add(t.lower())
+
+    if os.path.exists(MAP_FILE):
+        for k, v in json.load(open(MAP_FILE, encoding="utf-8")).items():
+            if not k.startswith("_"):
+                add(k)
+                add(v or "")
+    if os.path.exists(CATALOG):
+        for r in json.load(open(CATALOG, encoding="utf-8")).get("remedies", []):
+            add(r.get("latin", ""))
+            alt = r.get("alt") or ""
+            add(alt if isinstance(alt, str) else "; ".join(alt))
+    if os.path.exists(os.path.join(SRC_DIR, "remedies.htm")):
+        for ab, forms in load_name_map():
+            add(ab)
+            for f in forms:
+                add(f)
+    _VOCAB = (words, {w[:i] for w in words for i in range(3, len(w) + 1)})
+    return _VOCAB
+
+
+def _is_latin(word):
+    """Слово — відома латинська назва або її початок (≥3 літери)."""
+    words, prefixes = latin_vocab()
+    w = word.lower()
+    return w in words or w in prefixes
+
+
 def _is_names(inner):
+    """Дужка містить лише назви препаратів (їх перекладати не можна), а не англійський текст."""
     if not re.fullmatch(r"[A-Z][A-Za-z.'\- ]*(?:[;,][A-Za-z.'\- ]+)*", inner.strip()):
         return False
     toks = [t for t in re.split(r"[\s;,]+", inner.strip()) if t]
-    return 0 < len(toks) <= 6 and not any(t.strip(".").lower() in STOP for t in toks)
+    if not 0 < len(toks) <= 6 or any(t.strip(".").lower() in STOP for t in toks):
+        return False
+    # ініціали й однобуквені хвости солей («Kali c», «Calc p») пропускаємо: судимо по словах ≥3 літер
+    words = [w for t in toks for w in re.split(r"[^A-Za-z]+", t) if len(w) >= 3]
+    return bool(words) and all(_is_latin(w) for w in words)
 
 
 def protect(text):
@@ -533,7 +621,8 @@ def restore(text, names):
 
 
 def translate_all(segments, lang, workers=4, batch_chars=2800):
-    segments = [protect(s)[0] for s in segments]
+    # те, що вже перекладено моделлю, Google не бачить взагалі
+    segments = [protect(s)[0] for s in segments if llm_get(s, lang) is None]
     todo = [s for s in dict.fromkeys(segments) if (lang + "\0" + s) not in cache and NEED.search(s)]
     for s in dict.fromkeys(segments):
         if not NEED.search(s):
@@ -576,9 +665,31 @@ def translate_all(segments, lang, workers=4, batch_chars=2800):
 
 
 def tr(text, lang):
+    out = llm_get(text, lang)
+    if out is not None:
+        return out
     prot, names = protect(text)
     out = cache.get(lang + "\0" + prot)
     return restore(out, names) if out is not None else text
+
+
+def llm_report(segments, limit=40):
+    """Попередження про абзаци, яких немає в tools/boericke-llm.json (їх доперекладе Google)."""
+    if not llm:
+        print("\n%s: немає — усе перекладає Google (як раніше)" % os.path.relpath(LLM_FILE, ROOT))
+        return
+    uniq = list(dict.fromkeys(segments))
+    for lang in ("ru", "ua"):
+        miss = [s for s in uniq if llm_get(s, lang) is None]
+        if not miss:
+            print("[%s] tools/boericke-llm.json покриває всі %d абзаців" % (lang, len(uniq)))
+            continue
+        print("\n[%s] УВАГА: %d із %d абзаців немає в tools/boericke-llm.json — переклад Google:"
+              % (lang, len(miss), len(uniq)), flush=True)
+        for s in miss[:limit]:
+            print("    %s  %s" % (seg_key(s)[:12], s[:90]))
+        if len(miss) > limit:
+            print("    … ще %d (повний перелік — --dump-segments)" % (len(miss) - limit))
 
 
 # ---------------------------------------------------------------------------
@@ -593,6 +704,17 @@ def build_doc(page, abbrev_names):
     for label, text in page["paras"]:
         text = expand_abbrev(text, abbrev_names)
         if label is None:
+            if cur == "Взаимосвязи":
+                # продовження розділу зв'язків без власного заголовка («Antidotes: Arnica;
+                # Camphor.» окремим абзацом). Розбираємо так само, як абзац із міткою:
+                # підписи підуть у rels (і їх побачить parseRelations у tools/modalities.mjs),
+                # решта лишиться абзацом розділу. Раніше такі рядки клались у secs і зникали.
+                for lab, body in split_relations(text):
+                    if lab:
+                        rels.append((lab, body))
+                    else:
+                        secs.setdefault(cur, []).append(body)
+                continue
             secs.setdefault(cur, []).append(text)
             continue
         sec = section_of(label)
@@ -627,19 +749,30 @@ def expand_abbrev(text, abbrev_names):
     return re.sub(r"\(([A-Z][a-z]{1,12}(?:[ -][a-z]{1,12})?)\.?\)", rep, text)
 
 
+SEC_TITLE = "Название"  # у дампі — розділ підзаголовка (doc["common"]), поза SEC_ORDER
+
+
+def doc_items(doc):
+    """[(канонічний розділ, англійський абзац)] у порядку запису — і для перекладу, і для дампу.
+
+    Тіла структурованих зв'язків (doc["rels"]) сюди не входять: це списки назв препаратів
+    («Bry; Sulphur»), які tools/modalities.mjs резолвить у препарати, — їх не перекладають.
+    Неозаголовлена проза того ж розділу лишається в doc["sections"] і перекладається.
+    """
+    items = []
+    if doc["common"]:
+        items.append((SEC_TITLE, doc["common"]))
+    for sec in SEC_ORDER:
+        if sec == "Модальности":
+            items += [(sec, p) for p in doc["mods"][0] + doc["mods"][1]]
+            continue
+        items += [(sec, p) for p in doc["sections"].get(sec, [])]
+    return items
+
+
 def doc_segments(doc):
     """Усі англійські рядки документа, що підлягають перекладу (в тому ж порядку, що й запис)."""
-    segs = []
-    if doc["common"]:
-        segs.append(doc["common"])
-    for sec in SEC_ORDER:
-        for p in doc["sections"].get(sec, []):
-            segs.append(p)
-    for part in doc["mods"][0] + doc["mods"][1]:
-        segs.append(part)
-    # розділ «Взаимосвязи» не перекладаємо: Google робить із «Bry»/«Sulphur» кирилицю,
-    # а саме ці рядки tools/modalities.mjs резолвить у препарати
-    return segs
+    return [en for _, en in doc_items(doc)]
 
 
 def render(doc, lang, ext_names_all, origin):
@@ -662,7 +795,10 @@ def render(doc, lang, ext_names_all, origin):
                 body.append("**• " + lbl[1] + ".** " + "; ".join(tr(x, lang).rstrip(".") for x in b) + ".")
             continue
         if sec == "Взаимосвязи":
-            if not doc["rels"]:
+            # окрім структурованих зв'язків, у розділі буває проза без підпису — вона лежить
+            # у doc["sections"]; поки її тут не друкували, абзаци джерела зникали безслідно
+            rest = doc["sections"].get(sec, [])
+            if not (doc["rels"] or rest):
                 continue
             titles.append(sec_name(sec))
             body.append("## " + sec_name(sec))
@@ -671,6 +807,8 @@ def render(doc, lang, ext_names_all, origin):
                     body.append(txt)
                 else:
                     body.append("**" + rel_label(lab, lang) + ":** " + txt)
+            for p in rest:
+                body.append(tr(p, lang))
             continue
         paras = doc["sections"].get(sec, [])
         if not paras:
@@ -694,7 +832,66 @@ def render(doc, lang, ext_names_all, origin):
 
 
 # ---------------------------------------------------------------------------
-# 8. Точка входу
+# 8. Вивантаження англійських абзаців для перекладачів (--dump-segments)
+# ---------------------------------------------------------------------------
+def dump_segments(out_dir, docs, chunks=8):
+    """Усі абзаци, що підлягають перекладу, → DIR/chunk01.json…chunkNN.json + manifest.json."""
+    groups, seen, occurrences, sec_count = [], set(), 0, {}
+    for d in docs:
+        extra = set(d["sections"]) - set(SEC_ORDER)
+        if extra:  # розділ поза SEC_ORDER ніде не друкується — той самий клас помилки, що й «Взаимосвязи»
+            raise RuntimeError("%s: розділи поза SEC_ORDER: %s" % (d["id"], ", ".join(sorted(extra))))
+        items = []
+        for sec, en in doc_items(d):
+            occurrences += 1
+            sec_count[sec] = sec_count.get(sec, 0) + 1
+            k = seg_key(en)
+            if k in seen:  # той самий абзац у двох препаратах — ключ один, перекладається раз
+                continue
+            seen.add(k)
+            items.append({"key": k, "slug": d["id"], "latin": d["latin"], "section": sec, "en": en})
+        if items:
+            groups.append(items)
+
+    total = sum(len(it["en"]) for g in groups for it in g)
+    bounds = [total * (i + 1) / chunks for i in range(chunks)]
+    parts, cur, acc = [], [], 0
+    for g in groups:
+        cur += g
+        acc += sum(len(it["en"]) for it in g)
+        if len(parts) < chunks - 1 and acc >= bounds[len(parts)]:
+            parts.append(cur)
+            cur = []
+    parts.append(cur)
+
+    os.makedirs(out_dir, exist_ok=True)
+    manifest = []
+    for i, part in enumerate(parts, 1):
+        name = "chunk%02d.json" % i
+        json.dump(part, open(os.path.join(out_dir, name), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+        manifest.append({"file": name, "segments": len(part), "chars": sum(len(it["en"]) for it in part),
+                         "remedies": len({it["slug"] for it in part}),
+                         "first": part[0]["latin"] if part else None,
+                         "last": part[-1]["latin"] if part else None})
+    meta = {
+        "source": "William Boericke. Pocket Manual of Homoeopathic Materia Medica, 9th ed., 1927",
+        "made_by": "tools/import_boericke.py --dump-segments",
+        "key": "sha1(utf-8) англійського абзацу — рівно поля \"en\"",
+        "target": "tools/boericke-llm.json: {\"<key>\": {\"en\": …, \"ru\": …, \"ua\": …}}",
+        "order": "препарат за препаратом, розділи в порядку документа; «%s» — підзаголовок препарату" % SEC_TITLE,
+        "remedies": len(groups), "segments": len(seen), "occurrences": occurrences, "chars": total,
+        "sections": dict(sorted(sec_count.items(), key=lambda x: -x[1])), "chunks": manifest,
+    }
+    json.dump(meta, open(os.path.join(out_dir, "manifest.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+    print("\n%s: %d препаратів, %d абзаців (%d входжень), %d символів, %d шматків"
+          % (out_dir, len(groups), len(seen), occurrences, total, len(parts)))
+    for m in manifest:
+        print("  %s  %4d абз.  %6d симв.  %3d преп.  %s … %s"
+              % (m["file"], m["segments"], m["chars"], m["remedies"], m["first"], m["last"]))
+
+
+# ---------------------------------------------------------------------------
+# 9. Точка входу
 # ---------------------------------------------------------------------------
 def main():
     ap = argparse.ArgumentParser()
@@ -702,6 +899,7 @@ def main():
     ap.add_argument("--dry-run", action="store_true", help="таблиця зіставлення, нічого не писати")
     ap.add_argument("--fetch", action="store_true", help="довантажити сторінки зіставлених препаратів і вийти")
     ap.add_argument("--no-translate", action="store_true", help="не звертатись до Google (для перевірки розбору)")
+    ap.add_argument("--dump-segments", metavar="DIR", help="вивантажити англійські абзаци шматками і вийти")
     args = ap.parse_args()
 
     if args.fetch_index:
@@ -710,7 +908,7 @@ def main():
         print("покажчики в", SRC_DIR)
         return
 
-    matches, missing = build_match(verbose=True)
+    matches, missing = build_match(verbose=not args.dump_segments)
     if args.dry_run:
         return
 
@@ -757,6 +955,10 @@ def main():
     if all_unknown:
         print("\nневідомі заголовки розділів:", ", ".join(f"{k}×{v}" for k, v in sorted(all_unknown.items(), key=lambda x: -x[1])))
 
+    if args.dump_segments:
+        dump_segments(args.dump_segments, docs)
+        return
+
     # id не мають збігатися з наявними препаратами
     for lang in ("ru", "ua"):
         exist = {f[:-3] for f in os.listdir(os.path.join(ROOT, "content", lang, "remedies"))}
@@ -769,6 +971,7 @@ def main():
     for d in docs:
         segs += doc_segments(d)
     print(f"\nсегментів до перекладу: {len(segs)} ({sum(len(s) for s in segs)} символів)")
+    llm_report(segs)
     if not args.no_translate:
         t0 = time.time()
         for lang in ("ru", "ua"):
