@@ -30,8 +30,6 @@
       title: 'Реперторій — гомеопатичні препарати за симптомами', htmlLang: 'uk',
       navRep: 'Симптоми', navRemedies: 'Препарати', navArticles: 'Статті',
       kind: { free: 'Текст', nos: 'Клініка', art: 'Стаття', line: 'Рубрика' },
-      repTitle: 'Підбір препаратів за симптомами',
-      repIntro: 'Додайте один або кілька симптомів чи хвороб. Підказки пропонують рубрики з розділу «Клініка» Materia Medica Кларка та зі статей лікувальника; можна шукати і будь-який текст. У таблиці препарати впорядковано за кількістю покритих рубрик.',
       repPlaceholder: 'Симптом, хвороба або рубрика…', allSections: 'Усі розділи', add: 'Додати', freeSearch: 'Шукати в текстах', freeKind: 'повнотекстово',
       error: 'помилка', clear: 'Очистити', remove: 'Прибрати', removeRubric: 'Прибрати рубрику', loadingIndex: 'Завантаження індексу…',
       nothing: 'Нічого не знайдено. Спробуйте інше формулювання або коротше слово.', found: n => 'Знайдено препаратів: ' + n + '. Натисніть на рядок, щоб побачити підстави.',
@@ -40,19 +38,16 @@
       evMore: n => '… та ще ' + n + ' — ', evOpenRemedy: 'переглянути препарат', noData: 'Немає даних.',
       remediesTitle: 'Препарати', remediesIntro: n => 'Materia Medica Дж. Г. Кларка — ' + n + ' препаратів. Латинська назва, транслітерація, звичайна назва.',
       filter: 'Фільтр за назвою…', nothingShort: 'Нічого не знайдено.', source: 'Джерело:', sections: 'Розділи', addRubric: 'Додати рубрику до реперторію',
-      inArticles: 'Згадується у статтях', original: 'Оригінал:', noRemedy: 'Препарат не знайдено.',
+      inArticles: 'Згадується у статтях', noRemedy: 'Препарат не знайдено.',
       articlesTitle: 'Статті', articlesIntro: 'Домашній гомеопатичний лікувальник за хворобами (Варшавський, Кьолер, Симеонова, Петерс, Роуз, Юз та ін.), квіткові настої д-ра Баха, про гомеопатію. У кожній статті — перелік препаратів із показаннями.',
       nRemedies: n => n + ' препаратів', noArticle: 'Статтю не знайдено.', author: 'Автор:', addArticle: 'Додати статтю як рубрику до реперторію',
       notFound: 'Сторінку не знайдено.', loadFail: 'Не вдалося завантажити дані:', loading: 'Завантаження…',
-      mtNote: 'Текст перекладено автоматично з російського оригіналу.',
       menu: 'Меню', menuLang: 'Мова', menuTheme: 'Тема', themeAuto: 'Системна', themeLight: 'Світла', themeDark: 'Темна',
     },
     ru: {
       title: 'Реперторий — гомеопатические препараты по симптомам', htmlLang: 'ru',
       navRep: 'Симптомы', navRemedies: 'Препараты', navArticles: 'Статьи',
       kind: { free: 'Текст', nos: 'Клиника', art: 'Статья', line: 'Рубрика' },
-      repTitle: 'Подбор препаратов по симптомам',
-      repIntro: 'Добавьте один или несколько симптомов или болезней. Подсказки предлагают рубрики из раздела «Клиника» Materia Medica Кларка и из статей лечебника; можно искать и любой текст. В таблице препараты упорядочены по числу покрытых рубрик.',
       repPlaceholder: 'Симптом, болезнь или рубрика…', allSections: 'Все разделы', add: 'Добавить', freeSearch: 'Искать в текстах', freeKind: 'полнотекстово',
       error: 'ошибка', clear: 'Очистить', remove: 'Убрать', removeRubric: 'Убрать рубрику', loadingIndex: 'Загрузка индекса…',
       nothing: 'Ничего не найдено. Попробуйте другую формулировку или более короткое слово.', found: n => 'Найдено препаратов: ' + n + '. Нажмите на строку, чтобы увидеть основания.',
@@ -61,11 +56,10 @@
       evMore: n => '… и ещё ' + n + ' — ', evOpenRemedy: 'открыть препарат', noData: 'Нет данных.',
       remediesTitle: 'Препараты', remediesIntro: n => 'Materia Medica Дж. Г. Кларка — ' + n + ' препаратов. Латинское название, транслитерация, обычное название.',
       filter: 'Фильтр по названию…', nothingShort: 'Ничего не найдено.', source: 'Источник:', sections: 'Разделы', addRubric: 'Добавить рубрику в реперторий',
-      inArticles: 'Упоминается в статьях', original: 'Оригинал:', noRemedy: 'Препарат не найден.',
+      inArticles: 'Упоминается в статьях', noRemedy: 'Препарат не найден.',
       articlesTitle: 'Статьи', articlesIntro: 'Домашний гомеопатический лечебник по болезням (Варшавский, Кёлер, Симеонова, Петерс, Роуз, Юз и др.), цветочные настои д-ра Бака, о гомеопатии. В каждой статье — перечень препаратов с показаниями.',
       nRemedies: n => n + ' препаратов', noArticle: 'Статья не найдена.', author: 'Автор:', addArticle: 'Добавить статью как рубрику в реперторий',
       notFound: 'Страница не найдена.', loadFail: 'Не удалось загрузить данные:', loading: 'Загрузка…',
-      mtNote: '',
       menu: 'Меню', menuLang: 'Язык', menuTheme: 'Тема', themeAuto: 'Системная', themeLight: 'Светлая', themeDark: 'Тёмная',
     },
   };
@@ -329,10 +323,6 @@
   async function viewRepertory(view, params) {
     const t = T();
     view.innerHTML = `
-      <div class="home-intro">
-        <h1>${esc(t.repTitle)}</h1>
-        <p class="muted">${esc(t.repIntro)}</p>
-      </div>
       <form class="rep-search" id="repForm" autocomplete="off">
         <div class="box">
           <input type="search" id="repInput" placeholder="${esc(t.repPlaceholder)}" aria-label="${esc(t.repPlaceholder)}">
@@ -548,8 +538,6 @@
     if (inArticles.length) {
       html += '<div class="aside"><h2>' + esc(t.inArticles) + '</h2><ul class="list">' + inArticles.map(x => '<li><a href="' + href('article/' + encodeURIComponent(x.a.id)) + '?r=' + rIdx + '">' + esc(x.a.title) + '</a> <span class="muted small">' + esc(TOPIC[state.lang][x.a.topic] || x.a.topic) + '</span></li>').join('') + '</ul></div>';
     }
-    if (t.mtNote) html += '<p class="src">' + esc(t.mtNote) + '</p>';
-    if (doc.origin) html += '<p class="src">' + esc(t.original) + ' <a href="' + esc(doc.origin) + '" rel="nofollow noopener">' + esc(doc.origin) + '</a></p>';
     view.innerHTML = html;
     view.querySelectorAll('.toc a').forEach(a => a.addEventListener('click', e => { e.preventDefault(); const el = document.getElementById(a.getAttribute('href').slice(1)); if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' }); }));
     const sec = params.get('sec');
@@ -603,8 +591,6 @@
       }
     });
     html += '</div>';
-    if (t.mtNote) html += '<p class="src">' + esc(t.mtNote) + '</p>';
-    if (doc.origin) html += '<p class="src">' + esc(t.original) + ' <a href="' + esc(doc.origin) + '" rel="nofollow noopener">' + esc(doc.origin) + '</a></p>';
     view.innerHTML = html;
     const f = view.querySelector('.block.hl');
     if (f) setTimeout(() => f.scrollIntoView({ block: 'start' }), 0);

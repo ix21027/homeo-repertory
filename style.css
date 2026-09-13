@@ -161,7 +161,6 @@ table.rep tr.detail td { background: var(--bg); padding: 10px 14px 14px; }
 .aside { margin-top: 30px; padding-top: 10px; border-top: 1px solid var(--line); }
 .src { font-size: .85rem; color: var(--fg-2); }
 
-.home-intro { margin-bottom: 12px; }
 .stats-row { display: flex; gap: 18px; flex-wrap: wrap; color: var(--fg-2); font-size: .9rem; margin: 6px 0 14px; }
 
 .error { color: var(--danger); }
