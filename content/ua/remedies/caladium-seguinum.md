@@ -11,7 +11,7 @@ origin: https://homeopat-sam.com/-/a461
 sections: Характеристика; Психіка; Тип; Клініка; Загальні симптоми; Шкіра; Сон; Гарячка; Піт; Голова; Запаморочення; Голова зовні; Обличчя; Очі; Вуха; Дихальна система; Ніс; Рот; Зуби; Шлунок; Живіт; Анус і пряма кишка; Сечовидільна система; Жіночі; Чоловічі; Спина; Кінцівки; Інфекції; Модальності; Взаємозв’язки
 ---
 
-**Caladium seguinum** - Диффенбахія кривава (Південна Америка) - відноситься до сімейства ароїдні.
+**Caladium seguinum** - Диффенбахія кривава (Південна Америка) - належить до родини ароїдні.
 
 Препарат готують із настоянки з цілої свіжої рослини.
 
@@ -245,7 +245,7 @@ sections: Характеристика; Психіка; Тип; Клініка; 
 
 ## Взаємозв’язки
 
-**Слід порівняти**: всі представники сімейства ароїдних (але Caladium несумісний з ними); Aconitum, Bryonia, Causticum, Carbo vegetabilis, Cantharis, Capsicum, Cina (глисти); Gelsemium (наслідки сексуальних ексцесів); Hyoscyamus, Ignatia, Lyesinum, Mercurius, Nitricum acidum, Nux vomica, Phosphorus, Platina, (німфоманія та подразнення геніталій); Pulsatilla, Sepia, Staphysagria (наслідки мастурбації); Sulphur, Zingiber.
+**Слід порівняти**: всі представники родини ароїдних (але Caladium несумісний з ними); Aconitum, Bryonia, Causticum, Carbo vegetabilis, Cantharis, Capsicum, Cina (глисти); Gelsemium (наслідки сексуальних ексцесів); Hyoscyamus, Ignatia, Lyesinum, Mercurius, Nitricum acidum, Nux vomica, Phosphorus, Platina, (німфоманія та подразнення геніталій); Pulsatilla, Sepia, Staphysagria (наслідки мастурбації); Sulphur, Zingiber.
 
 **Антидотами для Caladium** є: Capsicum; Ignatia (поколювання в надчеревній ямці та лихоманка); Carbo vegetabilis (висип); Hyoscyamus (нічний кашель); Zingiber (астма); Mercurius (симптоми крайньої плоті).
 

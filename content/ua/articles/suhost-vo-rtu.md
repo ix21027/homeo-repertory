@@ -8,7 +8,7 @@ origin: https://homeopat-sam.com/-/a403
 remedy_blocks: 75
 ---
 
-Найчастіше при цій проблемі призначають наступні гомеопатичні препарати: **Aconitum Aesculus Alumina Anacardium pis Arnica Arsenicum album Belladonna Berberis Bryonia Calcarea fluorica Cannabis sativa Carboneum sulphuratum Causticum Cedron China Cinnabaris Coca Cocculus Conium Curare Echinacea Electricitas Euphorbium Ferrum muriaticum Graphites Hyoscyamus Inula helenium Iris tenax Iris versicolor Kali bichromicum Lachesis Lycopodium Magnesium carbonicum Magnesium muriaticum Medorrhinum Mercurius iodatus flavus Millefolium Moschus Myrica Natrium carbonicum Natrium muriaticum Natrium sulphuricum Nitricum acidum Nux moschata Nux vomica Oleander Onosmodium Opium Oxytropis Petroleum Phellandrium Phosphoricum acidum Phytolacca Plumbum metallicum Pulsatilla Radium bromatum Ranunculus sceleratus Ratanhia Sabina Sambucus Sarsaparilla Secale Silicea Solanum nigrum Spigelia Stramonium Sulphur Sulfuricum аcidum Veratrum album Viburnum opulus Xanthoxylum**
+Найчастіше при цій проблемі призначають наступні гомеопатичні препарати: **Aconitum Aesculus Alumina Anacardium pis Arnica Arsenicum album Belladonna Berberis Bryonia Calcarea fluorica Cannabis sativa Carboneum sulphuratum Causticum Cedron China Cinnabaris Coca Cocculus Conium Curare Echinacea Electricitas Euphorbium Ferrum muriaticum Graphites Hyoscyamus Inula helenium Iris tenax Iris versicolor Kali bichromicum Lachesis Lycopodium Magnesium carbonicum Magnesium muriaticum Medorrhinum Mercurius iodatus flavus Millefolium Moschus Myrica Natrium carbonicum Natrium muriaticum Natrium sulphuricum Nitricum acidum Nux moschata Nux vomica Oleander Onosmodium Opium Oxytropis Petroleum Phellandrium Phosphoricum acidum Phytolacca Plumbum metallicum Pulsatilla Radium bromatum Ranunculus sceleratus Ratanhia Sabina Sambucus Sarsaparilla Secale Silicea Solanum nigrum Spigelia Stramonium Sulphur Sulfuricum acidum Veratrum album Viburnum opulus Xanthoxylum**
 
 ### Zingiber Zizia
 
@@ -212,7 +212,7 @@ remedy_blocks: 75
 
 ### Millefolium (Мілефоліум)
 
-Жага; сухість у роті.
+Спрага; сухість у роті.
 
 ### Moschus (Мошус)
 
@@ -220,7 +220,7 @@ remedy_blocks: 75
 
 ### Myrica (Міріка)
 
-Сухість у роті; спрага; вода приносит лише часткове тимчасове полегшення.
+Сухість у роті; спрага; вода приносить лише часткове тимчасове полегшення.
 
 Яскрава почервоніння губ.
 
@@ -242,7 +242,7 @@ remedy_blocks: 75
 
 ### Nitricum acidum (Нітирикум ацидум)
 
-Виражена сухість у роті, з пекучою спрагою. Жага ночами.
+Виражена сухість у роті, з пекучою спрагою. Спрага ночами.
 
 Найсильніша спрага, навіть уранці при вставанні з ліжка.
 
@@ -274,7 +274,7 @@ remedy_blocks: 75
 
 ### Onosmodium (Оносмодіум)
 
-Сухість у роті; губ, без спраги; краще від пиття холодної води; зі мізерною кількістю слини.
+Сухість у роті; губ, без спраги; краще від пиття холодної води; з мізерною кількістю слини.
 
 ### Opium (Опіум)
 
@@ -330,7 +330,7 @@ remedy_blocks: 75
 
 ### Ratanhia (Ратанія)
 
-Жага вечорами. Сухість у роті ночами.
+Спрага вечорами. Сухість у роті ночами.
 
 ### Sabina (Сабіна)
 
@@ -348,7 +348,7 @@ remedy_blocks: 75
 
 Сухість у роті. Смердюче дихання.
 
-Жага, пацієнту хочеться води; також вранці.
+Спрага, пацієнту хочеться води; також вранці.
 
 ### Secale (Секале)
 
@@ -426,6 +426,6 @@ remedy_blocks: 75
 
 ### Zizia (Зізія)
 
-Сухість у роті. Жага.
+Сухість у роті. Спрага.
 
 Язик: червоний і надзвичайно чутливий до холодних та гарячих напоїв; покритий білуватим нальотом; з жовтим нальотом та здавленням дихання; широкий з нальотом посередині, червоний по краях та на кінчику.

@@ -8,7 +8,7 @@ origin: https://homeopat-sam.com/-/a479
 remedy_blocks: 20
 ---
 
-Найчастіше при цих проблемах призначають наступні гомеопатичні препарати: **Alumina Argentum nitricum Bovista Digitalis Iodoformium Kali carbonicum Kali iodatum Naja Natrium muriaticum Nitricum асidum Nux vomica Onosmodium Selenium Sepia Silicea Solanum nigrum Sulphur Staphysagria Viscum album Zincum metallicum**
+Найчастіше при цих проблемах призначають наступні гомеопатичні препарати: ****Alumina Argentum nitricum Bovista Digitalis Iodoformium Kali carbonicum Kali iodatum Naja Natrium muriaticum Nitricum асidum Nux vomica Onosmodium Selenium Sepia Silicea Solanum nigrum Sulphur Staphysagria Viscum album Zincum metallicum** Kali iodatum Naja Natrium muriaticum Nitricum acidum Nux vomica Onosmodium Selenium Sepia Silicea Solanum nigrum Sulphur Staphysagria Viscum album Zincum metallicum**
 
 ### Alumina (Алюміну)
 
@@ -60,7 +60,7 @@ remedy_blocks: 20
 
 ### Nitricum acidum (Нітрікум ацидум)
 
-Сильні спазми в литкових м'язах, особливо ночами та до ранку, а також при ходьбі, після того як посидит. Посмикування в литкових м'язах.
+Сильні спазми в литкових м'язах, особливо ночами та до ранку, а також при ходьбі, після того як посидить. Посмикування в литкових м'язах.
 
 ### Nux vomica (Нукс воміка)
 

@@ -8,7 +8,7 @@ origin: https://homeopat-sam.com/-/a62
 remedy_blocks: 32
 ---
 
-Для лікування ларингіту найчастіше застосовують такі гомеопатичні препарати: **Aconite Aesculus Alumina Ammonium causticum Apis Argentum metallicum Argentum nitricum Arsenicum album Arum tryphyllum Belladonna Bryonia Calcarea iodata Cantharis Causticum Hepar sulfur Hyoscуamus Iodum Kali carbonicum Lac caninum Lachesis Mercurius corrosivus Mercurius iodatus Mercurius photoiodatus Phosphorus Phytolacca Pulsatilla Rumex**
+Для лікування ларингіту найчастіше застосовують такі гомеопатичні препарати: **Aconite Aesculus Alumina Ammonium causticum Apis Argentum metallicum Argentum nitricum Arsenicum album Arum tryphyllum Belladonna Bryonia Calcarea iodata Cantharis Causticum Hepar sulfur Hyoscyamus Iodum Kali carbonicum Lac caninum Lachesis Mercurius corrosivus Mercurius iodatus Mercurius photoiodatus Phosphorus Phytolacca Pulsatilla Rumex**
 
 ### Senega Silicea Spongia Sulfur
 
@@ -16,7 +16,7 @@ remedy_blocks: 32
 
 ### Aconite (Аконіт)
 
-_Роуз_: Підвищена температура, у горлі первит, голос стає хрипким.
+_Роуз_: Підвищена температура, у горлі дере, голос стає хрипким.
 
 Рідке пінисте мокротиння.
 
@@ -80,7 +80,7 @@ _Юз_: При тривалому запаленні гортані 30С, Argent
 
 _Неш_: Печіння. Пекучий біль у горлі (і в шлунку) із сильною спрагою.
 
-Відчуття хворобливого садіння в гортані, печіння, особливо при спробах відхаркування слизу.
+Відчуття хворобливого садніння в гортані, печіння, особливо при спробах відхаркування слизу.
 
 ### Causticum (Каустикум)
 
@@ -110,7 +110,7 @@ _Юз_: При тривалому запаленні гортані 30С, Argent
 
 ### Lac caninum (Лак канінум)
 
-_Неш_: Запалення переходит з одного боку на іншу, взад і вперед.
+_Неш_: Запалення переходить з одного боку на іншу, взад і вперед.
 
 ### Lachesis (Ляхезіс)
 

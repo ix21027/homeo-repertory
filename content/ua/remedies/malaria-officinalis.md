@@ -217,6 +217,6 @@ sections: Характеристика; Психіка; Клініка; Зага
 
 Malaria officinalis відноситься до того ж типу препаратів, що і Pyrogen (продукт гниття тваринних тканин).
 
-На думку Bowen, кращими антидотами для Malaria officinalis служать Nux vomica і Вryonia (для симптомів, викликаних № 1); Вryonia та Аrsenicum album (для № 2); Rhus та Вryonia (для № 3).
+На думку Bowen, кращими **антидотами для Malaria officinalis служать** Nux vomica і Вryonia (для симптомів, викликаних № 1); Вryonia та Аrsenicum album (для № 2); Rhus та Вryonia (для № 3).
 
 Eupatorium perfoliatum дав негативні результати як антидоти. **Слід порівняти:** при патології селезінки – Сеаnotum; при патології печінки – Вryonia, Lyesinum, Cholesterinum, Chelidonium; при болі під правою лопаткою – Chelidonium; при наслідках вогкості та промокання – Lemna minor, Dulcamara; при сильному кашлі у вигляді потужних окремих кашлевих поштовхів із регулярними інтервалами – Corallium rubrum, Соccus сactus; при полегшенні після сечовипускання – Lithium. при переміжній лихоманці - Ipecacuanha, Cedrum, Natrium muriaticum, Menyanthus та ін.

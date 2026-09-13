@@ -8,7 +8,7 @@ origin: https://homeopat-sam.com/-/a387
 remedy_blocks: 49
 ---
 
-Найчастіше при цій проблемі призначають наступні гомеопатичні препарати: **Agnus castus Alumina Ammonium carbonicum Anacardium Angustura vera Argentum nitricum Arnica Aurum Baptisia Baryta carbonica Calcium silicatum Cannabis indica Carlsbad aqua Causticum Cenchris Centaurea tagana Chamomilla Chelidonium Colchicum Conium Crocus sativus Cuprum aceticum Daphne indica Duboisiа Elaps Graphites Helleborus Kali bromatum Kreosotum Lac caninum Lachesis Lycopodium Magnesium carbonicum Manganum carbonicum Mercurius Natrium muriaticum Nux moschata Oleander Phosphorus Physalis Platinum Pulsatilla Sepia Silicea Spongia Sulphuricum acidum Verbascum Yucca**
+Найчастіше при цій проблемі призначають наступні гомеопатичні препарати: **Agnus castus Alumina Ammonium carbonicum Anacardium Angustura vera Argentum nitricum Arnica Aurum Baptisia Baryta carbonica Calcium silicatum Cannabis indica Carlsbad aqua Causticum Cenchris Centaurea tagana Chamomilla Chelidonium Colchicum Conium Crocus sativus Cuprum aceticum Daphne indica Duboisia Elaps Graphites Helleborus Kali bromatum Kreosotum Lac caninum Lachesis Lycopodium Magnesium carbonicum Manganum carbonicum Mercurius Natrium muriaticum Nux moschata Oleander Phosphorus Physalis Platinum Pulsatilla Sepia Silicea Spongia Sulphuricum acidum Verbascum Yucca**
 
 ### Agnus castus (Агнус кастус)
 
@@ -64,7 +64,7 @@ remedy_blocks: 49
 
 Суєтливість, неспокій, весь час хапається за щось нове.
 
-Чи не переносит самотності.
+Чи не переносить самотності.
 
 ### Argentum nitricum (Аргентум нітрикум)
 
@@ -328,7 +328,7 @@ remedy_blocks: 49
 
 Тривога щодо майбутнього. Тривога, іноді під час грози, особливо вночі. Нетерпіння, квапливість та дратівливість.
 
-Боязкість. Пацієнт ненавидит людей, які в минулому завдали йому образи.
+Боязкість. Пацієнт ненавидить людей, які в минулому завдали йому образи.
 
 Запальність, гнівливість; легко виникають напади люті.
 
@@ -352,7 +352,7 @@ remedy_blocks: 49
 
 ### Oleander (Олеандер)
 
-Сум і брак впевненості у собі. Огида до роботи та сильна млявість. Запальність, похмурість, поганий настрій. Чи не переносит заперечень. Напади гніву, з наступним швидким каяттям.
+Сум і брак впевненості у собі. Огида до роботи та сильна млявість. Запальність, похмурість, поганий настрій. Чи не переносить заперечень. Напади гніву, з наступним швидким каяттям.
 
 Ослаблення пам'яті та сприйняття. Втрата пам'яті.
 

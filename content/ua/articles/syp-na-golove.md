@@ -8,7 +8,7 @@ origin: https://homeopat-sam.com/-/a445
 remedy_blocks: 13
 ---
 
-Найчастіше при цій проблемі призначають такі гомеопатичні препарати: **Baryta carbonica Cicuta Graphites Hepar sulfur Kali sulfuricum Мercurius corrosives Mercurius solubilis Petroleum Rhus toxicodendron Senega Staphysagria Sulfur Vinca minor**
+Найчастіше при цій проблемі призначають такі гомеопатичні препарати: ****Baryta carbonica Cicuta Graphites Hepar sulfur Kali sulfuricum Мercurius corrosives Mercurius solubilis Petroleum Rhus toxicodendron Senega Staphysagria Sulfur Vinca minor** Mercurius corrosives Mercurius solubilis Petroleum Rhus toxicodendron Senega Staphysagria Sulfur Vinca minor**
 
 ### Baryta carbonica (Барита карбоніка)
 
@@ -60,4 +60,4 @@ remedy_blocks: 13
 
 ### Vinca minor (Вінка мінор)
 
-Мокнуча висипка на шкірі голови, дерматомікоз з нічним свербінням і печінням після розчісування. Висипання з неприємним запахом на шкірі голови, обличчя та позаду вушних раковин (стрижучий лишай). Екзема на голові та обличчі; пустули, свербіж, печіння, смердючий запах відокремлюваного. Молочний струп. Фавус.
+Мокнуча висипка на шкірі голови, дерматомікоз з нічним свербінням і печінням після розчісування. Висипання з неприємним запахом на шкірі голови, обличчя та позаду вушних раковин (стрижучий лишай). Екзема на голові та обличчі; пустули, свербіж, печіння, смердючий запах виділення. Молочний струп. Фавус.
