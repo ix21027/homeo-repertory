@@ -5,8 +5,8 @@
 [ru] remedy block headers: 3046; unresolved in headers: 32; unresolved in intro lists: 33
 unresolved in headers: Honey suckle×1, Wild rose×1, Olive×1, White chestnut×1, Mustard×1, Chestnut bud×1, Cerato×1, Sclerantes×1, Garse×1, Hornbeam×1, Wild Oat×1, Heather×1, Water Violet×1, Impatiens×1, Larch×1, Pine×1, Elm×1, Sweet Chestnut×1, Star of Bethlehem×1, Willow×1, Oak×1, Crab apple×1, Aspen×1, Cherry Plum×1, Mimulus×1, Red Chestnut×1, Rock Rose×1, Beech×1, Chicory×1, Rock water×1, Vervain×1, Vine×1
 unresolved in intro lists: Formicicum acidum×1, Fragaria×1, Prymula×1, Mercurius bijodatus×1, Mercurius cyanatus×1, Myristica×1, Pyrogenium×1, Ammonium bromatum×1, Ammonium carbonicum×1, Sulfur aurati×1, Ferrum aceticum×1, Ammonium muriaticum×1, Niccolum×1, Capsicum vegetabilis×1, Baryta sulphurica×1, Cenchris×1, Ferula neapolitana×1, Lemna minor×1, Natrium arsenicosum×1, Elaterium×1, Natrium nitricum×1, Salicylicum acidum×1, Actea spicata×1, Apocynum androsaemifolium×1, Carduus marianus×1, Linaria vulgaris×1, Cadmium phosphoricum×1, Doryphora×1, Guarea trichiloides×1, Prunus spinosa×1, Spiraea ulmaria×1, Petroselinum×1, Saccharum officinale×1
-[ua] remedies: 341 (+136 без сторінки); articles: 148; rubrics: 3115 (nos 2529, art 132, line 264, mod 155, etio 35)
-[ua] nos: merged forms 131; hierarchy links 1146; grade distribution 1/2/3: 3028/9399/1609
-[ua] index: paragraphs 51564; sentence units 106824; vocab 31351; index.json 3.74 MB; catalog.json 0.49 MB; aligned with ru: 489 docs, misaligned 0; sentence counts equal: 51174/51564 paras; modality clause lists aligned: 277/299 remedies
-[ua] remedy block headers: 3046; unresolved in headers: 32; unresolved in intro lists: 32
+[ua] remedies: 341 (+136 без сторінки); articles: 148; rubrics: 3114 (nos 2528, art 132, line 264, mod 155, etio 35)
+[ua] nos: merged forms 130; hierarchy links 1127; grade distribution 1/2/3: 3021/9401/1614
+[ua] index: paragraphs 51564; sentence units 106875; vocab 31319; index.json 3.74 MB; catalog.json 0.49 MB; aligned with ru: 489 docs, misaligned 0; sentence counts equal: 51218/51564 paras; modality clause lists aligned: 277/299 remedies
+[ua] remedy block headers: 3046; unresolved in headers: 32; unresolved in intro lists: 33
 cross-linked nosology rubrics ru→ua: 2480/2498

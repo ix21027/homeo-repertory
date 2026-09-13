@@ -33,7 +33,7 @@ remedy_blocks: 12
 
 **Корисні рубрики Кента**: **Імпетиго**: Mercurius, Causticum, Iris versicolor, Petroleum, Viola tricolour, Baryta carbonica, Calcarea phosphorica, Conium, Rhus toxicodendron, Rhus venenata, Silicea, Sulphur; на межі росту волосся – Natrium muriaticum.
 
-**На обличчі**: Cicuta, Conium, Croton tiglium, Dulcamara, Graphytes, Hepar sulphur, Kali bichromicum, Lycopodium, Mercurius, Nitricum acidum, Rhus toxicodendron, Viola tricolour, Antimonium tartaricum, Antimonium crudum, ArseSepia.
+**На обличчі**: Cicuta, Conium, Croton tiglium, Dulcamara, Graphytes, Hepar sulphur, Kali bichromicum, Lycopodium, Mercurius, Nitricum acidum, Rhus toxicodendron, Viola tricolour, Antimonium tartaricum, Antimonium p. Kreosotum, Sepia.
 
 **На лобі**: Antimonium crudum, Kreosotum, Ledum, Natrium muriaticum, Nux vomica, Rhus toxicodendron, Sepia, Sulphur.
 
@@ -75,7 +75,7 @@ remedy_blocks: 12
 
 ### Hepar sulphur (Гепар сульфур)
 
-Сухий висип, іноді мокне, легко кровоточить при розчісуванні.
+Сухий висип, іноді мокне, легко кровоточит при розчісуванні.
 
 Дерматоз гнійний, гній, що погано пахне, з кров'ю.
 
@@ -103,7 +103,7 @@ remedy_blocks: 12
 
 Імпетіго з нестерпним свербінням; висип, особливо на обличчі та голові.
 
-Сверблячка посилюється вночі, товсті кірки з тріщинами, з яких сочиться жовтий гній. Гнійничкова екзема особи. Сеча із сильним запахом (як сеча кішки). Погіршення взимку та об одинадцятій годині дня.
+Сверблячка посилюється вночі, товсті кірки з тріщинами, з яких сочиться жовтий гній. Гнійничкова екзема обличчя. Сеча із сильним запахом (як сеча кішки). Погіршення взимку та об одинадцятій годині дня.
 
 ### Arsenicum album (Арсенікум альбум)
 

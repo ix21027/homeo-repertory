@@ -10,7 +10,7 @@ remedy_blocks: 30
 
 Найчастіше для лікування цієї патології використовують такі гомеопатичні препарати:
 
-**Aconitum Anacardium Antimonium crudum Apis Arsenicum album Belladonna Bovista Calcarea carbonica Calcárea phosphoricum Causticum Copaiva Dulcamara Formica rufa Formicicum acidum Fragaria Hepar sulfur Kali bromatumbulbosus Rhus toxicodendron Sepia Silicea Sulfur Terebinthina Urtica urens**
+**Aconitum Anacardium Antimonium crudum Apis Arsenicum album Belladonna Bovista Calcarea carbonica Calcаrea phosphoricum Causticum Copaiva Dulcamara Formica rufa Formicicum acidum Fragaria Hepar sulfur Kali bromatum Lycopodium Mezereum Natrium muriaticum Phosphorus Pulsatilla Prymula Ranunculus bulbosus Rhus toxicodendron Sepia Silicea Sulfur Terebinthina Urtica urens**
 
 ### Aconitum (Аконітум)
 
@@ -40,7 +40,7 @@ remedy_blocks: 30
 
 Язик покритий густим білим нальотом.
 
-Шкіра не переносить крайніх температурних коливань: кропив'янка з'являється як під час перегрівання, особливо після сонячних ванн, і під впливом холодних ванн. Висипання схожі на коровий висип.
+Шкіра не переносит крайніх температурних коливань: кропив'янка з'являється як під час перегрівання, особливо після сонячних ванн, і під впливом холодних ванн. Висипання схожі на коровий висип.
 
 Юз: При затяжній формі кропив'яної лихоманки, при шлункових розладах 6С та Pulsatilla 6С через 3-4 години поперемінно.
 
@@ -160,7 +160,7 @@ remedy_blocks: 30
 
 Шкіра хвора: будь-яке незначне пошкодження нагноюється.
 
-Не переносить, коли залишається невкритим; намагається укутатися тепліше.
+Не переносит, коли залишається невкритим; намагається укутатися тепліше.
 
 Сильна чутливість до будь-якого дотику.
 
@@ -262,7 +262,7 @@ remedy_blocks: 30
 
 Сверблячка посилюється в теплі ліжку.
 
-При розчісуванні свербіж переходить у печіння.
+При розчісуванні свербіж переходит у печіння.
 
 Особливо при кропив'янці у вигляді вузликів з погіршенням під впливом холодного повітря та в зимовий період.
 
