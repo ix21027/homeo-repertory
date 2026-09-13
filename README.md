@@ -45,6 +45,9 @@ tools/build.mjs                 — content/<lang>/*.md → data/<lang>/ (Node �
 tools/modalities.mjs            — категорії модальностей/етіології (регекси + підписи ru/ua), розбір «Взаимосвязи»
 sources/wayback/*.html          — 21 стаття лікувальника, якої немає в hom.zip (копії з Wayback Machine, 2020)
 tools/report.txt, build-report.txt — звіти екстракції та збірки
+tools/uitest/                   — тести: unit.js (пошук у Node), basic.js і features.js (headless-браузер),
+                                  run.sh (прогін усіх трьох на локальному сервері)
+.github/workflows/build.yml     — CI: збірка data/ і tools/uitest/unit.js на кожен push і PR у main
 ```
 
 ## Формат Markdown
@@ -88,6 +91,23 @@ python3 tools/translate.py             # перекласти нові файл�
 node tools/build.mjs                   # content/<lang>/*.md → data/<lang>/
 python3 -m http.server 8000            # локальний перегляд: http://localhost:8000/
 ```
+
+## Тести
+
+```
+tools/uitest/run.sh            # усі три набори на власному сервері (порт 8765), ~5 хв
+node tools/uitest/unit.js      # лише перевірки пошуку: секунди, без сервера і браузера
+```
+
+`unit.js` перевіряє пошук і реперторизацію прямо через `repertory.js` і `data/`; `basic.js`
+(дві мови, перемикач, сторінки препаратів і статей) і `features.js` (ваги, елімінативні та
+виключні рубрики, сортування, порівняння, підстави, перемикач «Статті») ганяють інтерфейс у
+headless-Chromium через puppeteer. Набори параметризовані змінними `BASE`, `CHROME`, `SHOTS`,
+`PUPPETEER` — подробиці в `tools/uitest/README.md`; той самий набір можна пустити й на живий
+сайт: `BASE=https://ix21027.github.io/homeo-repertory/ node tools/uitest/basic.js`.
+
+На кожен push і pull request у `main` GitHub Actions (`.github/workflows/build.yml`) перезбирає
+`data/` і проганяє `unit.js`. Браузерні набори в CI не ганяємо — puppeteer там нестабільний.
 
 ## GitHub Pages
 

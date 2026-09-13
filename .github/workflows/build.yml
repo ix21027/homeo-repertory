@@ -1,0 +1,28 @@
+# Перевірка збірки: data/ має збиратися з content/ на чистій копії репозиторію,
+# а логіка пошуку — проходити перевірки без браузера.
+# Браузерні набори (tools/uitest/basic.js, features.js) у CI не ганяємо — puppeteer там
+# нестабільний; їх проганяють локально через tools/uitest/run.sh.
+name: build
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      # Перезбирає data/ з content/. Diff data/ не перевіряємо: у catalog.json є дата збірки.
+      - name: Збірка data/
+        run: node tools/build.mjs
+
+      - name: Перевірки пошуку
+        run: node tools/uitest/unit.js
