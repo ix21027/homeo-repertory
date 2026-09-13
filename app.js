@@ -452,7 +452,9 @@
       input.value = ''; closeSugg(); input.focus();
     }
     input.addEventListener('input', openSugg);
+    input.addEventListener('input', () => { loadIndex().catch(() => { /* повідомить рубрика */ }); }, { once: true });
     input.addEventListener('focus', openSugg);
+    if (window.matchMedia('(hover: hover)').matches && !state.rubrics.length) input.focus();
     input.addEventListener('keydown', e => {
       if (sugg.hidden) return;
       if (e.key === 'ArrowDown') { e.preventDefault(); active = Math.min(active + 1, items.length - 1); }
@@ -466,7 +468,12 @@
       e.preventDefault();
       if (!sugg.hidden && active >= 0) { pick(active); return; }
       const q = input.value.trim();
-      if (q) { addRubric(makeFreeRubric(q, sel.value)); input.value = ''; closeSugg(); }
+      if (!q) return;
+      // точний збіг із назвою рубрики — беремо рубрику, а не повнотекстовий пошук
+      const f = R.foldForMatch(q, state.lang);
+      const exact = R.suggest(c, q, 10, state.lang).find(it => R.foldForMatch(it.rb.t, state.lang) === f);
+      if (exact) addRubric(makeCatRubric(exact.i)); else addRubric(makeFreeRubric(q, sel.value));
+      input.value = ''; closeSugg();
     });
     document.addEventListener('click', e => { if (!e.target.closest('#repForm')) closeSugg(); });
   }
@@ -492,9 +499,9 @@
     box.innerHTML = state.rubrics.map((rb, k) => {
       const n = rb.pending ? '…' : rb.error ? t.error : (rb.remedies ? rb.remedies.size : 0);
       const corr = rb.res && rb.res.corrections && rb.res.corrections.length ? ' <span class="maybe">' + esc(t.maybe) + ' ' + esc(rb.res.corrections.map(x => x.to[0] + '…').join(', ')) + '</span>' : '';
-      return '<span class="chip' + (rb.pending ? ' pending' : '') + (rb.excl ? ' excl' : '') + (rb.elim ? ' elim' : '') + '"><span class="k">' + esc(t.kind[rb.kind]) + '</span> ' + esc(rb.label) + corr +
+      return '<span class="chip' + (rb.pending ? ' pending' : '') + (rb.excl ? ' excl' : '') + (rb.elim ? ' elim' : '') + (rb.weight > 1 ? ' weighted' : '') + '"><span class="k">' + esc(t.kind[rb.kind]) + '</span> ' + esc(rb.label) + corr +
         ' <span class="n">' + n + '</span>' +
-        '<span class="ctl"><button type="button" data-k="' + k + '" data-act="w" title="' + esc(t.weight) + '" aria-label="' + esc(t.weight) + '">×' + rb.weight + '</button>' +
+        '<span class="ctl"><button type="button" data-k="' + k + '" data-act="w" class="' + (rb.weight > 1 ? 'on' : '') + '" title="' + esc(t.weight) + '" aria-label="' + esc(t.weight) + '">×' + rb.weight + '</button>' +
         '<button type="button" data-k="' + k + '" data-act="e" class="' + (rb.elim ? 'on' : '') + '" title="' + esc(t.elim) + '" aria-label="' + esc(t.elim) + '" aria-pressed="' + rb.elim + '">!</button>' +
         '<button type="button" data-k="' + k + '" data-act="x" class="' + (rb.excl ? 'on' : '') + '" title="' + esc(t.excl) + '" aria-label="' + esc(t.excl) + '" aria-pressed="' + rb.excl + '">−</button></span>' +
         '<button type="button" data-k="' + k + '" data-act="rm" title="' + esc(t.remove) + '" aria-label="' + esc(t.removeRubric) + '">×</button></span>';
@@ -813,7 +820,8 @@
     let html = '<div class="doc-head"><h1>' + esc(doc.title) + '</h1><div class="meta">' + esc(TOPIC[state.lang][a.topic] || a.topic) +
       (doc.author ? ' · ' + esc(t.author) + ' ' + esc(doc.author) : '') + (doc.source ? ' · ' + esc(t.source) + ' ' + esc(doc.source) : '') + '</div></div>';
     if (a.rem.length) {
-      html += '<div class="tags">' + a.rem.map(i => c.remedies[i].ext ? '<span class="muted small">' + esc(c.remedies[i].latin) + '</span>' : '<a href="' + href('remedy/' + encodeURIComponent(c.remedies[i].id)) + '">' + esc(c.remedies[i].latin) + '</a>').join('') + '</div>';
+      const mobile = window.matchMedia('(max-width: 640px)').matches;
+      html += '<details class="tagbox"' + (mobile ? '' : ' open') + '><summary>' + esc(t.nRemedies(a.rem.length)) + '</summary><div class="tags">' + a.rem.map(i => c.remedies[i].ext ? '<span class="muted small">' + esc(c.remedies[i].latin) + '</span>' : '<a href="' + href('remedy/' + encodeURIComponent(c.remedies[i].id)) + '">' + esc(c.remedies[i].latin) + '</a>').join('') + '</div></details>';
       if (a.group === 'lechebnik' && a.rem.length >= 2) html += '<p class="small"><a href="' + href('rep') + '?r=' + encodeURIComponent('a:' + a.id) + '">' + esc(t.addArticle) + '</a></p>';
     }
     html += '<div class="doc">';

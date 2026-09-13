@@ -86,7 +86,7 @@ input:focus, select:focus { outline: 2px solid var(--accent); outline-offset: 1p
 .dropdown .cnt { font-size: .8rem; color: var(--fg-2); }
 .dropdown li.free { border-bottom: 1px solid var(--line); font-style: italic; }
 
-main { padding-top: 26px; padding-bottom: 60px; min-height: 70vh; }
+main.wrap { padding-top: 22px; padding-bottom: 60px; min-height: 70vh; }
 
 /* ---------- реперторій ---------- */
 .rep-search { position: relative; display: flex; gap: 8px; flex-wrap: wrap; align-items: stretch; }
@@ -111,6 +111,15 @@ a.chip:hover { text-decoration: none; border-color: var(--accent); }
 table.rep { border-collapse: collapse; width: 100%; font-size: .95rem; }
 table.rep th, table.rep td { padding: 8px 10px; border-bottom: 1px solid var(--line); text-align: left; vertical-align: top; }
 table.rep th { background: var(--bg-3); font-weight: 600; position: sticky; top: 0; z-index: 1; }
+table.rep thead th:first-child { border-top-left-radius: var(--radius); }
+table.rep thead th:last-child { border-top-right-radius: var(--radius); }
+table.rep td.rem, table.rep th:first-child { position: sticky; left: 0; z-index: 2; background: var(--bg-2); }
+table.rep th:first-child { z-index: 3; background: var(--bg-3); }
+table.rep tr.row:hover td.rem, table.rep tr.row.open td.rem { background: var(--accent-2); }
+@media (min-width: 900px) {
+  .table-wrap { overflow: visible; }
+  table.rep th { top: 67px; }
+}
 table.rep th.rub { max-width: 160px; font-weight: 500; font-size: .85rem; }
 table.rep td.g, table.rep th.g { text-align: center; white-space: nowrap; width: 54px; }
 table.rep td.g span { display: inline-block; min-width: 26px; border-radius: 6px; padding: 1px 6px; background: var(--accent-2); color: var(--accent); font-weight: 600; }
@@ -176,6 +185,10 @@ button.pick .n { color: var(--fg-2); font-size: .76rem; }
 .chip .ctl button { font-size: .74rem; padding: 0 4px; border: 1px solid transparent; border-radius: 6px; color: var(--fg-2); background: transparent; cursor: pointer; line-height: 1.4; }
 .chip .ctl button:hover { border-color: var(--accent); color: var(--accent); }
 .chip .ctl button.on { background: var(--accent); color: var(--accent-fg); }
+@media (hover: hover) {
+  .chip .ctl { opacity: .4; transition: opacity .15s; }
+  .chip:hover .ctl, .chip:focus-within .ctl, .chip.elim .ctl, .chip.excl .ctl, .chip.weighted .ctl { opacity: 1; }
+}
 .chip.excl { text-decoration: line-through; opacity: .75; }
 .chip.elim { border-color: var(--accent); }
 .chip .maybe { font-size: .78rem; color: var(--fg-2); font-style: italic; }
@@ -202,6 +215,8 @@ table.cmp .dot.g1 { background: transparent; color: var(--fg-2); font-weight: 40
 table.cmp a.tag { display: inline-block; font-size: .8rem; padding: 1px 7px; border-radius: 999px; background: var(--accent-2); color: var(--accent); margin: 1px 0; }
 table.cmp .rel { margin: 0 0 3px; }
 .tags.mod .lbl { font-size: .85rem; color: var(--fg-2); align-self: center; }
+.tagbox summary { cursor: pointer; color: var(--fg-2); font-size: .9rem; user-select: none; }
+.tagbox[open] summary { margin-bottom: 4px; }
 
 .stats-row { display: flex; gap: 18px; flex-wrap: wrap; color: var(--fg-2); font-size: .9rem; margin: 6px 0 14px; }
 
@@ -215,9 +230,17 @@ table.cmp .rel { margin: 0 0 3px; }
   .nav a { padding: 5px 8px; font-size: .95rem; }
   .header-tools { margin-left: auto; }
   main { padding-top: 16px; }
+  main.wrap { padding-top: 14px; }
   table.rep th.rub { max-width: 110px; }
   table.rep .rem .ru { display: none; }
+  table.rep th, table.rep td { padding: 7px 8px; }
+  table.rep tr.detail td { padding: 8px 8px 12px; }
+  .detail-box { position: sticky; left: 0; max-width: calc(100vw - 34px); }
   table.cmp td.c { min-width: 140px; }
   .results-head .sort { margin-left: 0; }
+  .chip .k { display: none; }
+  .chip { padding-left: 10px; }
+  .toc { flex-wrap: nowrap; overflow-x: auto; margin: 10px -16px 16px; padding: 0 16px 6px; scrollbar-width: thin; }
+  .toc a { white-space: nowrap; flex: 0 0 auto; }
   h1 { font-size: 1.35rem; }
 }
