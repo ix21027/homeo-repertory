@@ -1,11 +1,11 @@
 #!/usr/bin/env bash
-# run.sh — прогін усіх трьох наборів тестів на локальному сервері.
+# run.sh — прогін усіх наборів тестів теки на локальному сервері.
 #
 #   tools/uitest/run.sh [ПОРТ] [BASE]
 #
 # Піднімає `python3 -m http.server ПОРТ --bind 127.0.0.1` з кореня репозиторію (шляхи в сайті
 # відносні, тож корінь працює як адреса сайту), чекає готовності, запускає unit.js, basic.js,
-# features.js, друкує підсумок і зупиняє сервер. Код виходу ≠ 0, якщо хоч щось провалилось.
+# features.js і решту наборів теки, друкує підсумок і зупиняє сервер. Код виходу ≠ 0, якщо хоч щось провалилось.
 #
 # Для живого сайту сервер не потрібен:
 #   BASE=https://ix21027.github.io/homeo-repertory/ node tools/uitest/basic.js
@@ -38,8 +38,15 @@ if ! curl -fsS -o /dev/null "http://127.0.0.1:$PORT/index.html"; then
 fi
 echo "Сайт: $BASE (корінь $ROOT)"
 
+# Основні набори — у сталому порядку; решта файлів теки (набори окремих функцій) — за абеткою.
+SUITES="unit basic features"
+for f in "$ROOT"/tools/uitest/*.js; do
+  n="$(basename "$f" .js)"
+  case " $SUITES " in *" $n "*) ;; *) SUITES="$SUITES $n" ;; esac
+done
+
 rc=0
-for suite in unit basic features; do
+for suite in $SUITES; do
   echo
   echo "=== $suite ==="
   BASE="$BASE" node "$ROOT/tools/uitest/$suite.js" 2>&1 | tee "$LOGS/$suite.log"
@@ -48,7 +55,7 @@ done
 
 echo
 echo "=== підсумок ==="
-for suite in unit basic features; do
+for suite in $SUITES; do
   ok=$(grep -c '^OK' "$LOGS/$suite.log" 2>/dev/null || true)
   bad=$(grep -c '^FAIL' "$LOGS/$suite.log" 2>/dev/null || true)
   printf '%-9s OK %-3s FAIL %s\n' "$suite" "${ok:-0}" "${bad:-0}"
