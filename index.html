@@ -24,8 +24,21 @@
           <input type="search" id="quickInput" placeholder="Назва препарату" aria-label="Знайти препарат за назвою">
           <ul class="dropdown" id="quickList" hidden></ul>
         </form>
-        <div class="lang-switch" id="langBtns" role="group" aria-label="Мова"></div>
-        <button type="button" class="btn-icon" id="themeBtn" title="Змінити тему" aria-label="Змінити тему">Тема</button>
+        <div class="menu-wrap" id="menuWrap">
+          <button type="button" class="btn-icon menu-btn" id="menuBtn" aria-haspopup="true" aria-expanded="false" aria-controls="menu" aria-label="Меню" title="Меню">
+            <span class="bars" aria-hidden="true"><i></i><i></i><i></i></span>
+          </button>
+          <div class="menu" id="menu" hidden>
+            <div class="menu-section">
+              <div class="menu-title" id="menuLangTitle">Мова</div>
+              <div class="seg" id="langBtns" role="group" aria-label="Мова"></div>
+            </div>
+            <div class="menu-section">
+              <div class="menu-title" id="menuThemeTitle">Тема</div>
+              <div class="seg" id="themeOpts" role="group" aria-label="Тема"></div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </header>

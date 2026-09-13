@@ -48,6 +48,7 @@
       footer: 'Українська версія — автоматичний переклад російського оригіналу (Google Translate); оригінал доступний за перемикачем RU. Джерела: Дж. Г. Кларк, «Словарь практической Materia Medica» та «Домашний гомеопатический лечебник» за матеріалами сайту «Сам себе гомеопат». Довідник не замінює консультацію лікаря.',
       stats: s => 'Препаратів: ' + s.remedies + ' · статей: ' + s.articles + ' · рубрик: ' + s.rubrics + ' · абзаців у пошуковому індексі: ' + s.units + ' · дані зібрано ' + s.built + '.',
       mtNote: 'Текст перекладено автоматично з російського оригіналу.',
+      menu: 'Меню', menuLang: 'Мова', menuTheme: 'Тема', themeAuto: 'Системна', themeLight: 'Світла', themeDark: 'Темна',
     },
     ru: {
       title: 'Реперторий — гомеопатические препараты по симптомам', htmlLang: 'ru',
@@ -71,6 +72,7 @@
       footer: 'Тексты приведены на языке оригинала: Дж. Г. Кларк, «Словарь практической Materia Medica» и «Домашний гомеопатический лечебник» по материалам сайта «Сам себе гомеопат». Справочник не заменяет консультацию врача.',
       stats: s => 'Препаратов: ' + s.remedies + ' · статей: ' + s.articles + ' · рубрик: ' + s.rubrics + ' · абзацев в поисковом индексе: ' + s.units + ' · данные собраны ' + s.built + '.',
       mtNote: '',
+      menu: 'Меню', menuLang: 'Язык', menuTheme: 'Тема', themeAuto: 'Системная', themeLight: 'Светлая', themeDark: 'Тёмная',
     },
   };
 
@@ -110,15 +112,29 @@
   function applyTheme(t) {
     if (t) document.documentElement.setAttribute('data-theme', t); else document.documentElement.removeAttribute('data-theme');
     try { if (t) localStorage.setItem('theme', t); else localStorage.removeItem('theme'); } catch (e) { /* ignore */ }
+    document.querySelectorAll('#themeOpts button').forEach(b => { const on = (b.dataset.theme || '') === (t || ''); b.classList.toggle('active', on); b.setAttribute('aria-pressed', on ? 'true' : 'false'); });
   }
   function initTheme() {
     let t = null;
     try { t = localStorage.getItem('theme'); } catch (e) { /* ignore */ }
     if (t) applyTheme(t);
-    $('#themeBtn').addEventListener('click', () => {
-      const dark = document.documentElement.getAttribute('data-theme') === 'dark' || (!document.documentElement.getAttribute('data-theme') && window.matchMedia('(prefers-color-scheme: dark)').matches);
-      applyTheme(dark ? 'light' : 'dark');
-    });
+  }
+  function renderThemeOptions() {
+    const t = T();
+    let cur = null;
+    try { cur = localStorage.getItem('theme'); } catch (e) { /* ignore */ }
+    $('#themeOpts').innerHTML = [['', t.themeAuto], ['light', t.themeLight], ['dark', t.themeDark]]
+      .map(([v, l]) => '<button type="button" data-theme="' + v + '" class="' + ((cur || '') === v ? 'active' : '') + '" aria-pressed="' + ((cur || '') === v) + '">' + esc(l) + '</button>').join('');
+    $('#themeOpts').querySelectorAll('button').forEach(b => b.addEventListener('click', () => { applyTheme(b.dataset.theme || null); closeMenu(); }));
+  }
+
+  // ---------------------------------------------------------------- меню
+  function openMenu() { $('#menu').hidden = false; $('#menuBtn').setAttribute('aria-expanded', 'true'); }
+  function closeMenu() { $('#menu').hidden = true; $('#menuBtn').setAttribute('aria-expanded', 'false'); }
+  function initMenu() {
+    $('#menuBtn').addEventListener('click', e => { e.stopPropagation(); if ($('#menu').hidden) openMenu(); else closeMenu(); });
+    document.addEventListener('click', e => { if (!e.target.closest('#menuWrap')) closeMenu(); });
+    document.addEventListener('keydown', e => { if (e.key === 'Escape') closeMenu(); });
   }
 
   // ---------------------------------------------------------------- мова
@@ -135,7 +151,11 @@
     $('.brand').setAttribute('href', href('rep'));
     $('#quickInput').placeholder = t.quick;
     $('#quickInput').setAttribute('aria-label', t.quick);
-    $('#themeBtn').textContent = t.theme;
+    $('#menuBtn').setAttribute('aria-label', t.menu);
+    $('#menuBtn').setAttribute('title', t.menu);
+    $('#menuLangTitle').textContent = t.menuLang;
+    $('#menuThemeTitle').textContent = t.menuTheme;
+    renderThemeOptions();
     $('#footText').textContent = t.footer;
     const s = cat() && cat().stats;
     $('#footStats').textContent = s ? t.stats(Object.assign({ built: cat().built }, s)) : '';
@@ -158,6 +178,7 @@
     }
     try { localStorage.setItem('lang', lang); } catch (e) { /* ignore */ }
     state.rubrics = [];
+    closeMenu();
     location.hash = '#/' + lang + '/' + path;
   }
 
@@ -637,7 +658,8 @@
     const btns = $('#langBtns');
     btns.innerHTML = state.langsAvailable.map(l => '<button type="button" data-lang="' + l + '" aria-pressed="false">' + l.toUpperCase() + '</button>').join('');
     btns.querySelectorAll('button').forEach(b => b.addEventListener('click', () => switchLang(b.dataset.lang)));
-    if (state.langsAvailable.length < 2) btns.hidden = true;
+    if (state.langsAvailable.length < 2) btns.closest('.menu-section').hidden = true;
+    initMenu();
     initQuick();
     window.addEventListener('hashchange', route);
     route();
