@@ -174,6 +174,34 @@ check('excl (виключна рубрика) зменшує кількість 
   return `${base} → ${excl}`;
 });
 
+// ---- модальності фази 2 (видобуті з речень симптомних розділів) --------
+
+const iMotion = catRu.rubrics.findIndex(r => r.k === 'mod' && r.key === 'w.motion');
+// Скільки препаратів мали «Хуже: движение, усилие» з самого розділу «Модальности»
+// (ступінь 2) у збірці 13.09.2026, коли додавали фазу 2. Видобуті клаузи ступеня 1
+// не входять сюди, тож це число має лише зростати — падіння означає, що зламано
+// розбір розділу або таблицю MOD_CATS.
+const MOTION_SECTIONAL = 178;
+
+check('рубрика «Хуже: движение, усилие» має препарати обох ступенів', () => {
+  assert(iMotion >= 0, 'немає модальності w.motion');
+  const rb = catRu.rubrics[iMotion];
+  assert(Array.isArray(rb.g) && rb.g.length === rb.r.length, 'немає масиву ступенів g');
+  const grades = Array.from(R.rubricRemedies(catRu, iMotion).values()).map(v => v.g);
+  const g2 = grades.filter(g => g === 2).length, g1 = grades.filter(g => g === 1).length;
+  assert(g2 > 0 && g1 > 0, `секційних ${g2}, видобутих ${g1}`);
+  return `секційних ${g2}, видобутих ${g1}`;
+});
+
+check('секційних препаратів у w.motion не менше, ніж було до фази 2', () => {
+  assert(iMotion >= 0, 'немає модальності w.motion');
+  const g2 = catRu.rubrics[iMotion].g.filter(g => g === 2).length;
+  assert(g2 >= MOTION_SECTIONAL, `${g2} < ${MOTION_SECTIONAL}`);
+  const ua = catUa.rubrics.find(r => r.k === 'mod' && r.key === 'w.motion');
+  assert(ua && ua.g.filter(g => g === 2).length === g2, 'ua розходиться з ru');
+  return `${g2} ≥ ${MOTION_SECTIONAL}, ua збігається`;
+});
+
 // ---- український індекс ------------------------------------------------
 
 check('ua: «нудота вранці» знаходить препарати', () => {

@@ -15,7 +15,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { createRequire } from 'node:module';
-import { MOD_CATS, ETIO_CATS, parseModalities, parseEtiology, parseRelations, splitClauses } from './modalities.mjs';
+import { MOD_CATS, ETIO_CATS, parseModalities, parseEtiology, parseRelations, splitClauses, mineModalities } from './modalities.mjs';
 
 const require = createRequire(import.meta.url);
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
@@ -29,6 +29,11 @@ const ETIOL = { ru: 'Этиология', ua: 'Етіологія' };
 const RELAT = { ru: 'Взаимосвязи', ua: 'Взаємозв’язки' };
 const DIR_LABEL = { ru: { w: 'Хуже', b: 'Лучше' }, ua: { w: 'Гірше', b: 'Краще' } };
 const ETIO_LABEL = { ru: 'После', ua: 'Після' };
+// Фаза 2: розділи, з яких модальності НЕ видобуваємо — сама секція модальностей і етіологія
+// (розібрані окремо), довідкові та рекомендаційні розділи і вступний блок про рослину
+// («Лучше цветет на влажной почве»).
+const MINE_SKIP = new Set(['Модальности', 'Этиология', 'Взаимосвязи', 'Клиника', 'Характеристика', 'Тип', 'Рекомендации', 'Общее']);
+const MINE_STRIP = /\*\*|_/g;
 
 // ---------------------------------------------------------------------------
 // Markdown → структура
@@ -316,17 +321,18 @@ function buildLang(lang, ruBuilt) {
   }
 
   // --- модальності, етіологія, зв'язки (структуровано; для ua — перенесення категорій з ru)
-  const modsById = new Map(), etioById = new Map(), relById = new Map();
+  const modsById = new Map(), etioById = new Map(), relById = new Map(), minedById = new Map();
   const modStats = { clauses: 0, assigned: 0 }, etioStats = { clauses: 0, assigned: 0 };
+  const mineStats = { sentences: 0, marked: 0, items: 0, remedies: 0, newCats: 0, aligned: 0, total: 0 };
   let relNames = 0, relResolved = 0;
   let clauseAligned = 0, clauseTotal = 0;
-  const modRubrics = new Map();   // 'w.motion' → Set(remedy)
+  const modRubrics = new Map();   // 'w.motion' → Map(remedy → ступінь: 2 секційна, 1 видобута)
   const etioRubrics = new Map();  // 'fright' → Set(remedy)
   remedyDocs.forEach((doc, i) => {
     const modSec = doc.sections.find(s => s.title === MODAL[lang]);
     const etioSec = doc.sections.find(s => s.title === ETIOL[lang]);
     const relSec = doc.sections.find(s => s.title === RELAT[lang]);
-    let mods = [], etio = [], rel = [];
+    let mods = [], etio = [], rel = [], mined = [];
     if (lang === 'ru') {
       if (modSec) { const r = parseModalities(modSec.paras); mods = r.items; modStats.clauses += r.stats.clauses; modStats.assigned += r.stats.assigned; }
       if (etioSec) { const r = parseEtiology(etioSec.paras); etio = r.items; etioStats.clauses += r.stats.clauses; etioStats.assigned += r.stats.assigned; }
@@ -341,6 +347,16 @@ function buildLang(lang, ruBuilt) {
         x.r = Array.from(new Set(ids));
         delete x.names;
       }
+      // фаза 2: модальності з речень симптомних розділів (ступінь 1 у рубриках)
+      let flat = 0;
+      for (const s of doc.sections) {
+        if (!MINE_SKIP.has(s.title)) {
+          const r = mineModalities(s.paras, SC.splitSentences, s.title);
+          mineStats.sentences += r.stats.sentences; mineStats.marked += r.stats.marked;
+          for (const it of r.items) mined.push({ d: it.d, c: it.c, t: it.t, src: 'text', sec: it.sec, flat: flat + it.para, sent: it.sent });
+        }
+        flat += s.paras.length;
+      }
     } else {
       // категорії з російського розбору того ж препарату; текст фрази — з українського абзацу, якщо фрази вирівнюються 1:1
       const ruMods = ruBuilt.modsById.get(doc.id) || [], ruEtio = ruBuilt.etioById.get(doc.id) || [], ruRel = ruBuilt.relById.get(doc.id) || [];
@@ -354,12 +370,40 @@ function buildLang(lang, ruBuilt) {
       const uaLabels = relSec ? relSec.paras.flatMap(p => Array.from(p.matchAll(/\*\*([^*]{2,90})\*\*/g)).map(m => m[1].replace(/[:.]+$/, '').trim())) : [];
       const okR = uaLabels.length === ruRel.length;
       rel = ruRel.map((x, k) => ({ k: x.k, t: okR ? uaLabels[k] : x.t, r: x.r }));
+      // видобуті речення: категорії з ru, текст — українське речення за (абзац, номер речення)
+      const ruFlat = ruBuilt.paras.get('r:' + doc.id) || [];
+      const uaFlat = doc.sections.flatMap(s => s.paras);
+      const uaSecOf = [];
+      doc.sections.forEach(s => s.paras.forEach(() => uaSecOf.push(s.title)));
+      const okFlat = ruFlat.length === uaFlat.length;
+      mined = (ruBuilt.minedById.get(doc.id) || []).map(m => {
+        mineStats.total++;
+        let t = '';
+        if (okFlat && uaFlat[m.flat] != null) {
+          const uaS = SC.splitSentences(uaFlat[m.flat].replace(MINE_STRIP, ''));
+          const ruS = SC.splitSentences(ruFlat[m.flat].replace(MINE_STRIP, ''));
+          const j = uaS.length === ruS.length ? m.sent : Math.min(uaS.length - 1, Math.floor(m.sent * uaS.length / Math.max(ruS.length, 1)));
+          if (uaS[j]) { t = uaS[j].trim(); mineStats.aligned++; }
+        }
+        return { d: m.d, c: m.c, t, src: 'text', sec: (okFlat && uaSecOf[m.flat]) || m.sec };
+      });
     }
-    modsById.set(doc.id, mods); etioById.set(doc.id, etio); relById.set(doc.id, rel);
+    modsById.set(doc.id, mods); etioById.set(doc.id, etio); relById.set(doc.id, rel); minedById.set(doc.id, mined);
     mods = mods.filter(m => m.c.length);
     etio = etio.filter(e => e.c.length);
     rel = rel.filter(x => x.r.length);
-    for (const m of mods) for (const c of m.c) { const key = m.d + '.' + c; if (!modRubrics.has(key)) modRubrics.set(key, new Set()); modRubrics.get(key).add(i); }
+    const secKeys = new Set();
+    for (const m of mods) for (const c of m.c) secKeys.add(m.d + '.' + c);
+    mineStats.items += mined.length;
+    if (mined.length) mineStats.remedies++;
+    if (mined.some(m => m.c.some(c => !secKeys.has(m.d + '.' + c)))) mineStats.newCats++;
+    mods = mods.concat(mined.map(m => ({ d: m.d, c: m.c, t: m.t, src: m.src, sec: m.sec })));
+    for (const m of mods) for (const c of m.c) {
+      const key = m.d + '.' + c, g = m.src ? 1 : 2;
+      if (!modRubrics.has(key)) modRubrics.set(key, new Map());
+      const cur = modRubrics.get(key);
+      if ((cur.get(i) || 0) < g) cur.set(i, g);
+    }
     for (const e of etio) for (const c of e.c) { if (!etioRubrics.has(c)) etioRubrics.set(c, new Set()); etioRubrics.get(c).add(i); }
     doc.mods = mods; doc.etio = etio; doc.rel = rel;
   });
@@ -481,7 +525,8 @@ function buildLang(lang, ruBuilt) {
   for (const d of ['w', 'b']) for (const [k] of MOD_CATS) {
     const set = modRubrics.get(d + '.' + k);
     if (!set || !set.size) continue;
-    rubrics.push({ k: 'mod', key: d + '.' + k, t: DIR_LABEL[lang][d] + ': ' + modLabel.get(k), r: Array.from(set).sort((a, b) => a - b) });
+    const rIdx = Array.from(set.keys()).sort((a, b) => a - b);
+    rubrics.push({ k: 'mod', key: d + '.' + k, t: DIR_LABEL[lang][d] + ': ' + modLabel.get(k), r: rIdx, g: rIdx.map(x => set.get(x)) });
   }
   for (const [k] of ETIO_CATS) {
     const set = etioRubrics.get(k);
@@ -509,6 +554,9 @@ function buildLang(lang, ruBuilt) {
     (ruParas ? `; aligned with ru: ${aligned} docs, misaligned ${misaligned}; sentence counts equal: ${sentAligned}/${sentTotal} paras; modality clause lists aligned: ${clauseAligned}/${clauseTotal} remedies` : ''));
   if (lang === 'ru') {
     rep.push(`[ru] modality coverage: ${modStats.assigned}/${modStats.clauses} clauses (${(100 * modStats.assigned / modStats.clauses).toFixed(1)}%); etiology coverage: ${etioStats.assigned}/${etioStats.clauses} (${(100 * etioStats.assigned / etioStats.clauses).toFixed(1)}%); relations: ${relResolved}/${relNames} names resolved`);
+    rep.push(`[ru] mined modalities (phase 2): ${mineStats.items} items from ${mineStats.marked}/${mineStats.sentences} sentences; remedies with mined ${mineStats.remedies}, of them with a category the modality section lacks ${mineStats.newCats}`);
+  } else {
+    rep.push(`[${lang}] mined modalities: sentence text carried over for ${mineStats.aligned}/${mineStats.total} items`);
   }
   const totalHeaders = articleDocs.reduce((n, d) => n + d.blocks.filter(b => b.kind === 'remedy').length, 0);
   rep.push(`[${lang}] remedy block headers: ${totalHeaders}; unresolved in headers: ${Array.from(unresolvedHeaders.values()).reduce((a, b) => a + b, 0)}; unresolved in intro lists: ${Array.from(unresolvedList.values()).reduce((a, b) => a + b, 0)}`);
@@ -522,7 +570,7 @@ function buildLang(lang, ruBuilt) {
   for (const doc of remedyDocs) paras.set('r:' + doc.id, doc.sections.flatMap(s => s.paras));
   for (const doc of articleDocs) paras.set('a:' + doc.id, doc.blocks.flatMap(b => b.paras));
   const topicById = new Map(articles.map(a => [a.id, a.topic]));
-  return { catalog, paras, topicById, nosTermsByRemedy, modsById, etioById, relById, rep };
+  return { catalog, paras, topicById, nosTermsByRemedy, modsById, etioById, relById, minedById, rep };
 }
 
 // ---------------------------------------------------------------------------
