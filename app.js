@@ -272,10 +272,6 @@
   function offStore(s) { try { localStorage.setItem(OFF_KEY, JSON.stringify(s)); } catch (e) { /* ignore */ } }
   function mbLabel(bytes) { return (bytes / 1e6).toFixed(1).replace('.', ','); }
   function dmy(iso) { const p = iso.split('-'); return p[2] + '.' + p[1] + '.' + p[0]; }
-  function plural(n, forms) {
-    const d = n % 10, h = n % 100;
-    return forms[d === 1 && h !== 11 ? 0 : d >= 2 && d <= 4 && (h < 10 || h >= 20) ? 1 : 2];
-  }
   // Повний перелік даних мови: каталог, індекс, сторінки препаратів (крім ext — їх немає)
   // і всі статті. Список мов теж, інакше після рестарту без мережі init() не знає про UA.
   function offlineUrls(lang) {
