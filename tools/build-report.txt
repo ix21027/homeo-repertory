@@ -10,3 +10,5 @@ unresolved in intro lists: Formicicum acidum×1, Fragaria×1, Prymula×1, Mercur
 [ua] index: paragraphs 51564; sentence units 106875; vocab 31319; index.json 3.74 MB; catalog.json 0.49 MB; aligned with ru: 489 docs, misaligned 0; sentence counts equal: 51218/51564 paras; modality clause lists aligned: 277/299 remedies
 [ua] remedy block headers: 3046; unresolved in headers: 32; unresolved in intro lists: 33
 cross-linked nosology rubrics ru→ua: 2480/2498
+[ru] data: 15.82 MB
+[ua] data: 16.57 MB

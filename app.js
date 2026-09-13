@@ -53,6 +53,12 @@
       rel: { cmp: 'Порівняти з', ant: 'Антидоти', compl: 'Доповнюють', incompat: 'Несумісні', after: 'Добре діє після', before: 'Після нього добре діють', other: 'Інше' },
       relTitle: 'Зв’язки', maybe: 'можливо:', clinicRow: 'Клініка (рубрик)', expandAll: 'Розгорнути підстави', collapseAll: 'Згорнути підстави',
       articlesOpt: 'Статті', articlesOptTitle: 'Шукати також у статтях лікувальника і показувати знайдені статті', artResults: 'Статті за запитом', artMore: 'ще', artHits: 'збігів',
+      menuOffline: 'Офлайн', offSave: mb => 'Зберегти довідник для офлайну (≈' + mb + ' МБ)',
+      offSaveTitle: 'Завантажити всі препарати, статті й пошуковий індекс цієї мови, щоб сайт працював без мережі',
+      offFiles: ['файл', 'файли', 'файлів'], offDrop: 'Видалити', offDropTitle: 'Стерти збережене для офлайну',
+      offSaved: (l, n, w, mb, d) => 'Збережено (' + l + '): ' + n + ' ' + w + ', ' + mb + ' МБ, ' + d,
+      offNone: 'Не збережено. Без мережі доступне лише те, що ви вже відкривали.',
+      offFail: 'Не вдалося зберегти. Перевірте зв’язок і спробуйте ще раз.',
     },
     ru: {
       title: 'Реперторий — гомеопатические препараты по симптомам', htmlLang: 'ru',
@@ -79,6 +85,12 @@
       rel: { cmp: 'Сравнить с', ant: 'Антидоты', compl: 'Дополняют', incompat: 'Несовместимы', after: 'Хорошо действует после', before: 'После него хорошо действуют', other: 'Прочее' },
       relTitle: 'Взаимосвязи', maybe: 'возможно:', clinicRow: 'Клиника (рубрик)', expandAll: 'Показать основания', collapseAll: 'Свернуть основания',
       articlesOpt: 'Статьи', articlesOptTitle: 'Искать также в статьях лечебника и показывать найденные статьи', artResults: 'Статьи по запросу', artMore: 'ещё', artHits: 'совп.',
+      menuOffline: 'Офлайн', offSave: mb => 'Сохранить справочник для офлайна (≈' + mb + ' МБ)',
+      offSaveTitle: 'Загрузить все препараты, статьи и поисковый индекс этого языка, чтобы сайт работал без сети',
+      offFiles: ['файл', 'файла', 'файлов'], offDrop: 'Удалить', offDropTitle: 'Стереть сохранённое для офлайна',
+      offSaved: (l, n, w, mb, d) => 'Сохранено (' + l + '): ' + n + ' ' + w + ', ' + mb + ' МБ, ' + d,
+      offNone: 'Не сохранено. Без сети доступно только то, что вы уже открывали.',
+      offFail: 'Не удалось сохранить. Проверьте связь и попробуйте ещё раз.',
     },
   };
   const KIND_LETTER = { free: 'f', nos: 'n', art: 'a', line: 'l', mod: 'm', etio: 'e' };
@@ -97,14 +109,23 @@
     return res.json();
   }
   function href(path) { return '#/' + state.lang + '/' + path; }
+  // Невдалу обіцянку не тримаємо в пам'яті: без мережі помилка нормальна, і після повернення
+  // зв'язку (або збереження для офлайну) та сама сторінка мусить відкритись без перезавантаження.
   function getDoc(kind, id) {
     const key = state.lang + '/' + kind + '/' + id;
-    if (!state.docs.has(key)) state.docs.set(key, fetchJson('data/' + state.lang + '/' + kind + '/' + encodeURIComponent(id) + '.json'));
+    if (!state.docs.has(key)) {
+      state.docs.set(key, fetchJson('data/' + state.lang + '/' + kind + '/' + encodeURIComponent(id) + '.json')
+        .catch(e => { state.docs.delete(key); throw e; }));
+    }
     return state.docs.get(key);
   }
   function loadIndex() {
     const l = state.lang;
-    if (!state.idxPromise[l]) state.idxPromise[l] = fetchJson('data/' + l + '/index.json').then(j => { state.idx[l] = R.makeIndex(j); return state.idx[l]; });
+    if (!state.idxPromise[l]) {
+      state.idxPromise[l] = fetchJson('data/' + l + '/index.json')
+        .then(j => { state.idx[l] = R.makeIndex(j); return state.idx[l]; })
+        .catch(e => { state.idxPromise[l] = null; throw e; });
+    }
     return state.idxPromise[l];
   }
   async function loadCatalog(lang) {
@@ -157,6 +178,114 @@
     document.addEventListener('keydown', e => { if (e.key === 'Escape') closeMenu(); });
   }
 
+  // ---------------------------------------------------------------- офлайн (PWA)
+  // Ім'я runtime-кешу мусить збігатися з RUNTIME у sw.js: кнопка «Зберегти» пише в кеш напряму
+  // через Cache API (надійніше за повідомлення воркерові — працює й поки він ще не керує
+  // сторінкою). Збіг імен перевіряє tools/uitest/pwa.js.
+  const CACHE_RUNTIME = 'homeo-runtime';
+  // Оцінка обсягу для підпису кнопки; точний розмір рахуємо після збереження. Якщо збірка
+  // поклала розмір у catalog.stats.bytes — беремо звідти, інакше ці числа (заміряно на збірці
+  // 13.09.2026: сума catalog.json + index.json + remedies/*.json + articles/*.json).
+  const OFFLINE_BYTES = { ua: 16567005, ru: 15816013 };
+  const OFF_KEY = 'offline';
+  let offBusy = null;
+
+  function offSupported() { return 'serviceWorker' in navigator && typeof caches !== 'undefined'; }
+  function offLoad() { try { return JSON.parse(localStorage.getItem(OFF_KEY)) || {}; } catch (e) { return {}; } }
+  function offStore(s) { try { localStorage.setItem(OFF_KEY, JSON.stringify(s)); } catch (e) { /* ignore */ } }
+  function mbLabel(bytes) { return (bytes / 1e6).toFixed(1).replace('.', ','); }
+  function dmy(iso) { const p = iso.split('-'); return p[2] + '.' + p[1] + '.' + p[0]; }
+  function plural(n, forms) {
+    const d = n % 10, h = n % 100;
+    return forms[d === 1 && h !== 11 ? 0 : d >= 2 && d <= 4 && (h < 10 || h >= 20) ? 1 : 2];
+  }
+  // Повний перелік даних мови: каталог, індекс, сторінки препаратів (крім ext — їх немає)
+  // і всі статті. Список мов теж, інакше після рестарту без мережі init() не знає про UA.
+  function offlineUrls(lang) {
+    const c = state.cat[lang];
+    const urls = ['data/langs.json', 'data/' + lang + '/catalog.json', 'data/' + lang + '/index.json'];
+    for (const r of c.remedies) if (!r.ext) urls.push('data/' + lang + '/remedies/' + encodeURIComponent(r.id) + '.json');
+    for (const a of c.articles) urls.push('data/' + lang + '/articles/' + encodeURIComponent(a.id) + '.json');
+    return urls;
+  }
+  function renderOffline() {
+    const sec = $('#menuOfflineSec'), box = $('#offlineBox');
+    if (!sec || !box) return;
+    sec.hidden = !offSupported();
+    if (sec.hidden) return;
+    const t = T();
+    $('#menuOfflineTitle').textContent = t.menuOffline;
+    const c = cat();
+    const est = (c && c.stats && c.stats.bytes) || OFFLINE_BYTES[state.lang] || 0;
+    const saved = offLoad();
+    const lines = Object.keys(saved).sort().map(l => {
+      const s = saved[l];
+      return esc(t.offSaved(l.toUpperCase(), s.files, plural(s.files, t.offFiles), mbLabel(s.bytes), dmy(s.date)));
+    });
+    box.innerHTML = '<button type="button" class="btn small" id="offSave" title="' + esc(t.offSaveTitle) + '"' + (offBusy ? ' disabled' : '') + '>' + esc(t.offSave(mbLabel(est))) + '</button>' +
+      '<div class="offline-state" id="offState">' + (offBusy ? esc(offBusy.done + '/' + offBusy.total) : lines.length ? lines.join('<br>') : esc(t.offNone)) + '</div>' +
+      (lines.length && !offBusy ? '<button type="button" class="btn small secondary" id="offDrop" title="' + esc(t.offDropTitle) + '">' + esc(t.offDrop) + '</button>' : '');
+    // stopPropagation: перемальовування виймає кнопку з DOM ще під час кліку, і сторож
+    // «клік поза меню» вважав би, що клікнули повз меню, та згортав би його з поступом разом.
+    const save = $('#offSave'); if (save) save.addEventListener('click', e => { e.stopPropagation(); offlineSave(); });
+    const drop = $('#offDrop'); if (drop) drop.addEventListener('click', e => { e.stopPropagation(); offlineDrop(); });
+  }
+  async function offlineSave() {
+    if (offBusy || !offSupported()) return;
+    const lang = state.lang;
+    const urls = offlineUrls(lang);
+    offBusy = { done: 0, total: urls.length };
+    renderOffline();
+    let bytes = 0, ok = 0, i = 0;
+    try {
+      const cache = await caches.open(CACHE_RUNTIME);
+      const worker = async () => {
+        while (i < urls.length) {
+          const url = urls[i++];
+          try {
+            const res = await fetch(url);
+            if (res.ok) {
+              // Тіло читаємо самі: так знаємо точний обсяг і не залежимо від того,
+              // чи вже перехоплює запити воркер.
+              const buf = await res.arrayBuffer();
+              bytes += buf.byteLength;
+              ok++;
+              await cache.put(url, new Response(buf, { headers: { 'Content-Type': 'application/json' } }));
+            }
+          } catch (e) { /* один файл не привід кидати весь довідник */ }
+          offBusy.done++;
+          const el = $('#offState');
+          if (el) el.textContent = offBusy.done + '/' + offBusy.total;
+        }
+      };
+      await Promise.all(Array.from({ length: 6 }, worker));
+    } catch (e) { /* нижче покажемо невдачу */ }
+    offBusy = null;
+    if (ok) {
+      const s = offLoad();
+      s[lang] = { date: new Date().toISOString().slice(0, 10), files: ok, bytes };
+      offStore(s);
+    }
+    renderOffline();
+    if (!ok) { const el = $('#offState'); if (el) el.textContent = T().offFail; }
+  }
+  async function offlineDrop() {
+    try { await caches.delete(CACHE_RUNTIME); } catch (e) { /* ignore */ }
+    try { localStorage.removeItem(OFF_KEY); } catch (e) { /* ignore */ }
+    renderOffline();
+  }
+  function initServiceWorker() {
+    if (!offSupported()) return;
+    // Шлях відносний: сайт живе в підтеці, область дії воркера = ця тека.
+    navigator.serviceWorker.register('sw.js')
+      .then(() => navigator.serviceWorker.ready)
+      // Найперше завантаження проходить повз воркера (він ще не керує сторінкою), тож список мов
+      // і каталог у кеш не потрапляють — кладемо їх самі, інакше після одного візиту офлайн
+      // покаже порожнечу.
+      .then(() => caches.open(CACHE_RUNTIME).then(c => c.addAll(['data/langs.json', 'data/' + state.lang + '/catalog.json'])))
+      .catch(() => { /* офлайн — необов'язковий: жодних повідомлень користувачеві */ });
+  }
+
   // ---------------------------------------------------------------- мова
   function applyLangChrome() {
     const t = T();
@@ -174,6 +303,7 @@
     $('#menuLangTitle').textContent = t.menuLang;
     $('#menuThemeTitle').textContent = t.menuTheme;
     renderThemeOptions();
+    renderOffline();
     document.querySelectorAll('#langBtns button').forEach(b => { b.classList.toggle('active', b.dataset.lang === state.lang); b.setAttribute('aria-pressed', b.dataset.lang === state.lang ? 'true' : 'false'); });
   }
   function switchLang(lang) {
@@ -906,6 +1036,7 @@
     initMenu();
     window.addEventListener('hashchange', route);
     route();
+    initServiceWorker();
   }
   init();
 })();

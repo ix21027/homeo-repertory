@@ -77,6 +77,9 @@ input:focus, select:focus { outline: 2px solid var(--accent); outline-offset: 1p
 .seg button + button { border-left: 1px solid var(--line); }
 .seg button.active { background: var(--accent); color: var(--accent-fg); }
 .seg button:hover:not(.active) { color: var(--accent); }
+.offline { display: flex; flex-direction: column; align-items: flex-start; gap: 6px; max-width: 250px; }
+.offline .btn { text-align: left; white-space: normal; }
+.offline-state { font-size: .8rem; line-height: 1.35; color: var(--fg-2); }
 .btn-icon { border: 1px solid var(--line); background: var(--bg-2); color: var(--fg-2); border-radius: 8px; padding: 6px 10px; cursor: pointer; }
 .btn-icon:hover { color: var(--accent); border-color: var(--accent); }
 .dropdown { position: absolute; top: calc(100% + 4px); right: 0; left: 0; margin: 0; padding: 4px 0; list-style: none; background: var(--bg-2); border: 1px solid var(--line); border-radius: 8px; box-shadow: var(--shadow); z-index: 30; max-height: 60vh; overflow: auto; min-width: 260px; }

@@ -1,0 +1,20 @@
+{
+  "id": "./",
+  "name": "Реперторій",
+  "short_name": "Реперторій",
+  "description": "Гомеопатичний реперторій українською та російською: підбір препаратів за симптомами, Materia Medica Дж. Г. Кларка і домашній лікувальник за хворобами.",
+  "lang": "uk",
+  "dir": "ltr",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "theme_color": "#1d4d3f",
+  "background_color": "#f7f6f2",
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-maskable-192.png", "sizes": "192x192", "type": "image/png", "purpose": "maskable" },
+    { "src": "icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
